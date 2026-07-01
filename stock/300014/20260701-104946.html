@@ -1,0 +1,385 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>亿纬锂能（300014.SZ）投资分析报告｜2026-07-01</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f3f6fb; color: #172033; padding: 20px; max-width: 1240px; margin: 0 auto; overflow-x: hidden; }
+.card { background: #fff; border-radius: 18px; box-shadow: 0 8px 28px rgba(15,23,42,0.06); padding: 24px; margin-bottom: 18px; border: 1px solid #eef2f7; overflow: visible; }
+.flex { display: flex; flex-wrap: wrap; gap: 18px; align-items: stretch; }
+.col { flex: 1 1 0; min-width: 300px; }
+.section-title { font-size: 22px; margin-bottom: 14px; color: #0f172a; }
+.section-sub { font-size: 13px; color: #64748b; margin-top: 6px; }
+.decision-card { padding: 30px; border-radius: 24px; color: #fff; position: relative; overflow: hidden; }
+.decision-card .dc-header { display:grid; grid-template-columns:1fr auto 1fr; gap:28px; align-items:center; }
+.decision-card .dc-left { text-align:left; min-width:180px; }
+.decision-card .stock-title { font-size:22px; font-weight:900; letter-spacing:.02em; margin-bottom:4px; text-shadow:0 2px 8px rgba(0,0,0,.14); }
+.decision-card .stock-subtitle { font-size:13px; opacity:.82; }
+.decision-card .dc-center { text-align:center; }
+.decision-card .dc-center h1 { font-size:52px; margin-bottom:4px; text-shadow:0 2px 12px rgba(0,0,0,.16); }
+.decision-card .dc-center .dc-rating-sub { font-size:14px; opacity:.88; }
+.decision-card .dc-right { min-width:180px; }
+.decision-card h1 { font-size: 50px; margin-bottom: 10px; text-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+.decision-card .sub { font-size: 18px; opacity: 0.94; }
+.badges { display: flex; gap: 12px; justify-content: center; margin: 16px 0; flex-wrap: wrap; }
+.badge { padding: 7px 16px; border-radius: 999px; font-size: 13px; font-weight: 700; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.16); }
+.price-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 18px; }
+.price-item { background: rgba(255,255,255,0.16); border-radius: 14px; padding: 14px; }
+.price-item .label { font-size: 12px; opacity: 0.82; }
+.price-item .value { font-size: 22px; font-weight: 800; margin-top: 4px; }
+.paired-dashboard { position:relative; border:1px solid #fecaca; background:linear-gradient(180deg,#fffafa 0%,#ffffff 48%,#f8fafc 100%); box-shadow:0 18px 46px rgba(220,38,38,.08); overflow:hidden; }
+.paired-dashboard::before { content:''; display:block; height:5px; border-radius:999px; background:linear-gradient(90deg,#dc2626 0%,#ef4444 38%,#f59e0b 68%,#16a34a 100%); margin:-2px 0 18px; }
+.dashboard-head { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; padding:2px 2px 4px; }
+.dashboard-head-main { min-width:0; }
+.version-pill { flex:0 0 auto; font-size:12px; font-weight:900; color:#b91c1c; background:linear-gradient(135deg,#fff1f2,#ffffff); border:1px solid #fecaca; border-radius:999px; padding:7px 11px; white-space:nowrap; box-shadow:0 8px 18px rgba(220,38,38,.08); }
+.pair-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:16px; align-items:stretch; margin-top:16px; }
+.pair-card { border:1px solid #dbeafe; border-radius:18px; background:#fff; padding:16px; box-shadow:0 10px 26px rgba(37,99,235,.05); display:flex; flex-direction:column; min-height:100%; }
+.pair-card .svg-wrap { background:#fbfdff; border-color:#e2e8f0; flex:1; min-height:320px; display:flex; align-items:center; justify-content:center; }
+.pair-card .svg-wrap svg { max-width:100%; height:auto; }
+.pair-title { font-size:14px; font-weight:900; color:#1e3a8a; margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+.pair-title::before { content:''; width:8px; height:8px; border-radius:999px; background:#2563eb; display:inline-block; }
+.pair-card .scores { flex:0; gap:10px; margin:8px 0 12px; }
+.pair-card .score-row { padding:4px 0; }
+.pair-card .score-bar { height:14px; }
+.pair-card .score-total { margin-top:8px; }
+.score-detail-card .scores { flex:1; justify-content:space-evenly; gap:12px; margin:8px 0 14px; }
+.score-detail-card .score-row { padding:5px 0; }
+.score-detail-card .score-bar { height:16px; }
+.score-detail-card .score-total { margin-top:auto; }
+.tech-chart-card .svg-wrap { min-height:285px; height:285px; padding:6px 8px 6px; flex:0 0 auto; align-items:center; overflow:hidden; margin-top:0; }
+.tech-chart-card .svg-wrap svg { width:100%; max-width:100%; transform:scale(0.98); transform-origin:center center; }
+.tech-summary-card .panel-grid { grid-template-columns:1fr; gap:14px; flex:1; align-content:stretch; }
+.tech-summary-card .panel { min-height:112px; padding:18px 20px; display:flex; flex-direction:column; justify-content:center; }
+.tech-summary-card .p-label { font-size:13px; }
+.tech-summary-card .p-value { font-size:27px; line-height:1.15; }
+.tech-summary-card .p-note { font-size:12px; margin-top:6px; }
+.tech-summary-card .trend-summary { font-size:14px; padding:12px; margin-top:10px; min-height:92px; box-sizing:border-box; display:flex; align-items:center; }
+.tech-read-panel { margin-top:10px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+.tech-read-card { border:1px solid #dbeafe; background:linear-gradient(180deg,#f8fbff 0%,#ffffff 100%); border-radius:14px; padding:12px; }
+.tech-read-card.wide { grid-column:1 / -1; background:linear-gradient(135deg,#eff6ff,#f8fafc); min-height:92px; box-sizing:border-box; display:flex; flex-direction:column; justify-content:center; }
+.tech-read-label { font-size:12px; font-weight:900; color:#64748b; letter-spacing:.02em; margin-bottom:6px; }
+.tech-read-value { font-size:17px; font-weight:950; color:#1e3a8a; line-height:1.25; }
+.tech-read-value span { font-size:13px; color:#2563eb; margin-left:4px; }
+.tech-read-note { color:#475569; font-size:12px; line-height:1.6; }
+.scores { display: flex; flex-direction: column; gap: 8px; margin: 8px 0 12px; }
+.score-row { display: flex; align-items: center; gap: 12px; }
+.score-label { width: 58px; font-size: 14px; font-weight: 700; flex-shrink: 0; }
+.score-bar { flex: 1; height: 16px; background: #e5e7eb; border-radius: 999px; overflow: hidden; }
+.score-bar-fill { height: 100%; border-radius: 999px; }
+.score-val { width: 34px; text-align: right; font-weight: 700; font-size: 13px; flex-shrink: 0; }
+.score-total { text-align: center; font-size: 22px; font-weight: 900; padding: 14px; background: linear-gradient(135deg,#ecfdf5,#f8fafc); border:1px solid #dcfce7; border-radius: 16px; margin-top: 12px; }
+.svg-wrap { width: 100%; background: linear-gradient(180deg,#ffffff 0%,#f8fbff 100%); border: 1px solid #e8eef6; border-radius: 16px; padding: 14px; overflow: visible; }
+.svg-chart { width: 100%; height: auto; display: block; overflow: visible; }
+.bull-bear { display: flex; gap: 16px; margin: 16px 0; }
+.bull, .bear { flex: 1; padding: 18px; border-radius: 18px; box-shadow: 0 10px 26px rgba(15,23,42,.045); }
+.bull { background: linear-gradient(180deg,#fff1f2 0%,#ffffff 100%); border: 1px solid #fecaca; border-left: 5px solid #dc2626; }
+.bear { background: linear-gradient(180deg,#f0fdf4 0%,#ffffff 100%); border: 1px solid #bbf7d0; border-left: 5px solid #16a34a; }
+.bull h3, .bear h3 { margin-bottom: 12px; font-size: 17px; font-weight: 950; display:flex; align-items:center; gap:8px; }
+.bull h3 { color: #b91c1c; }
+.bear h3 { color: #15803d; }
+.arg-item { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 12px 0; font-size: 14px; line-height: 1.65; border-bottom: 1px solid rgba(15,23,42,0.07); }
+.arg-item:last-child { border-bottom: none; }
+.arg-item span:first-child { color:#334155; }
+.weight-tag { padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 900; flex-shrink: 0; box-shadow:0 3px 10px rgba(15,23,42,.06); }
+.weight-tag.plus { background: #fee2e2; color: #b91c1c; border:1px solid #fecaca; }
+.weight-tag.minus { background: #dcfce7; color: #15803d; border:1px solid #bbf7d0; }
+.debate-verdict { text-align:center; padding:15px 18px; background:linear-gradient(135deg,#eff6ff,#f8fafc); border-radius:16px; margin-top:10px; border:1px solid #bfdbfe; color:#334155; font-size:14px; line-height:1.7; }
+.debate-verdict strong { color:#1d4ed8; font-size:16px; }
+.scenario-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:16px; }
+.scenario-card { position:relative; overflow:hidden; min-height:176px; padding:18px; border-radius:18px; border:1px solid #e2e8f0; background:#fff; display:flex; flex-direction:column; justify-content:space-between; }
+.scenario-card::after { content:''; position:absolute; right:-36px; top:-36px; width:108px; height:108px; border-radius:50%; opacity:.18; }
+.scenario-card.aggressive { background:linear-gradient(180deg,#fff1f2 0%,#ffffff 100%); border-color:#fecaca; }
+.scenario-card.neutral { background:linear-gradient(180deg,#fffbea 0%,#ffffff 100%); border-color:#fde68a; }
+.scenario-card.conservative { background:linear-gradient(180deg,#f0fdf4 0%,#ffffff 100%); border-color:#bbf7d0; }
+.scenario-card.aggressive::after { background:#dc2626; }
+.scenario-card.neutral::after { background:#eab308; }
+.scenario-card.conservative::after { background:#16a34a; }
+.scenario-top { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; position:relative; z-index:1; }
+.scenario-name { font-size:15px; font-weight:900; color:#0f172a; }
+.scenario-score { font-size:30px; line-height:1; font-weight:950; }
+.scenario-desc { position:relative; z-index:1; margin-top:14px; color:#475569; font-size:13px; line-height:1.7; }
+.scenario-meter { position:relative; z-index:1; height:8px; border-radius:999px; background:#e5e7eb; overflow:hidden; margin-top:14px; }
+.scenario-meter span { display:block; height:100%; border-radius:999px; }
+
+.validation-grid { display:flex; flex-direction:column; gap:14px; margin-top:10px; }
+.validation-card-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+@media (max-width: 900px) { .validation-card-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width: 640px) { .validation-card-grid { grid-template-columns:1fr; } }
+.validation-card { background:linear-gradient(180deg,#f8fafc 0%,#fff 100%); border:1px solid #e2e8f0; border-radius:16px; padding:14px; }
+.validation-card .v-label { color:#64748b; font-size:12px; font-weight:800; }
+.validation-card .v-value { color:#0f172a; font-size:22px; font-weight:950; margin-top:6px; }
+.validation-card .v-note { color:#64748b; font-size:12px; line-height:1.55; margin-top:6px; }
+.validation-summary { padding:14px 16px; border-radius:16px; background:#fff7ed; border:1px solid #fed7aa; color:#9a3412; font-size:13px; line-height:1.7; }
+.catalyst-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px; }
+.catalyst-box { border-radius:18px; padding:16px; border:1px solid #e2e8f0; background:#fff; box-shadow:0 10px 26px rgba(15,23,42,.045); }
+.catalyst-box.good { background:linear-gradient(180deg,#fff1f2 0%,#ffffff 100%); border-color:#fecaca; }
+.catalyst-box.warn { background:linear-gradient(180deg,#f0fdf4 0%,#ffffff 100%); border-color:#bbf7d0; }
+.catalyst-box-title { display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:15px; font-weight:950; color:#0f172a; margin-bottom:12px; }
+.catalyst-box-title span { font-size:11px; letter-spacing:.08em; color:#94a3b8; text-transform:uppercase; }
+.catalyst-list { display:grid; gap:10px; }
+.catalyst-item { display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border-radius:13px; background:rgba(255,255,255,.76); border:1px solid rgba(226,232,240,.85); color:#334155; font-size:13px; line-height:1.6; }
+.catalyst-dot { flex:0 0 22px; width:22px; height:22px; border-radius:999px; display:inline-flex; align-items:center; justify-content:center; font-size:12px; font-weight:900; }
+.catalyst-item.bullish .catalyst-dot { background:#fee2e2; color:#b91c1c; }
+.catalyst-item.neutral .catalyst-dot { background:#fef3c7; color:#a16207; }
+.catalyst-item.bearish .catalyst-dot { background:#dcfce7; color:#166534; }
+.catalyst-item strong { color:#0f172a; }
+.catalyst-footer { margin-top:14px; padding:14px 16px; border-radius:16px; background:linear-gradient(135deg,#eff6ff,#f8fafc); border:1px solid #bfdbfe; color:#334155; font-size:13px; line-height:1.7; }
+.catalyst-footer strong { color:#1d4ed8; }
+.analysis-note { margin-top: 12px; font-size: 14px; color: #6b7280; line-height: 1.8; }
+.analysis-card-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:16px; }
+.analysis-card { position:relative; border:1px solid #e2e8f0; border-radius:20px; background:#fff; padding:18px; box-shadow:0 12px 30px rgba(15,23,42,.055); overflow:hidden; display:flex; flex-direction:column; min-height:360px; }
+.analysis-card::before { content:''; position:absolute; left:0; right:0; top:0; height:5px; background:var(--accent,#dc2626); }
+.analysis-card.tech { --accent:#ef4444; background:linear-gradient(180deg,#fff7f7 0%,#ffffff 44%); }
+.analysis-card.value { --accent:#f59e0b; background:linear-gradient(180deg,#fffbeb 0%,#ffffff 44%); }
+.analysis-card.base { --accent:#64748b; background:linear-gradient(180deg,#f8fafc 0%,#ffffff 44%); }
+.analysis-card-head { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; margin-bottom:14px; }
+.analysis-card-title { font-size:18px; font-weight:900; color:#0f172a; }
+.analysis-card-sub { font-size:12px; color:#64748b; margin-top:3px; }
+.analysis-tag { flex:0 0 auto; border-radius:999px; padding:6px 10px; font-size:12px; font-weight:900; color:#fff; background:var(--accent,#dc2626); box-shadow:0 8px 18px rgba(15,23,42,.08); }
+.analysis-metric-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-bottom:14px; }
+.analysis-metric { border:1px solid #e2e8f0; background:rgba(255,255,255,.78); border-radius:14px; padding:11px 12px; }
+.analysis-metric .m-label { font-size:12px; color:#64748b; margin-bottom:4px; }
+.analysis-metric .m-value { font-size:18px; font-weight:900; color:#0f172a; }
+.analysis-card-note { margin-top:auto; border-radius:15px; padding:12px 13px; background:#f8fafc; border:1px solid #e2e8f0; color:#475569; font-size:13px; line-height:1.7; }
+.analysis-card-note strong { color:#0f172a; }
+.analysis-card-risk { margin-top:10px; border-radius:14px; padding:10px 12px; background:rgba(255,255,255,.7); border:1px dashed #cbd5e1; color:#64748b; font-size:12px; line-height:1.65; }
+.completeness-panel { display:grid; grid-template-columns:260px 1fr; gap:16px; align-items:stretch; }
+.completeness-grade { border-radius:18px; padding:18px; background:linear-gradient(135deg,#fff7ed 0%,#fff 100%); border:1px solid #fed7aa; display:flex; flex-direction:column; justify-content:center; }
+.completeness-grade .grade-label { font-size:12px; color:#9a3412; font-weight:900; letter-spacing:.04em; }
+.completeness-grade .grade-value { font-size:48px; line-height:1; color:#ea580c; font-weight:950; margin-top:8px; }
+.completeness-grade .grade-text { font-size:13px; color:#9a3412; line-height:1.65; margin-top:10px; }
+.module-board { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.module-box { border:1px solid #e2e8f0; border-radius:18px; padding:16px; background:#fff; }
+.module-box.good { background:linear-gradient(180deg,#f0fdf4 0%,#fff 100%); border-color:#bbf7d0; }
+.module-box.missing { background:linear-gradient(180deg,#fef2f2 0%,#fff 100%); border-color:#fecaca; }
+.module-title { font-size:13px; font-weight:900; color:#334155; margin-bottom:12px; display:flex; align-items:center; justify-content:space-between; }
+.module-count { font-size:12px; color:#64748b; font-weight:800; }
+.module-chip-row { display:flex; flex-wrap:wrap; gap:8px; }
+.module-chip { display:inline-flex; align-items:center; padding:7px 10px; border-radius:999px; font-size:12px; font-weight:800; }
+.module-chip.good { background:#dcfce7; color:#166534; border:1px solid #bbf7d0; }
+.module-chip.missing { background:#fee2e2; color:#991b1b; border:1px solid #fecaca; }
+.completeness-impact { margin-top:14px; padding:14px 16px; border-radius:16px; background:#f8fafc; border:1px solid #e2e8f0; color:#475569; font-size:13px; line-height:1.7; }
+.inline-fold { margin-top:14px; border:1px solid #e2e8f0; border-radius:14px; background:#fff; overflow:hidden; }
+.inline-fold summary { cursor:pointer; padding:12px 14px; font-weight:800; color:#334155; background:#f8fafc; }
+.inline-fold .fold-body { padding:12px 16px; color:#475569; font-size:13px; line-height:1.7; }
+.source-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-bottom:16px; }
+.source-card { background:linear-gradient(180deg,#f8fafc 0%,#ffffff 100%); border:1px solid #e2e8f0; border-radius:16px; padding:16px; min-height:128px; overflow: visible; }
+.source-label { font-size:12px; color:#64748b; font-weight:700; letter-spacing:.02em; }
+.source-value { font-size:24px; font-weight:900; color:#0f172a; margin-top:6px; }
+.source-note { font-size:12px; color:#64748b; line-height:1.65; margin-top:8px; }
+.reliability-meter { height:8px; border-radius:999px; background:#e5e7eb; overflow:hidden; margin:10px 0 8px; }
+.reliability-meter span { display:block; height:100%; border-radius:999px; background:linear-gradient(90deg,#f59e0b,#22c55e); }
+.reliability-board { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:16px; margin-top:16px; align-items:stretch; }
+.reliability-box { border-radius:18px; padding:16px; border:1px solid #e2e8f0; background:#fff; box-shadow:0 10px 26px rgba(15,23,42,.045); display:flex; flex-direction:column; box-sizing:border-box; }
+.reliability-box.good { background:linear-gradient(180deg,#f0fdf4 0%,#ffffff 100%); border-color:#bbf7d0; }
+.reliability-box.warn { background:linear-gradient(180deg,#fff7ed 0%,#ffffff 100%); border-color:#fed7aa; }
+.top-market-board { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:16px; align-items:stretch; margin-bottom:24px; }
+.top-market-board > .reliability-box { height:auto; }
+.top-market-board .source-grid,
+.top-market-board .panel-grid { grid-template-columns:repeat(3,1fr) !important; grid-auto-rows:1fr; align-items:stretch; margin:0 !important; flex:1; }
+.top-market-board .source-card,
+.top-market-board .panel { min-height:0 !important; height:auto; box-sizing:border-box; display:flex; flex-direction:column; justify-content:center; }
+.reliability-box-title { display:flex; justify-content:space-between; align-items:center; gap:12px; font-size:15px; font-weight:950; color:#0f172a; margin-bottom:12px; }
+.reliability-box-title span { font-size:11px; letter-spacing:.08em; color:#94a3b8; text-transform:uppercase; }
+.reason-list, .gap-list { display:grid; gap:9px; }
+.reason-item, .gap-item { display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border-radius:13px; background:rgba(255,255,255,.74); border:1px solid rgba(226,232,240,.85); color:#334155; font-size:13px; line-height:1.55; }
+.reason-dot, .gap-dot { flex:0 0 22px; width:22px; height:22px; border-radius:999px; display:inline-flex; align-items:center; justify-content:center; font-size:12px; font-weight:900; }
+.reason-dot { background:#fee2e2; color:#b91c1c; }
+.gap-dot { background:#dcfce7; color:#166534; }
+.chip-row { display:flex; flex-wrap:wrap; gap:8px; }
+.source-chip { display:inline-flex; align-items:center; padding:6px 10px; border-radius:999px; background:#eef6ff; color:#1d4ed8; border:1px solid #dbeafe; font-size:12px; font-weight:700; }
+.source-block { background:#f8fafc; border:1px solid #e2e8f0; border-radius:16px; padding:14px; margin:14px 0; }
+.source-title { font-size:15px; font-weight:900; margin-bottom:10px; color:#0f172a; }
+.trend-summary { margin-top:12px; padding:14px 16px; border-radius:16px; background:linear-gradient(135deg,#ecfdf5,#f8fafc); border:1px solid #bbf7d0; color:#166534; font-size:13px; line-height:1.7; }
+.trend-summary strong { color:#14532d; }
+.detail-section { border: 1px solid #e5e7eb; border-radius: 14px; margin-bottom: 12px; overflow: hidden; background:#fff; }
+.detail-header { list-style: none; padding: 14px 18px; background: #f8fafc; font-weight: 800; font-size: 15px; cursor: pointer; }
+.detail-header::-webkit-details-marker { display:none; }
+.detail-body { padding: 16px 18px; }
+.panel-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:14px; }
+.panel { background:linear-gradient(180deg,#f8fafc 0%,#fff 100%); border:1px solid #e2e8f0; border-radius:16px; padding:14px; min-height:104px; display:flex; flex-direction:column; justify-content:center; }
+.panel .p-label { font-size:12px; color:#64748b; font-weight:800; }
+.panel .p-value { font-size:21px; font-weight:900; margin-top:4px; color:#0f172a; }
+.panel .p-note { font-size:12px; color:#64748b; margin-top:4px; line-height:1.55; }
+.disclosure { font-size: 12px; color: #94a3b8; text-align: center; padding: 18px; line-height: 1.7; }
+table.metrics, table { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.metrics td, table.metrics th, table td, table th { padding: 8px 12px; border-bottom: 1px solid #e5e7eb; text-align: left; vertical-align: top; }
+table.metrics th, table th { font-weight: 700; color: #6b7280; font-size: 12px; text-transform: uppercase; }
+.alert { padding: 14px 18px; border-radius: 14px; margin: 12px 0; font-size: 14px; line-height: 1.8; }
+.alert-yellow { background: #fefce8; border: 1px solid #fde68a; color: #854d0e; }
+.market-up { color:#b91c1c !important; }
+.market-down { color:#15803d !important; }
+.a-share-note { font-size:11px; color:#94a3b8; margin-left:6px; font-weight:700; }
+.alert-green { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
+.alert-red { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; }
+@media (max-width: 900px) { .pair-grid, .reliability-board, .top-market-board, .completeness-panel, .analysis-card-grid { grid-template-columns:1fr; } .decision-card .dc-header { grid-template-columns:1fr; gap:14px; text-align:center; } .decision-card .dc-left, .decision-card .dc-right { text-align:center; } .price-grid, .panel-grid, .source-grid, .tech-read-panel { grid-template-columns: repeat(2, 1fr); } .bull-bear, .flex { flex-direction: column; } .scenario-grid { grid-template-columns: 1fr; } .col { min-width: 0; width: 100%; } .version-pill { position:static; display:inline-block; margin-bottom:10px; } }
+@media (max-width: 640px) { body { padding: 12px; } .card { padding: 18px; } .decision-card h1 { font-size: 38px; } .price-grid, .panel-grid, .source-grid, .tech-read-panel { grid-template-columns: 1fr; } .svg-wrap { padding: 10px; } }
+</style></head><body>
+<div class='card decision-card' style='background:linear-gradient(135deg, #f6d365 0%, #fda085 100%);'><div class='dc-header'><div class='dc-left'><div class='stock-title'>亿纬锂能</div><div class='stock-subtitle'>300014.SZ · A股投资分析快报</div></div><div class='dc-center'><h1>🟡 HOLD</h1><div class='dc-rating-sub'>中性观察，等待更优赔率。</div></div><div class='dc-right'><div class='stock-subtitle' style='text-align:right;opacity:.82;'>行情时点：20260701104942</div><div class='stock-subtitle' style='text-align:right;opacity:.82;margin-top:6px;'>生成：2026-07-01 10:49 GMT+8</div></div></div><div class='badges'><span class="badge">综合判断: 中性</span><span class="badge">风险等级: 中等</span><span class="badge">完整度: B</span><span class="badge">价格来源: 腾讯Qt</span><span class="badge" style="background:rgba(255,255,255,.06);color:rgba(255,255,255,.65);font-style:italic;">A股：红涨绿跌</span></div><div class='price-grid'><div class='price-item'><div class='label'>加权总分</div><div class='value'>5.8</div></div><div class='price-item'><div class='label'>信心水平</div><div class='value'>中</div></div><div class='price-item'><div class='label'>风险等级</div><div class='value'>中等</div></div><div class='price-item'><div class='label'>建议仓位</div><div class='value'>30% 左右</div></div></div><div style='margin-top:16px;padding:14px 16px;border-radius:16px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.18);text-align:left;line-height:1.7;'><strong style='font-size:15px;'>操作建议：</strong>中性观察，等待更优赔率。<br><span style='display:block;margin-top:6px;opacity:.92;font-size:13px;'>验证重点：放量后能否缩量稳住、是否有公告/业绩承接</span></div></div>
+
+<div class='top-market-board'><div class='reliability-box good' style='background:linear-gradient(180deg,#f8faff 0%,#ffffff 100%);border-color:#bfdbfe;'><div class='reliability-box-title'>📋 实时行情 <span>Snapshot</span></div><div class='source-grid' style='grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;margin-bottom:0;align-items:stretch;'><div class='source-card'><div class='source-label'>当前价格</div><div class='source-value market-down' style='font-size:26px;'>63.30</div><div class='source-note market-down'>-2.66%</div></div><div class='source-card'><div class='source-label'>昨收 / 今开</div><div class='source-value' style='font-size:20px;'>65.03 / 64.60</div><div class='source-note'>前收盘 → 今开盘</div></div><div class='source-card'><div class='source-label'>最高 / 最低</div><div class='source-value' style='font-size:20px;'>64.65 / 61.38</div><div class='source-note'>今日振幅参考</div></div><div class='source-card'><div class='source-label'>成交量</div><div class='source-value' style='font-size:20px;'>57.2 万手</div><div class='source-note'>成交额 35.77 亿</div></div><div class='source-card'><div class='source-label'>换手率 / PE(TTM)</div><div class='source-value' style='font-size:20px;'>2.71% / 30.71</div><div class='source-note'>PB 3.19 · 市值 1375.70 亿</div></div><div class='source-card'><div class='source-label'>总市值</div><div class='source-value' style='font-size:20px;'>1375.70 亿</div><div class='source-note'>基于流通市值估算</div></div></div></div><div class='reliability-box warn' style='background:linear-gradient(180deg,#fffbf5 0%,#ffffff 100%);border-color:#fde68a;'><div class='reliability-box-title'>🎯 决策摘要 <span>Decision</span></div><div class='panel-grid' style='grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;margin-top:0;align-items:stretch;'><div class='panel'><div class='p-label'>操作建议</div><div class='p-value' style='font-size:18px;'>中性观察，等待更优赔率。</div><div class='p-note'>综合评分 5.8 / 10</div></div><div class='panel'><div class='p-label'>当前位置</div><div class='p-value' style='font-size:18px;'>中高区</div><div class='p-note'>近10日涨幅 +10.7% · 区间 42.1%</div></div><div class='panel'><div class='p-label'>关注价位</div><div class='p-value' style='font-size:18px;'>62.46 – 63.30</div><div class='p-note'>MA5 65.22 · MA10 66.47</div></div><div class='panel'><div class='p-label'>验证指标</div><div class='p-value' style='font-size:16px;'>放量后能否缩量稳住、是否有公告/业绩承接</div><div class='p-note'>右侧为当前最需跟踪的信号</div></div><div class='panel'><div class='p-label'>主要风险</div><div class='p-value' style='font-size:16px;'>高位放量分歧、题材退潮、财务数据未完整验证</div><div class='p-note'>⚠️ 本次快报结论均已考虑上述风险</div></div><div class='panel'><div class='p-label'>总评</div><div class='p-value' style='font-size:18px;'>中性</div><div class='p-note'>风险 中等 · 完整度 B 级</div></div></div></div></div>
+
+        <div class='card paired-dashboard'><div class='dashboard-head'><div class='dashboard-head-main'><div class='section-title'>📊 核心仪表盘 <span class='a-share-note'>A股色系：红涨绿跌</span></div><div class='section-sub'>上排：八维评分明细 + 雷达图 ｜ 下排：技术面图表 + 技术指标摘要</div></div><div class='version-pill'>601138 Style · A-Share</div></div>
+<div class='pair-grid'><div class='pair-card score-detail-card'><div class='pair-title'>八维评分明细</div><div class='scores'><div class="score-row"><span class="score-label">趋势</span><div class="score-bar"><div class="score-bar-fill" style="width:63%;background:#dc2626;"></div></div><span class="score-val">6.3</span></div>
+<div class="score-row"><span class="score-label">动量</span><div class="score-bar"><div class="score-bar-fill" style="width:44%;background:#f97316;"></div></div><span class="score-val">4.4</span></div>
+<div class="score-row"><span class="score-label">估值</span><div class="score-bar"><div class="score-bar-fill" style="width:70%;background:#eab308;"></div></div><span class="score-val">7.0</span></div>
+<div class="score-row"><span class="score-label">质量</span><div class="score-bar"><div class="score-bar-fill" style="width:50%;background:#16a34a;"></div></div><span class="score-val">5.0</span></div>
+<div class="score-row"><span class="score-label">成长</span><div class="score-bar"><div class="score-bar-fill" style="width:50%;background:#2563eb;"></div></div><span class="score-val">5.0</span></div>
+<div class="score-row"><span class="score-label">现金流</span><div class="score-bar"><div class="score-bar-fill" style="width:55%;background:#14b8a6;"></div></div><span class="score-val">5.5</span></div>
+<div class="score-row"><span class="score-label">资金</span><div class="score-bar"><div class="score-bar-fill" style="width:74%;background:#b91c1c;"></div></div><span class="score-val">7.4</span></div>
+<div class="score-row"><span class="score-label">情绪</span><div class="score-bar"><div class="score-bar-fill" style="width:54%;background:#16a34a;"></div></div><span class="score-val">5.4</span></div></div><div class='score-total'>综合总分: 5.8 / 10<div style='font-size:14px;font-weight:500;color:#6b7280;margin-top:4px;'>中性 · 数据完整度 B</div></div></div>
+<div class='pair-card radar-card'><div class='pair-title'>八维雷达图</div><div class='svg-wrap'><svg viewBox='0 0 380 360' class='svg-chart' role='img' aria-label='radar chart'><polygon points="190.0,162.4 205.3,168.7 211.6,184.0 205.3,199.3 190.0,205.6 174.7,199.3 168.4,184.0 174.7,168.7" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<polygon points="190.0,140.8 220.5,153.5 233.2,184.0 220.5,214.5 190.0,227.2 159.5,214.5 146.8,184.0 159.5,153.5" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<polygon points="190.0,119.2 235.8,138.2 254.8,184.0 235.8,229.8 190.0,248.8 144.2,229.8 125.2,184.0 144.2,138.2" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<polygon points="190.0,97.6 251.1,122.9 276.4,184.0 251.1,245.1 190.0,270.4 128.9,245.1 103.6,184.0 128.9,122.9" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<polygon points="190.0,76.0 266.4,107.6 298.0,184.0 266.4,260.4 190.0,292.0 113.6,260.4 82.0,184.0 113.6,107.6" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="190.0" y2="76.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="266.4" y2="107.6" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="298.0" y2="184.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="266.4" y2="260.4" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="190.0" y2="292.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="113.6" y2="260.4" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="82.0" y2="184.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="190" y1="184" x2="113.6" y2="107.6" stroke="#e5e7eb" stroke-width="1"/>
+<polygon points="190.0,116.0 223.6,150.4 265.6,184.0 228.2,222.2 190.0,238.0 148.0,226.0 110.1,184.0 148.8,142.8" fill="rgba(220,38,38,0.16)" stroke="#dc2626" stroke-width="2.5"/>
+<circle cx="190.0" cy="116.0" r="3.5" fill="#dc2626"/>
+<circle cx="223.6" cy="150.4" r="3.5" fill="#dc2626"/>
+<circle cx="265.6" cy="184.0" r="3.5" fill="#dc2626"/>
+<circle cx="228.2" cy="222.2" r="3.5" fill="#dc2626"/>
+<circle cx="190.0" cy="238.0" r="3.5" fill="#dc2626"/>
+<circle cx="148.0" cy="226.0" r="3.5" fill="#dc2626"/>
+<circle cx="110.1" cy="184.0" r="3.5" fill="#dc2626"/>
+<circle cx="148.8" cy="142.8" r="3.5" fill="#dc2626"/>
+<text x="190.0" y="60.0" text-anchor="middle" fill="#4b5563" font-size="12">趋势</text>
+<text x="277.7" y="96.3" text-anchor="start" fill="#4b5563" font-size="12">动量</text>
+<text x="314.0" y="184.0" text-anchor="start" fill="#4b5563" font-size="12">估值</text>
+<text x="277.7" y="271.7" text-anchor="start" fill="#4b5563" font-size="12">质量</text>
+<text x="190.0" y="308.0" text-anchor="middle" fill="#4b5563" font-size="12">成长</text>
+<text x="102.3" y="271.7" text-anchor="end" fill="#4b5563" font-size="12">现金流</text>
+<text x="66.0" y="184.0" text-anchor="end" fill="#4b5563" font-size="12">资金</text>
+<text x="102.3" y="96.3" text-anchor="end" fill="#4b5563" font-size="12">情绪</text></svg></div></div></div>
+<div class='pair-grid'><div class='pair-card tech-chart-card'><div class='pair-title'>技术面图表</div><div class='svg-wrap'><svg viewBox='0 0 680 240' class='svg-chart' role='img' aria-label='price trend'><svg viewBox="0 0 680 260" class="svg-chart price-hover-chart" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" data-points='[{x:24.00,y:22.00,v:75.54},{x:57.26,y:86.13,v:71.81},{x:90.53,y:118.97,v:69.90},{x:123.79,y:116.22,v:70.06},{x:157.05,y:150.09,v:68.09},{x:190.32,y:143.04,v:68.50},{x:223.58,y:198.06,v:65.30},{x:256.84,y:189.81,v:65.78},{x:290.11,y:200.99,v:65.13},{x:323.37,y:194.63,v:65.50},{x:356.63,y:176.40,v:66.56},{x:389.89,y:221.28,v:63.95},{x:423.16,y:213.88,v:64.38},{x:456.42,y:234.00,v:63.21},{x:489.68,y:231.42,v:63.36},{x:522.95,y:207.87,v:64.73},{x:556.21,y:188.78,v:65.84},{x:589.47,y:225.92,v:63.68},{x:622.74,y:203.39,v:64.99},{x:656.00,y:194.97,v:65.48}]'>
+  <rect x="0" y="0" width="680" height="260" rx="16" fill="#ffffff"/>
+  <line x1="24" y1="234" x2="656" y2="234" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="24" y1="22" x2="24" y2="234" stroke="#e5e7eb" stroke-width="1"/>
+  <path d="M 24.0,22.0 57.3,86.1 90.5,119.0 123.8,116.2 157.1,150.1 190.3,143.0 223.6,198.1 256.8,189.8 290.1,201.0 323.4,194.6 356.6,176.4 389.9,221.3 423.2,213.9 456.4,234.0 489.7,231.4 522.9,207.9 556.2,188.8 589.5,225.9 622.7,203.4 656.0,195.0 L 656.0,234 L 24.0,234 Z" fill="rgba(22,163,74,0.11)"/>
+  <polyline points="24.0,22.0 57.3,86.1 90.5,119.0 123.8,116.2 157.1,150.1 190.3,143.0 223.6,198.1 256.8,189.8 290.1,201.0 323.4,194.6 356.6,176.4 389.9,221.3 423.2,213.9 456.4,234.0 489.7,231.4 522.9,207.9 556.2,188.8 589.5,225.9 622.7,203.4 656.0,195.0" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 24.00</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 57.26</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 90.53</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 123.79</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 157.05</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 190.32</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 223.58</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 256.84</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 290.11</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 323.37</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 356.63</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 389.89</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 423.16</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 456.42</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 489.68</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 522.95</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 556.21</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 589.47</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 622.74</title></circle>
+  <circle cx="{:.1f}" cy="{:.1f}" r="4" fill="{}" opacity="0.92"><title>第{}个点 · 656.00</title></circle>
+  <text x="24" y="16" fill="#6b7280" font-size="12">区间最低 63.21</text>
+  <text x="656" y="16" text-anchor="end" fill="#6b7280" font-size="12">区间最高 75.54</text>
+  <text x="656" y="252" text-anchor="end" fill="#111827" font-size="12">区间变化 -13.3%</text>
+  <g id="priceHoverGuide" opacity="0" pointer-events="none">
+    <line x1="0" y1="22" x2="0" y2="234" stroke="#94a3b8" stroke-dasharray="4 4"/>
+    <circle cx="0" cy="0" r="5" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+    <rect x="0" y="0" rx="8" ry="8" width="92" height="24" fill="#0f172a" opacity="0.86"/>
+    <text x="46" y="16" text-anchor="middle" fill="#fff" font-size="12" id="priceHoverText">--</text>
+  </g>
+</svg><script><![CDATA[
+(function(){
+var svg=document.currentScript&&document.currentScript.ownerSVGElement?document.currentScript.ownerSVGElement:null;
+if(!svg)return;
+var pts=JSON.parse(svg.dataset.points||'[]');
+var guide=svg.getElementById('priceHoverGuide');
+var textEl=svg.getElementById('priceHoverText');
+var line=guide?guide.querySelector('line'):null;
+var circle=guide?guide.querySelector('circle'):null;
+var tip=guide?guide.querySelector('rect'):null;
+var vb=svg.viewBox.baseVal;
+function show(idx){
+var p=pts[idx];if(!p)return;
+guide.setAttribute('opacity','1');
+if(line){line.setAttribute('x1',p.x);line.setAttribute('x2',p.x);}
+if(circle){circle.setAttribute('cx',p.x);circle.setAttribute('cy',p.y);}
+if(tip&&textEl){
+var label=(idx+1)+' | '+p.v.toFixed(2);
+textEl.textContent=label;
+var w=Math.max(80,label.length*7.5);
+var tx=Math.min(Math.max(8,p.x-w/2),vb.width-w-8);
+var ty=Math.max(8,p.y-34);
+tip.setAttribute('width',w);tip.setAttribute('x',tx);tip.setAttribute('y',ty);
+textEl.setAttribute('x',tx+w/2);textEl.setAttribute('y',ty+16);
+}}
+svg.addEventListener('pointerleave',function(){guide.setAttribute('opacity','0');});
+svg.addEventListener('pointermove',function(e){
+var pt=svg.createSVGPoint();pt.x=e.clientX;pt.y=e.clientY;
+var loc=pt.matrixTransform(svg.getScreenCTM().inverse());
+var best=0,dist=Infinity;
+pts.forEach(function(p,i){var d=Math.abs(p.x-loc.x);if(d<dist){dist=d;best=i;}});
+show(best);
+});
+show(pts.length-1);
+})();
+]]></script></svg></div>
+<div class='tech-read-panel'>
+<div class="tech-read-card"><div class="tech-read-label">区间位置</div><div class="tech-read-value">中高区 <span>42.1%</span></div><div class="tech-read-note">现价位于区间中下部，可关注支撑区域。</div></div>
+<div class="tech-read-card"><div class="tech-read-label">均线状态</div><div class="tech-read-value">短多中弱</div><div class="tech-read-note">现价高于 MA20(62.46)，但低于 MA60(63.30)。</div></div>
+<div class="tech-read-card"><div class="tech-read-label">支撑 / 压力</div><div class="tech-read-value">62.46 / 63.30</div><div class="tech-read-note">支撑优先看 MA20/MA60，压力优先看近期高点。</div></div>
+<div class="tech-read-card wide"><div class="tech-read-label">操作含义</div><div class="tech-read-note">形态偏弱，宜观望等反转信号。</div></div>
+</div></div>
+<div class='pair-card tech-summary-card'><div class='pair-title'>技术指标摘要</div>
+<div class='panel-grid'>
+<div class='panel'><div class='p-label'>最新收盘价</div><div class='p-value'>63.30</div><div class='p-note'>价格来源：腾讯Qt</div></div>
+<div class='panel'><div class='p-label'>MA20 / MA60</div><div class='p-value'>62.46 / 63.30</div><div class='p-note'>短中期趋势锚定</div></div>
+<div class='panel'><div class='p-label'>一年位置</div><div class='p-value'>35.8%</div><div class='p-note'>中位可适度关注</div></div>
+</div>
+<div class='trend-summary'><strong>趋势结论：</strong>价格趋势较强。主要依据：股价高于20日均线、近60日表现偏强。</div>
+</div></div></div>
+
+<div class='card'><div class='section-title'>⚖️ 多空辩论</div><div class='section-sub'>恢复 601138 旧版视觉：左右证据卡 + 权重标签 + 最终裁决</div><div class='bull-bear'>
+<div class='bull'><h3>🐂 Bullish Arguments</h3>
+<div class="arg-item"><span>趋势侧：价格趋势较强。主要依据：股价高于20日均线、近60日表现偏强。</span><span class="weight-tag plus">+</span></div>
+<div class="arg-item"><span>资金侧：成交活跃，当前成交额约 35.77 亿，市场关注度仍在。</span><span class="weight-tag plus">+</span></div>
+<div class="arg-item"><span>价格侧：若后续订单/业绩或行业景气验证继续改善，亿纬锂能 仍有主题弹性。</span><span class="weight-tag plus">+</span></div>
+<div class="arg-item"><span>结构侧：若股价能维持在 62.46 上方，回踩后重新走稳的概率更高。</span><span class="weight-tag plus">+</span></div>
+</div>
+<div class='bear'><h3>🐻 Bearish Arguments</h3>
+<div class="arg-item"><span>估值侧：PE(TTM) 约 30.71 x，PB 约 3.19 x，绝对估值不算便宜。</span><span class="weight-tag minus">-</span></div>
+<div class="arg-item"><span>位置侧：当前处于 中高区（42.1%），追高的赔率一般。</span><span class="weight-tag minus">-</span></div>
+<div class="arg-item"><span>数据侧：财务三表、公告催化、资金面明细未完整接入，本次基本面结论需要降权。</span><span class="weight-tag minus">-</span></div>
+<div class="arg-item"><span>风控侧：若跌破 62.46 并放量转弱，趋势资金可能快速撤退。</span><span class="weight-tag minus">-</span></div>
+</div></div><div class='debate-verdict'><strong>裁决：</strong>亿纬锂能（300014.SZ）当前综合判断为<strong> 中性 </strong>，综合评分 5.8 / 10。更适合“等确认/等回踩”，不适合盲目追高。</div></div>
+
+<div class='card'><div class='section-title'>📊 三方风险</div><div class='section-sub'>用激进 / 基准 / 保守三种情景，快速判断当前位置的赔率</div><div class='scenario-grid'>
+<div class='scenario-card aggressive'><div class='scenario-top'><div class='scenario-name'>激进情景</div><div class='scenario-score' style='color:#b91c1c;'>76.2</div></div><div class='scenario-desc'>若后续超预期消息/业绩推高，短期可冲至 76.18，但高位追入风险极大。</div><div class='scenario-meter'><span style='width:65%;background:#dc2626;'></span></div></div>
+<div class='scenario-card neutral'><div class='scenario-top'><div class='scenario-name'>基准情景</div><div class='scenario-score' style='color:#eab308;'>63.3</div></div><div class='scenario-desc'>亿纬锂能 维持当前区间波动，等方向确认。63.30 附近是较合理观察位。</div><div class='scenario-meter'><span style='width:45%;background:#eab308;'></span></div></div>
+<div class='scenario-card conservative'><div class='scenario-top'><div class='scenario-name'>保守情景</div><div class='scenario-score' style='color:#15803d;'>53.9</div></div><div class='scenario-desc'>若大盘或板块回调，亿纬锂能 可能回落到 53.92 附近，那时才是更优赔率。</div><div class='scenario-meter'><span style='width:25%;background:#16a34a;'></span></div></div>
+</div></div>
+
+<div class='card'><div class='section-title'>🔮 关键催化剂 & 风险事件</div><div class='section-sub'>按“利好 / 中性 / 风险”拆分，和其他模块保持同一张卡片语言</div><div class='catalyst-grid'><div class='catalyst-box good'><div class='catalyst-box-title'>📈 关键催化剂 <span>Upside</span></div><div class='catalyst-list'><div class='catalyst-item bullish'><span class='catalyst-dot'>▲</span><span><strong>行业景气</strong>：行业景气或订单/业绩验证继续改善。</span></div><div class='catalyst-item bullish'><span class='catalyst-dot'>▲</span><span><strong>盈利兑现</strong>：盈利若继续超预期，估值修复空间仍在。</span></div><div class='catalyst-item neutral'><span class='catalyst-dot'>●</span><span><strong>区间观察</strong>：当前处于 中高区，短线波动可能继续放大。</span></div></div></div><div class='catalyst-box warn'><div class='catalyst-box-title'>⚠️ 风险事件 <span>Risk</span></div><div class='catalyst-list'><div class='catalyst-item bearish'><span class='catalyst-dot'>!</span><span><strong>基本面放缓</strong>：若后续兑现不及预期，高位估值更敏感。</span></div><div class='catalyst-item bearish'><span class='catalyst-dot'>!</span><span><strong>资金退潮</strong>：若成交缩量并跌破关键支撑，趋势会明显变弱。</span></div><div class='catalyst-item neutral'><span class='catalyst-dot'>●</span><span><strong>数据缺口</strong>：财务三表与公告催化未完整接入，本次判断保守。</span></div></div></div></div><div class='catalyst-footer'><strong>结论：</strong>该模块当前更适合看“催化和风险是否对称”，而不是单看单条消息。若后续接入公告与资金流，可进一步把这里升级成事件时间轴。</div></div>
+
+<div class='card'><div class='section-title'>🧪 回溯验证面板</div><div class='section-sub'>用当前可得价格序列做轻量回看，判断结论是否站得住</div><div class='validation-grid'><div class='validation-summary'><strong>说明：</strong>价格走势详见上方 📊 核心仪表盘·技术面图表，此处不再重复。以下指标用于轻量回看，校验当前判断是否合理。</div><div class='validation-card-grid'><div class="validation-card"><div class="v-label">历史样本天数</div><div class="v-value">39</div><div class="v-note">至少保留结构，不因外部依赖缺失而空白</div></div><div class="validation-card"><div class="v-label">区间累计涨跌</div><div class="v-value">-13.9%</div><div class="v-note">用于快速校验当前判断是否站在高位/低位</div></div><div class="validation-card"><div class="v-label">区间振幅</div><div class="v-value">41.3%</div><div class="v-note">波动越大，仓位与节奏要求越高</div></div><div class="validation-card"><div class="v-label">日波动率</div><div class="v-value">2.8%</div><div class="v-note">本地根据价格序列粗略计算</div></div><div class="validation-card"><div class="v-label">现价相对MA20</div><div class="v-value">+1.4%</div><div class="v-note">偏离过大常意味着追高/抄底风险</div></div><div class="validation-card"><div class="v-label">现价相对MA60</div><div class="v-value">+0.0%</div><div class="v-note">中期趋势锚点</div></div></div></div></div>
+
+<div class='card'><div class='section-title'>📝 详细分析</div><div class='section-sub'>把技术、估值、基本面拆成统一分析卡片，先给结论，再看关键指标。</div><div class='analysis-card-grid'>
+<div class='analysis-card tech'><div class='analysis-card-head'><div><div class='analysis-card-title'>📊 技术面</div><div class='analysis-card-sub'>Technical View</div></div><span class='analysis-tag'>短多中弱</span></div><div class='analysis-metric-grid'><div class='analysis-metric'><div class='m-label'>当前价</div><div class='m-value'>63.30</div></div><div class='analysis-metric'><div class='m-label'>10日涨跌幅</div><div class='m-value'>+10.7%</div></div><div class='analysis-metric'><div class='m-label'>MA20 / MA60</div><div class='m-value'>62.46 / 63.30</div></div><div class='analysis-metric'><div class='m-label'>区间位置</div><div class='m-value'>42.1%</div></div></div><div class='analysis-card-note'><strong>判断：</strong>价格趋势较强。主要依据：股价高于20日均线、近60日表现偏强。</div><div class='analysis-card-risk'><strong>交易含义：</strong>形态偏弱，宜观望等反转信号。</div></div>
+<div class='analysis-card value'><div class='analysis-card-head'><div><div class='analysis-card-title'>💰 估值面</div><div class='analysis-card-sub'>Valuation View</div></div><span class='analysis-tag'>需验证</span></div><div class='analysis-metric-grid'><div class='analysis-metric'><div class='m-label'>PE(TTM)</div><div class='m-value'>30.71 x</div></div><div class='analysis-metric'><div class='m-label'>PB</div><div class='m-value'>3.19 x</div></div><div class='analysis-metric'><div class='m-label'>总市值</div><div class='m-value'>1375.70 亿</div></div><div class='analysis-metric'><div class='m-label'>所属行业</div><div class='m-value' style='font-size:15px;'>行业字段暂缺</div></div></div><div class='analysis-card-note'><strong>判断：</strong>当前估值需要结合行业景气和盈利兑现验证，快报不把估值结论拔得过高。</div><div class='analysis-card-risk'><strong>缺口：</strong>历史估值分位、同行估值样本尚未完整接入。</div></div>
+<div class='analysis-card base'><div class='analysis-card-head'><div><div class='analysis-card-title'>🏦 基本面</div><div class='analysis-card-sub'>Fundamental View</div></div><span class='analysis-tag'>降权</span></div><div class='analysis-metric-grid'><div class='analysis-metric'><div class='m-label'>所属地区</div><div class='m-value' style='font-size:15px;'>地区字段暂缺</div></div><div class='analysis-metric'><div class='m-label'>上市日期</div><div class='m-value' style='font-size:15px;'>上市日期暂缺</div></div><div class='analysis-metric'><div class='m-label'>财务质量</div><div class='m-value' style='font-size:15px;'>待接入</div></div><div class='analysis-metric'><div class='m-label'>成长性</div><div class='m-value' style='font-size:15px;'>需补充</div></div></div><div class='analysis-card-note'><strong>判断：</strong>本次为快速行情版，基本面模块保留最终版结构，但不硬编财务数字。</div><div class='analysis-card-risk'><strong>下一步：</strong>正式研究版应接入财务三表、公告催化和行业对比。</div></div>
+</div><div class='card'><div class='section-title'>🧾 数据完整度</div><div class='section-sub'>本次报告涉及数据模块的覆盖状况与缺口说明</div><div class='completeness-panel'><div class='completeness-grade'><div class='grade-label'>COMPLETENESS</div><div class='grade-value'>B</div><div class='grade-text'>本次分析存在少量数据缺口，结论可用，但不宜视为全量尽调。</div></div><div><div class='module-board'><div class='module-box good'><div class='module-title'>已获取板块 <span class='module-count'>3</span></div><div class='module-chip-row'><span class='module-chip good'>行情/趋势</span><span class='module-chip good'>基础资料</span><span class='module-chip good'>日线序列</span></div></div><div class='module-box missing'><div class='module-title'>缺失/降级板块 <span class='module-count'>4</span></div><div class='module-chip-row'><span class='module-chip missing'>财务三表</span><span class='module-chip missing'>公告/催化</span><span class='module-chip missing'>资金面明细</span><span class='module-chip missing'>同行估值</span></div></div></div><div class='completeness-impact'><strong>影响：</strong>当前主要缺口是：财务三表、公告催化、资金面明细和同行估值；因此基本面、估值分位和短线资金行为判断需要保守处理。</div><details class='inline-fold'><summary>查看限制说明</summary><div class='fold-body'><ul><li>本次快生成主要使用腾讯Qt行情、Tushare基础资料和日线序列。</li><li>财务三表、公告全文、资金流、同行估值尚未接入本快速链路。</li><li>已保留最终版数据模块结构，避免因数据缺口导致页面模块缺失。</li><li>basic 获取失败：Exception: 抱歉，您访问接口(stock_basic)频率超限(1次/小时)，具体频次详情：https://tushare.pro/document/1?doc_id=108。</li></ul></div></details></div></div></div></div><div class='card'><div class='section-title'>📝 详细分析</div><div class='section-sub'>把技术、估值、基本面拆成统一分析卡片，先给结论，再看关键指标。</div><div class='analysis-card-grid'>
+<div class='analysis-card tech'><div class='analysis-card-head'><div><div class='analysis-card-title'>📊 技术面</div><div class='analysis-card-sub'>Technical View</div></div><span class='analysis-tag'>短多中弱</span></div><div class='analysis-metric-grid'><div class='analysis-metric'><div class='m-label'>当前价</div><div class='m-value'>63.30</div></div><div class='analysis-metric'><div class='m-label'>10日涨跌幅</div><div class='m-value'>+10.7%</div></div><div class='analysis-metric'><div class='m-label'>MA20 / MA60</div><div class='m-value'>62.46 / 63.30</div></div><div class='analysis-metric'><div class='m-label'>区间位置</div><div class='m-value'>42.1%</div></div></div><div class='analysis-card-note'><strong>判断：</strong>价格趋势较强。主要依据：股价高于20日均线、近60日表现偏强。</div><div class='analysis-card-risk'><strong>交易含义：</strong>形态偏弱，宜观望等反转信号。</div></div>
+<div class='analysis-card value'><div class='analysis-card-head'><div><div class='analysis-card-title'>💰 估值面</div><div class='analysis-card-sub'>Valuation View</div></div><span class='analysis-tag'>需验证</span></div><div class='analysis-metric-grid'><div class='analysis-metric'><div class='m-label'>PE(TTM)</div><div class='m-value'>30.71 x</div></div><div class='analysis-metric'><div class='m-label'>PB</div><div class='m-value'>3.19 x</div></div><div class='analysis-metric'><div class='m-label'>总市值</div><div class='m-value'>1375.70 亿</div></div><div class='analysis-metric'><div class='m-label'>所属行业</div><div class='m-value' style='font-size:15px;'>行业字段暂缺</div></div></div><div class='analysis-card-note'><strong>判断：</strong>当前估值需要结合行业景气和盈利兑现验证，快报不把估值结论拔得过高。</div><div class='analysis-card-risk'><strong>缺口：</strong>历史估值分位、同行估值样本尚未完整接入。</div></div>
+<div class='analysis-card base'><div class='analysis-card-head'><div><div class='analysis-card-title'>🏦 基本面</div><div class='analysis-card-sub'>Fundamental View</div></div><span class='analysis-tag'>降权</span></div><div class='analysis-metric-grid'><div class='analysis-metric'><div class='m-label'>所属地区</div><div class='m-value' style='font-size:15px;'>地区字段暂缺</div></div><div class='analysis-metric'><div class='m-label'>上市日期</div><div class='m-value' style='font-size:15px;'>上市日期暂缺</div></div><div class='analysis-metric'><div class='m-label'>财务质量</div><div class='m-value' style='font-size:15px;'>待接入</div></div><div class='analysis-metric'><div class='m-label'>成长性</div><div class='m-value' style='font-size:15px;'>需补充</div></div></div><div class='analysis-card-note'><strong>判断：</strong>本次为快速行情版，基本面模块保留最终版结构，但不硬编财务数字。</div><div class='analysis-card-risk'><strong>下一步：</strong>正式研究版应接入财务三表、公告催化和行业对比。</div></div>
+</div><div class="card"><div class="section-title">🧾 数据完整度</div><div class="section-sub">本次报告涉及数据模块的覆盖状况与缺口说明</div><div class="completeness-panel"><div class="completeness-grade"><div class="grade-label">COMPLETENESS</div><div class="grade-value">B</div><div class="grade-text">本次分析存在少量数据缺口，结论可用，但不宜视为全量尽调。</div></div><div><div class="module-board"><div class="module-box good"><div class="module-title">已获取板块 <span class="module-count">3</span></div><div class="module-chip-row"><span class="module-chip good">行情/趋势</span><span class="module-chip good">基础资料</span><span class="module-chip good">日线序列</span></div></div><div class="module-box missing"><div class="module-title">缺失/降级板块 <span class="module-count">4</span></div><div class="module-chip-row"><span class="module-chip missing">财务三表</span><span class="module-chip missing">公告/催化</span><span class="module-chip missing">资金面明细</span><span class="module-chip missing">同行估值</span></div></div></div><div class="completeness-impact"><strong>影响：</strong>当前主要缺口是：财务三表、公告催化、资金面明细和同行估值；因此基本面、估值分位和短线资金行为判断需要保守处理。</div><details class="inline-fold"><summary>查看限制说明</summary><div class="fold-body"><ul><li>本次快生成主要使用腾讯Qt行情、Tushare基础资料和日线序列。</li><li>财务三表、公告全文、资金流、同行估值尚未接入本快速链路。</li><li>已保留最终版数据模块结构，避免因数据缺口导致页面模块缺失。</li><li>basic 获取失败：Exception: 抱歉，您访问接口(stock_basic)频率超限(1次/小时)，具体频次详情：https://tushare.pro/document/1?doc_id=108。</li></ul></div></details></div></div></div></details></div>
+
+<details class="detail-section" open><summary class="detail-header">📋 数据来源与可信度</summary><div class="detail-body">
+<div class="source-grid"><div class="source-card"><div class="source-label">价格序列来源</div><div class="source-value">腾讯Qt</div><div class="source-note">腾讯 Qt 实时行情，数据时点 20260701104942，价格数据可信度较高。</div></div><div class="source-card reliability-score-card"><div class="source-label">数据可信度</div><div class="source-value">55 / 100</div><div class="reliability-meter"><span style="width:55%;"></span></div><div class="source-note">等级：中</div></div><div class="source-card"><div class="source-label">数据完整度</div><div class="source-value">B 级</div><div class="source-note">本次分析存在少量数据缺口，结论可用，但不宜视为全量尽调。</div></div></div>
+<div class="source-block"><div class="source-title">本次启用的数据链路</div><div class="chip-row"><span class="source-chip">腾讯Qt行情</span><span class="source-chip">Tushare:stock_basic</span><span class="source-chip">Tushare:daily</span></div></div>
+<div class="reliability-board"><div class="reliability-box good"><div class="reliability-box-title">可信度依据 <span>Basis</span></div><div class="reason-list"><div class="reason-item"><span class="reason-dot">1</span><span>价格来自实时行情接口</span></div><div class="reason-item"><span class="reason-dot">2</span><span>日线数据来自 Tushare</span></div><div class="reason-item"><span class="reason-dot">3</span><span>基本面为快照版，非完整研究</span></div></div></div><div class="reliability-box warn"><div class="reliability-box-title">缺失/降级板块 <span>Gaps</span></div><div class="gap-list"><div class="gap-item"><span class="gap-dot">!</span><span>财务三表</span></div><div class="gap-item"><span class="gap-dot">!</span><span>公告/催化</span></div><div class="gap-item"><span class="gap-dot">!</span><span>资金面明细</span></div></div></div></div>
+<details class="inline-fold" style="margin-top:16px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;overflow:hidden;"><summary style="cursor:pointer;padding:12px 14px;font-weight:800;color:#334155;background:#f8fafc;">查看警告与降级说明</summary><div class="fold-body" style="padding:12px 16px;color:#475569;font-size:13px;line-height:1.7;"><ul><li>basic 获取失败：Exception: 抱歉，您访问接口(stock_basic)频率超限(1次/小时)，具体频次详情：https://tushare.pro/document/1?doc_id=108。</li></ul></div></details>
+</div></details>
+<div class='disclosure'><strong>免责声明</strong><br>本报告基于当前可得公开数据与本地分析逻辑生成，仅供研究参考，不构成任何投资建议。<br>本版本已移除外部图表依赖，图形均采用内嵌 SVG 渲染；数据来源以腾讯Qt / Tushare 为准；数据完整度等级：B。<br>市场有风险，投资需谨慎。<br><br><small>Generated by OpenClaw · 2026-07-01 10:49 GMT+8 · Report ID: 300014-sz-20260701-104946</small></div>
+</body></html>
