@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-08-03T02:39:44+08:00",
+  "summary": {
+    "sessions": 2,
+    "fixtures": 4,
+    "settled_primary": 0,
+    "primary_hit_rate": null,
+    "mean_1x2_brier": null,
+    "comparable_1x2_samples": 0,
+    "stable_edge_sample_threshold": 30
+  },
+  "sessions": [
+    {
+      "date": "2026-08-02",
+      "fixtures": 0,
+      "analysis_status": "pending",
+      "primary": 0,
+      "observe": 0,
+      "insufficient": 0,
+      "results": 15,
+      "review_status": "missing_analysis",
+      "primary_settled": 0,
+      "primary_hits": 0,
+      "mean_brier": null
+    },
+    {
+      "date": "2026-08-03",
+      "fixtures": 4,
+      "analysis_status": "pending",
+      "primary": 0,
+      "observe": 0,
+      "insufficient": 0,
+      "results": 0,
+      "review_status": "pending",
+      "primary_settled": 0,
+      "primary_hits": 0,
+      "mean_brier": null
+    }
+  ],
+  "error_classes": [],
+  "notice": "仅供比赛研究与娱乐，不构成投注建议；历史表现不保证未来结果。"
+}
