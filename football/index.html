@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="体彩竞彩足球分析、赛果复盘与概率校准看板">
+  <title>竞彩足球分析实验室</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">SPORTTERY RESEARCH LEDGER</p>
+      <h1>竞彩足球分析实验室</h1>
+      <p class="hero-copy">把独立判断、官方可售玩法、赛后校准和改进提议放在同一条可审计时间线上。</p>
+    </div>
+    <div class="status" aria-live="polite">
+      <span class="status-dot"></span>
+      <span id="generated-at">正在读取数据</span>
+    </div>
+  </header>
+
+  <main>
+    <section aria-labelledby="summary-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">全局概览</p>
+          <h2 id="summary-title">决策质量，而不只是命中数</h2>
+        </div>
+        <p class="sample-note" id="sample-note"></p>
+      </div>
+      <div class="metric-grid" id="metric-grid"></div>
+    </section>
+
+    <section class="chart-section" aria-labelledby="trend-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">每日趋势</p>
+          <h2 id="trend-title">命中与校准并行观察</h2>
+        </div>
+        <div class="legend" aria-label="图例">
+          <span><i class="legend-hit"></i>核心选择命中率</span>
+          <span><i class="legend-brier"></i>1X2 Brier（越低越好）</span>
+        </div>
+      </div>
+      <div id="trend-chart" class="chart" role="img" aria-label="每日核心选择命中率和 Brier 分数趋势"></div>
+    </section>
+
+    <section aria-labelledby="sessions-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">会话账本</p>
+          <h2 id="sessions-title">分析与复盘状态</h2>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>比赛编号日期</th>
+              <th>赛事</th>
+              <th>分析</th>
+              <th>核心 / 观察</th>
+              <th>已结算</th>
+              <th>核心命中</th>
+              <th>Brier</th>
+              <th>复盘</th>
+            </tr>
+          </thead>
+          <tbody id="session-body"></tbody>
+        </table>
+      </div>
+      <div id="empty-state" class="empty-state" hidden>
+        <p>尚无完成的日常会话。</p>
+        <span>首次运行 daily 后，这里会出现官方赛事快照；完成 review 后开始显示校准指标。</span>
+      </div>
+    </section>
+
+    <section class="error-section" aria-labelledby="errors-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">错误画像</p>
+          <h2 id="errors-title">下一轮最值得修正的地方</h2>
+        </div>
+      </div>
+      <div id="error-bars" class="error-bars"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="notice">仅供比赛研究与娱乐，不构成投注建议；历史表现不保证未来结果。</p>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
