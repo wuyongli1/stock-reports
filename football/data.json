@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:07:41+08:00",
+  "generated_at": "2026-08-03T14:05:45+08:00",
   "summary": {
     "sessions": 2,
     "fixtures": 4,
@@ -17,7 +17,7 @@
       "primary": 0,
       "observe": 0,
       "insufficient": 0,
-      "results": 15,
+      "results": 20,
       "review_status": "missing_analysis",
       "primary_settled": 0,
       "primary_hits": 0,
