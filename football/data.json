@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T02:39:44+08:00",
+  "generated_at": "2026-08-03T12:07:41+08:00",
   "summary": {
     "sessions": 2,
     "fixtures": 4,
@@ -26,10 +26,10 @@
     {
       "date": "2026-08-03",
       "fixtures": 4,
-      "analysis_status": "pending",
+      "analysis_status": "insufficient_data",
       "primary": 0,
       "observe": 0,
-      "insufficient": 0,
+      "insufficient": 4,
       "results": 0,
       "review_status": "pending",
       "primary_settled": 0,
