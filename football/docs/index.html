@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>足球竞彩每日分析 · 独立概率模型 + 复盘</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <h1>⚽ 足球竞彩每日分析</h1>
+    <p class="sub">独立概率模型（football-data + soccer-predict）→ 体彩赔率对比 → 串关建议 → 次日复盘</p>
+    <p class="meta" id="lastUpdated">加载中…</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- 累计统计 -->
+  <section class="stats-grid" id="statsGrid"></section>
+
+  <!-- 串关记录 -->
+  <section class="card">
+    <h2>串关记录</h2>
+    <div id="parlayBox" class="parlay-box">加载中…</div>
+  </section>
+
+  <!-- 联赛筛选 -->
+  <section class="card">
+    <h2>预测列表</h2>
+    <div id="leagueFilter" class="league-filter"></div>
+    <table class="pred-table" id="predTable">
+      <thead>
+        <tr>
+          <th>日期</th><th>联赛</th><th>对阵</th><th>开赛</th>
+          <th>模型主胜</th><th>推荐</th><th>市场</th><th>置信度</th><th>结果</th>
+        </tr>
+      </thead>
+      <tbody id="predBody"></tbody>
+    </table>
+    <p class="hint" id="predHint"></p>
+  </section>
+
+  <!-- 单日详情 -->
+  <section class="card detail-card" id="detailCard" hidden>
+    <div class="detail-head">
+      <h2 id="detailTitle">单日详情</h2>
+      <button class="btn-back" onclick="hideDetail()">← 返回列表</button>
+    </div>
+    <div id="detailBody"></div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>数据源：中国体彩官网竞彩足球 · football-data skill · 独立概率分析遵循 soccer-predict skill SOP</p>
+    <p class="warn">⚠ 仅供研究复盘，不构成投注建议。理性参考，量力而行。</p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

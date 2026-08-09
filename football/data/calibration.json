@@ -1,0 +1,22 @@
+{
+  "total_predictions": 0,
+  "settled": 0,
+  "correct": 0,
+  "hit_rate": 0.0,
+  "roi": 0.0,
+  "brier_score": null,
+  "log_loss": null,
+  "parlay_record": {
+    "total": 0,
+    "won": 0,
+    "hit_rate": 0.0,
+    "roi": 0.0,
+    "total_stake": 0,
+    "total_return": 0
+  },
+  "by_league": {},
+  "by_market": {},
+  "by_confidence": {},
+  "daily_index": [],
+  "last_updated": null
+}
