@@ -21,9 +21,9 @@
 
 **GitHub Pages（主站）**: https://wuyongli1.github.io/stock-reports/football-predictions/
 
-**Vercel 备用站**: https://football-predictions-sandy.vercel.app/
+**腾讯云 COS 国内直连（推荐备用）**: https://football-predictions-1467413910.cos-website.ap-shanghai.myqcloud.com/
 
-> GitHub Pages（github.io）在中国大陆不同网络环境下连通性不稳定；Vercel 备用站是独立部署，主站打不开时使用。每日 cron 更新时会同时部署两个站，内容保持一致。
+> GitHub Pages（github.io）在中国大陆不同网络环境下连通性不稳定；腾讯云 COS 是国内节点，无需科学上网即可访问。每日 cron 更新时会同时部署主站 + COS + Vercel 三个站，内容保持一致。
 
 看板功能：
 - 总预测场次 / 命中 / 未中 / 命中率 统计
