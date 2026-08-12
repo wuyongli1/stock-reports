@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚽ 足球竞彩每日分析看板</title>
+<style>
+:root {
+  --bg: #0f1420;
+  --card: #1a2234;
+  --card2: #222c42;
+  --text: #e8edf5;
+  --muted: #8a94a8;
+  --green: #2ecc71;
+  --red: #e74c3c;
+  --yellow: #f1c40f;
+  --blue: #3498db;
+  --border: #2c3750;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+.header {
+  background: linear-gradient(135deg, #1a2234 0%, #141a2a 100%);
+  padding: 24px 32px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.header h1 { font-size: 22px; font-weight: 700; }
+.header .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  padding: 20px 32px 0;
+}
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 18px;
+}
+.stat-card .num { font-size: 26px; font-weight: 700; }
+.stat-card .label { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.stat-card.green .num { color: var(--green); }
+.stat-card.red .num { color: var(--red); }
+.stat-card.blue .num { color: var(--blue); }
+.stat-card.yellow .num { color: var(--yellow); }
+.controls {
+  display: flex;
+  gap: 10px;
+  padding: 16px 32px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.controls select, .controls button {
+  background: var(--card2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.controls select:hover, .controls button:hover { border-color: var(--blue); }
+.controls .search-input {
+  background: var(--card2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 13px;
+  min-width: 200px;
+}
+.main { padding: 0 32px 40px; }
+.day-section { margin-top: 24px; }
+.day-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.day-header h2 { font-size: 17px; }
+.day-header .badge {
+  background: var(--card2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.review-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+.review-box h3 { font-size: 15px; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+.review-box .review-text { color: var(--text); font-size: 13px; line-height: 1.8; }
+.review-box .review-text strong { color: var(--yellow); }
+.match-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+}
+.match-card:hover { border-color: var(--blue); }
+.match-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.league-tag {
+  background: rgba(52, 152, 219, 0.15);
+  color: var(--blue);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.match-num {
+  color: var(--muted);
+  font-size: 12px;
+  background: var(--card2);
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+.match-teams { font-size: 15px; font-weight: 600; margin-top: 8px; }
+.match-teams .vs { color: var(--muted); font-weight: 400; margin: 0 6px; }
+.match-time { color: var(--muted); font-size: 12px; margin-top: 4px; }
+.pick-box {
+  background: var(--card2);
+  border-radius: 10px;
+  padding: 10px 14px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+}
+.pick-label { font-size: 11px; color: var(--muted); }
+.pick-value { font-size: 16px; font-weight: 700; }
+.pick-value.hit { color: var(--green); }
+.pick-value.miss { color: var(--red); }
+.pick-value.pending { color: var(--yellow); }
+.pick-odds { font-size: 12px; color: var(--muted); }
+.confidence { font-size: 11px; padding: 2px 8px; border-radius: 10px; }
+.confidence.high { background: rgba(46, 204, 113, 0.2); color: var(--green); }
+.confidence.medium { background: rgba(241, 196, 15, 0.2); color: var(--yellow); }
+.confidence.low { background: rgba(231, 76, 60, 0.2); color: var(--red); }
+.analysis-toggle {
+  background: none;
+  border: none;
+  color: var(--blue);
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 0;
+}
+.analysis-detail {
+  display: none;
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--text);
+}
+.analysis-detail.open { display: block; }
+.analysis-detail .section-title { color: var(--yellow); font-weight: 600; margin-top: 8px; }
+.parlay-card {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.08), rgba(46, 204, 113, 0.05));
+  border: 1px solid var(--blue);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+}
+.parlay-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+.parlay-name { font-size: 15px; font-weight: 700; }
+.parlay-odds { color: var(--green); font-weight: 700; font-size: 14px; }
+.parlay-legs { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
+.parlay-leg {
+  background: var(--card2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+.parlay-leg .leg-result { margin-left: 4px; }
+.parlay-result { margin-top: 10px; font-size: 13px; padding: 8px 12px; border-radius: 8px; }
+.parlay-result.win { background: rgba(46, 204, 113, 0.15); color: var(--green); }
+.parlay-result.lose { background: rgba(231, 76, 60, 0.15); color: var(--red); }
+.parlay-reason { margin-top: 8px; font-size: 12px; color: var(--muted); line-height: 1.6; }
+.empty { color: var(--muted); text-align: center; padding: 60px 0; font-size: 14px; }
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  padding: 20px;
+  border-top: 1px solid var(--border);
+}
+.loading { text-align: center; padding: 60px; color: var(--muted); }
+@media (max-width: 768px) {
+  .header { padding: 16px; }
+  .stats-row { padding: 12px 16px 0; }
+  .controls { padding: 12px 16px; }
+  .main { padding: 0 16px 30px; }
+  .match-card { grid-template-columns: 1fr; }
+  .pick-box { min-width: auto; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>⚽ 足球竞彩每日分析看板</h1>
+    <div class="sub">数据源：中国体育彩票竞彩官网 · 分析：数据优先 + 赔率后验 · 记录每次预测与复盘</div>
+  </div>
+  <div class="sub" id="updatedAt"></div>
+</div>
+
+<div class="stats-row" id="statsRow">
+  <div class="stat-card loading-stat"><div class="loading">加载中...</div></div>
+</div>
+
+<div class="controls">
+  <select id="leagueFilter">
+    <option value="">全部赛事</option>
+  </select>
+  <select id="resultFilter">
+    <option value="">全部状态</option>
+    <option value="hit">✅ 命中</option>
+    <option value="miss">❌ 未中</option>
+    <option value="pending">⏳ 待开赛</option>
+  </select>
+  <input type="text" id="searchInput" class="search-input" placeholder="搜索球队 / 比赛编号...">
+  <button id="resetBtn">重置筛选</button>
+</div>
+
+<div class="main" id="mainContent">
+  <div class="loading">数据加载中...</div>
+</div>
+
+<div class="footer">
+  本看板仅记录个人分析预测与研究，不构成任何投注建议。购彩有风险，投注需理性。
+</div>
+
+<script>
+let DATA = null;
+let currentLeague = '';
+let currentResult = '';
+let currentSearch = '';
+
+async function loadData() {
+  try {
+    const resp = await fetch('data.json?_=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    DATA = await resp.json();
+    render();
+  } catch (e) {
+    document.getElementById('mainContent').innerHTML =
+      '<div class="empty">数据加载失败：' + e.message + '<br><br>请确认 data.json 已生成</div>';
+  }
+}
+
+function renderStats() {
+  const records = DATA.records || [];
+  const stats = { total: 0, hit: 0, miss: 0, pending: 0, parlays: 0, parlayWin: 0 };
+  for (const rec of records) {
+    for (const m of rec.matches || []) {
+      if (!m.pick) continue;
+      stats.total++;
+      if (m.result === 'hit') stats.hit++;
+      else if (m.result === 'miss') stats.miss++;
+      else if (m.result === 'pending') stats.pending++;
+    }
+    for (const p of rec.parlays || []) {
+      stats.parlays++;
+      if (p.result === 'win') stats.parlayWin++;
+    }
+  }
+  const hitRate = stats.total > 0 ? (stats.hit / stats.total * 100).toFixed(1) : '0';
+  const parlayRate = stats.parlays > 0 ? (stats.parlayWin / stats.parlays * 100).toFixed(1) : '0';
+  document.getElementById('statsRow').innerHTML = `
+    <div class="stat-card blue"><div class="num">${stats.total}</div><div class="label">总预测场次</div></div>
+    <div class="stat-card green"><div class="num">${stats.hit}</div><div class="label">命中</div></div>
+    <div class="stat-card red"><div class="num">${stats.miss}</div><div class="label">未中</div></div>
+    <div class="stat-card yellow"><div class="num">${hitRate}%</div><div class="label">命中率</div></div>
+    <div class="stat-card blue"><div class="num">${stats.parlays}</div><div class="label">串关单数</div></div>
+    <div class="stat-card green"><div class="num">${stats.parlayWin}</div><div class="label">串关命中</div></div>
+    <div class="stat-card yellow"><div class="num">${parlayRate}%</div><div class="label">串关胜率</div></div>
+  `;
+}
+
+function renderLeagueFilter() {
+  const leagues = new Set();
+  for (const rec of DATA.records || []) {
+    for (const m of rec.matches || []) {
+      if (m.league) leagues.add(m.league);
+    }
+  }
+  const sel = document.getElementById('leagueFilter');
+  sel.innerHTML = '<option value="">全部赛事</option>' +
+    [...leagues].sort().map(l => `<option value="${l}">${l}</option>`).join('');
+  sel.value = currentLeague;
+}
+
+function resultClass(m) {
+  if (m.result === 'hit') return 'hit';
+  if (m.result === 'miss') return 'miss';
+  return 'pending';
+}
+function resultText(m) {
+  if (m.result === 'hit') return '✅ 命中';
+  if (m.result === 'miss') return '❌ 未中';
+  return '⏳ 待开赛';
+}
+function confidenceClass(c) { return c || 'low'; }
+
+function matchCard(m) {
+  const oddsStr = m.odds ? (m.odds.h + ' / ' + m.odds.d + ' / ' + m.odds.a) : '-';
+  const dataReason = m.data_analysis && m.data_analysis.reasoning ? m.data_analysis.reasoning : '';
+  const oddsConclusion = m.odds_analysis && m.odds_analysis.conclusion ? m.odds_analysis.conclusion : '';
+  const detail = (dataReason || oddsConclusion) ? `
+    <button class="analysis-toggle" onclick="this.nextElementSibling.classList.toggle('open')">📊 查看分析详情</button>
+    <div class="analysis-detail">
+      ${dataReason ? '<div class="section-title">📈 数据面分析（赔率盲判）</div><div>' + dataReason + '</div>' : ''}
+      ${oddsConclusion ? '<div class="section-title">💰 赔率面校验</div><div>' + oddsConclusion + '</div>' : ''}
+      ${m.review ? '<div class="section-title">🔍 复盘</div><div>' + m.review + '</div>' : ''}
+    </div>` : '';
+
+  return `
+  <div class="match-card">
+    <div>
+      <div class="match-top">
+        <span class="match-num">${m.match_num || ''}</span>
+        <span class="league-tag">${m.league || ''}</span>
+        <span class="confidence ${confidenceClass(m.data_analysis && m.data_analysis.confidence)}">${(m.data_analysis && m.data_analysis.confidence) || ''} 置信</span>
+      </div>
+      <div class="match-teams">${m.home} <span class="vs">vs</span> ${m.away}</div>
+      <div class="match-time">🕐 ${m.match_time || ''} ${m.score ? '· 比分 ' + m.score : ''}</div>
+      ${detail}
+    </div>
+    <div class="pick-box">
+      <span class="pick-label">预测（${m.pick_market || 'HAD'}）</span>
+      <span class="pick-value ${resultClass(m)}">${m.pick || '-'} @ ${m.pick_odds || '-'} ${resultText(m)}</span>
+      <span class="pick-odds">赔率：${oddsStr}</span>
+    </div>
+  </div>`;
+}
+
+function parlayCard(p) {
+  let resultBadge = '';
+  if (p.result === 'win') resultBadge = '<div class="parlay-result win">✅ 命中！</div>';
+  else if (p.result === 'lose') resultBadge = '<div class="parlay-result lose">❌ 未中</div>';
+  else resultBadge = '<div class="parlay-result" style="background:rgba(241,196,15,0.1);color:var(--yellow)">⏳ 待开赛</div>';
+
+  const legs = (p.legs || []).map(l => `
+    <span class="parlay-leg">
+      ${l.match_num || ''} ${l.home || ''} vs ${l.away || ''}: <b>${l.pick}</b> @ ${l.odds}
+      ${l.result ? `<span class="leg-result">${l.result === 'hit' ? '✅' : '❌'}</span>` : ''}
+    </span>`).join('');
+
+  return `
+  <div class="parlay-card">
+    <div class="parlay-header">
+      <span class="parlay-name">🎯 ${p.name || '串关'}（${p.type || ''}）</span>
+      <span class="parlay-odds">综合赔率 ${p.total_odds || '-'}</span>
+    </div>
+    <div class="parlay-legs">${legs}</div>
+    ${resultBadge}
+    ${p.reason ? '<div class="parlay-reason">💡 ' + p.reason + '</div>' : ''}
+  </div>`;
+}
+
+function render() {
+  renderStats();
+  renderLeagueFilter();
+  const records = (DATA.records || []).slice().reverse(); // 新的在前
+  const main = document.getElementById('mainContent');
+
+  const filteredRecords = records.map(rec => {
+    const matches = (rec.matches || []).filter(m => {
+      if (currentLeague && m.league !== currentLeague) return false;
+      if (currentResult && m.result !== currentResult) return false;
+      if (currentSearch) {
+        const hay = ((m.home || '') + (m.away || '') + (m.match_num || '') + (m.league || '')).toLowerCase();
+        if (!hay.includes(currentSearch.toLowerCase())) return false;
+      }
+      return true;
+    });
+    return {...rec, matches};
+  }).filter(rec => rec.matches.length > 0 || !currentLeague && !currentResult && !currentSearch);
+
+  if (filteredRecords.length === 0) {
+    main.innerHTML = '<div class="empty">没有符合条件的记录</div>';
+    return;
+  }
+
+  main.innerHTML = filteredRecords.map(rec => {
+    const matchCards = rec.matches.map(matchCard).join('');
+    const parlayCards = (rec.parlays || []).map(parlayCard).join('');
+    const reviewHtml = rec.review && rec.review.summary ? `
+      <div class="review-box">
+        <h3>🔍 ${rec.review.title || '复盘'}</h3>
+        <div class="review-text">${rec.review.summary}</div>
+      </div>` : '';
+    return `
+    <div class="day-section">
+      <div class="day-header">
+        <h2>📅 ${rec.date}</h2>
+        <span class="badge">分析时间 ${rec.analysis_time || ''}</span>
+        <span class="badge">${rec.matches.length} 场分析</span>
+        ${rec.parlays ? `<span class="badge">${rec.parlays.length} 串关</span>` : ''}
+      </div>
+      ${reviewHtml}
+      ${parlayCards}
+      ${matchCards}
+    </div>`;
+  }).join('');
+
+  document.getElementById('updatedAt').textContent = DATA.updated_at ? '更新时间：' + DATA.updated_at : '';
+}
+
+document.getElementById('leagueFilter').addEventListener('change', e => {
+  currentLeague = e.target.value;
+  render();
+});
+document.getElementById('resultFilter').addEventListener('change', e => {
+  currentResult = e.target.value;
+  render();
+});
+document.getElementById('searchInput').addEventListener('input', e => {
+  currentSearch = e.target.value.trim();
+  render();
+});
+document.getElementById('resetBtn').addEventListener('click', () => {
+  currentLeague = ''; currentResult = ''; currentSearch = '';
+  document.getElementById('leagueFilter').value = '';
+  document.getElementById('resultFilter').value = '';
+  document.getElementById('searchInput').value = '';
+  render();
+});
+
+loadData();
+</script>
+</body>
+</html>
