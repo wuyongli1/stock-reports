@@ -179,8 +179,8 @@ body {
 .analysis-detail.open { display: block; }
 .analysis-detail .section-title { color: var(--yellow); font-weight: 600; margin-top: 8px; }
 .parlay-card {
-  background: linear-gradient(135deg, rgba(52, 152, 219, 0.08), rgba(46, 204, 113, 0.05));
-  border: 1px solid var(--blue);
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.12), rgba(46, 204, 113, 0.08));
+  border: 1.5px solid var(--blue);
   border-radius: 12px;
   padding: 14px 18px;
   margin-bottom: 12px;
@@ -201,6 +201,109 @@ body {
 .parlay-result.win { background: rgba(46, 204, 113, 0.15); color: var(--green); }
 .parlay-result.lose { background: rgba(231, 76, 60, 0.15); color: var(--red); }
 .parlay-reason { margin-top: 8px; font-size: 12px; color: var(--muted); line-height: 1.6; }
+/* ===== 今日推荐区块 ===== */
+.reco-section {
+  margin: 0 32px 24px;
+}
+.reco-box {
+  background: linear-gradient(135deg, #1c2b4a 0%, #14203a 100%);
+  border: 2px solid #3d6bd8;
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 6px 30px rgba(52, 120, 246, 0.25);
+}
+.reco-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.reco-date { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+.reco-parlay {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(61, 107, 216, 0.5);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-top: 10px;
+}
+.reco-parlay-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.reco-parlay-name { font-size: 16px; font-weight: 700; color: #7fd4ff; }
+.reco-parlay-odds { font-size: 16px; font-weight: 800; color: var(--green); }
+.reco-legs { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+.reco-leg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 14px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.reco-leg-team { font-size: 14px; font-weight: 600; color: #e8edf5; }
+.reco-leg-pick {
+  font-size: 13px;
+  background: rgba(61, 107, 216, 0.35);
+  border-radius: 8px;
+  padding: 4px 10px;
+  color: #fff;
+  font-weight: 700;
+}
+.reco-leg-odds { font-size: 13px; color: var(--green); font-weight: 700; }
+.reco-single {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(61, 107, 216, 0.5);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.reco-single-team { font-size: 15px; font-weight: 700; color: #e8edf5; }
+.reco-single-pick {
+  font-size: 14px;
+  background: rgba(61, 107, 216, 0.35);
+  border-radius: 8px;
+  padding: 6px 14px;
+  color: #fff;
+  font-weight: 700;
+}
+.reco-reason { margin-top: 12px; font-size: 12px; color: var(--muted); line-height: 1.7; }
+.reco-empty {
+  background: var(--card);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+.reco-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #f1c40f, #e67e22);
+  color: #1a1a1a;
+  font-size: 11px;
+  font-weight: 800;
+  border-radius: 6px;
+  padding: 2px 8px;
+  margin-right: 6px;
+}
+@media (max-width: 768px) {
+  .reco-section { margin: 0 16px 20px; }
+}
 .empty { color: var(--muted); text-align: center; padding: 60px 0; font-size: 14px; }
 .footer {
   text-align: center;
@@ -233,6 +336,8 @@ body {
 <div class="stats-row" id="statsRow">
   <div class="stat-card loading-stat"><div class="loading">加载中...</div></div>
 </div>
+
+<div class="reco-section" id="recoSection"></div>
 
 <div class="controls">
   <select id="leagueFilter">
@@ -384,8 +489,78 @@ function parlayCard(p) {
   </div>`;
 }
 
+/* ===== 今日推荐渲染 ===== */
+function pickLabel(pick) {
+  if (pick === 'H') return '主胜';
+  if (pick === 'D') return '平局';
+  if (pick === 'A') return '客胜';
+  return pick || '-';
+}
+
+function renderRecommendation() {
+  const box = document.getElementById('recoSection');
+  if (!DATA || !DATA.records || DATA.records.length === 0) {
+    box.innerHTML = '<div class="reco-box"><div class="reco-title">🎯 今日推荐</div><div class="reco-empty">暂无分析数据</div></div>';
+    return;
+  }
+  // 取最新一天的记录
+  const latest = DATA.records[DATA.records.length - 1];
+  const dateStr = latest.date || '';
+  const parlays = latest.parlays || [];
+
+  let html = '<div class="reco-box">';
+  html += `<div class="reco-title">🎯 今日推荐</div>`;
+  html += `<div class="reco-date">${dateStr} · 分析时间 ${latest.analysis_time || '-'}</div>`;
+
+  if (parlays.length > 0) {
+    // 有串关推荐: 全部展示
+    parlays.forEach(p => {
+      html += `<div class="reco-parlay">`;
+      html += `<div class="reco-parlay-head">
+        <span class="reco-parlay-name">🎯 ${p.name || '串关'}（${p.type || ''}）</span>
+        <span class="reco-parlay-odds">综合赔率 ${p.total_odds || '-'}</span>
+      </div>`;
+      html += `<div class="reco-legs">`;
+      (p.legs || []).forEach(l => {
+        const resultMark = l.result === 'hit' ? ' ✅' : (l.result === 'miss' ? ' ❌' : '');
+        html += `<div class="reco-leg">
+          <span class="reco-leg-team">${l.match_num || ''} ${l.home || ''} vs ${l.away || ''}</span>
+          <span class="reco-leg-pick">${pickLabel(l.pick)}${resultMark}</span>
+          <span class="reco-leg-odds">@ ${l.odds}</span>
+        </div>`;
+      });
+      html += `</div>`;
+      if (p.result === 'win') html += `<div class="parlay-result win">✅ 串关命中！</div>`;
+      else if (p.result === 'lose') html += `<div class="parlay-result lose">❌ 串关未中</div>`;
+      if (p.reason) html += `<div class="reco-reason">💡 ${p.reason}</div>`;
+      html += `</div>`;
+    });
+  } else {
+    // 无串关: 展示高置信单场推荐
+    const picks = (latest.matches || []).filter(m => m.final_pick);
+    if (picks.length > 0) {
+      picks.forEach(m => {
+        const conf = m.data_analysis && m.data_analysis.confidence ? m.data_analysis.confidence : '';
+        const resultMark = m.result === 'hit' ? ' ✅' : (m.result === 'miss' ? ' ❌' : '');
+        html += `<div class="reco-single">
+          <span class="reco-single-team">${m.match_num || ''} ${m.home} vs ${m.away} <span class="reco-tag">${conf || ''}置信</span></span>
+          <span class="reco-single-pick">${pickLabel(m.final_pick)}${resultMark}</span>
+          <span class="reco-leg-odds">@ ${m.pick_odds || '-'}</span>
+        </div>`;
+      });
+      html += `<div class="reco-reason">今日无组合串关，以上为独立高置信场次，可单独参考或自行组合。</div>`;
+    } else {
+      html += '<div class="reco-empty">今日无推荐场次（数据不足或信心不足，建议观望）</div>';
+    }
+  }
+
+  html += '</div>';
+  box.innerHTML = html;
+}
+
 function render() {
   renderStats();
+  renderRecommendation();
   renderLeagueFilter();
   const records = (DATA.records || []).slice().reverse(); // 新的在前
   const main = document.getElementById('mainContent');
