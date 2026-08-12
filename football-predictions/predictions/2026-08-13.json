@@ -46,7 +46,8 @@
       "final_pick": "H",
       "pick_market": "HAD",
       "pick_odds": 1.49,
-      "is_parlay_leg": true
+      "is_parlay_leg": true,
+      "is_recommended": true
     },
     {
       "match_id": 2040828,
@@ -92,25 +93,9 @@
       "final_pick": null,
       "pick_market": null,
       "pick_odds": null,
-      "is_parlay_leg": false
+      "is_parlay_leg": false,
+      "is_recommended": false
     }
   ],
-  "parlays": [
-    {
-      "name": "串关1",
-      "type": "2串1",
-      "legs": [
-        {
-          "match_id": 2040827,
-          "match_num": "周四009",
-          "home": "米拉索尔",
-          "away": "基多体育大学",
-          "pick": "H",
-          "odds": 1.49
-        }
-      ],
-      "total_odds": 1.49,
-      "reason": "今日仅1场达到medium以上置信度且有明确数据面支撑(米拉索尔主场+赔率确认)。单场可作为观察仓，不强行凑2串1。等待数据更全的场次再组串。"
-    }
-  ]
+  "parlays": []
 }
