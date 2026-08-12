@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-13",
+  "analysis_time": "2026-08-13T11:30:00",
+  "matches": [
+    {
+      "match_id": 2040827,
+      "match_num": "周四009",
+      "league": "南美解放者杯",
+      "league_abbr": "解放者杯",
+      "home": "米拉索尔",
+      "away": "基多体育大学",
+      "match_time": "2026-08-14 06:00",
+      "match_status": "Selling",
+      "odds": {
+        "HAD": {
+          "h": "1.49",
+          "d": "3.60",
+          "a": "5.60",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "2.74",
+          "d": "3.10",
+          "a": "2.27",
+          "goal_line": "-1.00"
+        }
+      },
+      "data_analysis": {
+        "tendency": "H",
+        "confidence": "medium",
+        "reasoning": "米拉索尔(巴甲)近期6场2胜3平1负，主场进攻尚可(近6场共进8球)，但防守不稳(6场失7球)。基多体育大学(厄瓜多尔)为高原主场球队，客场作战是弱点，跨洲远征体能存疑。ESPN覆盖有限，样本不足，仅凭近期战绩判断主队略优，倾向主胜但置信度中等。"
+      },
+      "odds_analysis": {
+        "had": {
+          "h": 1.49,
+          "d": 3.6,
+          "a": 5.6
+        },
+        "had_fair_prob": {
+          "h": 0.64,
+          "d": 0.26,
+          "a": 0.1
+        },
+        "conclusion": "官方赔率1.49/3.60/5.60，去水后主胜概率约64%，与数据面主胜倾向一致。让球盘-1球主队2.74，穿盘价值一般。综合推荐主胜(HAD)。"
+      },
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 1.49,
+      "is_parlay_leg": true
+    },
+    {
+      "match_id": 2040828,
+      "match_num": "周四010",
+      "league": "南美解放者杯",
+      "league_abbr": "解放者杯",
+      "home": "罗萨里奥中央",
+      "away": "科林蒂安",
+      "match_time": "2026-08-14 08:30",
+      "match_status": "Selling",
+      "odds": {
+        "HAD": {
+          "h": "2.02",
+          "d": "2.70",
+          "a": "3.80",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "4.90",
+          "d": "3.30",
+          "a": "1.61",
+          "goal_line": "-1.00"
+        }
+      },
+      "data_analysis": {
+        "tendency": "H",
+        "confidence": "low",
+        "reasoning": "罗萨里奥中央(阿甲)主场对阵科林蒂安(巴甲)。ESPN数据拉取超时，仅确认比赛存在，无法获取双方近期战绩。科林蒂安作为巴甲传统强队实力通常占优，但客场作战。数据样本严重不足，判断不可靠。"
+      },
+      "odds_analysis": {
+        "had": {
+          "h": 2.02,
+          "d": 2.7,
+          "a": 3.8
+        },
+        "had_fair_prob": {
+          "h": 0.45,
+          "d": 0.34,
+          "a": 0.21
+        },
+        "conclusion": "官方赔率2.02/2.70/3.80显示主队仅轻微占优，平局概率偏高(34%)。数据不足+市场分歧大，此场不纳入串关，仅作观察。"
+      },
+      "final_pick": null,
+      "pick_market": null,
+      "pick_odds": null,
+      "is_parlay_leg": false
+    }
+  ],
+  "parlays": [
+    {
+      "name": "串关1",
+      "type": "2串1",
+      "legs": [
+        {
+          "match_id": 2040827,
+          "match_num": "周四009",
+          "home": "米拉索尔",
+          "away": "基多体育大学",
+          "pick": "H",
+          "odds": 1.49
+        }
+      ],
+      "total_odds": 1.49,
+      "reason": "今日仅1场达到medium以上置信度且有明确数据面支撑(米拉索尔主场+赔率确认)。单场可作为观察仓，不强行凑2串1。等待数据更全的场次再组串。"
+    }
+  ]
+}
