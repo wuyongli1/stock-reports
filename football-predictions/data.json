@@ -1,127 +1,18 @@
 {
-  "updated_at": "2026-08-13 00:33:08",
+  "updated_at": "2026-08-13 00:34:56",
   "stats": {
-    "total": 3,
-    "hit": 1,
-    "miss": 1,
+    "total": 1,
+    "hit": 0,
+    "miss": 0,
     "pending": 1,
-    "parlays": 2,
+    "parlays": 1,
     "parlayWin": 0,
-    "parlayLose": 1,
+    "parlayLose": 0,
     "parlayPending": 1,
-    "hit_rate": 33.3,
+    "hit_rate": 0.0,
     "parlay_rate": 0.0
   },
   "records": [
-    {
-      "date": "2026-08-12",
-      "analysis_time": "2026-08-12T11:30:00",
-      "matches": [
-        {
-          "match_id": 2040818,
-          "match_num": "周二010",
-          "league": "南美解放者杯",
-          "home": "弗鲁米嫩塞",
-          "away": "里瓦达维亚独立",
-          "match_time": "2026-08-13 06:00",
-          "odds": {
-            "h": "1.57",
-            "d": "3.25",
-            "a": "5.40",
-            "goal_line": ""
-          },
-          "data_analysis": {
-            "tendency": "H",
-            "confidence": "high",
-            "reasoning": "弗鲁米嫩塞主场作战，近期状态出色，解放者杯小组赛3连胜，场均进球2.3个。客队里瓦达维亚独立客场战绩疲软，近5个客场仅1胜。主场优势明显，数据面倾向主胜。"
-          },
-          "odds_analysis": {
-            "had": {
-              "h": 1.57,
-              "d": 3.25,
-              "a": 5.4
-            },
-            "had_fair_prob": {
-              "h": 0.61,
-              "d": 0.28,
-              "a": 0.11
-            },
-            "conclusion": "官方赔率1.57/3.25/5.40，主胜概率约61%，与数据面判断一致。让球盘-1球赔率2.40，主队穿盘有一定难度但方向明确。综合推荐主胜。"
-          },
-          "final_pick": "H",
-          "pick_market": "HAD",
-          "pick_odds": 1.57,
-          "result": "miss",
-          "score": "0:0",
-          "review": ""
-        },
-        {
-          "match_id": 2040817,
-          "match_num": "周二009",
-          "league": "欧洲冠军联赛",
-          "home": "里昂",
-          "away": "布拉格斯巴达",
-          "match_time": "2026-08-13 03:00",
-          "odds": {
-            "h": "1.27",
-            "d": "4.85",
-            "a": "7.35",
-            "goal_line": ""
-          },
-          "data_analysis": {
-            "tendency": "H",
-            "confidence": "high",
-            "reasoning": "里昂主场对阵布拉格斯巴达，法甲劲旅实力明显占优。欧冠资格赛首回合主场作战，战意十足。布拉格斯巴达客场面对强队防守压力大。数据面强烈倾向主胜。"
-          },
-          "odds_analysis": {
-            "had": {
-              "h": 1.27,
-              "d": 4.85,
-              "a": 7.35
-            },
-            "had_fair_prob": {
-              "h": 0.75,
-              "d": 0.19,
-              "a": 0.06
-            },
-            "conclusion": "主胜赔率仅1.27，市场概率75%，与数据面高度一致。但赔率过低缺乏投注价值，让球盘-1球1.95有更好性价比。"
-          },
-          "final_pick": "H",
-          "pick_market": "HHAD",
-          "pick_odds": 1.95,
-          "result": "hit",
-          "score": "3:0",
-          "review": ""
-        }
-      ],
-      "parlays": [
-        {
-          "name": "串关1",
-          "type": "2串1",
-          "total_odds": 3.06,
-          "reason": "两场都是主队数据面+赔率面双重确认的高置信场次，串关综合赔率3.06，性价比合理。",
-          "result": "lose",
-          "legs": [
-            {
-              "match_num": "周二010",
-              "home": "弗鲁米嫩塞",
-              "away": "里瓦达维亚独立",
-              "pick": "H",
-              "odds": 1.57,
-              "result": "miss"
-            },
-            {
-              "match_num": "周二009",
-              "home": "里昂",
-              "away": "布拉格斯巴达",
-              "pick": "H",
-              "odds": 1.95,
-              "result": "hit"
-            }
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-08-13",
       "analysis_time": "2026-08-13T11:30:00",
