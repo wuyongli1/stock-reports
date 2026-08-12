@@ -506,7 +506,8 @@ function renderRecommendation() {
   // 取最新一天的记录
   const latest = DATA.records[DATA.records.length - 1];
   const dateStr = latest.date || '';
-  const parlays = latest.parlays || [];
+  const parlays = (latest.parlays || []).filter(p => (p.legs || []).length >= 2); // 只认 ≥2腿 的串关
+  const singles = latest.singles || [];
 
   let html = '<div class="reco-box">';
   html += `<div class="reco-title">🎯 今日推荐</div>`;
@@ -517,7 +518,7 @@ function renderRecommendation() {
     parlays.forEach(p => {
       html += `<div class="reco-parlay">`;
       html += `<div class="reco-parlay-head">
-        <span class="reco-parlay-name">🎯 ${p.name || '串关'}（${p.type || ''}）</span>
+        <span class="reco-parlay-name">🎯 ${p.name || '串关'}（${p.type || '串关'}）</span>
         <span class="reco-parlay-odds">综合赔率 ${p.total_odds || '-'}</span>
       </div>`;
       html += `<div class="reco-legs">`;
@@ -535,23 +536,22 @@ function renderRecommendation() {
       if (p.reason) html += `<div class="reco-reason">💡 ${p.reason}</div>`;
       html += `</div>`;
     });
+  } else if (singles.length > 0) {
+    // 无串关: 展示单场推荐(明确标注非串关)
+    html += `<div class="reco-empty" style="text-align:left;margin-bottom:10px">今日不足 2 场高置信比赛，暂无串关组合；以下为单场参考：</div>`;
+    singles.forEach(m => {
+      const conf = m.confidence || '';
+      const resultMark = m.result === 'hit' ? ' ✅' : (m.result === 'miss' ? ' ❌' : '');
+      const market = m.pick_market === 'HHAD' ? '让球' : '';
+      html += `<div class="reco-single">
+        <span class="reco-single-team">${m.match_num || ''} ${m.home} vs ${m.away} <span class="reco-tag">${conf || ''}置信</span></span>
+        <span class="reco-single-pick">${market || ''}${pickLabel(m.final_pick)}${resultMark}</span>
+        <span class="reco-leg-odds">@ ${m.pick_odds || '-'}</span>
+      </div>`;
+    });
+    html += `<div class="reco-reason">以上为单场参考，非串关。可自行决定是否组合。</div>`;
   } else {
-    // 无串关: 展示高置信单场推荐
-    const picks = (latest.matches || []).filter(m => m.final_pick);
-    if (picks.length > 0) {
-      picks.forEach(m => {
-        const conf = m.data_analysis && m.data_analysis.confidence ? m.data_analysis.confidence : '';
-        const resultMark = m.result === 'hit' ? ' ✅' : (m.result === 'miss' ? ' ❌' : '');
-        html += `<div class="reco-single">
-          <span class="reco-single-team">${m.match_num || ''} ${m.home} vs ${m.away} <span class="reco-tag">${conf || ''}置信</span></span>
-          <span class="reco-single-pick">${pickLabel(m.final_pick)}${resultMark}</span>
-          <span class="reco-leg-odds">@ ${m.pick_odds || '-'}</span>
-        </div>`;
-      });
-      html += `<div class="reco-reason">今日无组合串关，以上为独立高置信场次，可单独参考或自行组合。</div>`;
-    } else {
-      html += '<div class="reco-empty">今日无推荐场次（数据不足或信心不足，建议观望）</div>';
-    }
+    html += '<div class="reco-empty">今日无推荐场次（数据不足或信心不足，建议观望）</div>';
   }
 
   html += '</div>';
