@@ -19,7 +19,11 @@
 
 ## 📊 看板访问
 
-**https://wuyongli1.github.io/football-predictions/**
+**GitHub Pages（主站）**: https://wuyongli1.github.io/stock-reports/football-predictions/
+
+**Vercel 备用站**: https://football-predictions-sandy.vercel.app/
+
+> GitHub Pages（github.io）在中国大陆不同网络环境下连通性不稳定；Vercel 备用站是独立部署，主站打不开时使用。每日 cron 更新时会同时部署两个站，内容保持一致。
 
 看板功能：
 - 总预测场次 / 命中 / 未中 / 命中率 统计
