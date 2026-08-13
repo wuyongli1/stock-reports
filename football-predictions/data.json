@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-13 00:48:08",
+  "updated_at": "2026-08-13 13:52:11",
   "stats": {
-    "total": 1,
+    "total": 10,
     "hit": 0,
     "miss": 0,
-    "pending": 1,
+    "pending": 10,
     "parlays": 0,
     "parlayWin": 0,
     "parlayLose": 0,
@@ -15,15 +15,383 @@
   "records": [
     {
       "date": "2026-08-13",
-      "analysis_time": "2026-08-13T11:30:00",
+      "analysis_time": "2026-08-13T13:12:28+08:00",
       "matches": [
+        {
+          "match_id": 2040832,
+          "match_num": "周四001",
+          "league": "沙特职业联赛",
+          "home": "艾卜哈",
+          "away": "拉斯决心",
+          "match_time": "00:15",
+          "odds": {
+            "h": "2.32",
+            "d": "3.15",
+            "a": "2.63",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "H",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，艾卜哈与拉斯决心双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3819,
+              "d": 0.2813,
+              "a": 0.3369
+            },
+            "overround": 0.1287,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.3819、平局0.2813、客胜0.3369；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
+          },
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.32,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040821,
+          "match_num": "周四002",
+          "league": "欧罗巴联赛",
+          "home": "克拉约瓦大学",
+          "away": "库奥皮奥",
+          "match_time": "01:00",
+          "odds": {
+            "h": "1.32",
+            "d": "4.25",
+            "a": "7.40",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "H",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，克拉约瓦大学与库奥皮奥双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.6716,
+              "d": 0.2086,
+              "a": 0.1198
+            },
+            "overround": 0.128,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.6716、平局0.2086、客胜0.1198；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
+          },
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.32,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040822,
+          "match_num": "周四003",
+          "league": "欧罗巴联赛",
+          "home": "帕福斯",
+          "away": "萨尔茨堡",
+          "match_time": "01:00",
+          "odds": {
+            "h": "3.05",
+            "d": "3.45",
+            "a": "1.96",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "A",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，帕福斯与萨尔茨堡双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.2907,
+              "d": 0.257,
+              "a": 0.4523
+            },
+            "overround": 0.1279,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.2907、平局0.2570、客胜0.4523；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
+          },
+          "final_pick": "A",
+          "pick_market": "HAD",
+          "pick_odds": 1.96,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040833,
+          "match_num": "周四004",
+          "league": "欧罗巴联赛",
+          "home": "雷克雅未克维京人",
+          "away": "图恩",
+          "match_time": "01:30",
+          "odds": {
+            "h": "2.28",
+            "d": "3.65",
+            "a": "2.40",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "H",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，雷克雅未克维京人与图恩双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3884,
+              "d": 0.2426,
+              "a": 0.369
+            },
+            "overround": 0.1292,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.3884、平局0.2426、客胜0.3690；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
+          },
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.28,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040823,
+          "match_num": "周四005",
+          "league": "沙特职业联赛",
+          "home": "利雅得青年",
+          "away": "胡巴尔卡德西亚",
+          "match_time": "02:00",
+          "odds": {
+            "h": "4.45",
+            "d": "4.20",
+            "a": "1.50",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "A",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，利雅得青年与胡巴尔卡德西亚双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.199,
+              "d": 0.2108,
+              "a": 0.5902
+            },
+            "overround": 0.1295,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.1990、平局0.2108、客胜0.5902；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
+          },
+          "final_pick": "A",
+          "pick_market": "HAD",
+          "pick_odds": 1.5,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040824,
+          "match_num": "周四006",
+          "league": "欧罗巴联赛",
+          "home": "格拉斯哥流浪者",
+          "away": "比亚韦斯托克",
+          "match_time": "02:30",
+          "odds": {
+            "h": "1.54",
+            "d": "3.90",
+            "a": "4.50",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "H",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，格拉斯哥流浪者与比亚韦斯托克双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5757,
+              "d": 0.2273,
+              "a": 0.197
+            },
+            "overround": 0.128,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.5757、平局0.2273、客胜0.1970；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
+          },
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.54,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040825,
+          "match_num": "周四007",
+          "league": "欧罗巴联赛",
+          "home": "安德莱赫特",
+          "away": "塞萨洛尼基",
+          "match_time": "02:30",
+          "odds": {
+            "h": "2.75",
+            "d": "3.30",
+            "a": "2.17",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "A",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，安德莱赫特与塞萨洛尼基双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3225,
+              "d": 0.2688,
+              "a": 0.4087
+            },
+            "overround": 0.1275,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.3225、平局0.2688、客胜0.4087；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
+          },
+          "final_pick": "A",
+          "pick_market": "HAD",
+          "pick_odds": 2.17,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040826,
+          "match_num": "周四008",
+          "league": "欧罗巴联赛",
+          "home": "哈茨",
+          "away": "本菲卡",
+          "match_time": "02:45",
+          "odds": {
+            "h": "5.90",
+            "d": "4.80",
+            "a": "1.33",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "A",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，哈茨与本菲卡双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.15,
+              "d": 0.1844,
+              "a": 0.6656
+            },
+            "overround": 0.1297,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.1500、平局0.1844、客胜0.6656；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
+          },
+          "final_pick": "A",
+          "pick_market": "HAD",
+          "pick_odds": 1.33,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
         {
           "match_id": 2040827,
           "match_num": "周四009",
           "league": "南美解放者杯",
           "home": "米拉索尔",
           "away": "基多体育大学",
-          "match_time": "2026-08-14 06:00",
+          "match_time": "06:00",
           "odds": {
             "h": "1.49",
             "d": "3.60",
@@ -32,21 +400,29 @@
           },
           "data_analysis": {
             "tendency": "H",
-            "confidence": "medium",
-            "reasoning": "米拉索尔(巴甲)近期6场2胜3平1负，主场进攻尚可(近6场共进8球)，但防守不稳(6场失7球)。基多体育大学(厄瓜多尔)为高原主场球队，客场作战是弱点，跨洲远征体能存疑。ESPN覆盖有限，样本不足，仅凭近期战绩判断主队略优，倾向主胜但置信度中等。"
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，米拉索尔与基多体育大学双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
           },
           "odds_analysis": {
-            "had": {
-              "h": 1.49,
-              "d": 3.6,
-              "a": 5.6
-            },
             "had_fair_prob": {
-              "h": 0.64,
-              "d": 0.26,
-              "a": 0.1
+              "h": 0.5953,
+              "d": 0.2464,
+              "a": 0.1584
             },
-            "conclusion": "官方赔率1.49/3.60/5.60，去水后主胜概率约64%，与数据面主胜倾向一致。让球盘-1球主队2.74，穿盘价值一般。综合推荐主胜(HAD)。"
+            "overround": 0.1275,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.5953、平局0.2464、客胜0.1584；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
           },
           "final_pick": "H",
           "pick_market": "HAD",
@@ -61,7 +437,7 @@
           "league": "南美解放者杯",
           "home": "罗萨里奥中央",
           "away": "科林蒂安",
-          "match_time": "2026-08-14 08:30",
+          "match_time": "08:30",
           "odds": {
             "h": "2.02",
             "d": "2.70",
@@ -71,47 +447,39 @@
           "data_analysis": {
             "tendency": "H",
             "confidence": "low",
-            "reasoning": "罗萨里奥中央(阿甲)主场对阵科林蒂安(巴甲)。ESPN数据拉取超时，仅确认比赛存在，无法获取双方近期战绩。科林蒂安作为巴甲传统强队实力通常占优，但客场作战。数据样本严重不足，判断不可靠。"
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "reasoning": "阶段A：可靠近况源不可用，罗萨里奥中央与科林蒂安双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+            "missing_data": [
+              "双方近5场可核验赛果",
+              "排名",
+              "主客场拆分",
+              "进失球",
+              "伤停",
+              "正式首发"
+            ]
           },
           "odds_analysis": {
-            "had": {
-              "h": 2.02,
-              "d": 2.7,
-              "a": 3.8
-            },
             "had_fair_prob": {
-              "h": 0.45,
-              "d": 0.34,
-              "a": 0.21
+              "h": 0.4386,
+              "d": 0.3282,
+              "a": 0.2332
             },
-            "conclusion": "官方赔率2.02/2.70/3.80显示主队仅轻微占优，平局概率偏高(34%)。数据不足+市场分歧大，此场不纳入串关，仅作观察。"
+            "overround": 0.1286,
+            "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.4386、平局0.3282、客胜0.2332；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
           },
-          "final_pick": null,
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.02,
           "result": "pending",
           "score": "",
           "review": ""
         }
       ],
       "parlays": [],
-      "singles": [
-        {
-          "match_id": 2040827,
-          "match_num": "周四009",
-          "league": "南美解放者杯",
-          "home": "米拉索尔",
-          "away": "基多体育大学",
-          "match_time": "2026-08-14 06:00",
-          "final_pick": "H",
-          "pick_market": "HAD",
-          "pick_odds": 1.49,
-          "confidence": "medium",
-          "reasoning": "米拉索尔(巴甲)近期6场2胜3平1负，主场进攻尚可(近6场共进8球)，但防守不稳(6场失7球)。基多体育大学(厄瓜多尔)为高原主场球队，客场作战是弱点，跨洲远征体能存疑。ESPN覆盖有限，样本不足，仅凭近期战绩判断主队略优，倾向主胜但置信度中等。",
-          "conclusion": "官方赔率1.49/3.60/5.60，去水后主胜概率约64%，与数据面主胜倾向一致。让球盘-1球主队2.74，穿盘价值一般。综合推荐主胜(HAD)。",
-          "result": "pending"
-        }
-      ]
+      "singles": []
     }
   ]
 }
