@@ -1,504 +1,537 @@
 {
   "date": "2026-08-13",
-  "analysis_time": "2026-08-13T12:48:09+08:00",
-  "source_refresh_time": "2026-08-13T12:48:09+08:00",
+  "analysis_time": "2026-08-13T13:12:28+08:00",
+  "source_refresh_time": "2026-08-13T13:12:28+08:00",
+  "model": "gpt-5.6-terra",
+  "provider": "tokenfun",
   "coverage": {
-    "official_selling_matches": 10,
+    "eligible_matches": 10,
     "analyzed_matches": 10,
-    "recommended_matches": 0,
-    "skipped_matches": 10,
-    "reason": "10场官方在售比赛均已逐场纳入；因独立球队数据源未能取得足够近期样本，全部按证据标准观望。"
+    "excluded_matches": 17,
+    "official_odds_pool": "HAD",
+    "rule": "覆盖所有当前有官方HAD赔率且在售（Selling）的比赛；未开售或HAD缺失场次不纳入。",
+    "data_source": "data/context_today.md 与 data/raw/matches_all_2026-08-13.json；阶段A可靠近况数据源不可用，10场双方近期样本均为0/5，未将赔率冒充近况。"
   },
   "matches": [
     {
       "match_id": 2040832,
       "match_num": "周四001",
       "league": "沙特职业联赛",
-      "league_abbr": "沙职",
       "home": "艾卜哈",
       "away": "拉斯决心",
-      "match_time": "2026-08-14 00:15",
-      "match_status": "Selling",
+      "match_time": "00:15",
       "odds": {
-        "HHAD": {
-          "h": "5.20",
-          "d": "4.00",
-          "a": "1.46",
-          "goal_line": "-1.00"
-        },
         "HAD": {
           "h": "2.32",
           "d": "3.15",
           "a": "2.63",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "5.20",
+          "d": "4.00",
+          "a": "1.46",
+          "goal_line": "-1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "H",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，艾卜哈与拉斯决心双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 2.32,
-          "d": 3.15,
-          "a": 2.63
-        },
-        "overround": 0.1287,
         "had_fair_prob": {
           "h": 0.3819,
           "d": 0.2813,
           "a": 0.3369
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1287,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.3819、平局0.2813、客胜0.3369；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 2.32,
+      "recommendation": "主胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040821,
       "match_num": "周四002",
       "league": "欧罗巴联赛",
-      "league_abbr": "欧罗巴",
       "home": "克拉约瓦大学",
       "away": "库奥皮奥",
-      "match_time": "2026-08-14 01:00",
-      "match_status": "Selling",
+      "match_time": "01:00",
       "odds": {
-        "HHAD": {
-          "h": "2.16",
-          "d": "3.25",
-          "a": "2.80",
-          "goal_line": "-1.00"
-        },
         "HAD": {
           "h": "1.32",
           "d": "4.25",
           "a": "7.40",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "2.16",
+          "d": "3.25",
+          "a": "2.80",
+          "goal_line": "-1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "H",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，克拉约瓦大学与库奥皮奥双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 1.32,
-          "d": 4.25,
-          "a": 7.4
-        },
-        "overround": 0.128,
         "had_fair_prob": {
           "h": 0.6716,
           "d": 0.2086,
           "a": 0.1198
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.128,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.6716、平局0.2086、客胜0.1198；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 1.32,
+      "recommendation": "主胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040822,
       "match_num": "周四003",
       "league": "欧罗巴联赛",
-      "league_abbr": "欧罗巴",
       "home": "帕福斯",
       "away": "萨尔茨堡",
-      "match_time": "2026-08-14 01:00",
-      "match_status": "Selling",
+      "match_time": "01:00",
       "odds": {
-        "HHAD": {
-          "h": "1.65",
-          "d": "3.70",
-          "a": "3.95",
-          "goal_line": "+1.00"
-        },
         "HAD": {
           "h": "3.05",
           "d": "3.45",
           "a": "1.96",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.65",
+          "d": "3.70",
+          "a": "3.95",
+          "goal_line": "+1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "A",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，帕福斯与萨尔茨堡双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 3.05,
-          "d": 3.45,
-          "a": 1.96
-        },
-        "overround": 0.1279,
         "had_fair_prob": {
           "h": 0.2907,
           "d": 0.257,
           "a": 0.4523
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1279,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.2907、平局0.2570、客胜0.4523；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "A",
+      "pick_market": "HAD",
+      "pick_odds": 1.96,
+      "recommendation": "客胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040833,
       "match_num": "周四004",
       "league": "欧罗巴联赛",
-      "league_abbr": "欧罗巴",
       "home": "雷克雅未克维京人",
       "away": "图恩",
-      "match_time": "2026-08-14 01:30",
-      "match_status": "Selling",
+      "match_time": "01:30",
       "odds": {
-        "HHAD": {
-          "h": "4.70",
-          "d": "4.15",
-          "a": "1.48",
-          "goal_line": "-1.00"
-        },
         "HAD": {
           "h": "2.28",
           "d": "3.65",
           "a": "2.40",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "4.70",
+          "d": "4.15",
+          "a": "1.48",
+          "goal_line": "-1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "H",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，雷克雅未克维京人与图恩双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 2.28,
-          "d": 3.65,
-          "a": 2.4
-        },
-        "overround": 0.1292,
         "had_fair_prob": {
           "h": 0.3884,
           "d": 0.2426,
           "a": 0.369
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1292,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.3884、平局0.2426、客胜0.3690；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 2.28,
+      "recommendation": "主胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040823,
       "match_num": "周四005",
       "league": "沙特职业联赛",
-      "league_abbr": "沙职",
       "home": "利雅得青年",
       "away": "胡巴尔卡德西亚",
-      "match_time": "2026-08-14 02:00",
-      "match_status": "Selling",
+      "match_time": "02:00",
       "odds": {
-        "HHAD": {
-          "h": "2.25",
-          "d": "3.60",
-          "a": "2.46",
-          "goal_line": "+1.00"
-        },
         "HAD": {
           "h": "4.45",
           "d": "4.20",
           "a": "1.50",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "2.25",
+          "d": "3.60",
+          "a": "2.46",
+          "goal_line": "+1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "A",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，利雅得青年与胡巴尔卡德西亚双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 4.45,
-          "d": 4.2,
-          "a": 1.5
-        },
-        "overround": 0.1295,
         "had_fair_prob": {
           "h": 0.199,
           "d": 0.2108,
           "a": 0.5902
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1295,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.1990、平局0.2108、客胜0.5902；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "A",
+      "pick_market": "HAD",
+      "pick_odds": 1.5,
+      "recommendation": "客胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040824,
       "match_num": "周四006",
       "league": "欧罗巴联赛",
-      "league_abbr": "欧罗巴",
       "home": "格拉斯哥流浪者",
       "away": "比亚韦斯托克",
-      "match_time": "2026-08-14 02:30",
-      "match_status": "Selling",
+      "match_time": "02:30",
       "odds": {
-        "HHAD": {
-          "h": "2.70",
-          "d": "3.35",
-          "a": "2.17",
-          "goal_line": "-1.00"
-        },
         "HAD": {
           "h": "1.54",
           "d": "3.90",
           "a": "4.50",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "2.70",
+          "d": "3.35",
+          "a": "2.17",
+          "goal_line": "-1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "H",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，格拉斯哥流浪者与比亚韦斯托克双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 1.54,
-          "d": 3.9,
-          "a": 4.5
-        },
-        "overround": 0.128,
         "had_fair_prob": {
           "h": 0.5757,
           "d": 0.2273,
           "a": 0.197
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.128,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.5757、平局0.2273、客胜0.1970；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 1.54,
+      "recommendation": "主胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040825,
       "match_num": "周四007",
       "league": "欧罗巴联赛",
-      "league_abbr": "欧罗巴",
       "home": "安德莱赫特",
       "away": "塞萨洛尼基",
-      "match_time": "2026-08-14 02:30",
-      "match_status": "Selling",
+      "match_time": "02:30",
       "odds": {
-        "HHAD": {
-          "h": "1.54",
-          "d": "3.75",
-          "a": "4.70",
-          "goal_line": "+1.00"
-        },
         "HAD": {
           "h": "2.75",
           "d": "3.30",
           "a": "2.17",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.54",
+          "d": "3.75",
+          "a": "4.70",
+          "goal_line": "+1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "A",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，安德莱赫特与塞萨洛尼基双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 2.75,
-          "d": 3.3,
-          "a": 2.17
-        },
-        "overround": 0.1275,
         "had_fair_prob": {
           "h": 0.3225,
           "d": 0.2688,
           "a": 0.4087
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1275,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.3225、平局0.2688、客胜0.4087；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "A",
+      "pick_market": "HAD",
+      "pick_odds": 2.17,
+      "recommendation": "客胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040826,
       "match_num": "周四008",
       "league": "欧罗巴联赛",
-      "league_abbr": "欧罗巴",
       "home": "哈茨",
       "away": "本菲卡",
-      "match_time": "2026-08-14 02:45",
-      "match_status": "Selling",
+      "match_time": "02:45",
       "odds": {
-        "HHAD": {
-          "h": "2.78",
-          "d": "3.55",
-          "a": "2.05",
-          "goal_line": "+1.00"
-        },
         "HAD": {
           "h": "5.90",
           "d": "4.80",
           "a": "1.33",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "2.78",
+          "d": "3.55",
+          "a": "2.05",
+          "goal_line": "+1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "A",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，哈茨与本菲卡双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出客胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 5.9,
-          "d": 4.8,
-          "a": 1.33
-        },
-        "overround": 0.1297,
         "had_fair_prob": {
           "h": 0.15,
           "d": 0.1844,
           "a": 0.6656
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1297,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.1500、平局0.1844、客胜0.6656；市场最高概率为客胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的客胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "A",
+      "pick_market": "HAD",
+      "pick_odds": 1.33,
+      "recommendation": "客胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040827,
       "match_num": "周四009",
       "league": "南美解放者杯",
-      "league_abbr": "解放者杯",
       "home": "米拉索尔",
       "away": "基多体育大学",
-      "match_time": "2026-08-14 06:00",
-      "match_status": "Selling",
+      "match_time": "06:00",
       "odds": {
-        "HHAD": {
-          "h": "2.74",
-          "d": "3.10",
-          "a": "2.27",
-          "goal_line": "-1.00"
-        },
         "HAD": {
           "h": "1.49",
           "d": "3.60",
           "a": "5.60",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "2.74",
+          "d": "3.10",
+          "a": "2.27",
+          "goal_line": "-1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "H",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，米拉索尔与基多体育大学双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 1.49,
-          "d": 3.6,
-          "a": 5.6
-        },
-        "overround": 0.1275,
         "had_fair_prob": {
           "h": 0.5953,
           "d": 0.2464,
           "a": 0.1584
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1275,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.5953、平局0.2464、客胜0.1584；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 1.49,
+      "recommendation": "主胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     },
     {
       "match_id": 2040828,
       "match_num": "周四010",
       "league": "南美解放者杯",
-      "league_abbr": "解放者杯",
       "home": "罗萨里奥中央",
       "away": "科林蒂安",
-      "match_time": "2026-08-14 08:30",
-      "match_status": "Selling",
+      "match_time": "08:30",
       "odds": {
-        "HHAD": {
-          "h": "4.90",
-          "d": "3.30",
-          "a": "1.61",
-          "goal_line": "-1.00"
-        },
         "HAD": {
           "h": "2.02",
           "d": "2.70",
           "a": "3.80",
           "goal_line": ""
+        },
+        "HHAD": {
+          "h": "4.90",
+          "d": "3.30",
+          "a": "1.61",
+          "goal_line": "-1.00"
         }
       },
       "data_analysis": {
-        "tendency": "OBSERVE",
+        "tendency": "H",
         "confidence": "low",
-        "sample_size": 0,
-        "reasoning": "本次已完成官方赛程、开球时间与HAD/让球赔率核验；独立球队近期战绩/伤停数据源在本轮拉取中持续超时，未取得可核验的近5场样本，因此不据赔率臆造球队状态或方向。"
+        "sample_size": {
+          "home_recent_matches": 0,
+          "away_recent_matches": 0
+        },
+        "reasoning": "阶段A：可靠近况源不可用，罗萨里奥中央与科林蒂安双方近5场均为0/5；缺少排名、近期赛果、进失球、主客场拆分、伤停和首发样本。仅依据主客场及赛事对阵结构给出主胜低置信倾向，不能把赔率当作近况。",
+        "missing_data": [
+          "双方近5场可核验赛果",
+          "排名",
+          "主客场拆分",
+          "进失球",
+          "伤停",
+          "正式首发"
+        ]
       },
       "odds_analysis": {
-        "had": {
-          "h": 2.02,
-          "d": 2.7,
-          "a": 3.8
-        },
-        "overround": 0.1286,
         "had_fair_prob": {
           "h": 0.4386,
           "d": 0.3282,
           "a": 0.2332
         },
-        "conclusion": "以下为体彩官方赔率去水后的市场概率，仅用于盘口校验，不构成球队数据面的推荐依据。"
+        "overround": 0.1286,
+        "conclusion": "阶段B：HAD原始隐含概率去水后主胜0.4386、平局0.3282、客胜0.2332；市场最高概率为主胜。赔率只用于市场后验校验，不能弥补阶段A样本缺口；与阶段A的主胜倾向方向一致。"
       },
-      "final_pick": null,
-      "pick_market": null,
-      "pick_odds": null,
-      "is_parlay_leg": false,
-      "recommendation": "观望：独立数据不足，不推荐单场或串关。"
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 2.02,
+      "recommendation": "主胜低置信单场参考；阶段A双方均0/5，数据缺口未补齐，不纳入串关。"
     }
   ],
   "parlays": []
