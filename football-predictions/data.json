@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-15 11:57:16",
+  "updated_at": "2026-08-16 11:51:55",
   "stats": {
-    "total": 115,
-    "hit": 7,
-    "miss": 19,
-    "pending": 89,
+    "total": 143,
+    "hit": 9,
+    "miss": 60,
+    "pending": 74,
     "parlays": 0,
     "parlayWin": 0,
     "parlayLose": 0,
     "parlayPending": 0,
-    "hit_rate": 6.1,
+    "hit_rate": 6.3,
     "parlay_rate": 0
   },
   "records": [
@@ -1383,8 +1383,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.35,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -1436,8 +1436,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.04,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:4",
           "review": ""
         },
         {
@@ -1489,8 +1489,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.35,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -1542,8 +1542,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.12,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -1595,8 +1595,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.35,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "4:2",
           "review": ""
         },
         {
@@ -1648,8 +1648,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.02,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -1701,8 +1701,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.45,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "4:1",
           "review": ""
         },
         {
@@ -1754,8 +1754,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.95,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -1807,8 +1807,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.1,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -1860,8 +1860,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.45,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -1913,8 +1913,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 2.95,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -1966,8 +1966,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 2.6,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -2019,8 +2019,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 4.6,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -2072,8 +2072,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.95,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:1",
           "review": ""
         },
         {
@@ -2125,8 +2125,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 2.9,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -2178,8 +2178,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 4.85,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:2",
           "review": ""
         },
         {
@@ -2840,8 +2840,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -2857,8 +2857,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:4",
           "review": ""
         },
         {
@@ -2874,8 +2874,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -2891,8 +2891,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -2908,8 +2908,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "4:2",
           "review": ""
         },
         {
@@ -2925,8 +2925,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -2942,8 +2942,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "4:1",
           "review": ""
         },
         {
@@ -2959,8 +2959,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -2976,8 +2976,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "4:3",
           "review": ""
         },
         {
@@ -2993,8 +2993,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -3010,8 +3010,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -3027,8 +3027,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -3044,8 +3044,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -3061,8 +3061,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:0",
           "review": ""
         },
         {
@@ -3078,8 +3078,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -3095,8 +3095,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -3112,8 +3112,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -3129,8 +3129,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -3146,8 +3146,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -3163,8 +3163,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -3180,8 +3180,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -3197,8 +3197,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -3214,8 +3214,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:1",
           "review": ""
         },
         {
@@ -3231,8 +3231,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -3248,8 +3248,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:2",
           "review": ""
         },
         {
@@ -3265,8 +3265,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:2",
           "review": ""
         },
         {
@@ -3282,7 +3282,7 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
+          "result": "miss",
           "score": "",
           "review": ""
         },
@@ -3857,6 +3857,1415 @@
           "odds": {},
           "data_analysis": null,
           "odds_analysis": null,
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
+      "review": "昨日预测记录未形成可结算推荐或串关，因此不存在命中与否的有效复盘样本。最近赛果已由 prep 刷新，但不能将未发布选择倒推为数据面或赔率面结论。后续仅对赛前具备完整球队样本、阵容与独立盘口证据的选择进行复盘。"
+    },
+    {
+      "date": "2026-08-16",
+      "analysis_time": "2026-08-16T11:51:39+08:00",
+      "matches": [
+        {
+          "match_id": 2040888,
+          "match_num": "周日001",
+          "league": "日本乙级联赛",
+          "home": "德岛漩涡",
+          "away": "鸟栖沙岩",
+          "match_time": "2026-08-16 18:00",
+          "odds": {
+            "h": "2.40",
+            "d": "2.95",
+            "a": "2.68",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.4167,
+              "d": 0.339,
+              "a": 0.3731
+            },
+            "overround": 0.1288,
+            "had_fair_prob": {
+              "h": 0.3692,
+              "d": 0.3003,
+              "a": 0.3305
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040889,
+          "match_num": "周日002",
+          "league": "荷兰甲级联赛",
+          "home": "海牙",
+          "away": "格罗宁根",
+          "match_time": "2026-08-16 18:15",
+          "odds": {
+            "h": "2.60",
+            "d": "3.40",
+            "a": "2.22",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.3846,
+              "d": 0.2941,
+              "a": 0.4505
+            },
+            "overround": 0.1292,
+            "had_fair_prob": {
+              "h": 0.3406,
+              "d": 0.2604,
+              "a": 0.399
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040890,
+          "match_num": "周日003",
+          "league": "韩国职业联赛",
+          "home": "富川FC",
+          "away": "全北现代",
+          "match_time": "2026-08-16 18:30",
+          "odds": {
+            "h": "4.20",
+            "d": "3.30",
+            "a": "1.70",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.2381,
+              "d": 0.303,
+              "a": 0.5882
+            },
+            "overround": 0.1293,
+            "had_fair_prob": {
+              "h": 0.2108,
+              "d": 0.2683,
+              "a": 0.5209
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040891,
+          "match_num": "周日004",
+          "league": "韩国职业联赛",
+          "home": "仁川联",
+          "away": "金泉尚武",
+          "match_time": "2026-08-16 18:30",
+          "odds": {
+            "h": "2.15",
+            "d": "2.97",
+            "a": "3.05",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.4651,
+              "d": 0.3367,
+              "a": 0.3279
+            },
+            "overround": 0.1297,
+            "had_fair_prob": {
+              "h": 0.4117,
+              "d": 0.298,
+              "a": 0.2903
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040892,
+          "match_num": "周日005",
+          "league": "瑞典超级联赛",
+          "home": "布鲁马波卡纳",
+          "away": "厄尔格里特",
+          "match_time": "2026-08-16 20:00",
+          "odds": {
+            "h": "1.63",
+            "d": "3.75",
+            "a": "4.02",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.6135,
+              "d": 0.2667,
+              "a": 0.2488
+            },
+            "overround": 0.129,
+            "had_fair_prob": {
+              "h": 0.5434,
+              "d": 0.2362,
+              "a": 0.2204
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040893,
+          "match_num": "周日006",
+          "league": "瑞典超级联赛",
+          "home": "代格福什",
+          "away": "IFK哥德堡",
+          "match_time": "2026-08-16 20:00",
+          "odds": {
+            "h": "2.67",
+            "d": "3.28",
+            "a": "2.22",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.3745,
+              "d": 0.3049,
+              "a": 0.4505
+            },
+            "overround": 0.1299,
+            "had_fair_prob": {
+              "h": 0.3314,
+              "d": 0.2698,
+              "a": 0.3987
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040894,
+          "match_num": "周日007",
+          "league": "瑞典超级联赛",
+          "home": "佐加顿斯",
+          "away": "AIK索尔纳",
+          "match_time": "2026-08-16 20:00",
+          "odds": {
+            "h": "1.37",
+            "d": "4.50",
+            "a": "5.65",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.7299,
+              "d": 0.2222,
+              "a": 0.177
+            },
+            "overround": 0.1291,
+            "had_fair_prob": {
+              "h": 0.6464,
+              "d": 0.1968,
+              "a": 0.1568
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040895,
+          "match_num": "周日008",
+          "league": "荷兰甲级联赛",
+          "home": "特温特",
+          "away": "兹沃勒",
+          "match_time": "2026-08-16 20:30",
+          "odds": {
+            "h": "1.15",
+            "d": "6.20",
+            "a": "10.20",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.8696,
+              "d": 0.1613,
+              "a": 0.098
+            },
+            "overround": 0.1289,
+            "had_fair_prob": {
+              "h": 0.7703,
+              "d": 0.1429,
+              "a": 0.0868
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040896,
+          "match_num": "周日009",
+          "league": "荷兰甲级联赛",
+          "home": "费耶诺德",
+          "away": "前进之鹰",
+          "match_time": "2026-08-16 20:30",
+          "odds": {
+            "h": "1.26",
+            "d": "5.25",
+            "a": "6.90",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.7937,
+              "d": 0.1905,
+              "a": 0.1449
+            },
+            "overround": 0.1291,
+            "had_fair_prob": {
+              "h": 0.7029,
+              "d": 0.1687,
+              "a": 0.1283
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040897,
+          "match_num": "周日010",
+          "league": "挪威超级联赛",
+          "home": "奥勒松",
+          "away": "瓦勒伦加",
+          "match_time": "2026-08-16 20:30",
+          "odds": {
+            "h": "2.39",
+            "d": "3.75",
+            "a": "2.25",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.4184,
+              "d": 0.2667,
+              "a": 0.4444
+            },
+            "overround": 0.1295,
+            "had_fair_prob": {
+              "h": 0.3704,
+              "d": 0.2361,
+              "a": 0.3934
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040898,
+          "match_num": "周日011",
+          "league": "英格兰社区盾杯",
+          "home": "阿森纳",
+          "away": "曼彻斯特城",
+          "match_time": "2026-08-16 22:00",
+          "odds": {
+            "h": "2.37",
+            "d": "3.17",
+            "a": "2.55",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.4219,
+              "d": 0.3155,
+              "a": 0.3922
+            },
+            "overround": 0.1296,
+            "had_fair_prob": {
+              "h": 0.3735,
+              "d": 0.2793,
+              "a": 0.3472
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040899,
+          "match_num": "周日012",
+          "league": "芬兰超级联赛",
+          "home": "AC奥卢",
+          "away": "国际图尔库",
+          "match_time": "2026-08-16 22:00",
+          "odds": {
+            "h": "2.80",
+            "d": "3.15",
+            "a": "2.20",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.3571,
+              "d": 0.3175,
+              "a": 0.4545
+            },
+            "overround": 0.1291,
+            "had_fair_prob": {
+              "h": 0.3163,
+              "d": 0.2812,
+              "a": 0.4025
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040900,
+          "match_num": "周日013",
+          "league": "葡萄牙超级联赛",
+          "home": "葡萄牙国民",
+          "away": "埃斯托里尔",
+          "match_time": "2026-08-16 22:30",
+          "odds": {
+            "h": "2.29",
+            "d": "3.23",
+            "a": "2.62",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.4367,
+              "d": 0.3096,
+              "a": 0.3817
+            },
+            "overround": 0.128,
+            "had_fair_prob": {
+              "h": 0.3871,
+              "d": 0.2745,
+              "a": 0.3384
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040901,
+          "match_num": "周日014",
+          "league": "瑞典超级联赛",
+          "home": "卡尔马",
+          "away": "哈马比",
+          "match_time": "2026-08-16 22:30",
+          "odds": {
+            "h": "4.22",
+            "d": "3.85",
+            "a": "1.58",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.237,
+              "d": 0.2597,
+              "a": 0.6329
+            },
+            "overround": 0.1296,
+            "had_fair_prob": {
+              "h": 0.2098,
+              "d": 0.2299,
+              "a": 0.5603
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040902,
+          "match_num": "周日015",
+          "league": "瑞典超级联赛",
+          "home": "哥德堡盖斯",
+          "away": "马尔默",
+          "match_time": "2026-08-16 22:30",
+          "odds": {
+            "h": "2.04",
+            "d": "3.45",
+            "a": "2.86",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.4902,
+              "d": 0.2899,
+              "a": 0.3497
+            },
+            "overround": 0.1298,
+            "had_fair_prob": {
+              "h": 0.4339,
+              "d": 0.2566,
+              "a": 0.3095
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040903,
+          "match_num": "周日016",
+          "league": "荷兰甲级联赛",
+          "home": "阿贾克斯",
+          "away": "海伦芬",
+          "match_time": "2026-08-16 22:45",
+          "odds": {
+            "h": "1.33",
+            "d": "4.70",
+            "a": "6.10",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.7519,
+              "d": 0.2128,
+              "a": 0.1639
+            },
+            "overround": 0.1286,
+            "had_fair_prob": {
+              "h": 0.6662,
+              "d": 0.1886,
+              "a": 0.1452
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040920,
+          "match_num": "周日017",
+          "league": "英格兰冠军联赛",
+          "home": "伯恩利",
+          "away": "西汉姆联",
+          "match_time": "2026-08-16 23:00",
+          "odds": {
+            "h": "2.98",
+            "d": "3.38",
+            "a": "2.01",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.3356,
+              "d": 0.2959,
+              "a": 0.4975
+            },
+            "overround": 0.129,
+            "had_fair_prob": {
+              "h": 0.2973,
+              "d": 0.2621,
+              "a": 0.4407
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040921,
+          "match_num": "周日018",
+          "league": "西班牙甲级联赛",
+          "home": "桑坦德竞技",
+          "away": "比利亚雷亚尔",
+          "match_time": "2026-08-16 23:00",
+          "odds": {
+            "h": "3.20",
+            "d": "3.45",
+            "a": "1.90",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.3125,
+              "d": 0.2899,
+              "a": 0.5263
+            },
+            "overround": 0.1287,
+            "had_fair_prob": {
+              "h": 0.2769,
+              "d": 0.2568,
+              "a": 0.4663
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040904,
+          "match_num": "周日019",
+          "league": "挪威超级联赛",
+          "home": "莫尔德",
+          "away": "特罗姆瑟",
+          "match_time": "2026-08-16 23:00",
+          "odds": {
+            "h": "1.96",
+            "d": "3.53",
+            "a": "2.98",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.5102,
+              "d": 0.2833,
+              "a": 0.3356
+            },
+            "overround": 0.1291,
+            "had_fair_prob": {
+              "h": 0.4519,
+              "d": 0.2509,
+              "a": 0.2972
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040905,
+          "match_num": "周日020",
+          "league": "挪威超级联赛",
+          "home": "布兰",
+          "away": "汉坎",
+          "match_time": "2026-08-16 23:00",
+          "odds": {
+            "h": "1.37",
+            "d": "4.50",
+            "a": "5.65",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.7299,
+              "d": 0.2222,
+              "a": 0.177
+            },
+            "overround": 0.1291,
+            "had_fair_prob": {
+              "h": 0.6464,
+              "d": 0.1968,
+              "a": 0.1568
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040906,
+          "match_num": "周日021",
+          "league": "挪威超级联赛",
+          "home": "萨尔普斯堡",
+          "away": "桑纳菲尤尔",
+          "match_time": "2026-08-16 23:00",
+          "odds": {
+            "h": "1.68",
+            "d": "3.85",
+            "a": "3.65",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.5952,
+              "d": 0.2597,
+              "a": 0.274
+            },
+            "overround": 0.1289,
+            "had_fair_prob": {
+              "h": 0.5272,
+              "d": 0.23,
+              "a": 0.2427
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040907,
+          "match_num": "周日022",
+          "league": "西班牙甲级联赛",
+          "home": "西班牙人",
+          "away": "莱万特",
+          "match_time": "2026-08-17 01:00",
+          "odds": {
+            "h": "1.85",
+            "d": "3.18",
+            "a": "3.65",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.5405,
+              "d": 0.3145,
+              "a": 0.274
+            },
+            "overround": 0.129,
+            "had_fair_prob": {
+              "h": 0.4787,
+              "d": 0.2786,
+              "a": 0.2427
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040908,
+          "match_num": "周日023",
+          "league": "葡萄牙超级联赛",
+          "home": "阿罗卡",
+          "away": "摩雷伦斯",
+          "match_time": "2026-08-17 01:00",
+          "odds": {
+            "h": "1.96",
+            "d": "3.12",
+            "a": "3.35",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.5102,
+              "d": 0.3205,
+              "a": 0.2985
+            },
+            "overround": 0.1292,
+            "had_fair_prob": {
+              "h": 0.4518,
+              "d": 0.2838,
+              "a": 0.2643
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040909,
+          "match_num": "周日024",
+          "league": "挪威超级联赛",
+          "home": "腓特烈斯塔",
+          "away": "克里斯蒂安松",
+          "match_time": "2026-08-17 01:15",
+          "odds": {
+            "h": "1.73",
+            "d": "3.56",
+            "a": "3.70",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.578,
+              "d": 0.2809,
+              "a": 0.2703
+            },
+            "overround": 0.1292,
+            "had_fair_prob": {
+              "h": 0.5119,
+              "d": 0.2488,
+              "a": 0.2394
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040910,
+          "match_num": "周日025",
+          "league": "巴西甲级联赛",
+          "home": "瓦斯科达伽马",
+          "away": "桑托斯",
+          "match_time": "2026-08-17 03:00",
+          "odds": {
+            "h": "1.74",
+            "d": "3.35",
+            "a": "3.90",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.5747,
+              "d": 0.2985,
+              "a": 0.2564
+            },
+            "overround": 0.1296,
+            "had_fair_prob": {
+              "h": 0.5088,
+              "d": 0.2643,
+              "a": 0.227
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040911,
+          "match_num": "周日026",
+          "league": "葡萄牙超级联赛",
+          "home": "法马利康",
+          "away": "马里迪莫",
+          "match_time": "2026-08-17 03:30",
+          "odds": {
+            "h": "1.59",
+            "d": "3.46",
+            "a": "4.75",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.6289,
+              "d": 0.289,
+              "a": 0.2105
+            },
+            "overround": 0.1284,
+            "had_fair_prob": {
+              "h": 0.5573,
+              "d": 0.2561,
+              "a": 0.1865
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040912,
+          "match_num": "周日027",
+          "league": "葡萄牙超级联赛",
+          "home": "布拉加",
+          "away": "吉维森特",
+          "match_time": "2026-08-17 03:30",
+          "odds": {
+            "h": "1.44",
+            "d": "3.80",
+            "a": "5.90",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.6944,
+              "d": 0.2632,
+              "a": 0.1695
+            },
+            "overround": 0.1271,
+            "had_fair_prob": {
+              "h": 0.6161,
+              "d": 0.2335,
+              "a": 0.1504
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "pending",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040913,
+          "match_num": "周日028",
+          "league": "美国职业大联盟",
+          "home": "纽约城",
+          "away": "费城联合",
+          "match_time": "2026-08-17 06:00",
+          "odds": {
+            "h": "2.10",
+            "d": "3.45",
+            "a": "2.75",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home": 0,
+              "away": 0
+            },
+            "reasoning": "sports-skills球队赛程接口已实测；批量抓取在600秒超时且部分官方球队ID返回无赛程，无法取得双方至少5场可核验近期样本。",
+            "missing_fields": [
+              "双方最近5场可核验赛果",
+              "联赛排名与主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "odds_source": "体彩官方在售HAD赔率，2026-08-16 prep刷新",
+            "raw_implied_probability": {
+              "h": 0.4762,
+              "d": 0.2899,
+              "a": 0.3636
+            },
+            "overround": 0.1297,
+            "had_fair_prob": {
+              "h": 0.4215,
+              "d": 0.2566,
+              "a": 0.3219
+            },
+            "conclusion": "无阶段A球队证据可对照；去水概率仅记录市场观点，不构成推荐。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
