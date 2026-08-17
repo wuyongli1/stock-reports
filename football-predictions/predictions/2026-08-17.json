@@ -1,10 +1,10 @@
 {
   "date": "2026-08-17",
-  "generated_at": "2026-08-17T12:26:20+08:00",
-  "analysis_time": "2026-08-17T12:26:20+08:00",
+  "generated_at": "2026-08-17T12:33:59+08:00",
+  "analysis_time": "2026-08-17T12:33:59+08:00",
   "model": "gpt-5.6-terra",
   "provider": "tokenfun",
-  "schedule_refreshed_at": "2026-08-17T12:26:20+08:00",
+  "schedule_refreshed_at": "2026-08-17T12:33:59+08:00",
   "analysis_method": "data-first, odds-second; sports-skills football queried before official HAD odds review",
   "coverage": {
     "official_schedule_matches": 6,
@@ -32,7 +32,7 @@
     "classification": "recoverable_source_failure",
     "summary": "足球数据接口可用性和历史样本不足；已逐场保留样本数与缺失字段，未以赔率替代球队数据。"
   },
-  "yesterday_review": "昨日已回填27场，数据面观望记录按胜平负口径为0中27错；昨日未生成串关，因此不存在串关命中或失效记录。阶段A因近5场数据不足而未形成可执行方向，赔率后验仅记录市场概率，不能用结果反证球队状态。本次继续以补齐球队样本、伤停和首发为复核触发条件，未达门槛不进入串关。",
+  "yesterday_review": "昨日共28场记录，其中28场为观望而非方向预测；可结算方向预测为0场（0中0错）。昨日未生成串关，因此不存在串关命中或失效记录。阶段A因近5场数据不足而未形成可执行方向，赔率后验仅记录市场概率，不能用赛果把观望机械计为失误。本次继续以补齐球队样本、伤停和首发为复核触发条件，未达门槛不进入串关。",
   "matches": [
     {
       "match_id": 2040914,
