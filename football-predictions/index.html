@@ -435,39 +435,35 @@ async function loadData() {
 }
 
 function renderStats() {
-  const records = DATA.records || [];
-  const stats = { placed: 0, hit: 0, miss: 0, pending: 0, parlays: 0, parlayWin: 0, parlayLose: 0 };
+  const s = (DATA.stats || {});
+  // 优先用后端算好的统计; 后端无数据时前端兜底
+  const total = s.total || 0;
+  const hit = s.hit || 0;
+  const miss = s.miss || 0;
+  const hitRate = (s.hit_rate != null ? s.hit_rate : 0) + '%';
 
-  for (const rec of records) {
-    for (const m of rec.matches || []) {
-      // Current records use final_pick. OBSERVE means no wager and is excluded.
-      const pick = m.final_pick || m.pick;
-      if (!['H', 'D', 'A'].includes(pick)) continue;
-      stats.placed++;
-      if (m.result === 'hit') stats.hit++;
-      else if (m.result === 'miss') stats.miss++;
-      else stats.pending++;
-    }
-    for (const p of rec.parlays || []) {
-      stats.parlays++;
-      if (p.result === 'win') stats.parlayWin++;
-      else if (p.result === 'lose') stats.parlayLose++;
-    }
+  // 昨日推荐
+  let yesterdayHtml = '';
+  const y = s.yesterday;
+  if (y) {
+    const cls = y.hit ? 'green' : 'red';
+    const txt = y.hit ? '✅ 全部命中' : '❌ 未全中';
+    yesterdayHtml = `<div class="stat-card ${cls}" style="grid-column:span 1;">
+      <div class="num" style="font-size:16px;">${y.date} ${txt}</div>
+      <div class="label">昨日推荐 ${y.hits}/${y.total} 命中 ${y.hit_rate}%</div>
+    </div>`;
+  } else {
+    yesterdayHtml = `<div class="stat-card blue"><div class="num" style="font-size:16px;">暂无</div><div class="label">昨日推荐（待首个结算日）</div></div>`;
   }
 
-  const settled = stats.hit + stats.miss;
-  const hitRate = settled > 0 ? (stats.hit / settled * 100).toFixed(1) : '0.0';
-  const settledParlays = stats.parlayWin + stats.parlayLose;
-  const parlayRate = settledParlays > 0 ? (stats.parlayWin / settledParlays * 100).toFixed(1) : '0.0';
-
   document.getElementById('statsRow').innerHTML = `
-    <div class="stat-card blue"><div class="num">${stats.placed}</div><div class="label">已压场次</div></div>
-    <div class="stat-card green"><div class="num">${stats.hit}</div><div class="label">命中场次</div></div>
-    <div class="stat-card red"><div class="num">${stats.miss}</div><div class="label">未中场次</div></div>
-    <div class="stat-card yellow"><div class="num">${hitRate}%</div><div class="label">单场胜率（已结算）</div></div>
-    <div class="stat-card blue"><div class="num">${stats.pending}</div><div class="label">待结算</div></div>
-    <div class="stat-card blue"><div class="num">${stats.parlays}</div><div class="label">串关单数</div></div>
-    <div class="stat-card yellow"><div class="num">${parlayRate}%</div><div class="label">串关胜率（已结算）</div></div>
+    <div class="stat-card blue"><div class="num">${total}</div><div class="label">累计推荐</div></div>
+    <div class="stat-card green"><div class="num">${hit}</div><div class="label">命中场次</div></div>
+    <div class="stat-card red"><div class="num">${miss}</div><div class="label">未中场次</div></div>
+    <div class="stat-card yellow"><div class="num">${hitRate}</div><div class="label">总胜率（已结算）</div></div>
+    <div class="stat-card green"><div class="num">${s.week_rate != null ? s.week_rate + '%' : '-'}</div><div class="label">近一周胜率（${s.week_total || 0}场）</div></div>
+    <div class="stat-card blue"><div class="num">${s.month_rate != null ? s.month_rate + '%' : '-'}</div><div class="label">近一月胜率（${s.month_total || 0}场）</div></div>
+    ${yesterdayHtml}
   `;
 }
 
