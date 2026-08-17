@@ -382,30 +382,38 @@ async function loadData() {
 
 function renderStats() {
   const records = DATA.records || [];
-  const stats = { total: 0, hit: 0, miss: 0, pending: 0, parlays: 0, parlayWin: 0 };
+  const stats = { placed: 0, hit: 0, miss: 0, pending: 0, parlays: 0, parlayWin: 0, parlayLose: 0 };
+
   for (const rec of records) {
     for (const m of rec.matches || []) {
-      if (!m.pick) continue;
-      stats.total++;
+      // Current records use final_pick. OBSERVE means no wager and is excluded.
+      const pick = m.final_pick || m.pick;
+      if (!['H', 'D', 'A'].includes(pick)) continue;
+      stats.placed++;
       if (m.result === 'hit') stats.hit++;
       else if (m.result === 'miss') stats.miss++;
-      else if (m.result === 'pending') stats.pending++;
+      else stats.pending++;
     }
     for (const p of rec.parlays || []) {
       stats.parlays++;
       if (p.result === 'win') stats.parlayWin++;
+      else if (p.result === 'lose') stats.parlayLose++;
     }
   }
-  const hitRate = stats.total > 0 ? (stats.hit / stats.total * 100).toFixed(1) : '0';
-  const parlayRate = stats.parlays > 0 ? (stats.parlayWin / stats.parlays * 100).toFixed(1) : '0';
+
+  const settled = stats.hit + stats.miss;
+  const hitRate = settled > 0 ? (stats.hit / settled * 100).toFixed(1) : '0.0';
+  const settledParlays = stats.parlayWin + stats.parlayLose;
+  const parlayRate = settledParlays > 0 ? (stats.parlayWin / settledParlays * 100).toFixed(1) : '0.0';
+
   document.getElementById('statsRow').innerHTML = `
-    <div class="stat-card blue"><div class="num">${stats.total}</div><div class="label">总预测场次</div></div>
-    <div class="stat-card green"><div class="num">${stats.hit}</div><div class="label">命中</div></div>
-    <div class="stat-card red"><div class="num">${stats.miss}</div><div class="label">未中</div></div>
-    <div class="stat-card yellow"><div class="num">${hitRate}%</div><div class="label">命中率</div></div>
+    <div class="stat-card blue"><div class="num">${stats.placed}</div><div class="label">已压场次</div></div>
+    <div class="stat-card green"><div class="num">${stats.hit}</div><div class="label">命中场次</div></div>
+    <div class="stat-card red"><div class="num">${stats.miss}</div><div class="label">未中场次</div></div>
+    <div class="stat-card yellow"><div class="num">${hitRate}%</div><div class="label">单场胜率（已结算）</div></div>
+    <div class="stat-card blue"><div class="num">${stats.pending}</div><div class="label">待结算</div></div>
     <div class="stat-card blue"><div class="num">${stats.parlays}</div><div class="label">串关单数</div></div>
-    <div class="stat-card green"><div class="num">${stats.parlayWin}</div><div class="label">串关命中</div></div>
-    <div class="stat-card yellow"><div class="num">${parlayRate}%</div><div class="label">串关胜率</div></div>
+    <div class="stat-card yellow"><div class="num">${parlayRate}%</div><div class="label">串关胜率（已结算）</div></div>
   `;
 }
 
