@@ -626,9 +626,13 @@ function renderYesterday() {
     return;
   }
   section.style.display = '';
-  const cls = y.hit ? 'green' : 'red';
   const statusTxt = y.hit ? '✅ 全部命中' : '❌ 有未中';
-  header.innerHTML = `📅 昨日推荐复盘 · ${y.date} · <span style="color:${y.hit ? 'var(--green)' : 'var(--red)'}">${y.hits}/${y.total} 命中 ${y.hit_rate}% ${statusTxt}</span>`;
+  let headerExtra = '';
+  if (y.bet_stake != null && y.bet_stake > 0) {
+    const profitCls = (y.bet_profit || 0) >= 0 ? 'bet-won' : 'bet-lost';
+    headerExtra = ` · 💰 投注 ¥${y.bet_stake.toFixed(0)}，盈亏 <span class="${profitCls}">${(y.bet_profit >= 0 ? '+' : '')}${y.bet_profit.toFixed(2)}</span>`;
+  }
+  header.innerHTML = `📅 昨日推荐复盘 · ${y.date} · <span style="color:${y.hit ? 'var(--green)' : 'var(--red)'}">${y.hits}/${y.total} 命中 ${y.hit_rate}% ${statusTxt}</span>${headerExtra}`;
 
   const rows = y.matches.map(m => {
     const pickTxt = pickLabel(m.pick) + (m.odds ? ' @ ' + m.odds : '');
@@ -637,18 +641,25 @@ function renderYesterday() {
       ? '<span class="bet-won">✅ 命中</span>'
       : '<span class="bet-lost">❌ 未中</span>';
     const scoreTxt = m.score ? ('比分 ' + m.score) : '待赛果';
+    let betTxt = '-';
+    if (m.bet_stake != null) {
+      const p = m.bet_profit;
+      const pCls = (p != null && p >= 0) ? 'bet-won' : 'bet-lost';
+      betTxt = `¥${m.bet_stake.toFixed(0)}${p != null ? ` <span class="${pCls}">${(p >= 0 ? '+' : '')}${p.toFixed(2)}</span>` : ''}`;
+    }
     return `<tr>
       <td>${m.match_num || '-'}</td>
       <td>${m.league || '-'}</td>
       <td>${m.home || ''} vs ${m.away || ''}</td>
       <td>${pickTxt}${confTxt}</td>
+      <td>${betTxt}</td>
       <td>${scoreTxt}</td>
       <td>${resultTxt}</td>
     </tr>`;
   }).join('');
 
   body.innerHTML = `<div class="paper-bets"><table>
-    <tr><th>场次</th><th>赛事</th><th>对阵</th><th>推荐</th><th>实际赛果</th><th>结果</th></tr>
+    <tr><th>场次</th><th>赛事</th><th>对阵</th><th>推荐</th><th>投注/盈亏</th><th>实际赛果</th><th>结果</th></tr>
     ${rows}
   </table></div>`;
 }
@@ -669,6 +680,24 @@ function renderRecommendation() {
   let html = '<div class="reco-box">';
   html += `<div class="reco-title">🎯 今日推荐</div>`;
   html += `<div class="reco-date">${dateStr} · 分析时间 ${latest.analysis_time || '-'}</div>`;
+
+  // 今日模拟盘投注决策
+  const todayBets = latest.bets || [];
+  if (todayBets.length > 0) {
+    html += `<div class="reco-bets" style="margin:10px 0;padding:10px 14px;background:rgba(46,204,113,0.08);border:1px solid var(--border);border-radius:8px;">`;
+    html += `<div style="font-weight:700;margin-bottom:6px;">💰 模拟盘今日投注</div>`;
+    todayBets.forEach(b => {
+      let st = '';
+      if (b.status === 'won') st = ' <span class="bet-won">✅ 已中</span>';
+      else if (b.status === 'lost') st = ' <span class="bet-lost">❌ 未中</span>';
+      else st = ' <span class="bet-pending">⏳ 待结算</span>';
+      const profitTxt = (b.profit != null) ? ` <span class="${b.profit >= 0 ? 'bet-won' : 'bet-lost'}">${(b.profit >= 0 ? '+' : '')}${b.profit.toFixed(2)}</span>` : '';
+      html += `<div style="font-size:13px;margin:3px 0;">· ${b.type}：${b.detail} · 投注 <b>¥${b.stake}</b>${st}${profitTxt}</div>`;
+    });
+    html += `</div>`;
+  } else {
+    html += `<div class="reco-bets" style="margin:10px 0;padding:10px 14px;background:rgba(241,196,15,0.06);border:1px solid var(--border);border-radius:8px;font-size:13px;color:var(--muted);">💰 模拟盘：今日未投注（观望）</div>`;
+  }
 
   if (parlays.length > 0) {
     // 有串关推荐: 全部展示
