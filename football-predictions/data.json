@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 00:44:23",
+  "updated_at": "2026-08-18 00:56:48",
   "stats": {
     "total": 0,
     "hit": 0,
@@ -12,210 +12,20 @@
     "hit_rate": 0,
     "parlay_rate": 0
   },
-  "records": [
-    {
-      "date": "2026-08-17",
-      "analysis_time": "2026-08-17T23:30:00+08:00",
-      "matches": [
-        {
-          "match_id": 2040914,
-          "match_num": "周一001",
-          "league": "芬超",
-          "home": "赫尔辛基火花",
-          "away": "坦佩雷山猫",
-          "match_time": "23:00",
-          "odds": {
-            "h": "2.50",
-            "d": "3.35",
-            "a": "2.32"
-          },
-          "data_analysis": {
-            "tendency": "OBSERVE",
-            "confidence": "low",
-            "reasoning": "ESPN 无芬超两队近况数据，双方可核验样本为0，无法独立判断状态。",
-            "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
-            }
-          },
-          "odds_analysis": {
-            "had_fair_prob": {
-              "h": 0.354,
-              "d": 0.264,
-              "a": 0.382
-            },
-            "conclusion": "赔率面客队略优但差距小；数据面缺失，不构成可执行推荐。"
-          },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040915,
-          "match_num": "周一002",
-          "league": "瑞超",
-          "home": "赫根",
-          "away": "哈尔姆斯塔德",
-          "match_time": "01:00",
-          "odds": {
-            "h": "1.22",
-            "d": "5.40",
-            "a": "8.05"
-          },
-          "data_analysis": {
-            "tendency": "H",
-            "confidence": "medium",
-            "reasoning": "赫根近10场[LDDWLLWDWW]：4胜3平3负，主客场混合但近期回升；哈尔姆斯塔德近10场[LLDLLLLWDL]：1胜2平7负，状态极差。双方实力与状态差距明显，数据面支持主胜。",
-            "sample_size": {
-              "home_recent": 10,
-              "away_recent": 10
-            }
-          },
-          "odds_analysis": {
-            "had_fair_prob": {
-              "h": 0.726,
-              "d": 0.164,
-              "a": 0.11
-            },
-            "conclusion": "去水后主胜72.6%，与数据面一致。"
-          },
-          "final_pick": "H",
-          "pick_market": "HAD",
-          "pick_odds": 1.22,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040916,
-          "match_num": "周一003",
-          "league": "英冠",
-          "home": "加的夫城",
-          "away": "雷克斯汉姆",
-          "match_time": "03:00",
-          "odds": {
-            "h": "2.37",
-            "d": "3.14",
-            "a": "2.57"
-          },
-          "data_analysis": {
-            "tendency": "OBSERVE",
-            "confidence": "low",
-            "reasoning": "英冠新赛季刚开始，ESPN 近况不足5场；赛季初样本不足以判断状态。",
-            "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
-            }
-          },
-          "odds_analysis": {
-            "had_fair_prob": {
-              "h": 0.374,
-              "d": 0.282,
-              "a": 0.344
-            },
-            "conclusion": "赔率面接近，观望。"
-          },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040922,
-          "match_num": "周一004",
-          "league": "西甲",
-          "home": "拉科鲁尼亚",
-          "away": "埃尔切",
-          "match_time": "03:00",
-          "odds": {
-            "h": "1.98",
-            "d": "2.90",
-            "a": "3.60"
-          },
-          "data_analysis": {
-            "tendency": "OBSERVE",
-            "confidence": "low",
-            "reasoning": "西甲新赛季刚开始，ESPN 近况不足5场；主胜赔率1.98有倾向但缺乏数据面验证。",
-            "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
-            }
-          },
-          "odds_analysis": {
-            "had_fair_prob": {
-              "h": 0.448,
-              "d": 0.306,
-              "a": 0.246
-            },
-            "conclusion": "赔率面略偏主胜，数据面不足，低置信观望。"
-          },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040918,
-          "match_num": "周一006",
-          "league": "巴甲",
-          "home": "巴西国际",
-          "away": "里莫",
-          "match_time": "07:00",
-          "odds": {
-            "h": "1.41",
-            "d": "3.95",
-            "a": "6.00"
-          },
-          "data_analysis": {
-            "tendency": "OBSERVE",
-            "confidence": "low",
-            "reasoning": "巴西国际近10场[DDLLLLWDWD]仅2胜4平4负、联赛排名17(22场23分)状态低迷；里莫近10场[DLWLWLWDWL]3胜4平3负、排名18(22场22分)略好。数据面不看好巴西国际，与赔率面(主1.41)冲突，存在爆冷风险，不推荐主胜。",
-            "sample_size": {
-              "home_recent": 10,
-              "away_recent": 10
-            }
-          },
-          "odds_analysis": {
-            "had_fair_prob": {
-              "h": 0.628,
-              "d": 0.224,
-              "a": 0.148
-            },
-            "conclusion": "市场仍偏主胜但数据面冲突，风险高。"
-          },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        }
-      ],
-      "parlays": [],
-      "singles": [
-        {
-          "match_id": 2040915,
-          "match_num": "周一002",
-          "league": "瑞超",
-          "home": "赫根",
-          "away": "哈尔姆斯塔德",
-          "match_time": "01:00",
-          "final_pick": "H",
-          "pick_market": "HAD",
-          "pick_odds": 1.22,
-          "confidence": "medium",
-          "reasoning": "赫根近10场[LDDWLLWDWW]：4胜3平3负，主客场混合但近期回升；哈尔姆斯塔德近10场[LLDLLLLWDL]：1胜2平7负，状态极差。双方实力与状态差距明显，数据面支持主胜。",
-          "conclusion": "去水后主胜72.6%，与数据面一致。",
-          "result": "unsettled"
-        }
-      ]
-    }
-  ]
+  "records": [],
+  "paper": {
+    "initial_balance": 1000.0,
+    "balance": 1000.0,
+    "total_profit": 0.0,
+    "profit_rate": 0.0,
+    "pending_count": 0,
+    "settlements": [],
+    "equity_curve": [
+      {
+        "date": "2026-08-18",
+        "balance": 1000.0
+      }
+    ],
+    "recent_bets": []
+  }
 }
