@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 00:15:05",
+  "updated_at": "2026-08-18 00:16:55",
   "stats": {
     "total": 0,
     "hit": 0,
@@ -13,141 +13,6 @@
     "parlay_rate": 0
   },
   "records": [
-    {
-      "date": "2026-08-17",
-      "analysis_time": "2026-08-17T12:33:59+08:00",
-      "matches": [
-        {
-          "match_id": 2040914,
-          "match_num": "周一001",
-          "league": "芬超",
-          "home": "赫尔辛基火花",
-          "away": "坦佩雷山猫",
-          "match_time": "23:00",
-          "odds": {
-            "h": "2.24",
-            "d": "3.35",
-            "a": "2.60",
-            "goal_line": ""
-          },
-          "data_analysis": null,
-          "odds_analysis": null,
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040915,
-          "match_num": "周一002",
-          "league": "瑞超",
-          "home": "赫根",
-          "away": "哈尔姆斯塔德",
-          "match_time": "01:00",
-          "odds": {
-            "h": "1.21",
-            "d": "5.60",
-            "a": "8.05",
-            "goal_line": ""
-          },
-          "data_analysis": null,
-          "odds_analysis": null,
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040916,
-          "match_num": "周一003",
-          "league": "英冠",
-          "home": "加的夫城",
-          "away": "雷克斯汉姆",
-          "match_time": "03:00",
-          "odds": {
-            "h": "2.27",
-            "d": "3.30",
-            "a": "2.59",
-            "goal_line": ""
-          },
-          "data_analysis": null,
-          "odds_analysis": null,
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040922,
-          "match_num": "周一004",
-          "league": "西甲",
-          "home": "拉科鲁尼亚",
-          "away": "埃尔切",
-          "match_time": "03:00",
-          "odds": {
-            "h": "2.10",
-            "d": "2.95",
-            "a": "3.18",
-            "goal_line": ""
-          },
-          "data_analysis": null,
-          "odds_analysis": null,
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040917,
-          "match_num": "周一005",
-          "league": "葡超",
-          "home": "卡萨皮亚",
-          "away": "本菲卡",
-          "match_time": "03:15",
-          "odds": {},
-          "data_analysis": null,
-          "odds_analysis": null,
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        },
-        {
-          "match_id": 2040918,
-          "match_num": "周一006",
-          "league": "巴甲",
-          "home": "巴西国际",
-          "away": "里莫",
-          "match_time": "07:00",
-          "odds": {
-            "h": "1.45",
-            "d": "3.80",
-            "a": "5.70",
-            "goal_line": ""
-          },
-          "data_analysis": null,
-          "odds_analysis": null,
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "result": "unsettled",
-          "score": "",
-          "review": ""
-        }
-      ],
-      "parlays": [],
-      "singles": []
-    },
     {
       "date": "2026-08-17",
       "analysis_time": "2026-08-17T23:30:00+08:00",
@@ -209,9 +74,9 @@
             },
             "conclusion": "去水后主胜概率72.6%，与数据面一致，高置信。"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.22,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -322,9 +187,9 @@
           "home": "赫根",
           "away": "哈尔姆斯塔德",
           "match_time": "01:00",
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.22,
           "confidence": "high",
           "reasoning": "赫根近5场[LDDWL]得5分，主场有平局但整体稳定；哈尔姆斯塔德近5场[LLDLL]得1分、4负状态极差（0-2、0-2、1-1、0-2、0-3）。主客状态差距明显。",
           "conclusion": "去水后主胜概率72.6%，与数据面一致，高置信。",
