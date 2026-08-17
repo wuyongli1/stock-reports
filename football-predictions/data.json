@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-18 00:56:48",
+  "updated_at": "2026-08-18 01:02:38",
   "stats": {
     "total": 0,
     "hit": 0,
     "miss": 0,
     "pending": 0,
-    "parlays": 0,
-    "parlayWin": 0,
-    "parlayLose": 0,
-    "parlayPending": 0,
     "hit_rate": 0,
-    "parlay_rate": 0
+    "week_rate": 0,
+    "week_total": 0,
+    "month_rate": 0,
+    "month_total": 0,
+    "yesterday": null
   },
   "records": [],
   "paper": {
