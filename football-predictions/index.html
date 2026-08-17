@@ -321,6 +321,55 @@ body {
   .match-card { grid-template-columns: 1fr; }
   .pick-box { min-width: auto; }
 }
+
+/* 模拟盘 */
+.paper-section {
+  margin: 20px 32px 0;
+  background: linear-gradient(135deg, #1c2540 0%, #16203a 100%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.paper-header {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  background: rgba(255, 215, 0, 0.08);
+  border-bottom: 1px solid var(--border);
+  color: var(--yellow);
+}
+.paper-body { padding: 16px 20px; }
+.paper-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.paper-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.paper-card .num { font-size: 22px; font-weight: 700; }
+.paper-card .label { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.paper-card.green .num { color: var(--green); }
+.paper-card.red .num { color: var(--red); }
+.paper-card.yellow .num { color: var(--yellow); }
+.paper-card.blue .num { color: var(--blue); }
+.paper-bets { margin-top: 8px; }
+.paper-bets table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.paper-bets th, .paper-bets td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+.paper-bets th { color: var(--muted); font-weight: 600; }
+.bet-won { color: var(--green); }
+.bet-lost { color: var(--red); }
+.bet-pending { color: var(--yellow); }
+.paper-curve { margin-top: 10px; }
+.paper-curve svg { width: 100%; height: 90px; }
 </style>
 </head>
 <body>
@@ -336,6 +385,11 @@ body {
 
 <div class="stats-row" id="statsRow">
   <div class="stat-card loading-stat"><div class="loading">加载中...</div></div>
+</div>
+
+<div class="paper-section" id="paperSection" style="display:none;">
+  <div class="paper-header">💰 模拟盘</div>
+  <div class="paper-body" id="paperBody"></div>
 </div>
 
 <div class="reco-section" id="recoSection"></div>
@@ -498,6 +552,76 @@ function parlayCard(p) {
   </div>`;
 }
 
+/* ===== 模拟盘渲染 ===== */
+function renderPaper() {
+  const section = document.getElementById('paperSection');
+  const body = document.getElementById('paperBody');
+  const paper = DATA.paper;
+  if (!paper) {
+    section.style.display = 'none';
+    return;
+  }
+  section.style.display = '';
+  const profitCls = paper.total_profit >= 0 ? 'green' : 'red';
+  const balanceCls = paper.balance >= paper.initial_balance ? 'green' : 'red';
+  const profitStr = (paper.total_profit >= 0 ? '+' : '') + paper.total_profit.toFixed(2);
+  const rateStr = (paper.total_profit >= 0 ? '+' : '') + paper.profit_rate.toFixed(2) + '%';
+
+  // 净值曲线
+  let curveSvg = '';
+  const curve = paper.equity_curve || [];
+  if (curve.length >= 2) {
+    const W = 600, H = 80, pad = 4;
+    const vals = curve.map(p => p.balance);
+    const min = Math.min(...vals), max = Math.max(...vals);
+    const range = (max - min) || 1;
+    const pts = curve.map((p, i) => {
+      const x = pad + (i / (curve.length - 1)) * (W - pad * 2);
+      const y = H - pad - ((p.balance - min) / range) * (H - pad * 2);
+      return x.toFixed(1) + ',' + y.toFixed(1);
+    }).join(' ');
+    const lastColor = vals[vals.length - 1] >= vals[0] ? '#2ecc71' : '#e74c3c';
+    curveSvg = `<div class="paper-curve"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+      <polyline points="${pts}" fill="none" stroke="${lastColor}" stroke-width="2"/>
+    </svg></div>`;
+  }
+
+  // 近期投注表
+  let betsHtml = '';
+  const bets = paper.recent_bets || [];
+  if (bets.length) {
+    const rows = bets.slice().reverse().map(b => {
+      const cls = b.status === 'won' ? 'bet-won' : (b.status === 'lost' ? 'bet-lost' : 'bet-pending');
+      const st = b.status === 'won' ? '✅ 中' : (b.status === 'lost' ? '❌ 错' : '⏳ 待');
+      const profit = b.profit != null ? ((b.profit >= 0 ? '+' : '') + b.profit.toFixed(2)) : '-';
+      return `<tr>
+        <td>${b.date || '-'}</td>
+        <td>${b.type}</td>
+        <td>${b.detail || '-'}</td>
+        <td>${b.stake != null ? b.stake.toFixed(0) : '-'}</td>
+        <td class="${cls}">${st}</td>
+        <td class="${cls}">${profit}</td>
+      </tr>`;
+    }).join('');
+    betsHtml = `<div class="paper-bets"><table>
+      <tr><th>日期</th><th>类型</th><th>投注内容</th><th>金额</th><th>状态</th><th>盈亏</th></tr>
+      ${rows}
+    </table></div>`;
+  }
+
+  body.innerHTML = `
+    <div class="paper-cards">
+      <div class="paper-card ${balanceCls}"><div class="num">¥${paper.balance.toFixed(2)}</div><div class="label">当前余额</div></div>
+      <div class="paper-card ${profitCls}"><div class="num">${profitStr}</div><div class="label">累计盈亏</div></div>
+      <div class="paper-card ${profitCls}"><div class="num">${rateStr}</div><div class="label">收益率</div></div>
+      <div class="paper-card blue"><div class="num">${paper.pending_count || 0}</div><div class="label">待结算</div></div>
+      <div class="paper-card"><div class="num">¥${paper.initial_balance}</div><div class="label">初始资金</div></div>
+    </div>
+    ${curveSvg}
+    ${betsHtml}
+  `;
+}
+
 /* ===== 今日推荐渲染 ===== */
 function pickLabel(pick) {
   if (pick === 'H') return '主胜';
@@ -569,6 +693,7 @@ function renderRecommendation() {
 
 function render() {
   renderStats();
+  renderPaper();
   renderRecommendation();
   renderLeagueFilter();
   const records = (DATA.records || []).slice().reverse(); // 新的在前
