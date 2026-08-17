@@ -392,6 +392,11 @@ body {
   <div class="paper-body" id="paperBody"></div>
 </div>
 
+<div class="paper-section" id="yesterdaySection" style="display:none;">
+  <div class="paper-header" id="yesterdayHeader">📅 昨日推荐复盘</div>
+  <div class="paper-body" id="yesterdayBody"></div>
+</div>
+
 <div class="reco-section" id="recoSection"></div>
 
 <div class="controls">
@@ -442,20 +447,6 @@ function renderStats() {
   const miss = s.miss || 0;
   const hitRate = (s.hit_rate != null ? s.hit_rate : 0) + '%';
 
-  // 昨日推荐
-  let yesterdayHtml = '';
-  const y = s.yesterday;
-  if (y) {
-    const cls = y.hit ? 'green' : 'red';
-    const txt = y.hit ? '✅ 全部命中' : '❌ 未全中';
-    yesterdayHtml = `<div class="stat-card ${cls}" style="grid-column:span 1;">
-      <div class="num" style="font-size:16px;">${y.date} ${txt}</div>
-      <div class="label">昨日推荐 ${y.hits}/${y.total} 命中 ${y.hit_rate}%</div>
-    </div>`;
-  } else {
-    yesterdayHtml = `<div class="stat-card blue"><div class="num" style="font-size:16px;">暂无</div><div class="label">昨日推荐（待首个结算日）</div></div>`;
-  }
-
   document.getElementById('statsRow').innerHTML = `
     <div class="stat-card blue"><div class="num">${total}</div><div class="label">累计推荐</div></div>
     <div class="stat-card green"><div class="num">${hit}</div><div class="label">命中场次</div></div>
@@ -463,7 +454,6 @@ function renderStats() {
     <div class="stat-card yellow"><div class="num">${hitRate}</div><div class="label">总胜率（已结算）</div></div>
     <div class="stat-card green"><div class="num">${s.week_rate != null ? s.week_rate + '%' : '-'}</div><div class="label">近一周胜率（${s.week_total || 0}场）</div></div>
     <div class="stat-card blue"><div class="num">${s.month_rate != null ? s.month_rate + '%' : '-'}</div><div class="label">近一月胜率（${s.month_total || 0}场）</div></div>
-    ${yesterdayHtml}
   `;
 }
 
@@ -618,7 +608,7 @@ function renderPaper() {
   `;
 }
 
-/* ===== 今日推荐渲染 ===== */
+/* ===== 昨日推荐复盘渲染 ===== */
 function pickLabel(pick) {
   if (pick === 'H') return '主胜';
   if (pick === 'D') return '平局';
@@ -626,6 +616,44 @@ function pickLabel(pick) {
   return pick || '-';
 }
 
+function renderYesterday() {
+  const section = document.getElementById('yesterdaySection');
+  const header = document.getElementById('yesterdayHeader');
+  const body = document.getElementById('yesterdayBody');
+  const y = DATA.stats && DATA.stats.yesterday;
+  if (!y || !y.matches || !y.matches.length) {
+    section.style.display = 'none';
+    return;
+  }
+  section.style.display = '';
+  const cls = y.hit ? 'green' : 'red';
+  const statusTxt = y.hit ? '✅ 全部命中' : '❌ 有未中';
+  header.innerHTML = `📅 昨日推荐复盘 · ${y.date} · <span style="color:${y.hit ? 'var(--green)' : 'var(--red)'}">${y.hits}/${y.total} 命中 ${y.hit_rate}% ${statusTxt}</span>`;
+
+  const rows = y.matches.map(m => {
+    const pickTxt = pickLabel(m.pick) + (m.odds ? ' @ ' + m.odds : '');
+    const confTxt = m.confidence ? ('（' + m.confidence + '）') : '';
+    const resultTxt = m.result === 'hit'
+      ? '<span class="bet-won">✅ 命中</span>'
+      : '<span class="bet-lost">❌ 未中</span>';
+    const scoreTxt = m.score ? ('比分 ' + m.score) : '待赛果';
+    return `<tr>
+      <td>${m.match_num || '-'}</td>
+      <td>${m.league || '-'}</td>
+      <td>${m.home || ''} vs ${m.away || ''}</td>
+      <td>${pickTxt}${confTxt}</td>
+      <td>${scoreTxt}</td>
+      <td>${resultTxt}</td>
+    </tr>`;
+  }).join('');
+
+  body.innerHTML = `<div class="paper-bets"><table>
+    <tr><th>场次</th><th>赛事</th><th>对阵</th><th>推荐</th><th>实际赛果</th><th>结果</th></tr>
+    ${rows}
+  </table></div>`;
+}
+
+/* ===== 今日推荐渲染 ===== */
 function renderRecommendation() {
   const box = document.getElementById('recoSection');
   if (!DATA || !DATA.records || DATA.records.length === 0) {
@@ -690,6 +718,7 @@ function renderRecommendation() {
 function render() {
   renderStats();
   renderPaper();
+  renderYesterday();
   renderRecommendation();
   renderLeagueFilter();
   const records = (DATA.records || []).slice().reverse(); // 新的在前
