@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-16 11:51:55",
+  "updated_at": "2026-08-17 12:26:54",
   "stats": {
-    "total": 143,
-    "hit": 9,
-    "miss": 60,
-    "pending": 74,
+    "total": 149,
+    "hit": 14,
+    "miss": 121,
+    "pending": 14,
     "parlays": 0,
     "parlayWin": 0,
     "parlayLose": 0,
     "parlayPending": 0,
-    "hit_rate": 6.3,
+    "hit_rate": 9.4,
     "parlay_rate": 0
   },
   "records": [
@@ -2231,8 +2231,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 2.95,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -2284,8 +2284,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.4,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -2337,8 +2337,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.42,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:2",
           "review": ""
         },
         {
@@ -2390,8 +2390,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 2.97,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -2443,8 +2443,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 6.2,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:1",
           "review": ""
         },
         {
@@ -2496,8 +2496,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 5.1,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -2549,8 +2549,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.17,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -2602,8 +2602,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.23,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:0",
           "review": ""
         },
         {
@@ -2655,8 +2655,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 4.7,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -2708,8 +2708,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.45,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -2761,8 +2761,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.2,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -2814,8 +2814,8 @@
           "final_pick": "D",
           "pick_market": "HAD",
           "pick_odds": 3.12,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "4:0",
           "review": ""
         }
       ],
@@ -3299,8 +3299,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -3316,8 +3316,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -3333,8 +3333,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:2",
           "review": ""
         },
         {
@@ -3350,8 +3350,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -3367,8 +3367,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:1",
           "review": ""
         },
         {
@@ -3384,8 +3384,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -3401,8 +3401,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:3",
           "review": ""
         },
         {
@@ -3418,8 +3418,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:1",
           "review": ""
         },
         {
@@ -3435,8 +3435,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -3452,8 +3452,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "5:5",
           "review": ""
         },
         {
@@ -3469,8 +3469,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -3486,8 +3486,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:3",
           "review": ""
         },
         {
@@ -3503,8 +3503,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:0",
           "review": ""
         },
         {
@@ -3520,8 +3520,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:4",
           "review": ""
         },
         {
@@ -3537,8 +3537,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -3554,8 +3554,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -3571,8 +3571,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -3588,8 +3588,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -3605,8 +3605,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:2",
           "review": ""
         },
         {
@@ -3622,8 +3622,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -3639,8 +3639,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -3656,8 +3656,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -3673,8 +3673,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "4:0",
           "review": ""
         },
         {
@@ -3690,8 +3690,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:0",
           "review": ""
         },
         {
@@ -3707,8 +3707,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:3",
           "review": ""
         },
         {
@@ -3724,8 +3724,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -3758,8 +3758,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:3",
           "review": ""
         },
         {
@@ -3919,8 +3919,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -3969,8 +3969,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:4",
           "review": ""
         },
         {
@@ -4019,8 +4019,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:2",
           "review": ""
         },
         {
@@ -4069,8 +4069,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -4119,8 +4119,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:1",
           "review": ""
         },
         {
@@ -4169,8 +4169,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -4219,8 +4219,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:3",
           "review": ""
         },
         {
@@ -4269,8 +4269,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:1",
           "review": ""
         },
         {
@@ -4319,8 +4319,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -4369,8 +4369,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "5:5",
           "review": ""
         },
         {
@@ -4419,8 +4419,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -4469,8 +4469,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:3",
           "review": ""
         },
         {
@@ -4519,8 +4519,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:0",
           "review": ""
         },
         {
@@ -4569,8 +4569,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:4",
           "review": ""
         },
         {
@@ -4619,8 +4619,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -4669,8 +4669,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -4719,8 +4719,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -4769,8 +4769,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -4819,8 +4819,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:2",
           "review": ""
         },
         {
@@ -4869,8 +4869,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -4919,8 +4919,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -4969,8 +4969,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -5019,8 +5019,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "4:0",
           "review": ""
         },
         {
@@ -5069,8 +5069,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:0",
           "review": ""
         },
         {
@@ -5119,8 +5119,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "0:3",
           "review": ""
         },
         {
@@ -5169,8 +5169,8 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
-          "score": "",
+          "result": "miss",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -5269,7 +5269,143 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "result": "pending",
+          "result": "miss",
+          "score": "2:3",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
+      "review": "昨日已回填27场，数据面观望记录按胜平负口径为0中27错；昨日未生成串关，因此不存在串关命中或失效记录。阶段A因近5场数据不足而未形成可执行方向，赔率后验仅记录市场概率，不能用结果反证球队状态。本次继续以补齐球队样本、伤停和首发为复核触发条件，未达门槛不进入串关。"
+    },
+    {
+      "date": "2026-08-17",
+      "analysis_time": "2026-08-17T12:26:20+08:00",
+      "matches": [
+        {
+          "match_id": 2040914,
+          "match_num": "周一001",
+          "league": "芬超",
+          "home": "赫尔辛基火花",
+          "away": "坦佩雷山猫",
+          "match_time": "23:00",
+          "odds": {
+            "h": "2.24",
+            "d": "3.35",
+            "a": "2.60",
+            "goal_line": ""
+          },
+          "data_analysis": null,
+          "odds_analysis": null,
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040915,
+          "match_num": "周一002",
+          "league": "瑞超",
+          "home": "赫根",
+          "away": "哈尔姆斯塔德",
+          "match_time": "01:00",
+          "odds": {
+            "h": "1.21",
+            "d": "5.60",
+            "a": "8.05",
+            "goal_line": ""
+          },
+          "data_analysis": null,
+          "odds_analysis": null,
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040916,
+          "match_num": "周一003",
+          "league": "英冠",
+          "home": "加的夫城",
+          "away": "雷克斯汉姆",
+          "match_time": "03:00",
+          "odds": {
+            "h": "2.27",
+            "d": "3.30",
+            "a": "2.59",
+            "goal_line": ""
+          },
+          "data_analysis": null,
+          "odds_analysis": null,
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040922,
+          "match_num": "周一004",
+          "league": "西甲",
+          "home": "拉科鲁尼亚",
+          "away": "埃尔切",
+          "match_time": "03:00",
+          "odds": {
+            "h": "2.10",
+            "d": "2.95",
+            "a": "3.18",
+            "goal_line": ""
+          },
+          "data_analysis": null,
+          "odds_analysis": null,
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040917,
+          "match_num": "周一005",
+          "league": "葡超",
+          "home": "卡萨皮亚",
+          "away": "本菲卡",
+          "match_time": "03:15",
+          "odds": {},
+          "data_analysis": null,
+          "odds_analysis": null,
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040918,
+          "match_num": "周一006",
+          "league": "巴甲",
+          "home": "巴西国际",
+          "away": "里莫",
+          "match_time": "07:00",
+          "odds": {
+            "h": "1.45",
+            "d": "3.80",
+            "a": "5.70",
+            "goal_line": ""
+          },
+          "data_analysis": null,
+          "odds_analysis": null,
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
           "score": "",
           "review": ""
         }
