@@ -1,31 +1,274 @@
 {
-  "updated_at": "2026-08-18 01:28:33",
+  "updated_at": "2026-08-18 01:33:35",
   "stats": {
-    "total": 0,
-    "hit": 0,
-    "miss": 0,
+    "total": 3,
+    "hit": 2,
+    "miss": 1,
     "pending": 0,
-    "hit_rate": 0,
-    "week_rate": 0,
-    "week_total": 0,
-    "month_rate": 0,
-    "month_total": 0,
-    "yesterday": null
+    "hit_rate": 66.7,
+    "week_rate": 66.7,
+    "week_total": 3,
+    "month_rate": 66.7,
+    "month_total": 3,
+    "yesterday": {
+      "date": "2026-08-18",
+      "hits": 2,
+      "total": 3,
+      "hit_rate": 66.7,
+      "hit": false,
+      "matches": [
+        {
+          "match_num": "周二001",
+          "league": "瑞超",
+          "home": "赫根",
+          "away": "哈尔姆斯塔德",
+          "pick": "H",
+          "odds": 1.22,
+          "confidence": "high",
+          "result": "hit",
+          "score": "2:0",
+          "bet_stake": 100.0,
+          "bet_profit": 22.0
+        },
+        {
+          "match_num": "周二002",
+          "league": "巴甲",
+          "home": "巴西国际",
+          "away": "里莫",
+          "pick": "H",
+          "odds": 1.41,
+          "confidence": "medium",
+          "result": "miss",
+          "score": "1:2",
+          "bet_stake": 80.0,
+          "bet_profit": -80.0
+        },
+        {
+          "match_num": "周二003",
+          "league": "英冠",
+          "home": "加的夫城",
+          "away": "雷克斯汉姆",
+          "pick": "H",
+          "odds": 2.37,
+          "confidence": "high",
+          "result": "hit",
+          "score": "3:1",
+          "bet_stake": null,
+          "bet_profit": null
+        }
+      ],
+      "bet_stake": 330.0,
+      "bet_profit": 225.5
+    }
   },
-  "records": [],
+  "records": [
+    {
+      "date": "2026-08-18",
+      "analysis_time": "2026-08-18T11:30:00",
+      "matches": [
+        {
+          "match_id": 0,
+          "match_num": "周二001",
+          "league": "瑞超",
+          "home": "赫根",
+          "away": "哈尔姆斯塔德",
+          "match_time": "20:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "H",
+            "confidence": "high",
+            "reasoning": "演示数据",
+            "sample_size": {
+              "home_recent": 10,
+              "away_recent": 10
+            }
+          },
+          "odds_analysis": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.22,
+          "result": "hit",
+          "score": "2:0",
+          "review": ""
+        },
+        {
+          "match_id": 0,
+          "match_num": "周二002",
+          "league": "巴甲",
+          "home": "巴西国际",
+          "away": "里莫",
+          "match_time": "20:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "H",
+            "confidence": "medium",
+            "reasoning": "演示数据",
+            "sample_size": {
+              "home_recent": 10,
+              "away_recent": 10
+            }
+          },
+          "odds_analysis": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.41,
+          "result": "miss",
+          "score": "1:2",
+          "review": ""
+        },
+        {
+          "match_id": 0,
+          "match_num": "周二003",
+          "league": "英冠",
+          "home": "加的夫城",
+          "away": "雷克斯汉姆",
+          "match_time": "20:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "H",
+            "confidence": "high",
+            "reasoning": "演示数据",
+            "sample_size": {
+              "home_recent": 10,
+              "away_recent": 10
+            }
+          },
+          "odds_analysis": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.37,
+          "result": "hit",
+          "score": "3:1",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [
+        {
+          "match_id": 0,
+          "match_num": "周二001",
+          "league": "瑞超",
+          "home": "赫根",
+          "away": "哈尔姆斯塔德",
+          "match_time": "20:00",
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.22,
+          "confidence": "high",
+          "reasoning": "演示数据",
+          "conclusion": null,
+          "result": "hit"
+        },
+        {
+          "match_id": 0,
+          "match_num": "周二002",
+          "league": "巴甲",
+          "home": "巴西国际",
+          "away": "里莫",
+          "match_time": "20:00",
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.41,
+          "confidence": "medium",
+          "reasoning": "演示数据",
+          "conclusion": null,
+          "result": "miss"
+        },
+        {
+          "match_id": 0,
+          "match_num": "周二003",
+          "league": "英冠",
+          "home": "加的夫城",
+          "away": "雷克斯汉姆",
+          "match_time": "20:00",
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.37,
+          "confidence": "high",
+          "reasoning": "演示数据",
+          "conclusion": null,
+          "result": "hit"
+        }
+      ],
+      "bets": [
+        {
+          "type": "单关",
+          "detail": "周二001 赫根 vs 哈尔姆斯塔德 H@1.22",
+          "stake": 100.0,
+          "status": "won",
+          "profit": 22.0
+        },
+        {
+          "type": "单关",
+          "detail": "周二002 巴西国际 vs 里莫 H@1.41",
+          "stake": 80.0,
+          "status": "lost",
+          "profit": -80.0
+        },
+        {
+          "type": "串关",
+          "detail": "周二003+周二001@2.89",
+          "stake": 150.0,
+          "status": "won",
+          "profit": 283.5
+        }
+      ]
+    }
+  ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 1000.0,
-    "total_profit": 0.0,
-    "profit_rate": 0.0,
+    "balance": 895.5,
+    "total_profit": -104.5,
+    "profit_rate": -10.45,
     "pending_count": 0,
-    "settlements": [],
+    "settlements": [
+      {
+        "date": "2026-08-18",
+        "bet_count": 3,
+        "won": 2,
+        "lost": 1,
+        "profit": 225.5,
+        "balance": 895.5
+      }
+    ],
     "equity_curve": [
       {
         "date": "2026-08-18",
         "balance": 1000.0
+      },
+      {
+        "date": "2026-08-18",
+        "balance": 895.5
       }
     ],
-    "recent_bets": []
+    "recent_bets": [
+      {
+        "date": "2026-08-18",
+        "match_num": "周二001",
+        "type": "单关",
+        "detail": "赫根 vs 哈尔姆斯塔德 H@1.22",
+        "stake": 100.0,
+        "status": "won",
+        "profit": 22.0
+      },
+      {
+        "date": "2026-08-18",
+        "match_num": "周二002",
+        "type": "单关",
+        "detail": "巴西国际 vs 里莫 H@1.41",
+        "stake": 80.0,
+        "status": "lost",
+        "profit": -80.0
+      },
+      {
+        "date": "2026-08-18",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周二003+周二001@2.89",
+        "stake": 150.0,
+        "status": "won",
+        "profit": 283.5
+      }
+    ]
   }
 }
