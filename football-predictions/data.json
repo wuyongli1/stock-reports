@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 01:36:56",
+  "updated_at": "2026-08-18 11:35:40",
   "stats": {
     "total": 0,
     "hit": 0,
@@ -12,7 +12,196 @@
     "month_total": 0,
     "yesterday": null
   },
-  "records": [],
+  "records": [
+    {
+      "date": "2026-08-18",
+      "analysis_time": "2026-08-18T11:30:00+08:00",
+      "matches": [
+        {
+          "match_id": 2040930,
+          "match_num": "周二001",
+          "league": "解放者杯",
+          "home": "里瓦达维亚独立",
+          "away": "弗鲁米嫩塞",
+          "match_time": "2026-08-18 06:00",
+          "odds": {
+            "h": 2.36,
+            "d": 2.65,
+            "a": 3.05
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队可核验近况7场（DWWDWWW），客队7场（DWWDLLD）；但数据日期集中在4-5月，距本场较久，缺少当前排名、近期主客拆分、伤停和首发，不能把历史交锋或赔率替代实时状态。",
+            "sample_size": {
+              "home_recent": 7,
+              "away_recent": 7
+            },
+            "missing": [
+              "当前排名",
+              "正式首发",
+              "伤停",
+              "近期独立盘口源",
+              "大小球赔率"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.385,
+              "d": 0.343,
+              "a": 0.272
+            },
+            "overround": 0.099,
+            "conclusion": "官方HAD去水后主胜最高，但这是市场基准；让球-1显示主队穿深盘阻力大，且未取得大小球，三市场无法完整校验，因此不构成推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040943,
+          "match_num": "周二002",
+          "league": "欧冠",
+          "home": "索菲亚列夫斯基",
+          "away": "雅典AEK",
+          "match_time": "2026-08-18 03:00",
+          "odds": {
+            "h": 3.05,
+            "d": 2.95,
+            "a": 2.16
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "ESPN未找到双方球队，无法核验任一方近5场、排名、主客场表现、对手强度、战意、伤停或首发；按门控必须观望。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing": [
+              "双方近期赛果",
+              "排名",
+              "正式首发",
+              "伤停",
+              "对手强度",
+              "大小球赔率"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.299,
+              "d": 0.309,
+              "a": 0.392
+            },
+            "overround": 0.113,
+            "conclusion": "去水后客胜略高，但无球队数据佐证，不能将赔率方向包装成近期状态；让球为主队受让+1，大小球缺失，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040950,
+          "match_num": "周二003",
+          "league": "欧冠",
+          "home": "萨格勒布迪纳摩",
+          "away": "维京",
+          "match_time": "2026-08-18 03:00",
+          "odds": {
+            "h": 1.61,
+            "d": 3.7,
+            "a": 4.2
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "ESPN未找到双方球队，双方实际可核验近况均为0场；无法判断近期攻守、主客拆分、对手强度、赛程和阵容，样本不足5场，强制观望。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing": [
+              "双方近期赛果",
+              "排名",
+              "正式首发",
+              "伤停",
+              "对手强度",
+              "大小球赔率"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.547,
+              "d": 0.238,
+              "a": 0.215
+            },
+            "overround": 0.136,
+            "conclusion": "去水后主胜明显占优，但无独立球队证据，且-1让球主胜仅为高难度深盘方向；大小球缺失，不推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040944,
+          "match_num": "周二004",
+          "league": "欧冠",
+          "home": "费内巴切",
+          "away": "里昂",
+          "match_time": "2026-08-18 03:00",
+          "odds": {
+            "h": 1.81,
+            "d": 3.5,
+            "a": 3.45
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "ESPN未找到双方球队，双方实际可核验近况均为0场；缺少当前排名、近期攻守、主客场、赛程动机、伤停和首发，样本不足5场，强制观望。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing": [
+              "双方近期赛果",
+              "排名",
+              "正式首发",
+              "伤停",
+              "对手强度",
+              "大小球赔率"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.473,
+              "d": 0.245,
+              "a": 0.282
+            },
+            "overround": 0.169,
+            "conclusion": "去水后主胜占优，但无球队数据支撑；-1让球主胜赔率高、客队方向更受保护，存在方向与穿盘差异；大小球缺失，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
+      "bets": []
+    }
+  ],
   "paper": {
     "initial_balance": 1000.0,
     "balance": 1000.0,
