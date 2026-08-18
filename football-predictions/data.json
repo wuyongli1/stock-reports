@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 13:25:23",
+  "updated_at": "2026-08-18 15:12:59",
   "stats": {
     "total": 0,
     "hit": 0,
@@ -57,6 +57,9 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "none_HAD",
+          "stake_cap_ratio": null,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -106,6 +109,9 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "none_HAD",
+          "stake_cap_ratio": null,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -155,6 +161,9 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "none_HAD",
+          "stake_cap_ratio": null,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -204,6 +213,9 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "none_HAD",
+          "stake_cap_ratio": null,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -224,6 +236,7 @@
           "confidence": "medium",
           "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
           "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。",
+          "recommendation_level": "OBSERVE",
           "result": "unsettled"
         }
       ],
