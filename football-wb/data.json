@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 16:45:30",
+  "updated_at": "2026-08-18 16:57:12",
   "stats": {
     "total": 1,
     "hit": 0,
@@ -73,12 +73,12 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "双方近况数据缺失(api-football与ESPN均未找到索菲亚列夫斯基/雅典AEK),可核验样本为0,按门控强制观望,不编造推荐。",
+            "reasoning": "索菲亚列夫斯基近1场[W](8/7主2:0胜保超),状态可查;但雅典AEK暂无近况数据(希腊超未开赛,ESPN/TheSportsDB均无记录),双方有效样本不足5场,按门控强制观望。",
             "sample_size": {
-              "home_recent": 0,
+              "home_recent": 1,
               "away_recent": 0
             },
-            "status": "provider_error"
+            "status": "ok"
           },
           "odds_analysis": {
             "had_fair_prob": {
@@ -86,7 +86,7 @@
               "d": 0.293,
               "a": 0.395
             },
-            "conclusion": "赔率看客队AEK略被看好,但数据面缺失,无法做赔率后验校验,观望。"
+            "conclusion": "赔率分布较均衡,索菲亚主场略占优;但客队无数据面验证,样本不足,观望。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -113,12 +113,12 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "双方近况数据缺失(萨格勒布迪纳摩/维京均未找到),样本为0,赔率虽主队大热但无数据面支撑,按门控强制观望。",
+            "reasoning": "萨格勒布迪纳摩近1场[W](8/14主4:0胜克甲),维京近10场[LWWDWWLWWW]近9场7胜1平1负状态火热(挪超);但主队欧冠资格赛样本仅1场,双方≥5场门控不满足,赔率虽主胜1.58大热但数据面不足以支撑,强制观望。",
             "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
+              "home_recent": 1,
+              "away_recent": 10
             },
-            "status": "provider_error"
+            "status": "ok"
           },
           "odds_analysis": {
             "had_fair_prob": {
@@ -126,7 +126,7 @@
               "d": 0.24,
               "a": 0.207
             },
-            "conclusion": "赔率强烈看好主队,但资格赛+数据面缺失,去水概率不可作为独立依据,观望。"
+            "conclusion": "赔率强烈看好主队(1.58),但主队资格赛样本仅1场,去水概率不可作为独立依据,观望。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -153,12 +153,12 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "双方近况数据缺失(费内巴切/里昂均未找到),样本为0,赔率略看好主队但无数据面验证,按门控强制观望。",
+            "reasoning": "费内巴切近1场[L](8/15客1:2负土超),里昂近1场[W](8/11主3:0胜布拉格斯巴达,欧冠资格赛);双方样本均仅1场,远低于5场门控,赔率略看好主队但无足够数据面验证,强制观望。",
             "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
+              "home_recent": 1,
+              "away_recent": 1
             },
-            "status": "provider_error"
+            "status": "ok"
           },
           "odds_analysis": {
             "had_fair_prob": {
@@ -166,7 +166,7 @@
               "d": 0.254,
               "a": 0.259
             },
-            "conclusion": "赔率主队占优,但欧冠资格赛+数据面缺失,不做推荐,观望。"
+            "conclusion": "赔率略看好主队(1.84),双方样本各仅1场,数据面不足以支撑,观望。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
