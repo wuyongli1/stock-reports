@@ -480,17 +480,41 @@ function resultText(m) {
   if (m.result === 'miss') return '❌ 未中';
   return '⏳ 待开赛';
 }
+const STATUS_ZH = {
+  high: '高', medium: '中', low: '低',
+  ok: '证据通过', verified: '已验证', pass: '通过',
+  insufficient_evidence: '证据不足',
+  VERIFIED: '正式推荐', PARTIAL: '部分证据', OBSERVE: '观察，不作正式推荐',
+  full_HAD: '官方赔率完整', partial_HAD: '官方赔率部分完整', none_HAD: '官方赔率未完整验证'
+};
+function zhStatus(v) { return STATUS_ZH[v] || v || '-'; }
 function confidenceClass(c) { return c || 'low'; }
+function gateReasons(m) {
+  const d = m.data_analysis || {};
+  const sample = d.sample_size || {};
+  const reasons = [];
+  const home = Number(sample.home_recent_matches ?? sample.home_recent ?? 0) || 0;
+  const away = Number(sample.away_recent_matches ?? sample.away_recent ?? 0) || 0;
+  if (home < 5 || away < 5) reasons.push(`正式样本不足（主队 ${home} 场、客队 ${away} 场，双方均需至少 5 场）`);
+  if (d.confidence === 'low') reasons.push('置信度为低');
+  if (d.status === 'insufficient_evidence') reasons.push('证据不足');
+  (d.missing_data || []).forEach(x => reasons.push(STATUS_ZH[x] || x));
+  if (m.odds_integrity === 'none_HAD') reasons.push('官方胜平负赔率未完整验证');
+  if (m.recommendation_level === 'OBSERVE' || m.final_pick === 'OBSERVE') reasons.push('观察，不作正式推荐');
+  return [...new Set(reasons)];
+}
 
 function matchCard(m) {
   const oddsStr = m.odds ? (m.odds.h + ' / ' + m.odds.d + ' / ' + m.odds.a) : '-';
   const dataReason = m.data_analysis && m.data_analysis.reasoning ? m.data_analysis.reasoning : '';
   const oddsConclusion = m.odds_analysis && m.odds_analysis.conclusion ? m.odds_analysis.conclusion : '';
-  const detail = (dataReason || oddsConclusion) ? `
+  const reasons = gateReasons(m);
+  const detail = (dataReason || oddsConclusion || reasons.length) ? `
     <button class="analysis-toggle" onclick="this.nextElementSibling.classList.toggle('open')">📊 查看分析详情</button>
     <div class="analysis-detail">
       ${dataReason ? '<div class="section-title">📈 数据面分析（赔率盲判）</div><div>' + dataReason + '</div>' : ''}
       ${oddsConclusion ? '<div class="section-title">💰 赔率面校验</div><div>' + oddsConclusion + '</div>' : ''}
+      ${reasons.length ? '<div class="section-title">🚧 未推荐卡点</div><div>' + reasons.join('；') + '</div>' : ''}
       ${m.review ? '<div class="section-title">🔍 复盘</div><div>' + m.review + '</div>' : ''}
     </div>` : '';
 
@@ -500,14 +524,14 @@ function matchCard(m) {
       <div class="match-top">
         <span class="match-num">${m.match_num || ''}</span>
         <span class="league-tag">${m.league || ''}</span>
-        <span class="confidence ${confidenceClass(m.data_analysis && m.data_analysis.confidence)}">${(m.data_analysis && m.data_analysis.confidence) || ''} 置信</span>
+        <span class="confidence ${(m.data_analysis && m.data_analysis.confidence) || ''}">${zhStatus(m.data_analysis && m.data_analysis.confidence)}置信</span>
       </div>
       <div class="match-teams">${m.home} <span class="vs">vs</span> ${m.away}</div>
       <div class="match-time">🕐 ${m.match_time || ''} ${m.score ? '· 比分 ' + m.score : ''}</div>
       ${detail}
     </div>
     <div class="pick-box">
-      <span class="pick-label">预测（${m.pick_market || 'HAD'}）</span>
+      <span class="pick-label">预测（${m.pick_market || '胜平负'}） · ${zhStatus(m.recommendation_level || m.final_pick)}</span>
       <span class="pick-value ${resultClass(m)}">${m.pick || '-'} @ ${m.pick_odds || '-'} ${resultText(m)}</span>
       <span class="pick-odds">赔率：${oddsStr}</span>
     </div>
