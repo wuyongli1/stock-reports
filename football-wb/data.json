@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 16:10:24",
+  "updated_at": "2026-08-18 16:14:48",
   "stats": {
     "total": 1,
     "hit": 0,
@@ -202,7 +202,7 @@
         {
           "type": "单关",
           "detail": "周二001 里瓦达维亚独立 vs 弗鲁米嫩塞 H@2.36",
-          "stake": 7.41,
+          "stake": 6.0,
           "status": "pending",
           "profit": null
         }
@@ -211,9 +211,9 @@
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 992.59,
-    "total_profit": -7.41,
-    "profit_rate": -0.74,
+    "balance": 994.0,
+    "total_profit": -6.0,
+    "profit_rate": -0.6,
     "pending_count": 1,
     "settlements": [],
     "equity_curve": [
@@ -228,7 +228,7 @@
         "match_num": "周二001",
         "type": "单关",
         "detail": "里瓦达维亚独立 vs 弗鲁米嫩塞 H@2.36",
-        "stake": 7.41,
+        "stake": 6.0,
         "status": "pending",
         "profit": null
       }
