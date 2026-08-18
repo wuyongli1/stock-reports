@@ -1,0 +1,206 @@
+{
+  "date": "2026-08-18",
+  "analysis_time": "2026-08-18T16:10:00",
+  "replace": true,
+  "matches": [
+    {
+      "match_id": 2040930,
+      "match_num": "周二001",
+      "league": "解放者杯",
+      "home": "里瓦达维亚独立",
+      "away": "弗鲁米嫩塞",
+      "match_time": "2026-08-19 06:00",
+      "odds": {
+        "HAD": {
+          "h": "2.36",
+          "d": "2.65",
+          "a": "3.05"
+        },
+        "HHAD": {
+          "goal_line": "-1.00",
+          "h": "5.65",
+          "d": "3.80",
+          "a": "1.45"
+        }
+      },
+      "odds_integrity": "full_HAD",
+      "data_analysis": {
+        "tendency": "H",
+        "confidence": "medium",
+        "reasoning": "里瓦达维亚独立近7场[DWWDWWW]状态火热,近5场4胜1平,主场4:1/1:0等均强势;弗鲁米嫩塞近7场[DWWDLLD]近5场1胜2平2负状态低迷。历史交锋里瓦达维亚独立5/7主场1:1平、4/16客场2:1胜,心理占优。客队巴甲底蕴仍在但当前状态差,数据面倾向主队。",
+        "sample_size": {
+          "home_recent": 7,
+          "away_recent": 7
+        },
+        "status": "ok",
+        "freshness_hours": 6
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.388,
+          "d": 0.346,
+          "a": 0.3
+        },
+        "conclusion": "官方赔率去水后主39.7%/平34.9%/客30.4%,市场小幅看好主队,与数据面H一致。但让球盘客队受让1.45极热,提示主队难大胜,支持小胜剧本,不做高置信。"
+      },
+      "market_analysis": {
+        "ah_pick": "客队受让-1有优势(1.45)",
+        "ou_pick": "未提供大小球数据",
+        "script": "1X2主队小幅受捧+让球盘客队受让热,剧本为主队小胜/平局,主胜有EV但幅度有限。"
+      },
+      "final_pick": "H",
+      "pick_market": "HAD",
+      "pick_odds": 2.36,
+      "stake_cap_ratio": 1.0,
+      "recommendation_level": "VERIFIED"
+    },
+    {
+      "match_id": 2040943,
+      "match_num": "周二002",
+      "league": "欧冠",
+      "home": "索菲亚列夫斯基",
+      "away": "雅典AEK",
+      "match_time": "2026-08-19 03:00",
+      "odds": {
+        "HAD": {
+          "h": "3.00",
+          "d": "2.95",
+          "a": "2.19"
+        },
+        "HHAD": {
+          "goal_line": "+1.00",
+          "h": "1.50",
+          "d": "3.75",
+          "a": "5.10"
+        }
+      },
+      "odds_integrity": "full_HAD",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "reasoning": "双方近况数据缺失(api-football与ESPN均未找到索菲亚列夫斯基/雅典AEK),可核验样本为0,按门控强制观望,不编造推荐。",
+        "sample_size": {
+          "home_recent": 0,
+          "away_recent": 0
+        },
+        "status": "provider_error"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.288,
+          "d": 0.293,
+          "a": 0.395
+        },
+        "conclusion": "赔率看客队AEK略被看好,但数据面缺失,无法做赔率后验校验,观望。"
+      },
+      "market_analysis": {
+        "ah_pick": null,
+        "ou_pick": null,
+        "script": "数据不足,不构成三市场剧本。"
+      },
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2040950,
+      "match_num": "周二003",
+      "league": "欧冠",
+      "home": "萨格勒布迪纳摩",
+      "away": "维京",
+      "match_time": "2026-08-19 03:00",
+      "odds": {
+        "HAD": {
+          "h": "1.58",
+          "d": "3.75",
+          "a": "4.35"
+        },
+        "HHAD": {
+          "goal_line": "-1.00",
+          "h": "2.84",
+          "d": "3.45",
+          "a": "2.05"
+        }
+      },
+      "odds_integrity": "full_HAD",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "reasoning": "双方近况数据缺失(萨格勒布迪纳摩/维京均未找到),样本为0,赔率虽主队大热但无数据面支撑,按门控强制观望。",
+        "sample_size": {
+          "home_recent": 0,
+          "away_recent": 0
+        },
+        "status": "provider_error"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.57,
+          "d": 0.24,
+          "a": 0.207
+        },
+        "conclusion": "赔率强烈看好主队,但资格赛+数据面缺失,去水概率不可作为独立依据,观望。"
+      },
+      "market_analysis": {
+        "ah_pick": null,
+        "ou_pick": null,
+        "script": "数据不足,不构成三市场剧本。"
+      },
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2040944,
+      "match_num": "周二004",
+      "league": "欧冠",
+      "home": "费内巴切",
+      "away": "里昂",
+      "match_time": "2026-08-19 03:00",
+      "odds": {
+        "HAD": {
+          "h": "1.84",
+          "d": "3.45",
+          "a": "3.38"
+        },
+        "HHAD": {
+          "goal_line": "-1.00",
+          "h": "3.65",
+          "d": "3.65",
+          "a": "1.72"
+        }
+      },
+      "odds_integrity": "full_HAD",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "reasoning": "双方近况数据缺失(费内巴切/里昂均未找到),样本为0,赔率略看好主队但无数据面验证,按门控强制观望。",
+        "sample_size": {
+          "home_recent": 0,
+          "away_recent": 0
+        },
+        "status": "provider_error"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.476,
+          "d": 0.254,
+          "a": 0.259
+        },
+        "conclusion": "赔率主队占优,但欧冠资格赛+数据面缺失,不做推荐,观望。"
+      },
+      "market_analysis": {
+        "ah_pick": null,
+        "ou_pick": null,
+        "script": "数据不足,不构成三市场剧本。"
+      },
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "result": "unsettled"
+    }
+  ],
+  "parlays": []
+}
