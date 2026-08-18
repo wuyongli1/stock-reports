@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 11:35:40",
+  "updated_at": "2026-08-18 12:49:57",
   "stats": {
     "total": 0,
     "hit": 0,
@@ -15,44 +15,93 @@
   "records": [
     {
       "date": "2026-08-18",
-      "analysis_time": "2026-08-18T11:30:00+08:00",
+      "analysis_time": "2026-08-18T12:49:41+08:00",
       "matches": [
+        {
+          "match_id": 2040912,
+          "match_num": "周日027",
+          "league": "葡超",
+          "home": "布拉加",
+          "away": "吉维森特",
+          "match_time": "03:30",
+          "odds": {
+            "h": "1.44",
+            "d": "3.80",
+            "a": "5.90",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 1,
+              "away_recent_matches": 1
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": "espn",
+              "away": "espn"
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.6161,
+              "d": 0.2335,
+              "a": 0.1504
+            },
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
         {
           "match_id": 2040930,
           "match_num": "周二001",
           "league": "解放者杯",
           "home": "里瓦达维亚独立",
           "away": "弗鲁米嫩塞",
-          "match_time": "2026-08-18 06:00",
+          "match_time": "06:00",
           "odds": {
-            "h": 2.36,
-            "d": 2.65,
-            "a": 3.05
+            "h": "2.36",
+            "d": "2.65",
+            "a": "3.05",
+            "goal_line": ""
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
-            "confidence": "low",
-            "reasoning": "主队可核验近况7场（DWWDWWW），客队7场（DWWDLLD）；但数据日期集中在4-5月，距本场较久，缺少当前排名、近期主客拆分、伤停和首发，不能把历史交锋或赔率替代实时状态。",
+            "tendency": "D",
+            "confidence": "medium",
             "sample_size": {
-              "home_recent": 7,
-              "away_recent": 7
+              "home_recent_matches": 7,
+              "away_recent_matches": 7
             },
-            "missing": [
-              "当前排名",
-              "正式首发",
-              "伤停",
-              "近期独立盘口源",
-              "大小球赔率"
-            ]
+            "status": "ok",
+            "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
+            "data_sources": {
+              "home": "espn",
+              "away": "espn"
+            },
+            "missing_data": []
           },
           "odds_analysis": {
             "had_fair_prob": {
-              "h": 0.385,
-              "d": 0.343,
-              "a": 0.272
+              "h": 0.3753,
+              "d": 0.3343,
+              "a": 0.2904
             },
-            "overround": 0.099,
-            "conclusion": "官方HAD去水后主胜最高，但这是市场基准；让球-1显示主队穿深盘阻力大，且未取得大小球，三市场无法完整校验，因此不构成推荐。"
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -67,37 +116,41 @@
           "league": "欧冠",
           "home": "索菲亚列夫斯基",
           "away": "雅典AEK",
-          "match_time": "2026-08-18 03:00",
+          "match_time": "03:00",
           "odds": {
-            "h": 3.05,
-            "d": 2.95,
-            "a": 2.16
+            "h": "3.05",
+            "d": "2.95",
+            "a": "2.16",
+            "goal_line": ""
           },
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "ESPN未找到双方球队，无法核验任一方近5场、排名、主客场表现、对手强度、战意、伤停或首发；按门控必须观望。",
             "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
             },
-            "missing": [
-              "双方近期赛果",
-              "排名",
-              "正式首发",
-              "伤停",
-              "对手强度",
-              "大小球赔率"
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
             ]
           },
           "odds_analysis": {
             "had_fair_prob": {
-              "h": 0.299,
-              "d": 0.309,
-              "a": 0.392
+              "h": 0.2902,
+              "d": 0.3,
+              "a": 0.4098
             },
-            "overround": 0.113,
-            "conclusion": "去水后客胜略高，但无球队数据佐证，不能将赔率方向包装成近期状态；让球为主队受让+1，大小球缺失，观望。"
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -112,37 +165,41 @@
           "league": "欧冠",
           "home": "萨格勒布迪纳摩",
           "away": "维京",
-          "match_time": "2026-08-18 03:00",
+          "match_time": "03:00",
           "odds": {
-            "h": 1.61,
-            "d": 3.7,
-            "a": 4.2
+            "h": "1.61",
+            "d": "3.70",
+            "a": "4.20",
+            "goal_line": ""
           },
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "ESPN未找到双方球队，双方实际可核验近况均为0场；无法判断近期攻守、主客拆分、对手强度、赛程和阵容，样本不足5场，强制观望。",
             "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
             },
-            "missing": [
-              "双方近期赛果",
-              "排名",
-              "正式首发",
-              "伤停",
-              "对手强度",
-              "大小球赔率"
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
             ]
           },
           "odds_analysis": {
             "had_fair_prob": {
-              "h": 0.547,
-              "d": 0.238,
-              "a": 0.215
+              "h": 0.5499,
+              "d": 0.2393,
+              "a": 0.2108
             },
-            "overround": 0.136,
-            "conclusion": "去水后主胜明显占优，但无独立球队证据，且-1让球主胜仅为高难度深盘方向；大小球缺失，不推荐。"
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -157,37 +214,765 @@
           "league": "欧冠",
           "home": "费内巴切",
           "away": "里昂",
-          "match_time": "2026-08-18 03:00",
+          "match_time": "03:00",
           "odds": {
-            "h": 1.81,
-            "d": 3.5,
-            "a": 3.45
+            "h": "1.81",
+            "d": "3.50",
+            "a": "3.45",
+            "goal_line": ""
           },
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "ESPN未找到双方球队，双方实际可核验近况均为0场；缺少当前排名、近期攻守、主客场、赛程动机、伤停和首发，样本不足5场，强制观望。",
             "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
             },
-            "missing": [
-              "双方近期赛果",
-              "排名",
-              "正式首发",
-              "伤停",
-              "对手强度",
-              "大小球赔率"
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
             ]
           },
           "odds_analysis": {
             "had_fair_prob": {
-              "h": 0.473,
-              "d": 0.245,
-              "a": 0.282
+              "h": 0.4898,
+              "d": 0.2533,
+              "a": 0.257
             },
-            "overround": 0.169,
-            "conclusion": "去水后主胜占优，但无球队数据支撑；-1让球主胜赔率高、客队方向更受保护，存在方向与穿盘差异；大小球缺失，观望。"
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040937,
+          "match_num": "周三001",
+          "league": "韩国杯",
+          "home": "安养FC",
+          "away": "济州SK",
+          "match_time": "18:30",
+          "odds": {
+            "h": "2.63",
+            "d": "3.00",
+            "a": "2.41",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3369,
+              "d": 0.2954,
+              "a": 0.3677
+            },
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040938,
+          "match_num": "周三002",
+          "league": "西甲",
+          "home": "马德里竞技",
+          "away": "马拉加",
+          "match_time": "03:00",
+          "odds": {
+            "h": "1.20",
+            "d": "5.10",
+            "a": "10.00",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": "espn",
+              "away": "espn"
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.7378,
+              "d": 0.1736,
+              "a": 0.0885
+            },
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040931,
+          "match_num": "周三003",
+          "league": "解放者杯",
+          "home": "波特诺山丘",
+          "away": "帕尔梅拉斯",
+          "match_time": "06:00",
+          "odds": {
+            "h": "5.05",
+            "d": "3.05",
+            "a": "1.66",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "D",
+            "confidence": "medium",
+            "sample_size": {
+              "home_recent_matches": 7,
+              "away_recent_matches": 7
+            },
+            "status": "ok",
+            "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
+            "data_sources": {
+              "home": "espn",
+              "away": "espn"
+            },
+            "missing_data": []
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.1755,
+              "d": 0.2906,
+              "a": 0.5339
+            },
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040932,
+          "match_num": "周三004",
+          "league": "美职",
+          "home": "纽约红牛",
+          "away": "纳什维尔",
+          "match_time": "07:30",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 10
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": "espn"
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040933,
+          "match_num": "周三005",
+          "league": "美职",
+          "home": "科罗拉多急流",
+          "away": "洛杉矶FC",
+          "match_time": "09:30",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 10,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": "espn",
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040945,
+          "match_num": "周三006",
+          "league": "欧冠",
+          "home": "凯尔特人",
+          "away": "LASK林茨",
+          "match_time": "03:00",
+          "odds": {
+            "h": "1.58",
+            "d": "3.70",
+            "a": "4.45",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5611,
+              "d": 0.2396,
+              "a": 0.1992
+            },
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040946,
+          "match_num": "周三007",
+          "league": "欧冠",
+          "home": "奈梅亨",
+          "away": "博德闪耀",
+          "match_time": "03:00",
+          "odds": {
+            "h": "2.35",
+            "d": "3.50",
+            "a": "2.40",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3773,
+              "d": 0.2533,
+              "a": 0.3694
+            },
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040947,
+          "match_num": "周三008",
+          "league": "欧冠",
+          "home": "布拉迪斯拉发",
+          "away": "采列",
+          "match_time": "03:00",
+          "odds": {
+            "h": "1.68",
+            "d": "3.50",
+            "a": "4.05",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5278,
+              "d": 0.2533,
+              "a": 0.2189
+            },
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040934,
+          "match_num": "周四001",
+          "league": "沙职",
+          "home": "迈季迈阿宽广",
+          "away": "利雅得新月",
+          "match_time": "02:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040935,
+          "match_num": "周四002",
+          "league": "西甲",
+          "home": "巴列卡诺",
+          "away": "阿拉维斯",
+          "match_time": "03:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 1,
+              "away_recent_matches": 1
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": "espn",
+              "away": "espn"
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040936,
+          "match_num": "周四003",
+          "league": "解放者杯",
+          "home": "科林蒂安",
+          "away": "罗萨里奥中央",
+          "match_time": "08:30",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "D",
+            "confidence": "medium",
+            "sample_size": {
+              "home_recent_matches": 7,
+              "away_recent_matches": 7
+            },
+            "status": "ok",
+            "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
+            "data_sources": {
+              "home": "espn",
+              "away": "espn"
+            },
+            "missing_data": []
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040951,
+          "match_num": "周四004",
+          "league": "欧罗巴",
+          "home": "阿拉木图凯拉特",
+          "away": "安德莱赫特",
+          "match_time": "23:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040952,
+          "match_num": "周四005",
+          "league": "欧罗巴",
+          "home": "米亚尔比",
+          "away": "萨尔茨堡",
+          "match_time": "00:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040953,
+          "match_num": "周四006",
+          "league": "欧罗巴",
+          "home": "特拉布宗体育",
+          "away": "费伦茨瓦罗斯",
+          "match_time": "01:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040948,
+          "match_num": "周四007",
+          "league": "欧罗巴",
+          "home": "波兹南莱赫",
+          "away": "图恩",
+          "match_time": "01:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040949,
+          "match_num": "周四008",
+          "league": "欧罗巴",
+          "home": "贝尔格莱德红星",
+          "away": "比尔森",
+          "match_time": "02:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040954,
+          "match_num": "周四009",
+          "league": "欧罗巴",
+          "home": "本菲卡",
+          "away": "奥胡斯",
+          "match_time": "03:00",
+          "odds": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "sample_size": {
+              "home_recent_matches": 0,
+              "away_recent_matches": 0
+            },
+            "status": "insufficient_evidence",
+            "reasoning": "正式推荐门控：双方均需至少5场、状态可核验且数据新鲜；当前未满足。",
+            "data_sources": {
+              "home": null,
+              "away": null
+            },
+            "missing_data": [
+              "双方至少5场近期正式赛果",
+              "主客场拆分",
+              "伤停与正式首发",
+              "独立盘口复核"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "source": "体彩官方",
+            "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -198,7 +983,53 @@
         }
       ],
       "parlays": [],
-      "singles": [],
+      "singles": [
+        {
+          "match_id": 2040930,
+          "match_num": "周二001",
+          "league": "解放者杯",
+          "home": "里瓦达维亚独立",
+          "away": "弗鲁米嫩塞",
+          "match_time": "06:00",
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "confidence": "medium",
+          "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
+          "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。",
+          "result": "unsettled"
+        },
+        {
+          "match_id": 2040931,
+          "match_num": "周三003",
+          "league": "解放者杯",
+          "home": "波特诺山丘",
+          "away": "帕尔梅拉斯",
+          "match_time": "06:00",
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "confidence": "medium",
+          "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
+          "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。",
+          "result": "unsettled"
+        },
+        {
+          "match_id": 2040936,
+          "match_num": "周四003",
+          "league": "解放者杯",
+          "home": "科林蒂安",
+          "away": "罗萨里奥中央",
+          "match_time": "08:30",
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "confidence": "medium",
+          "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
+          "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。",
+          "result": "unsettled"
+        }
+      ],
       "bets": []
     }
   ],
