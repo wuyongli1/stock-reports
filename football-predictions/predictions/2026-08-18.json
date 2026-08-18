@@ -1,204 +1,239 @@
 {
-  "date": "2026-08-17",
-  "analysis_time": "2026-08-17T23:30:00+08:00",
-  "analysis_method": "data-first, odds-second; ESPN team form built via build_team_form.py",
+  "date": "2026-08-18",
+  "analysis_time": "2026-08-18T11:30:00+08:00",
+  "model": "deepseek-v4-flash",
+  "provider": "official",
+  "schedule_refresh_time": "2026-08-18T11:30:00+08:00",
   "coverage": {
-    "official_schedule_matches": 5,
-    "official_had_matches": 5,
-    "analyzed_matches": 5,
-    "match_ids": [
-      2040914,
-      2040915,
-      2040916,
-      2040922,
-      2040918
-    ]
+    "official_schedule_total": 22,
+    "official_odds_analyzable": 4,
+    "matches_analyzed": 4,
+    "matches_observed": 4
   },
-  "data_status": {
-    "classification": "partial",
-    "summary": "ESPN 直连提供部分球队近况；瑞超/巴甲可核验近5场，芬超/英冠/西甲赛季初或小联赛近况不足。"
-  },
-  "yesterday_review": "昨日预测以观望为主，无串关；今日改用 build_team_form.py 直连 ESPN 补充球队近况，覆盖度提升，部分场次可给出数据面判断。",
   "matches": [
     {
-      "match_id": 2040914,
-      "match_num": "周一001",
-      "league": "芬超",
-      "home": "赫尔辛基火花",
-      "away": "坦佩雷山猫",
-      "match_time": "23:00",
+      "match_id": 2040930,
+      "match_num": "周二001",
+      "league": "解放者杯",
+      "home": "里瓦达维亚独立",
+      "away": "弗鲁米嫩塞",
+      "match_time": "2026-08-18 06:00",
       "odds": {
         "HAD": {
-          "h": "2.50",
-          "d": "3.35",
-          "a": "2.32"
+          "h": 2.36,
+          "d": 2.65,
+          "a": 3.05
+        },
+        "HHAD": {
+          "h": 5.65,
+          "d": 3.8,
+          "a": 1.45,
+          "goal_line": -1.0
         }
       },
       "data_analysis": {
         "tendency": "OBSERVE",
         "confidence": "low",
-        "reasoning": "ESPN 无芬超两队的近况数据，无法独立判断状态；赔率接近（主2.50 客2.32），无明显方向。"
+        "reasoning": "主队可核验近况7场（DWWDWWW），客队7场（DWWDLLD）；但数据日期集中在4-5月，距本场较久，缺少当前排名、近期主客拆分、伤停和首发，不能把历史交锋或赔率替代实时状态。",
+        "sample_size": {
+          "home_recent": 7,
+          "away_recent": 7
+        },
+        "missing": [
+          "当前排名",
+          "正式首发",
+          "伤停",
+          "近期独立盘口源",
+          "大小球赔率"
+        ]
       },
       "odds_analysis": {
         "had_fair_prob": {
-          "h": 0.354,
-          "d": 0.264,
-          "a": 0.382
+          "h": 0.385,
+          "d": 0.343,
+          "a": 0.272
         },
-        "conclusion": "赔率面客队略优但差距小，数据面缺失，不构成可执行推荐。"
+        "overround": 0.099,
+        "conclusion": "官方HAD去水后主胜最高，但这是市场基准；让球-1显示主队穿深盘阻力大，且未取得大小球，三市场无法完整校验，因此不构成推荐。"
+      },
+      "market_analysis": {
+        "ah_pick": "OBSERVE",
+        "ou_pick": "OBSERVE（无官方大小球）",
+        "script": "1X2偏主但让球深盘不支持轻易追主，信息不完整，观望。"
       },
       "final_pick": "OBSERVE",
       "pick_market": null,
       "pick_odds": null,
-      "is_recommended": false,
       "result": "unsettled"
     },
     {
-      "match_id": 2040915,
-      "match_num": "周一002",
-      "league": "瑞超",
-      "home": "赫根",
-      "away": "哈尔姆斯塔德",
-      "match_time": "01:00",
+      "match_id": 2040943,
+      "match_num": "周二002",
+      "league": "欧冠",
+      "home": "索菲亚列夫斯基",
+      "away": "雅典AEK",
+      "match_time": "2026-08-18 03:00",
       "odds": {
         "HAD": {
-          "h": "1.22",
-          "d": "5.40",
-          "a": "8.05"
-        }
-      },
-      "data_analysis": {
-        "tendency": "H",
-        "confidence": "high",
-        "reasoning": "赫根近5场[LDDWL]得5分，主场有平局但整体稳定；哈尔姆斯塔德近5场[LLDLL]得1分、4负状态极差（0-2、0-2、1-1、0-2、0-3）。主客状态差距明显。"
-      },
-      "odds_analysis": {
-        "had_fair_prob": {
-          "h": 0.726,
-          "d": 0.164,
-          "a": 0.11
+          "h": 3.05,
+          "d": 2.95,
+          "a": 2.16
         },
-        "conclusion": "去水后主胜概率72.6%，与数据面一致，高置信。"
-      },
-      "final_pick": "OBSERVE",
-      "pick_market": null,
-      "pick_odds": null,
-      "is_recommended": true,
-      "result": "unsettled"
-    },
-    {
-      "match_id": 2040916,
-      "match_num": "周一003",
-      "league": "英冠",
-      "home": "加的夫城",
-      "away": "雷克斯汉姆",
-      "match_time": "03:00",
-      "odds": {
-        "HAD": {
-          "h": "2.37",
-          "d": "3.14",
-          "a": "2.57"
+        "HHAD": {
+          "h": 1.53,
+          "d": 3.7,
+          "a": 4.9,
+          "goal_line": 1.0
         }
       },
       "data_analysis": {
         "tendency": "OBSERVE",
         "confidence": "low",
-        "reasoning": "英冠新赛季刚开始，ESPN 近况不足1场；赔率接近，无数据面支撑不强行判断。"
+        "reasoning": "ESPN未找到双方球队，无法核验任一方近5场、排名、主客场表现、对手强度、战意、伤停或首发；按门控必须观望。",
+        "sample_size": {
+          "home_recent": 0,
+          "away_recent": 0
+        },
+        "missing": [
+          "双方近期赛果",
+          "排名",
+          "正式首发",
+          "伤停",
+          "对手强度",
+          "大小球赔率"
+        ]
       },
       "odds_analysis": {
         "had_fair_prob": {
-          "h": 0.374,
-          "d": 0.282,
-          "a": 0.344
+          "h": 0.299,
+          "d": 0.309,
+          "a": 0.392
         },
-        "conclusion": "赔率面接近，观望。"
+        "overround": 0.113,
+        "conclusion": "去水后客胜略高，但无球队数据佐证，不能将赔率方向包装成近期状态；让球为主队受让+1，大小球缺失，观望。"
+      },
+      "market_analysis": {
+        "ah_pick": "OBSERVE",
+        "ou_pick": "OBSERVE（无官方大小球）",
+        "script": "市场给客队轻微优势但让球保护主队，无法解释的剧本冲突，观望。"
       },
       "final_pick": "OBSERVE",
       "pick_market": null,
       "pick_odds": null,
-      "is_recommended": false,
       "result": "unsettled"
     },
     {
-      "match_id": 2040922,
-      "match_num": "周一004",
-      "league": "西甲",
-      "home": "拉科鲁尼亚",
-      "away": "埃尔切",
-      "match_time": "03:00",
+      "match_id": 2040950,
+      "match_num": "周二003",
+      "league": "欧冠",
+      "home": "萨格勒布迪纳摩",
+      "away": "维京",
+      "match_time": "2026-08-18 03:00",
       "odds": {
         "HAD": {
-          "h": "1.98",
-          "d": "2.90",
-          "a": "3.60"
+          "h": 1.61,
+          "d": 3.7,
+          "a": 4.2
+        },
+        "HHAD": {
+          "h": 2.86,
+          "d": 3.55,
+          "a": 2.01,
+          "goal_line": -1.0
         }
       },
       "data_analysis": {
         "tendency": "OBSERVE",
         "confidence": "low",
-        "reasoning": "西甲新赛季刚开始，ESPN 近况不足1场；主胜赔率1.98有倾向但缺乏数据面验证。"
+        "reasoning": "ESPN未找到双方球队，双方实际可核验近况均为0场；无法判断近期攻守、主客拆分、对手强度、赛程和阵容，样本不足5场，强制观望。",
+        "sample_size": {
+          "home_recent": 0,
+          "away_recent": 0
+        },
+        "missing": [
+          "双方近期赛果",
+          "排名",
+          "正式首发",
+          "伤停",
+          "对手强度",
+          "大小球赔率"
+        ]
       },
       "odds_analysis": {
         "had_fair_prob": {
-          "h": 0.448,
-          "d": 0.306,
-          "a": 0.246
+          "h": 0.547,
+          "d": 0.238,
+          "a": 0.215
         },
-        "conclusion": "赔率面略偏主胜，数据面不足，低置信观望。"
+        "overround": 0.136,
+        "conclusion": "去水后主胜明显占优，但无独立球队证据，且-1让球主胜仅为高难度深盘方向；大小球缺失，不推荐。"
+      },
+      "market_analysis": {
+        "ah_pick": "OBSERVE",
+        "ou_pick": "OBSERVE（无官方大小球）",
+        "script": "1X2支持主胜、让球要求净胜至少两球，穿盘能力无法由现有数据确认，观望。"
       },
       "final_pick": "OBSERVE",
       "pick_market": null,
       "pick_odds": null,
-      "is_recommended": false,
       "result": "unsettled"
     },
     {
-      "match_id": 2040918,
-      "match_num": "周一006",
-      "league": "巴甲",
-      "home": "巴西国际",
-      "away": "里莫",
-      "match_time": "07:00",
+      "match_id": 2040944,
+      "match_num": "周二004",
+      "league": "欧冠",
+      "home": "费内巴切",
+      "away": "里昂",
+      "match_time": "2026-08-18 03:00",
       "odds": {
         "HAD": {
-          "h": "1.41",
-          "d": "3.95",
-          "a": "6.00"
+          "h": 1.81,
+          "d": 3.5,
+          "a": 3.45
+        },
+        "HHAD": {
+          "h": 3.45,
+          "d": 3.6,
+          "a": 1.78,
+          "goal_line": -1.0
         }
       },
       "data_analysis": {
         "tendency": "OBSERVE",
         "confidence": "low",
-        "reasoning": "巴西国际近5场[DDLLL]得2分状态低迷；里莫近5场[DLWLW]得7分状态更好（含胜São Paulo）。数据面与赔率面（主1.41）冲突，里莫有爆冷可能，不推荐主胜。"
+        "reasoning": "ESPN未找到双方球队，双方实际可核验近况均为0场；缺少当前排名、近期攻守、主客场、赛程动机、伤停和首发，样本不足5场，强制观望。",
+        "sample_size": {
+          "home_recent": 0,
+          "away_recent": 0
+        },
+        "missing": [
+          "双方近期赛果",
+          "排名",
+          "正式首发",
+          "伤停",
+          "对手强度",
+          "大小球赔率"
+        ]
       },
       "odds_analysis": {
         "had_fair_prob": {
-          "h": 0.628,
-          "d": 0.224,
-          "a": 0.148
+          "h": 0.473,
+          "d": 0.245,
+          "a": 0.282
         },
-        "conclusion": "市场仍偏主胜但数据面冲突，风险高，观望。"
+        "overround": 0.169,
+        "conclusion": "去水后主胜占优，但无球队数据支撑；-1让球主胜赔率高、客队方向更受保护，存在方向与穿盘差异；大小球缺失，观望。"
+      },
+      "market_analysis": {
+        "ah_pick": "OBSERVE",
+        "ou_pick": "OBSERVE（无官方大小球）",
+        "script": "1X2偏主但深盘不支持直接追主，且缺少第三市场和球队证据，观望。"
       },
       "final_pick": "OBSERVE",
       "pick_market": null,
       "pick_odds": null,
-      "is_recommended": false,
       "result": "unsettled"
     }
   ],
-  "parlays": [],
-  "singles": [
-    {
-      "match_id": 2040915,
-      "match_num": "周一002",
-      "league": "瑞超",
-      "home": "赫根",
-      "away": "哈尔姆斯塔德",
-      "pick": "H",
-      "market": "HAD",
-      "odds": 1.22,
-      "confidence": "high",
-      "reason": "赫根主场状态稳定，哈尔姆斯塔德近5场4负状态极差；去水后主胜概率72.6%，数据面与赔率面一致。"
-    }
-  ]
+  "parlays": []
 }
