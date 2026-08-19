@@ -368,6 +368,7 @@ body {
 .bet-won { color: var(--green); }
 .bet-lost { color: var(--red); }
 .bet-pending { color: var(--yellow); }
+.bet-void { color: var(--muted); }
 .paper-curve { margin-top: 10px; }
 .paper-curve svg { width: 100%; height: 90px; }
 </style>
@@ -600,9 +601,9 @@ function renderPaper() {
   let betsHtml = '';
   const bets = paper.recent_bets || [];
   if (bets.length) {
-    const rows = bets.slice().reverse().map(b => {
-      const cls = b.status === 'won' ? 'bet-won' : (b.status === 'lost' ? 'bet-lost' : 'bet-pending');
-      const st = b.status === 'won' ? '✅ 中' : (b.status === 'lost' ? '❌ 错' : '⏳ 待');
+    const rows = bets.map(b => {
+      const cls = b.status === 'won' ? 'bet-won' : (b.status === 'lost' ? 'bet-lost' : (b.status === 'void' ? 'bet-void' : 'bet-pending'));
+      const st = b.status === 'won' ? '✅ 中' : (b.status === 'lost' ? '❌ 错' : (b.status === 'void' ? '🚫 作废' : '⏳ 待'));
       const profit = b.profit != null ? ((b.profit >= 0 ? '+' : '') + b.profit.toFixed(2)) : '-';
       return `<tr>
         <td>${b.date || '-'}</td>
@@ -715,6 +716,7 @@ function renderRecommendation() {
       let st = '';
       if (b.status === 'won') st = ' <span class="bet-won">✅ 已中</span>';
       else if (b.status === 'lost') st = ' <span class="bet-lost">❌ 未中</span>';
+      else if (b.status === 'void') st = ' <span class="bet-void">🚫 作废</span>';
       else st = ' <span class="bet-pending">⏳ 待结算</span>';
       const profitTxt = (b.profit != null) ? ` <span class="${b.profit >= 0 ? 'bet-won' : 'bet-lost'}">${(b.profit >= 0 ? '+' : '')}${b.profit.toFixed(2)}</span>` : '';
       html += `<div style="font-size:13px;margin:3px 0;">· ${b.type}：${b.detail} · 投注 <b>¥${b.stake}</b>${st}${profitTxt}</div>`;
