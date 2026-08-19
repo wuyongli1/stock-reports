@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 15:12:59",
+  "updated_at": "2026-08-19 11:59:19",
   "stats": {
     "total": 0,
     "hit": 0,
@@ -60,8 +60,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "none_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -112,8 +112,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "none_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -164,8 +164,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "none_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -216,8 +216,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "none_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         }
       ],
@@ -237,9 +237,599 @@
           "reasoning": "双方近期样本已满足最低门槛，仍需伤停、首发和三市场校验。",
           "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。",
           "recommendation_level": "OBSERVE",
-          "result": "unsettled"
+          "result": "miss"
         }
       ],
+      "review": "昨日（2026-08-18）模拟盘无待结算投注，余额维持1000.00元，盈亏为0.00元。昨日预测记录未形成可结算投注，因此没有命中/未中结果可复盘；今日继续以官方销售日池和可核验近况为边界。本次准备阶段发现今日多场球队近况不足或数据源未找到，按规则全部降级为观望，不用赔率热门替代数据判断。",
+      "bets": []
+    },
+    {
+      "date": "2026-08-19",
+      "analysis_time": "2026-08-19T11:59:00+08:00",
+      "matches": [
+        {
+          "match_id": 2040937,
+          "match_num": "周三001",
+          "league": "韩国杯",
+          "home": "安养FC",
+          "away": "济州SK",
+          "match_time": "2026-08-19 18:30",
+          "odds": {
+            "h": "2.63",
+            "d": "3.00",
+            "a": "2.41",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅记录可核验数据：主队样本1场、客队样本0场；至少一方不足5场，不能形成可结算方向。赔率仅作阶段B市场记录，不能替代球队近况。",
+            "sample_size": {
+              "home_recent": 1,
+              "away_recent": 0
+            },
+            "home_provider": "thesportsdb",
+            "away_provider": "unknown",
+            "home_status": "ok",
+            "away_status": "provider_error",
+            "missing_data": [
+              "双方各至少5场可核验近期赛果",
+              "稳定球队身份/数据源",
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "近期赛果样本门槛未满足，强制观望，不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.380228,
+                "d": 0.333333,
+                "a": 0.414938
+              },
+              "overround": 0.128499,
+              "fair_probability": {
+                "h": 0.336933,
+                "d": 0.295378,
+                "a": 0.36769
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.699301,
+                "d": 0.253165,
+                "a": 0.176991
+              },
+              "overround": 0.129456,
+              "fair_probability": {
+                "h": 0.619148,
+                "d": 0.224147,
+                "a": 0.156705
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040938,
+          "match_num": "周三002",
+          "league": "西甲",
+          "home": "马德里竞技",
+          "away": "马拉加",
+          "match_time": "2026-08-20 03:00",
+          "odds": {
+            "h": "1.21",
+            "d": "4.81",
+            "a": "10.50",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅记录可核验数据：主队样本0场、客队样本0场；至少一方不足5场，不能形成可结算方向。赔率仅作阶段B市场记录，不能替代球队近况。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "home_provider": "espn",
+            "away_provider": "espn",
+            "home_status": "no_recent_matches",
+            "away_status": "no_recent_matches",
+            "missing_data": [
+              "双方各至少5场可核验近期赛果",
+              "稳定球队身份/数据源",
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "近期赛果样本门槛未满足，强制观望，不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.826446,
+                "d": 0.2079,
+                "a": 0.095238
+              },
+              "overround": 0.129585,
+              "fair_probability": {
+                "h": 0.731637,
+                "d": 0.18405,
+                "a": 0.084312
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.574713,
+                "d": 0.27027,
+                "a": 0.2849
+              },
+              "overround": 0.129883,
+              "fair_probability": {
+                "h": 0.508648,
+                "d": 0.239202,
+                "a": 0.25215
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040931,
+          "match_num": "周三003",
+          "league": "解放者杯",
+          "home": "波特诺山丘",
+          "away": "帕尔梅拉斯",
+          "match_time": "2026-08-20 06:00",
+          "odds": {
+            "h": "5.05",
+            "d": "3.05",
+            "a": "1.66",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方近期样本均已达到门槛：主队7场、客队7场，球队身份与数据源已核验；但正式首发、伤停及大小球赔率尚未完整核验，当前仅保留低置信度观察，不将缺口误记为样本不足。",
+            "sample_size": {
+              "home_recent": 7,
+              "away_recent": 7
+            },
+            "home_provider": "espn",
+            "away_provider": "espn",
+            "home_status": "ok",
+            "away_status": "ok",
+            "missing_data": [
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "样本门槛已满足；因首发、伤停与大小球市场信息不完整，暂不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.19802,
+                "d": 0.327869,
+                "a": 0.60241
+              },
+              "overround": 0.128298,
+              "fair_probability": {
+                "h": 0.175503,
+                "d": 0.290587,
+                "a": 0.53391
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.512821,
+                "d": 0.3125,
+                "a": 0.30303
+              },
+              "overround": 0.128351,
+              "fair_probability": {
+                "h": 0.454487,
+                "d": 0.276953,
+                "a": 0.26856
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040932,
+          "match_num": "周三004",
+          "league": "美职",
+          "home": "纽约红牛",
+          "away": "纳什维尔",
+          "match_time": "2026-08-20 07:30",
+          "odds": {
+            "h": "2.70",
+            "d": "3.60",
+            "a": "2.08",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅记录可核验数据：主队样本1场、客队样本10场；至少一方不足5场，不能形成可结算方向。赔率仅作阶段B市场记录，不能替代球队近况。",
+            "sample_size": {
+              "home_recent": 1,
+              "away_recent": 10
+            },
+            "home_provider": "thesportsdb",
+            "away_provider": "espn",
+            "home_status": "ok",
+            "away_status": "ok",
+            "missing_data": [
+              "双方各至少5场可核验近期赛果",
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "近期赛果样本门槛未满足，强制观望，不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.37037,
+                "d": 0.277778,
+                "a": 0.480769
+              },
+              "overround": 0.128917,
+              "fair_probability": {
+                "h": 0.328076,
+                "d": 0.246057,
+                "a": 0.425868
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.636943,
+                "d": 0.25,
+                "a": 0.242718
+              },
+              "overround": 0.129661,
+              "fair_probability": {
+                "h": 0.563835,
+                "d": 0.221305,
+                "a": 0.21486
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040933,
+          "match_num": "周三005",
+          "league": "美职",
+          "home": "科罗拉多急流",
+          "away": "洛杉矶FC",
+          "match_time": "2026-08-20 09:30",
+          "odds": {
+            "h": "2.57",
+            "d": "3.40",
+            "a": "2.24",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅记录可核验数据：主队样本10场、客队样本1场；至少一方不足5场，不能形成可结算方向。赔率仅作阶段B市场记录，不能替代球队近况。",
+            "sample_size": {
+              "home_recent": 10,
+              "away_recent": 1
+            },
+            "home_provider": "espn",
+            "away_provider": "thesportsdb",
+            "home_status": "ok",
+            "away_status": "ok",
+            "missing_data": [
+              "双方各至少5场可核验近期赛果",
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "近期赛果样本门槛未满足，强制观望，不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.389105,
+                "d": 0.294118,
+                "a": 0.446429
+              },
+              "overround": 0.129651,
+              "fair_probability": {
+                "h": 0.344447,
+                "d": 0.260361,
+                "a": 0.395191
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.675676,
+                "d": 0.246914,
+                "a": 0.207039
+              },
+              "overround": 0.129629,
+              "fair_probability": {
+                "h": 0.59814,
+                "d": 0.218579,
+                "a": 0.183281
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040945,
+          "match_num": "周三006",
+          "league": "欧冠",
+          "home": "凯尔特人",
+          "away": "LASK林茨",
+          "match_time": "2026-08-20 03:00",
+          "odds": {
+            "h": "1.58",
+            "d": "3.70",
+            "a": "4.45",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅记录可核验数据：主队样本2场、客队样本1场；至少一方不足5场，不能形成可结算方向。赔率仅作阶段B市场记录，不能替代球队近况。",
+            "sample_size": {
+              "home_recent": 2,
+              "away_recent": 1
+            },
+            "home_provider": "espn",
+            "away_provider": "thesportsdb",
+            "home_status": "no_recent_matches",
+            "away_status": "ok",
+            "missing_data": [
+              "双方各至少5场可核验近期赛果",
+              "稳定球队身份/数据源",
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "近期赛果样本门槛未满足，强制观望，不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.632911,
+                "d": 0.27027,
+                "a": 0.224719
+              },
+              "overround": 0.127901,
+              "fair_probability": {
+                "h": 0.561141,
+                "d": 0.239622,
+                "a": 0.199237
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.362319,
+                "d": 0.285714,
+                "a": 0.480769
+              },
+              "overround": 0.128802,
+              "fair_probability": {
+                "h": 0.320976,
+                "d": 0.253113,
+                "a": 0.425911
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040946,
+          "match_num": "周三007",
+          "league": "欧冠",
+          "home": "奈梅亨",
+          "away": "博德闪耀",
+          "match_time": "2026-08-20 03:00",
+          "odds": {
+            "h": "2.35",
+            "d": "3.50",
+            "a": "2.40",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅记录可核验数据：主队样本0场、客队样本0场；至少一方不足5场，不能形成可结算方向。赔率仅作阶段B市场记录，不能替代球队近况。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "home_provider": "unknown",
+            "away_provider": "unknown",
+            "home_status": "provider_error",
+            "away_status": "provider_error",
+            "missing_data": [
+              "双方各至少5场可核验近期赛果",
+              "稳定球队身份/数据源",
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "近期赛果样本门槛未满足，强制观望，不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.425532,
+                "d": 0.285714,
+                "a": 0.416667
+              },
+              "overround": 0.127913,
+              "fair_probability": {
+                "h": 0.377274,
+                "d": 0.253312,
+                "a": 0.369414
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.206186,
+                "d": 0.232558,
+                "a": 0.689655
+              },
+              "overround": 0.128399,
+              "fair_probability": {
+                "h": 0.182724,
+                "d": 0.206096,
+                "a": 0.61118
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040947,
+          "match_num": "周三008",
+          "league": "欧冠",
+          "home": "布拉迪斯拉发",
+          "away": "采列",
+          "match_time": "2026-08-20 03:00",
+          "odds": {
+            "h": "1.68",
+            "d": "3.50",
+            "a": "4.05",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅记录可核验数据：主队样本0场、客队样本1场；至少一方不足5场，不能形成可结算方向。赔率仅作阶段B市场记录，不能替代球队近况。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 1
+            },
+            "home_provider": "unknown",
+            "away_provider": "thesportsdb",
+            "home_status": "provider_error",
+            "away_status": "ok",
+            "missing_data": [
+              "双方各至少5场可核验近期赛果",
+              "稳定球队身份/数据源",
+              "正式首发",
+              "伤停",
+              "大小球赔率"
+            ],
+            "impact": "近期赛果样本门槛未满足，强制观望，不纳入单场或串关。"
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.595238,
+                "d": 0.285714,
+                "a": 0.246914
+              },
+              "overround": 0.127866,
+              "fair_probability": {
+                "h": 0.527756,
+                "d": 0.253323,
+                "a": 0.218921
+              }
+            },
+            "hhad_fair_prob": {
+              "raw_implied_probability": {
+                "h": 0.322581,
+                "d": 0.285714,
+                "a": 0.520833
+              },
+              "overround": 0.129128,
+              "fair_probability": {
+                "h": 0.28569,
+                "d": 0.25304,
+                "a": 0.46127
+              }
+            },
+            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
       "bets": []
     }
   ],
