@@ -1,478 +1,474 @@
 {
- "schema_version": "2.0",
- "date": "2026-08-19",
- "analysis_time": "2026-08-19T11:30:00+08:00",
- "coverage": {
-  "total_analyzable": 8,
-  "verified": 0,
-  "partial": 1,
-  "observe": 7
- },
- "matches": [
-  {
-   "match_id": 2040937,
-   "match_num": "周三001",
-   "league": "韩国杯",
-   "home": "安养FC",
-   "away": "济州SK",
-   "match_time": "2026-08-19 18:30",
-   "odds": {
-    "HAD": {
-     "h": "2.63",
-     "d": "3.00",
-     "a": "2.41"
-    },
-    "HHAD": {
-     "h": "1.43",
-     "d": "3.95",
-     "a": "5.65",
-     "goal_line": "+1.00"
-    }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "OBSERVE",
-    "confidence": "low",
-    "reasoning": "数据源修复后安养FC(FC Anyang)与济州SK(Jeju SK)均可核验近况,但双方各仅1场(安养8/8客2:1胜、济州8/15主2:0胜),有效样本不足5场门控,强制观望。",
-    "sample_size": {
-     "home_recent": 1,
-     "away_recent": 1,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "ok"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.392,
-     "d": 0.344,
-     "a": 0.264
-    },
-    "conclusion": "赔率结构主客接近，但数据面完全无法核验，不做赔率后验。"
-   },
-   "market_analysis": {
-    "ah_pick": "主队+1球不败概率被赔率定价较高，但无数据支撑",
-    "ou_pick": "大小球数据缺失",
-    "script": "三市场数据不完整且球队近况缺失，无法形成一致剧本。"
-   },
-   "recommendation_level": "OBSERVE",
-   "final_pick": "OBSERVE",
-   "pick_market": null,
-   "pick_odds": null,
-   "risk_flags": [
-    "home_sample_lt5",
-    "away_sample_lt5",
-    "identity_unclear",
-    "wrong_sport_data"
-   ],
-   "result": "unsettled"
+  "schema_version": "2.0",
+  "date": "2026-08-19",
+  "analysis_time": "2026-08-19T13:15:00+08:00",
+  "coverage": {
+    "total_analyzable": 8,
+    "verified": 0,
+    "partial": 1,
+    "observe": 7
   },
-  {
-   "match_id": 2040938,
-   "match_num": "周三002",
-   "league": "西甲",
-   "home": "马德里竞技",
-   "away": "马拉加",
-   "match_time": "2026-08-20 03:00",
-   "odds": {
-    "HAD": {
-     "h": "1.21",
-     "d": "4.81",
-     "a": "10.50"
+  "matches": [
+    {
+      "match_id": 2040937,
+      "match_num": "周三001",
+      "league": "韩国杯",
+      "home": "安养FC",
+      "away": "济州SK",
+      "match_time": "2026-08-19 18:30",
+      "odds": {
+        "HAD": {
+          "h": "2.63",
+          "d": "3.00",
+          "a": "2.41"
+        },
+        "HHAD": {
+          "h": "1.43",
+          "d": "3.95",
+          "a": "5.65",
+          "goal_line": "+1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "A",
+        "confidence": "low",
+        "reasoning": "sportscore 10场样本: 济州SK近10场5胜3平2负[WWLDWWDWDD]状态明显优于安养FC 4胜1平5负[LLLWWWDWLW]; 济州客场3场[WWD]不败, 安养主场4场[LWDL]一般; 8/15联赛刚交手济州主场2:0取胜占心理优势; 但H2H安养历史4胜0平1负占优(杯赛可能不同剧本)。数据面客队略优但优势不构成价值。",
+        "sample_size": {
+          "home_recent": 10,
+          "away_recent": 10,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "ok"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.337,
+          "d": 0.295,
+          "a": 0.368
+        },
+        "conclusion": "去水后主33.7% 平29.5% 客36.8%, 市场略偏客队与数据面一致, 但客胜1.96盈亏平衡点(1/2.41=41.5%)高于数据面估计, 无价值空间, 观望。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队+1受让1.43赔率过低, 无参与价值",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2与让球盘均指向客队小幅占优, 但EV不足, 三市场校验无冲突也无机会。"
+      },
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "ev_insufficient",
+        "h2h_history_conflict"
+      ],
+      "result": "unsettled"
     },
-    "HHAD": {
-     "h": "1.74",
-     "d": "3.70",
-     "a": "3.51",
-     "goal_line": "-1.00"
+    {
+      "match_id": 2040938,
+      "match_num": "周三002",
+      "league": "西甲",
+      "home": "马德里竞技",
+      "away": "马拉加",
+      "match_time": "2026-08-20 03:00",
+      "odds": {
+        "HAD": {
+          "h": "1.21",
+          "d": "4.81",
+          "a": "10.50"
+        },
+        "HHAD": {
+          "h": "1.74",
+          "d": "3.70",
+          "a": "3.51",
+          "goal_line": "-1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "reasoning": "西甲新赛季尚未开赛, 马竞与马拉加均无近期正式比赛样本(sample=0), 无法评估真实竞技状态。ESPN/sportscore 均无 2026-2027 新赛季数据, H2H 停留在 2017-2018 赛季, 不具时效性。硬性门控: 双方样本均<5, 强制观望。",
+        "sample_size": {
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "no_recent_matches"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.703,
+          "d": 0.177,
+          "a": 0.081
+        },
+        "conclusion": "赔率强开马竞深盘(主1.21), 无新赛季数据核验, 可能是基于历史声望+季前预期定价, 不跟盘。"
+      },
+      "market_analysis": {
+        "ah_pick": "马竞-1球让球盘与1X2低赔一致, 但均无近况验证",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2与让球盘方向一致(主胜/让胜), 但数据面空白, 无法形成可验证剧本。"
+      },
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "home_sample_lt5",
+        "away_sample_lt5",
+        "season_opener_no_data"
+      ],
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2040931,
+      "match_num": "周三003",
+      "league": "解放者杯",
+      "home": "波特诺山丘",
+      "away": "帕尔梅拉斯",
+      "match_time": "2026-08-20 06:00",
+      "odds": {
+        "HAD": {
+          "h": "5.05",
+          "d": "3.05",
+          "a": "1.66"
+        },
+        "HHAD": {
+          "h": "1.95",
+          "d": "3.20",
+          "a": "3.30",
+          "goal_line": "+1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "H",
+        "confidence": "medium",
+        "reasoning": "ESPN 数据经 sportscore 交叉验证确认方向错乱(opponent字段混入场地、主客比分视角混乱), 改用 sportscore 干净数据。波特诺近8场4胜1平3负: 主场4胜1负(仅负于联赛对手), 客场0胜1平2负; 8/12解放者杯首回合客场1:1逼平帕尔梅拉斯, 次回合回主场。帕尔梅拉斯近8场3胜2平3负: 近5场仅1胜(1胜2平2负状态明显下滑), 客场2胜2负。市场给帕尔梅拉斯客胜53.5%偏高, 数据面主队不败(主胜+平)概率约52-55%, 主+1受让1.95有正EV。",
+        "sample_size": {
+          "home_recent": 8,
+          "away_recent": 8,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "ok"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.175,
+          "d": 0.29,
+          "a": 0.535
+        },
+        "conclusion": "1X2去水客胜53.5%, 但数据面不支持如此高的客胜定价(帕尔梅拉斯状态差+波特诺主场强+首回合1:1); 让球盘主+1(不败)去水45.4%, 数据面主不败52-55%, 优势6-10pp, EV约+1.4%~+7.3%(按52%中值约+1.4%保守, 偏高估55%则+7.3%), 半仓参与让球主+1。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队+1受让1.95=波特诺不败, 数据面支持, 是全场唯一正EV方向",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2客队热门(声望定价) vs 让球盘主+1低估(数据定价) 存在明显分歧; 数据面站主队不败, 帕尔梅拉斯状态差是核心依据, 风险是强队次回合反弹。"
+      },
+      "recommendation_level": "PARTIAL",
+      "stake_cap_ratio": 0.5,
+      "final_pick": "H",
+      "pick_market": "HHAD",
+      "pick_odds": 1.95,
+      "risk_flags": [
+        "first_leg_1_1",
+        "favorite_form_slump",
+        "espn_data_corrupted_use_sportscore",
+        "home_upset_resistance",
+        "partial_had_missing_ou"
+      ],
+      "confidence_adjustment": "official_HAD_only"
+    },
+    {
+      "match_id": 2040932,
+      "match_num": "周三004",
+      "league": "美职",
+      "home": "纽约红牛",
+      "away": "纳什维尔",
+      "match_time": "2026-08-20 07:30",
+      "odds": {
+        "HAD": {
+          "h": "2.70",
+          "d": "3.60",
+          "a": "2.08"
+        },
+        "HHAD": {
+          "h": "1.57",
+          "d": "4.00",
+          "a": "4.12",
+          "goal_line": "+1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "A",
+        "confidence": "low",
+        "reasoning": "双方样本充足(各10场)。纳什维尔联赛榜首(19场43分), 近10场6胜3平1负, 但客场4场[DLWD]仅1胜2平1负、进3失5, 是典型主场龙(主场5场全胜)客场平庸型; 纽约红牛近10场4胜1平5负, 主场5场[WLDWL]进7失9一般。H2H红牛2胜2平1负占优。数据面客队整体强但客场打折, 无明确优势。",
+        "sample_size": {
+          "home_recent": 10,
+          "away_recent": 10,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "ok"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.328,
+          "d": 0.246,
+          "a": 0.426
+        },
+        "conclusion": "去水客胜42.6%, 但纳什维尔客场数据仅支撑约38-40%, 市场略微高估客队; 客胜盈亏平衡点48.1%, 数据面达不到, 无价值。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队+1受让1.57对应主队不败约57%去水, 数据面主队不败约52-55%, 略低于市场",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2偏客 vs 让球盘偏主, 市场对纳什维尔客场能力定价分歧; 数据面客队客场平庸, 更倾向平局/小胜剧本, 但无清晰价值。"
+      },
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "away_home_away_split_weak",
+        "market_overpricing_favorite"
+      ],
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2040933,
+      "match_num": "周三005",
+      "league": "美职",
+      "home": "科罗拉多急流",
+      "away": "洛杉矶FC",
+      "match_time": "2026-08-20 09:30",
+      "odds": {
+        "HAD": {
+          "h": "2.57",
+          "d": "3.40",
+          "a": "2.24"
+        },
+        "HHAD": {
+          "h": "1.48",
+          "d": "4.05",
+          "a": "4.83",
+          "goal_line": "+1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "A",
+        "confidence": "low",
+        "reasoning": "洛杉矶FC近10场8胜1平1负[LWWWDWWWWW]状态火热, 客场3场[WDW]不败; 科罗拉多急流近10场4胜6负, 主场5场[WWWLL](近2主场连负), 客场5场[LLWLL]。H2H洛杉矶2胜2平1负占优。数据面客队明显强, 但洛杉矶客场3场仅进1球(赢球靠1:0小胜), 客场进攻效率打折; 客胜2.24盈亏平衡点44.6%, 数据面约43-45%, EV仅微正, 未达3%门槛。",
+        "sample_size": {
+          "home_recent": 10,
+          "away_recent": 10,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "ok"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.345,
+          "d": 0.26,
+          "a": 0.395
+        },
+        "conclusion": "去水客胜39.5%, 数据面客胜约43-45%, 略优于市场但幅度<5pp, EV微正不足3%, 价值不足, 观望。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队+1受让1.48对应主队不败约62%去水, 数据面科罗拉多主场近2连负, 主+1价值一般",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2与让球盘均指向客队, 洛杉矶状态+实力双优, 但客场进攻效率低限制深盘价值, 小胜/平局剧本概率不低。"
+      },
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "ev_below_threshold",
+        "favorite_low_away_scoring"
+      ],
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2040945,
+      "match_num": "周三006",
+      "league": "欧冠",
+      "home": "凯尔特人",
+      "away": "LASK林茨",
+      "match_time": "2026-08-20 03:00",
+      "odds": {
+        "HAD": {
+          "h": "1.58",
+          "d": "3.70",
+          "a": "4.45"
+        },
+        "HHAD": {
+          "h": "2.76",
+          "d": "3.50",
+          "a": "2.08",
+          "goal_line": "-1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "reasoning": "LASK林茨近10场8胜2负(sportscore+ESPN合并), 主场5场全胜进16失2, 状态极佳; 但凯尔特人仅1场样本(8/3苏超主1:0胜登地), 苏超新赛季刚开始, sportscore 主队数据缺失(已进黑名单)。硬性门控: 主队样本1<5, 强制观望。",
+        "sample_size": {
+          "home_recent": 1,
+          "away_recent": 10,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "ok"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.399,
+          "d": 0.171,
+          "a": 0.142
+        },
+        "conclusion": "赔率强开主队凯尔特人(1.58), 但主队近况无法核验, 不排除新赛季声望定价偏高, 不跟盘。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队-1球盘客胜2.08, 让球盘对主队完胜不友好",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2与让球盘均指向主队, 但主队样本不足, 无法确认。"
+      },
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "home_sample_lt5",
+        "early_season_small_sample"
+      ],
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2040946,
+      "match_num": "周三007",
+      "league": "欧冠",
+      "home": "奈梅亨",
+      "away": "博德闪耀",
+      "match_time": "2026-08-20 03:00",
+      "odds": {
+        "HAD": {
+          "h": "2.35",
+          "d": "3.50",
+          "a": "2.40"
+        },
+        "HHAD": {
+          "h": "4.85",
+          "d": "4.30",
+          "a": "1.45",
+          "goal_line": "-1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "reasoning": "博德闪耀近10场9胜1负(sportscore), 主场5场全胜进17失4, 客场5场[WDWWW]进5失14, 状态火热; 但奈梅亨仅1场样本(8/11欧冠资格赛主2:1胜奥林匹亚科斯), 荷甲新赛季未开赛。硬性门控: 主队样本1<5, 强制观望。",
+        "sample_size": {
+          "home_recent": 1,
+          "away_recent": 10,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "ok"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.268,
+          "d": 0.18,
+          "a": 0.262
+        },
+        "conclusion": "1X2去水主26.8% 客26.2% 势均力敌, 但让球盘却强开客队-1(客1.45), 两个市场严重背离; 客队让球优势缺乏近况支撑, 存在冲突。"
+      },
+      "market_analysis": {
+        "ah_pick": "客队-1球低赔1.45与1X2均势严重冲突, 客队博德客场防线不稳(5场失14)无穿盘把握",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2显示均势, 让球盘却看好客队完胜, 三市场无法形成一致剧本, 且主队数据缺失, 观望。"
+      },
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "home_sample_lt5",
+        "market_divergence"
+      ],
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2040947,
+      "match_num": "周三008",
+      "league": "欧冠",
+      "home": "布拉迪斯拉发",
+      "away": "采列",
+      "match_time": "2026-08-20 03:00",
+      "odds": {
+        "HAD": {
+          "h": "1.68",
+          "d": "3.50",
+          "a": "4.05"
+        },
+        "HHAD": {
+          "h": "3.10",
+          "d": "3.50",
+          "a": "1.92",
+          "goal_line": "-1.00"
+        }
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "reasoning": "布拉迪斯拉发近8场7胜1平(sportscore), 主场5场[WWWDW]进14失3, 状态出色; 但采列仅1场样本(8/11欧冠资格赛主2:0胜亚美尼亚), 斯洛文尼亚联赛sportscore覆盖不足。H2H布拉迪斯拉发2024年5:0/1:1两回合占优。硬性门控: 客队样本1<5, 强制观望。",
+        "sample_size": {
+          "home_recent": 8,
+          "away_recent": 1,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "status": "ok"
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.375,
+          "d": 0.18,
+          "a": 0.156
+        },
+        "conclusion": "赔率开主队低赔(1.68), 主队近况好+主场强+历史占优, 数据面确实支持; 但客队样本不足无法核验, 不追。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队-1球盘客胜1.92, 让球胜支持度一般",
+        "ou_pick": "大小球数据缺失",
+        "script": "1X2与让球盘均倾向主队且数据面支持, 但客队样本不足, 无法完整校验。"
+      },
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "away_sample_lt5"
+      ],
+      "result": "unsettled"
     }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "OBSERVE",
-    "confidence": "low",
-    "reasoning": "西甲新赛季尚未开赛，马竞与马拉加在ESPN均无近期正式比赛记录（sample=0），无法评估真实竞技状态。",
-    "sample_size": {
-     "home_recent": 0,
-     "away_recent": 0,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "no_recent_matches"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.703,
-     "d": 0.177,
-     "a": 0.081
-    },
-    "conclusion": "赔率强开马竞深盘，但无新赛季数据核验，可能是基于历史声望定价，不跟盘。"
-   },
-   "market_analysis": {
-    "ah_pick": "马竞-1球让球盘与1X2低赔一致，但均无近况验证",
-    "ou_pick": "大小球数据缺失",
-    "script": "1X2与让球盘方向一致（主胜/让胜），但大小球缺失，且数据面空白。"
-   },
-   "recommendation_level": "OBSERVE",
-   "final_pick": "OBSERVE",
-   "pick_market": null,
-   "pick_odds": null,
-   "risk_flags": [
-    "home_sample_lt5",
-    "away_sample_lt5",
-    "season_opener_no_data"
-   ],
-   "result": "unsettled"
-  },
-  {
-   "match_id": 2040931,
-   "match_num": "周三003",
-   "league": "解放者杯",
-   "home": "波特诺山丘",
-   "away": "帕尔梅拉斯",
-   "match_time": "2026-08-20 06:00",
-   "odds": {
-    "HAD": {
-     "h": "5.05",
-     "d": "3.05",
-     "a": "1.66"
-    },
-    "HHAD": {
-     "h": "1.95",
-     "d": "3.20",
-     "a": "3.30",
-     "goal_line": "+1.00"
-    }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "A",
-    "confidence": "medium",
-    "reasoning": "双方近期样本均达7场。波特诺近7场4胜2平1负，主场强势且近两次对帕尔梅拉斯1胜1平不败；帕尔梅拉斯近7场2胜4平1负，平局率偏高，但账面实力与解放者杯经验占优。数据面判断客队整体实力更强、取分概率最高，但主队具备爆冷抵抗力，因此给medium而非high。",
-    "sample_size": {
-     "home_recent": 7,
-     "away_recent": 7,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "ok"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.175,
-     "d": 0.29,
-     "a": 0.535
-    },
-    "conclusion": "去水后客胜公平概率约53.5%，与数据面客队略占优一致；但客胜赔率1.66隐含概率已超60%，赔率对客队热门定价偏紧，价值空间有限。"
-   },
-   "market_analysis": {
-    "ah_pick": "客队-1球盘客胜2.08/主受让1.95，与1X2低赔共同指向客队小胜或平局的剧本",
-    "ou_pick": "大小球数据缺失，无法校验总进球市场",
-    "script": "1X2与让球盘方向一致：客队实力占优、预计1球左右小胜；因大小球缺失，三市场校验不完整。"
-   },
-   "recommendation_level": "PARTIAL",
-   "stake_cap_ratio": 0.5,
-   "final_pick": "A",
-   "pick_market": "HAD",
-   "pick_odds": 1.66,
-   "risk_flags": [
-    "partial_had_missing_ou",
-    "favorite_priced_tight",
-    "home_upset_resistance"
-   ],
-   "confidence_adjustment": "official_HAD_only"
-  },
-  {
-   "match_id": 2040932,
-   "match_num": "周三004",
-   "league": "美职",
-   "home": "纽约红牛",
-   "away": "纳什维尔",
-   "match_time": "2026-08-20 07:30",
-   "odds": {
-    "HAD": {
-     "h": "2.70",
-     "d": "3.60",
-     "a": "2.08"
-    },
-    "HHAD": {
-     "h": "1.57",
-     "d": "4.00",
-     "a": "4.12",
-     "goal_line": "+1.00"
-    }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "OBSERVE",
-    "confidence": "low",
-    "reasoning": "客队纳什维尔样本充足（10场，联赛榜首），但主队纽约红牛可核验样本仅1场（8月1日），远低于门控要求。无法判断主队当前状态。",
-    "sample_size": {
-     "home_recent": 1,
-     "away_recent": 10,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "ok"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.278,
-     "d": 0.208,
-     "a": 0.361
-    },
-    "conclusion": "赔率略倾向客队，但主队数据缺失，无法验证该定价是否合理。"
-   },
-   "market_analysis": {
-    "ah_pick": "主队+1球不败赔率较低，与客队排名优势一致",
-    "ou_pick": "大小球数据缺失",
-    "script": "让球盘与1X2方向一致，但主队近况空白。"
-   },
-   "recommendation_level": "OBSERVE",
-   "final_pick": "OBSERVE",
-   "pick_market": null,
-   "pick_odds": null,
-   "risk_flags": [
-    "home_sample_lt5",
-    "favorite_priced_without_home_check"
-   ],
-   "result": "unsettled"
-  },
-  {
-   "match_id": 2040933,
-   "match_num": "周三005",
-   "league": "美职",
-   "home": "科罗拉多急流",
-   "away": "洛杉矶FC",
-   "match_time": "2026-08-20 09:30",
-   "odds": {
-    "HAD": {
-     "h": "2.57",
-     "d": "3.40",
-     "a": "2.24"
-    },
-    "HHAD": {
-     "h": "1.48",
-     "d": "4.05",
-     "a": "4.83",
-     "goal_line": "+1.00"
-    }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "OBSERVE",
-    "confidence": "low",
-    "reasoning": "主队科罗拉多急流样本充足（10场），但客队洛杉矶FC可核验样本仅1场（8月16日失利）。任一方样本不足即强制观望。",
-    "sample_size": {
-     "home_recent": 10,
-     "away_recent": 1,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "ok"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.292,
-     "d": 0.221,
-     "a": 0.335
-    },
-    "conclusion": "赔率接近五五开，但客队近况空白，无法后验。"
-   },
-   "market_analysis": {
-    "ah_pick": "主队+1球低赔与主队近期主场两连胜一致",
-    "ou_pick": "大小球数据缺失",
-    "script": "让球与1X2无明显冲突，但客队数据缺失。"
-   },
-   "recommendation_level": "OBSERVE",
-   "final_pick": "OBSERVE",
-   "pick_market": null,
-   "pick_odds": null,
-   "risk_flags": [
-    "away_sample_lt5"
-   ],
-   "result": "unsettled"
-  },
-  {
-   "match_id": 2040945,
-   "match_num": "周三006",
-   "league": "欧冠",
-   "home": "凯尔特人",
-   "away": "LASK林茨",
-   "match_time": "2026-08-20 03:00",
-   "odds": {
-    "HAD": {
-     "h": "1.58",
-     "d": "3.70",
-     "a": "4.45"
-    },
-    "HHAD": {
-     "h": "2.76",
-     "d": "3.50",
-     "a": "2.08",
-     "goal_line": "-1.00"
-    }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "OBSERVE",
-    "confidence": "low",
-    "reasoning": "凯尔特人仅1场苏超样本(8/3主1:0胜登地),LASK林茨仅1场奥甲样本(8/14主4:1胜SV里德),双方均不足5场门控,虽近况皆胜但样本过少,强制观望。",
-    "sample_size": {
-     "home_recent": 1,
-     "away_recent": 1,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "ok"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.399,
-     "d": 0.171,
-     "a": 0.142
-    },
-    "conclusion": "赔率强开主队，但样本不足，不排除新赛季状态被高估。"
-   },
-   "market_analysis": {
-    "ah_pick": "主队-1球盘客胜赔率2.08，对让球胜并不友好",
-    "ou_pick": "大小球数据缺失",
-    "script": "1X2与让球盘均指向主队，但数据样本不足。"
-   },
-   "recommendation_level": "OBSERVE",
-   "final_pick": "OBSERVE",
-   "pick_market": null,
-   "pick_odds": null,
-   "risk_flags": [
-    "home_sample_lt5",
-    "away_sample_lt5",
-    "early_season_small_sample"
-   ],
-   "result": "unsettled"
-  },
-  {
-   "match_id": 2040946,
-   "match_num": "周三007",
-   "league": "欧冠",
-   "home": "奈梅亨",
-   "away": "博德闪耀",
-   "match_time": "2026-08-20 03:00",
-   "odds": {
-    "HAD": {
-     "h": "2.35",
-     "d": "3.50",
-     "a": "2.40"
-    },
-    "HHAD": {
-     "h": "4.85",
-     "d": "4.30",
-     "a": "1.45",
-     "goal_line": "-1.00"
-    }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "OBSERVE",
-    "confidence": "low",
-    "reasoning": "补别名后奈梅亨(NEC Nijmegen)与博德闪耀(Bodø/Glimt)均可核验,双方各仅1场欧冠资格赛样本(奈梅亨8/11主2:1胜、博德8/11客2:3负),不足5场门控,强制观望。",
-    "sample_size": {
-     "home_recent": 1,
-     "away_recent": 1,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "ok"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.268,
-     "d": 0.18,
-     "a": 0.262
-    },
-    "conclusion": "赔率接近但让球盘强开客队-1，数据面完全空白，无法解释赔率分歧。"
-   },
-   "market_analysis": {
-    "ah_pick": "客队-1球低赔1.45与1X2的均势赔率存在明显冲突",
-    "ou_pick": "大小球数据缺失",
-    "script": "1X2显示势均力敌，让球盘却看好客队完胜，无法形成一致剧本。"
-   },
-   "recommendation_level": "OBSERVE",
-   "final_pick": "OBSERVE",
-   "pick_market": null,
-   "pick_odds": null,
-   "risk_flags": [
-    "home_sample_lt5",
-    "away_sample_lt5",
-    "identity_not_found",
-    "market_divergence"
-   ],
-   "result": "unsettled"
-  },
-  {
-   "match_id": 2040947,
-   "match_num": "周三008",
-   "league": "欧冠",
-   "home": "布拉迪斯拉发",
-   "away": "采列",
-   "match_time": "2026-08-20 03:00",
-   "odds": {
-    "HAD": {
-     "h": "1.68",
-     "d": "3.50",
-     "a": "4.05"
-    },
-    "HHAD": {
-     "h": "3.10",
-     "d": "3.50",
-     "a": "1.92",
-     "goal_line": "-1.00"
-    }
-   },
-   "odds_integrity": "partial_HAD",
-   "odds_source": "sporttery_official_api",
-   "data_analysis": {
-    "tendency": "OBSERVE",
-    "confidence": "low",
-    "reasoning": "补别名后布拉迪斯拉发(Slovan Bratislava)与采列(Celje)均可核验,双方各仅1场样本(布拉迪斯拉发8/15主5:0胜、采列8/11主2:0胜),不足5场门控,强制观望。",
-    "sample_size": {
-     "home_recent": 1,
-     "away_recent": 1,
-     "window_days": 120,
-     "cross_season_sample": false
-    },
-    "status": "ok"
-   },
-   "odds_analysis": {
-    "had_fair_prob": {
-     "h": 0.375,
-     "d": 0.18,
-     "a": 0.156
-    },
-    "conclusion": "赔率开主队低赔，但无数据核验，不敢跟进。"
-   },
-   "market_analysis": {
-    "ah_pick": "主队-1球盘客胜1.92，让球胜支持度一般",
-    "ou_pick": "大小球数据缺失",
-    "script": "1X2与让球盘均倾向主队，但数据面完全空白。"
-   },
-   "recommendation_level": "OBSERVE",
-   "final_pick": "OBSERVE",
-   "pick_market": null,
-   "pick_odds": null,
-   "risk_flags": [
-    "home_sample_lt5",
-    "away_sample_lt5",
-    "identity_not_found"
-   ],
-   "result": "unsettled"
-  }
- ],
- "parlays": []
+  ],
+  "parlays": []
 }
