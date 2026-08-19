@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 12:01:25",
+  "updated_at": "2026-08-19 12:08:40",
   "stats": {
     "total": 1,
     "hit": 0,
@@ -596,9 +596,9 @@
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 988.0,
-    "total_profit": -12.0,
-    "profit_rate": -1.2,
+    "balance": 994.0,
+    "total_profit": -6.0,
+    "profit_rate": -0.6,
     "pending_count": 0,
     "settlements": [
       {
@@ -607,7 +607,7 @@
         "won": 0,
         "lost": 1,
         "profit": -6.0,
-        "balance": 988.0
+        "balance": 994.0
       }
     ],
     "equity_curve": [
@@ -617,7 +617,7 @@
       },
       {
         "date": "2026-08-18",
-        "balance": 988.0
+        "balance": 994.0
       }
     ],
     "recent_bets": [
