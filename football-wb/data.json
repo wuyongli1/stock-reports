@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 14:09:21",
+  "updated_at": "2026-08-19 14:10:34",
   "stats": {
     "total": 1,
     "hit": 0,
@@ -52,6 +52,7 @@
             "d": "2.65",
             "a": "3.05"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "H",
             "confidence": "medium",
@@ -70,6 +71,11 @@
               "a": 0.3
             },
             "conclusion": "官方赔率去水后主39.7%/平34.9%/客30.4%,市场小幅看好主队,与数据面H一致。但让球盘客队受让1.45极热,提示主队难大胜,支持小胜剧本,不做高置信。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队受让-1有优势(1.45)",
+            "ou_pick": "未提供大小球数据",
+            "script": "1X2主队小幅受捧+让球盘客队受让热,剧本为主队小胜/平局,主胜有EV但幅度有限。"
           },
           "final_pick": "H",
           "pick_market": "HAD",
@@ -93,6 +99,7 @@
             "d": "2.95",
             "a": "2.19"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -110,6 +117,11 @@
               "a": 0.395
             },
             "conclusion": "赔率分布较均衡,索菲亚主场略占优;但客队无数据面验证,样本不足,观望。"
+          },
+          "market_analysis": {
+            "ah_pick": null,
+            "ou_pick": null,
+            "script": "双方样本不足5场,不构成三市场剧本。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -133,6 +145,7 @@
             "d": "3.75",
             "a": "4.35"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -150,6 +163,11 @@
               "a": 0.207
             },
             "conclusion": "赔率强烈看好主队(1.58),但主队资格赛样本仅1场,去水概率不可作为独立依据,观望。"
+          },
+          "market_analysis": {
+            "ah_pick": null,
+            "ou_pick": null,
+            "script": "双方样本不足5场,不构成三市场剧本。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -173,6 +191,7 @@
             "d": "3.45",
             "a": "3.38"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -190,6 +209,11 @@
               "a": 0.259
             },
             "conclusion": "赔率略看好主队(1.84),双方样本各仅1场,数据面不足以支撑,观望。"
+          },
+          "market_analysis": {
+            "ah_pick": null,
+            "ou_pick": null,
+            "script": "双方样本不足5场,不构成三市场剧本。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -247,6 +271,7 @@
             "d": "3.00",
             "a": "2.41"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "A",
             "confidence": "low",
@@ -266,6 +291,11 @@
               "a": 0.368
             },
             "conclusion": "去水后主33.7% 平29.5% 客36.8%, 市场略偏客队与数据面一致, 但客胜1.96盈亏平衡点(1/2.41=41.5%)高于数据面估计, 无价值空间, 观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队+1受让1.43赔率过低, 无参与价值",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2与让球盘均指向客队小幅占优, 但EV不足, 三市场校验无冲突也无机会。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -289,6 +319,7 @@
             "d": "4.81",
             "a": "10.50"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -308,6 +339,11 @@
               "a": 0.081
             },
             "conclusion": "赔率强开马竞深盘(主1.21), 无新赛季数据核验, 可能是基于历史声望+季前预期定价, 不跟盘。"
+          },
+          "market_analysis": {
+            "ah_pick": "马竞-1球让球盘与1X2低赔一致, 但均无近况验证",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2与让球盘方向一致(主胜/让胜), 但数据面空白, 无法形成可验证剧本。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -331,6 +367,7 @@
             "d": "3.05",
             "a": "1.66"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "H",
             "confidence": "medium",
@@ -357,6 +394,11 @@
             },
             "pick_prob": 0.53
           },
+          "market_analysis": {
+            "ah_pick": "主队+1受让1.95=波特诺不败, 数据面支持, 是全场唯一正EV方向",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2客队热门(声望定价) vs 让球盘主+1低估(数据定价) 存在明显分歧; 数据面站主队不败, 帕尔梅拉斯状态差是核心依据, 风险是强队次回合反弹。"
+          },
           "final_pick": "H",
           "pick_market": "HHAD",
           "pick_odds": 1.95,
@@ -379,6 +421,7 @@
             "d": "3.60",
             "a": "2.08"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "A",
             "confidence": "low",
@@ -398,6 +441,11 @@
               "a": 0.426
             },
             "conclusion": "去水客胜42.6%, 但纳什维尔客场数据仅支撑约38-40%, 市场略微高估客队; 客胜盈亏平衡点48.1%, 数据面达不到, 无价值。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队+1受让1.57对应主队不败约57%去水, 数据面主队不败约52-55%, 略低于市场",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2偏客 vs 让球盘偏主, 市场对纳什维尔客场能力定价分歧; 数据面客队客场平庸, 更倾向平局/小胜剧本, 但无清晰价值。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -421,6 +469,7 @@
             "d": "3.40",
             "a": "2.24"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "A",
             "confidence": "low",
@@ -440,6 +489,11 @@
               "a": 0.395
             },
             "conclusion": "去水客胜39.5%, 数据面客胜约43-45%, 略优于市场但幅度<5pp, EV微正不足3%, 价值不足, 观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队+1受让1.48对应主队不败约62%去水, 数据面科罗拉多主场近2连负, 主+1价值一般",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2与让球盘均指向客队, 洛杉矶状态+实力双优, 但客场进攻效率低限制深盘价值, 小胜/平局剧本概率不低。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -463,6 +517,7 @@
             "d": "3.70",
             "a": "4.45"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -482,6 +537,11 @@
               "a": 0.142
             },
             "conclusion": "赔率强开主队凯尔特人(1.58), 但主队近况无法核验, 不排除新赛季声望定价偏高, 不跟盘。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队-1球盘客胜2.08, 让球盘对主队完胜不友好",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2与让球盘均指向主队, 但主队样本不足, 无法确认。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -505,6 +565,7 @@
             "d": "3.50",
             "a": "2.40"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -524,6 +585,11 @@
               "a": 0.262
             },
             "conclusion": "1X2去水主26.8% 客26.2% 势均力敌, 但让球盘却强开客队-1(客1.45), 两个市场严重背离; 客队让球优势缺乏近况支撑, 存在冲突。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队-1球低赔1.45与1X2均势严重冲突, 客队博德客场防线不稳(5场失14)无穿盘把握",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2显示均势, 让球盘却看好客队完胜, 三市场无法形成一致剧本, 且主队数据缺失, 观望。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -547,6 +613,7 @@
             "d": "3.50",
             "a": "4.05"
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -566,6 +633,11 @@
               "a": 0.156
             },
             "conclusion": "赔率开主队低赔(1.68), 主队近况好+主场强+历史占优, 数据面确实支持; 但客队样本不足无法核验, 不追。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队-1球盘客胜1.92, 让球胜支持度一般",
+            "ou_pick": "大小球数据缺失",
+            "script": "1X2与让球盘均倾向主队且数据面支持, 但客队样本不足, 无法完整校验。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
