@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 14:32:38",
+  "updated_at": "2026-08-19 15:26:08",
   "stats": {
     "total": 2,
     "hit": 0,
@@ -314,9 +314,9 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "recommendation_level": "OBSERVE",
+          "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 1.0,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -344,9 +344,9 @@
             "s7": "21.00"
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
+            "tendency": "D",
             "confidence": "low",
-            "reasoning": "西甲新赛季尚未开赛, 马竞与马拉加均无近期正式比赛样本(sample=0), 无法评估真实竞技状态。ESPN/sportscore 均无 2026-2027 新赛季数据, H2H 停留在 2017-2018 赛季, 不具时效性。硬性门控: 双方样本均<5, 强制观望。",
+            "reasoning": "西甲新赛季尚未开赛, 马竞与马拉加均无近期正式比赛样本(sample=0), 无法评估真实竞技状态。ESPN/sportscore 均无 2026-2027 新赛季数据, H2H 停留在 2017-2018 赛季, 不具时效性。硬性门控: 双方样本均<5, 强制观望。 背离信号: 让球盘主-1去水50.9% vs 1X2主胜73.2% (diff=-22.3pp), 市场不信任马竞深盘, 西甲揭幕无样本, 支持平局方向",
             "sample_size": {
               "home_recent": 0,
               "away_recent": 0,
@@ -366,19 +366,20 @@
               "d": 0.239,
               "a": 0.252
             },
-            "conclusion": "赔率强开马竞深盘(主1.21去水73.2%), 无新赛季数据核验, 可能是基于历史声望+季前预期定价, 不跟盘。"
+            "conclusion": "赔率强开马竞深盘(主1.21去水73.2%), 无新赛季数据核验, 可能是基于历史声望+季前预期定价, 不跟盘。 (改造后: 样本收缩+背离旁证路径)",
+            "pick_prob": 0.2
           },
           "market_analysis": {
             "ah_pick": "马竞-1球让球盘与1X2低赔一致, 但均无近况验证",
             "ou_pick": "总进球核心区间2-4球(适中(2-3球区间), 2/3球接近)",
             "script": "1X2与让球盘方向一致(主胜/让胜), 但数据面空白, 无法形成可验证剧本。 | 大小球: 总进球核心区间2-4球(适中(2-3球区间))"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "recommendation_level": "OBSERVE",
+          "final_pick": "D",
+          "pick_market": "HAD",
+          "pick_odds": 4.81,
+          "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 0.3,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -599,9 +600,9 @@
             "s7": "24.00"
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
+            "tendency": "A",
             "confidence": "low",
-            "reasoning": "凯尔特人 provider_error: api-football/ESPN/SportScore/TheSportsDB均未找到近况数据(sample=0); LASK林茨(sportscore)近8场5胜3负, 主场4场[WWWL]客场4场[WWLL], 状态中上。硬性门控: 主队样本0<5, 强制观望。",
+            "reasoning": "凯尔特人 provider_error: api-football/ESPN/SportScore/TheSportsDB均未找到近况数据(sample=0); LASK林茨(sportscore)近8场5胜3负, 主场4场[WWWL]客场4场[WWLL], 状态中上。硬性门控: 主队样本0<5, 强制观望。 背离信号: 让球盘客-1去水42.6% vs 1X2客胜19.9% (diff=+22.7pp), 市场对LASK实力加注; 主队样本0, 客队近8场5胜3负状态中上, 支持客胜方向",
             "sample_size": {
               "home_recent": 0,
               "away_recent": 8,
@@ -621,19 +622,20 @@
               "d": 0.253,
               "a": 0.426
             },
-            "conclusion": "赔率强开主队凯尔特人(1.58去水56.1%), 但主队近况完全无法核验, 不排除声望定价偏高, 不跟盘。"
+            "conclusion": "赔率强开主队凯尔特人(1.58去水56.1%), 但主队近况完全无法核验, 不排除声望定价偏高, 不跟盘。 (改造后: 样本收缩+背离旁证路径)",
+            "pick_prob": 0.24
           },
           "market_analysis": {
             "ah_pick": "主队-1球盘客胜2.08, 让球盘对主队完胜不友好",
             "ou_pick": "总进球核心区间2-4球(适中(2-3球区间), 3球3.60最热)",
             "script": "1X2与让球盘均指向主队, 但主队样本为0, 无法形成可验证剧本。 | 大小球: 总进球核心区间2-4球(适中(2-3球区间))"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "recommendation_level": "OBSERVE",
+          "final_pick": "A",
+          "pick_market": "HAD",
+          "pick_odds": 4.45,
+          "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 0.3,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -661,9 +663,9 @@
             "s7": "13.00"
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
+            "tendency": "A",
             "confidence": "low",
-            "reasoning": "奈梅亨 provider_error: 四个数据源均未找到近况(sample=0); 博德闪耀(sportscore)近10场9胜1平[WWDWWWWWWW]状态火热, 主场5场全胜进17失4, 客场5场[WDWWW]进5失14防线不稳。硬性门控: 主队样本0<5, 强制观望。",
+            "reasoning": "奈梅亨 provider_error: 四个数据源均未找到近况(sample=0); 博德闪耀(sportscore)近10场9胜1平[WWDWWWWWWW]状态火热, 主场5场全胜进17失4, 客场5场[WDWWW]进5失14防线不稳。硬性门控: 主队样本0<5, 强制观望。 背离信号: 让球盘客-1去水62.4% vs 1X2客胜37.7% (diff=+24.7pp), 市场强开博德闪耀; 博德近10场9胜1平状态火热, 支持客胜方向",
             "sample_size": {
               "home_recent": 0,
               "away_recent": 10,
@@ -683,19 +685,20 @@
               "d": 0.199,
               "a": 0.624
             },
-            "conclusion": "1X2去水主36.8% 平25.5% 客37.7% 势均力敌, 但让球盘却强开客队-1(客1.42去水62.4%), 两市场严重背离; 客队让球优势缺乏1X2支撑, 存在冲突。"
+            "conclusion": "1X2去水主36.8% 平25.5% 客37.7% 势均力敌, 但让球盘却强开客队-1(客1.42去水62.4%), 两市场严重背离; 客队让球优势缺乏1X2支撑, 存在冲突。 (改造后: 样本收缩+背离旁证路径)",
+            "pick_prob": 0.42
           },
           "market_analysis": {
             "ah_pick": "客队-1球低赔1.42与1X2均势严重冲突, 客队博德客场防线不稳(5场失14)无穿盘把握",
             "ou_pick": "总进球核心区间2-4球(适中(2-3球区间), 3球3.65最热)",
             "script": "1X2显示均势, 让球盘却看好客队完胜(62.4%), 三市场无法形成一致剧本, 且主队数据缺失, 观望。 | 大小球: 总进球核心区间2-4球(适中(2-3球区间))"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "recommendation_level": "OBSERVE",
+          "final_pick": "A",
+          "pick_market": "HAD",
+          "pick_odds": 2.35,
+          "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 0.3,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -723,9 +726,9 @@
             "s7": "23.00"
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
+            "tendency": "H",
             "confidence": "low",
-            "reasoning": "布拉迪斯拉发(sportscore)近8场7胜1平, 主场5场[WWWDW]进14失3状态出色; 但采列(thesportsdb)仅1场样本(8/11欧冠资格赛主2:0胜亚美尼亚), 斯洛文尼亚联赛sportscore覆盖不足。H2H布拉迪斯拉发2024年5:0/1:1两回合占优。硬性门控: 客队样本1<5, 强制观望。",
+            "reasoning": "布拉迪斯拉发(sportscore)近8场7胜1平, 主场5场[WWWDW]进14失3状态出色; 但采列(thesportsdb)仅1场样本(8/11欧冠资格赛主2:0胜亚美尼亚), 斯洛文尼亚联赛sportscore覆盖不足。H2H布拉迪斯拉发2024年5:0/1:1两回合占优。硬性门控: 客队样本1<5, 强制观望。 数据面主队近8场7胜1平+主场进14失3+H2H占优, 客队采列仅1场样本, 收缩后评估",
             "sample_size": {
               "home_recent": 8,
               "away_recent": 1,
@@ -745,19 +748,20 @@
               "d": 0.255,
               "a": 0.45
             },
-            "conclusion": "赔率开主队低赔(1.64去水54%), 主队近况好+主场强+历史占优, 数据面确实支持; 但客队样本不足无法核验, 不追。"
+            "conclusion": "赔率开主队低赔(1.64去水54%), 主队近况好+主场强+历史占优, 数据面确实支持; 但客队样本不足无法核验, 不追。 (改造后: 样本收缩+背离旁证路径)",
+            "pick_prob": 0.52
           },
           "market_analysis": {
             "ah_pick": "主队-1球盘客胜1.97, 让球胜支持度一般",
             "ou_pick": "总进球核心区间2-4球(适中(2-3球区间), 2/3球接近)",
             "script": "1X2与让球盘均倾向主队且数据面支持, 但客队样本不足, 无法完整校验。 | 大小球: 总进球核心区间2-4球(适中(2-3球区间))"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
-          "recommendation_level": "OBSERVE",
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.64,
+          "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 0.3,
           "result": "unsettled",
           "score": "",
           "review": ""
