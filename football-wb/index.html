@@ -601,7 +601,7 @@ function renderPaper() {
   let betsHtml = '';
   const bets = paper.recent_bets || [];
   if (bets.length) {
-    const rows = bets.slice().reverse().map(b => {
+    const rows = bets.map(b => {
       const cls = b.status === 'won' ? 'bet-won' : (b.status === 'lost' ? 'bet-lost' : (b.status === 'void' ? 'bet-void' : 'bet-pending'));
       const st = b.status === 'won' ? '✅ 中' : (b.status === 'lost' ? '❌ 错' : (b.status === 'void' ? '🚫 作废' : '⏳ 待'));
       const profit = b.profit != null ? ((b.profit >= 0 ? '+' : '') + b.profit.toFixed(2)) : '-';
