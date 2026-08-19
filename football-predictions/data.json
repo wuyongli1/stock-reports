@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 11:59:19",
+  "updated_at": "2026-08-19 15:56:59",
   "stats": {
     "total": 0,
     "hit": 0,
@@ -30,6 +30,7 @@
             "a": "3.05",
             "goal_line": ""
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "D",
             "confidence": "medium",
@@ -54,6 +55,7 @@
             "source": "体彩官方",
             "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
+          "market_analysis": null,
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -77,6 +79,7 @@
             "a": "2.16",
             "goal_line": ""
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -106,6 +109,7 @@
             "source": "体彩官方",
             "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
+          "market_analysis": null,
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -129,6 +133,7 @@
             "a": "4.20",
             "goal_line": ""
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -158,6 +163,7 @@
             "source": "体彩官方",
             "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
+          "market_analysis": null,
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -181,6 +187,7 @@
             "a": "3.45",
             "goal_line": ""
           },
+          "ttg": {},
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
@@ -210,6 +217,7 @@
             "source": "体彩官方",
             "conclusion": "赔率仅作为第二阶段校验，不替代球队数据。"
           },
+          "market_analysis": null,
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -240,7 +248,7 @@
           "result": "miss"
         }
       ],
-      "review": "昨日（2026-08-18）模拟盘无待结算投注，余额维持1000.00元，盈亏为0.00元。昨日预测记录未形成可结算投注，因此没有命中/未中结果可复盘；今日继续以官方销售日池和可核验近况为边界。本次准备阶段发现今日多场球队近况不足或数据源未找到，按规则全部降级为观望，不用赔率热门替代数据判断。",
+      "review": "昨日（2026-08-18）模拟盘无待结算投注，余额维持1000.00元，盈亏为0.00元。昨日预测记录未形成可结算投注，因此没有命中/未中结果可复盘；今日继续以官方销售日池和可核验近况为边界。本次准备阶段按核心样本、球队身份与官方胜平负赔率分别核验；正式首发、伤停和大小球赔率仅作为增强证据，不能被误记为样本不足或固定拦截。",
       "bets": []
     },
     {
@@ -258,6 +266,12 @@
             "h": "2.63",
             "d": "3.00",
             "a": "2.41",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -310,6 +324,11 @@
             },
             "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
           },
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "1X2与让球市场剧本无法由球队数据确认；三市场不完整，降级观望。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -331,6 +350,12 @@
             "h": "1.21",
             "d": "4.81",
             "a": "10.50",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -383,6 +408,11 @@
             },
             "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
           },
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "1X2与让球市场剧本无法由球队数据确认；三市场不完整，降级观望。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -404,6 +434,12 @@
             "h": "5.05",
             "d": "3.05",
             "a": "1.66",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -452,11 +488,16 @@
                 "a": 0.26856
               }
             },
-            "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
+            "conclusion": "去水后客胜概率53.4%,赔率1.66;数据面7/7样本支撑客队取分概率最高,可作为方向候选,但EV复核为负(-4.5%),建议观望或等待更好赔率。"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "主队具备爆冷抵抗力,不构成高置信三市场剧本。"
+          },
+          "final_pick": "A",
+          "pick_market": "HAD",
+          "pick_odds": "1.66",
           "recommendation_level": "OBSERVE",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
@@ -475,6 +516,12 @@
             "h": "2.70",
             "d": "3.60",
             "a": "2.08",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -526,6 +573,11 @@
             },
             "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
           },
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "1X2与让球市场剧本无法由球队数据确认；三市场不完整，降级观望。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -547,6 +599,12 @@
             "h": "2.57",
             "d": "3.40",
             "a": "2.24",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -598,6 +656,11 @@
             },
             "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
           },
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "1X2与让球市场剧本无法由球队数据确认；三市场不完整，降级观望。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -619,6 +682,12 @@
             "h": "1.58",
             "d": "3.70",
             "a": "4.45",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -671,6 +740,11 @@
             },
             "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
           },
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "1X2与让球市场剧本无法由球队数据确认；三市场不完整，降级观望。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -692,6 +766,12 @@
             "h": "2.35",
             "d": "3.50",
             "a": "2.40",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -744,6 +824,11 @@
             },
             "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
           },
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "1X2与让球市场剧本无法由球队数据确认；三市场不完整，降级观望。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -765,6 +850,12 @@
             "h": "1.68",
             "d": "3.50",
             "a": "4.05",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
             "goal_line": ""
           },
           "data_analysis": {
@@ -817,6 +908,11 @@
             },
             "conclusion": "HAD/HHAD仅作为官方市场后验记录；阶段A无可结算方向，不能据此推荐。"
           },
+          "market_analysis": {
+            "ah_pick": "无法核验大小球和球队数据，观望",
+            "ou_pick": "OBSERVE（官方TTG赔率未提供）",
+            "script": "1X2与让球市场剧本无法由球队数据确认；三市场不完整，降级观望。"
+          },
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
@@ -830,22 +926,71 @@
       ],
       "parlays": [],
       "singles": [],
-      "bets": []
+      "bets": [
+        {
+          "type": "单关",
+          "detail": "周三001 安养FC vs 济州SK A@2.19",
+          "stake": 2.0,
+          "status": "void",
+          "profit": 0.0
+        },
+        {
+          "type": "串关",
+          "detail": "周三001+周三003@11.17",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null
+        }
+      ]
     }
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 1000.0,
-    "total_profit": 0.0,
-    "profit_rate": 0.0,
-    "pending_count": 0,
-    "settlements": [],
+    "balance": 998.0,
+    "total_profit": -2.0,
+    "profit_rate": -0.2,
+    "pending_count": 1,
+    "settlements": [
+      {
+        "date": "2026-08-19",
+        "bet_count": 1,
+        "won": 0,
+        "lost": 0,
+        "void": 1,
+        "profit": 0.0,
+        "balance": 1000.0,
+        "note": "作废 周三001: 优化器未评估可组合的过关腿，改为001+003二串一"
+      }
+    ],
     "equity_curve": [
       {
         "date": "2026-08-18",
         "balance": 1000.0
+      },
+      {
+        "date": "2026-08-19",
+        "balance": 1000.0
       }
     ],
-    "recent_bets": []
+    "recent_bets": [
+      {
+        "date": "2026-08-19",
+        "match_num": "周三001",
+        "type": "单关",
+        "detail": "安养FC vs 济州SK A@2.19",
+        "stake": 2.0,
+        "status": "void",
+        "profit": 0.0
+      },
+      {
+        "date": "2026-08-19",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周三001+周三003@11.17",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null
+      }
+    ]
   }
 }
