@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 11:32:53",
+  "updated_at": "2026-08-19 12:01:25",
   "stats": {
     "total": 1,
     "hit": 0,
@@ -28,11 +28,11 @@
           "result": "miss",
           "score": "1:1",
           "bet_stake": 6.0,
-          "bet_profit": null
+          "bet_profit": -6.0
         }
       ],
       "bet_stake": 6.0,
-      "bet_profit": 0
+      "bet_profit": -6.0
     }
   },
   "records": [
@@ -226,8 +226,8 @@
           "type": "单关",
           "detail": "周二001 里瓦达维亚独立 vs 弗鲁米嫩塞 H@2.36",
           "stake": 6.0,
-          "status": "pending",
-          "profit": null
+          "status": "lost",
+          "profit": -6.0
         }
       ]
     },
@@ -250,14 +250,14 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "安养FC可核验样本仅1场且数据源误标为篮球联赛（比分91:83），济州SK全部数据源均未找到，双方有效足球近期样本严重不足，无法做数据盲判断。",
+            "reasoning": "数据源修复后安养FC(FC Anyang)与济州SK(Jeju SK)均可核验近况,但双方各仅1场(安养8/8客2:1胜、济州8/15主2:0胜),有效样本不足5场门控,强制观望。",
             "sample_size": {
               "home_recent": 1,
-              "away_recent": 0,
+              "away_recent": 1,
               "window_days": 120,
               "cross_season_sample": false
             },
-            "status": "insufficient_sample"
+            "status": "ok"
           },
           "odds_analysis": {
             "had_fair_prob": {
@@ -460,10 +460,10 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "凯尔特人仅有2场苏超开局样本，LASK林茨仅有3场奥甲样本，双方均不足5场。虽两队近况均为连胜，但样本过少不能支撑正式推荐。",
+            "reasoning": "凯尔特人仅1场苏超样本(8/3主1:0胜登地),LASK林茨仅1场奥甲样本(8/14主4:1胜SV里德),双方均不足5场门控,虽近况皆胜但样本过少,强制观望。",
             "sample_size": {
-              "home_recent": 2,
-              "away_recent": 3,
+              "home_recent": 1,
+              "away_recent": 1,
               "window_days": 120,
               "cross_season_sample": false
             },
@@ -502,14 +502,14 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "奈梅亨与博德闪耀在所有数据源均未找到匹配球队，无法获取近期战绩、联赛排名等任何基本面信息。",
+            "reasoning": "补别名后奈梅亨(NEC Nijmegen)与博德闪耀(Bodø/Glimt)均可核验,双方各仅1场欧冠资格赛样本(奈梅亨8/11主2:1胜、博德8/11客2:3负),不足5场门控,强制观望。",
             "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0,
+              "home_recent": 1,
+              "away_recent": 1,
               "window_days": 120,
               "cross_season_sample": false
             },
-            "status": "provider_error"
+            "status": "ok"
           },
           "odds_analysis": {
             "had_fair_prob": {
@@ -544,14 +544,14 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "布拉迪斯拉发与采列在所有数据源均未找到匹配球队，无法核验任何近期样本。",
+            "reasoning": "补别名后布拉迪斯拉发(Slovan Bratislava)与采列(Celje)均可核验,双方各仅1场样本(布拉迪斯拉发8/15主5:0胜、采列8/11主2:0胜),不足5场门控,强制观望。",
             "sample_size": {
-              "home_recent": 0,
-              "away_recent": 0,
+              "home_recent": 1,
+              "away_recent": 1,
               "window_days": 120,
               "cross_season_sample": false
             },
-            "status": "provider_error"
+            "status": "ok"
           },
           "odds_analysis": {
             "had_fair_prob": {
@@ -596,15 +596,28 @@
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 994.0,
-    "total_profit": -6.0,
-    "profit_rate": -0.6,
-    "pending_count": 1,
-    "settlements": [],
+    "balance": 988.0,
+    "total_profit": -12.0,
+    "profit_rate": -1.2,
+    "pending_count": 0,
+    "settlements": [
+      {
+        "date": "2026-08-18",
+        "bet_count": 1,
+        "won": 0,
+        "lost": 1,
+        "profit": -6.0,
+        "balance": 988.0
+      }
+    ],
     "equity_curve": [
       {
         "date": "2026-08-18",
         "balance": 1000.0
+      },
+      {
+        "date": "2026-08-18",
+        "balance": 988.0
       }
     ],
     "recent_bets": [
@@ -614,8 +627,8 @@
         "type": "单关",
         "detail": "里瓦达维亚独立 vs 弗鲁米嫩塞 H@2.36",
         "stake": 6.0,
-        "status": "pending",
-        "profit": null
+        "status": "lost",
+        "profit": -6.0
       }
     ]
   }
