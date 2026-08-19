@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 12:08:40",
+  "updated_at": "2026-08-19 13:10:15",
   "stats": {
     "total": 1,
     "hit": 0,
@@ -233,7 +233,7 @@
     },
     {
       "date": "2026-08-19",
-      "analysis_time": "2026-08-19T11:30:00+08:00",
+      "analysis_time": "2026-08-19T13:15:00+08:00",
       "matches": [
         {
           "match_id": 2040937,
@@ -248,12 +248,12 @@
             "a": "2.41"
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
+            "tendency": "A",
             "confidence": "low",
-            "reasoning": "数据源修复后安养FC(FC Anyang)与济州SK(Jeju SK)均可核验近况,但双方各仅1场(安养8/8客2:1胜、济州8/15主2:0胜),有效样本不足5场门控,强制观望。",
+            "reasoning": "sportscore 10场样本: 济州SK近10场5胜3平2负[WWLDWWDWDD]状态明显优于安养FC 4胜1平5负[LLLWWWDWLW]; 济州客场3场[WWD]不败, 安养主场4场[LWDL]一般; 8/15联赛刚交手济州主场2:0取胜占心理优势; 但H2H安养历史4胜0平1负占优(杯赛可能不同剧本)。数据面客队略优但优势不构成价值。",
             "sample_size": {
-              "home_recent": 1,
-              "away_recent": 1,
+              "home_recent": 10,
+              "away_recent": 10,
               "window_days": 120,
               "cross_season_sample": false
             },
@@ -261,11 +261,11 @@
           },
           "odds_analysis": {
             "had_fair_prob": {
-              "h": 0.392,
-              "d": 0.344,
-              "a": 0.264
+              "h": 0.337,
+              "d": 0.295,
+              "a": 0.368
             },
-            "conclusion": "赔率结构主客接近，但数据面完全无法核验，不做赔率后验。"
+            "conclusion": "去水后主33.7% 平29.5% 客36.8%, 市场略偏客队与数据面一致, 但客胜1.96盈亏平衡点(1/2.41=41.5%)高于数据面估计, 无价值空间, 观望。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -292,7 +292,7 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "西甲新赛季尚未开赛，马竞与马拉加在ESPN均无近期正式比赛记录（sample=0），无法评估真实竞技状态。",
+            "reasoning": "西甲新赛季尚未开赛, 马竞与马拉加均无近期正式比赛样本(sample=0), 无法评估真实竞技状态。ESPN/sportscore 均无 2026-2027 新赛季数据, H2H 停留在 2017-2018 赛季, 不具时效性。硬性门控: 双方样本均<5, 强制观望。",
             "sample_size": {
               "home_recent": 0,
               "away_recent": 0,
@@ -307,7 +307,7 @@
               "d": 0.177,
               "a": 0.081
             },
-            "conclusion": "赔率强开马竞深盘，但无新赛季数据核验，可能是基于历史声望定价，不跟盘。"
+            "conclusion": "赔率强开马竞深盘(主1.21), 无新赛季数据核验, 可能是基于历史声望+季前预期定价, 不跟盘。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -332,12 +332,12 @@
             "a": "1.66"
           },
           "data_analysis": {
-            "tendency": "A",
+            "tendency": "H",
             "confidence": "medium",
-            "reasoning": "双方近期样本均达7场。波特诺近7场4胜2平1负，主场强势且近两次对帕尔梅拉斯1胜1平不败；帕尔梅拉斯近7场2胜4平1负，平局率偏高，但账面实力与解放者杯经验占优。数据面判断客队整体实力更强、取分概率最高，但主队具备爆冷抵抗力，因此给medium而非high。",
+            "reasoning": "ESPN 数据经 sportscore 交叉验证确认方向错乱(opponent字段混入场地、主客比分视角混乱), 改用 sportscore 干净数据。波特诺近8场4胜1平3负: 主场4胜1负(仅负于联赛对手), 客场0胜1平2负; 8/12解放者杯首回合客场1:1逼平帕尔梅拉斯, 次回合回主场。帕尔梅拉斯近8场3胜2平3负: 近5场仅1胜(1胜2平2负状态明显下滑), 客场2胜2负。市场给帕尔梅拉斯客胜53.5%偏高, 数据面主队不败(主胜+平)概率约52-55%, 主+1受让1.95有正EV。",
             "sample_size": {
-              "home_recent": 7,
-              "away_recent": 7,
+              "home_recent": 8,
+              "away_recent": 8,
               "window_days": 120,
               "cross_season_sample": false
             },
@@ -349,11 +349,11 @@
               "d": 0.29,
               "a": 0.535
             },
-            "conclusion": "去水后客胜公平概率约53.5%，与数据面客队略占优一致；但客胜赔率1.66隐含概率已超60%，赔率对客队热门定价偏紧，价值空间有限。"
+            "conclusion": "1X2去水客胜53.5%, 但数据面不支持如此高的客胜定价(帕尔梅拉斯状态差+波特诺主场强+首回合1:1); 让球盘主+1(不败)去水45.4%, 数据面主不败52-55%, 优势6-10pp, EV约+1.4%~+7.3%(按52%中值约+1.4%保守, 偏高估55%则+7.3%), 半仓参与让球主+1。"
           },
-          "final_pick": "A",
-          "pick_market": "HAD",
-          "pick_odds": 1.66,
+          "final_pick": "H",
+          "pick_market": "HHAD",
+          "pick_odds": 1.95,
           "recommendation_level": "PARTIAL",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": 0.5,
@@ -374,11 +374,11 @@
             "a": "2.08"
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
+            "tendency": "A",
             "confidence": "low",
-            "reasoning": "客队纳什维尔样本充足（10场，联赛榜首），但主队纽约红牛可核验样本仅1场（8月1日），远低于门控要求。无法判断主队当前状态。",
+            "reasoning": "双方样本充足(各10场)。纳什维尔联赛榜首(19场43分), 近10场6胜3平1负, 但客场4场[DLWD]仅1胜2平1负、进3失5, 是典型主场龙(主场5场全胜)客场平庸型; 纽约红牛近10场4胜1平5负, 主场5场[WLDWL]进7失9一般。H2H红牛2胜2平1负占优。数据面客队整体强但客场打折, 无明确优势。",
             "sample_size": {
-              "home_recent": 1,
+              "home_recent": 10,
               "away_recent": 10,
               "window_days": 120,
               "cross_season_sample": false
@@ -387,11 +387,11 @@
           },
           "odds_analysis": {
             "had_fair_prob": {
-              "h": 0.278,
-              "d": 0.208,
-              "a": 0.361
+              "h": 0.328,
+              "d": 0.246,
+              "a": 0.426
             },
-            "conclusion": "赔率略倾向客队，但主队数据缺失，无法验证该定价是否合理。"
+            "conclusion": "去水客胜42.6%, 但纳什维尔客场数据仅支撑约38-40%, 市场略微高估客队; 客胜盈亏平衡点48.1%, 数据面达不到, 无价值。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -416,12 +416,12 @@
             "a": "2.24"
           },
           "data_analysis": {
-            "tendency": "OBSERVE",
+            "tendency": "A",
             "confidence": "low",
-            "reasoning": "主队科罗拉多急流样本充足（10场），但客队洛杉矶FC可核验样本仅1场（8月16日失利）。任一方样本不足即强制观望。",
+            "reasoning": "洛杉矶FC近10场8胜1平1负[LWWWDWWWWW]状态火热, 客场3场[WDW]不败; 科罗拉多急流近10场4胜6负, 主场5场[WWWLL](近2主场连负), 客场5场[LLWLL]。H2H洛杉矶2胜2平1负占优。数据面客队明显强, 但洛杉矶客场3场仅进1球(赢球靠1:0小胜), 客场进攻效率打折; 客胜2.24盈亏平衡点44.6%, 数据面约43-45%, EV仅微正, 未达3%门槛。",
             "sample_size": {
               "home_recent": 10,
-              "away_recent": 1,
+              "away_recent": 10,
               "window_days": 120,
               "cross_season_sample": false
             },
@@ -429,11 +429,11 @@
           },
           "odds_analysis": {
             "had_fair_prob": {
-              "h": 0.292,
-              "d": 0.221,
-              "a": 0.335
+              "h": 0.345,
+              "d": 0.26,
+              "a": 0.395
             },
-            "conclusion": "赔率接近五五开，但客队近况空白，无法后验。"
+            "conclusion": "去水客胜39.5%, 数据面客胜约43-45%, 略优于市场但幅度<5pp, EV微正不足3%, 价值不足, 观望。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -460,10 +460,10 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "凯尔特人仅1场苏超样本(8/3主1:0胜登地),LASK林茨仅1场奥甲样本(8/14主4:1胜SV里德),双方均不足5场门控,虽近况皆胜但样本过少,强制观望。",
+            "reasoning": "LASK林茨近10场8胜2负(sportscore+ESPN合并), 主场5场全胜进16失2, 状态极佳; 但凯尔特人仅1场样本(8/3苏超主1:0胜登地), 苏超新赛季刚开始, sportscore 主队数据缺失(已进黑名单)。硬性门控: 主队样本1<5, 强制观望。",
             "sample_size": {
               "home_recent": 1,
-              "away_recent": 1,
+              "away_recent": 10,
               "window_days": 120,
               "cross_season_sample": false
             },
@@ -475,7 +475,7 @@
               "d": 0.171,
               "a": 0.142
             },
-            "conclusion": "赔率强开主队，但样本不足，不排除新赛季状态被高估。"
+            "conclusion": "赔率强开主队凯尔特人(1.58), 但主队近况无法核验, 不排除新赛季声望定价偏高, 不跟盘。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -502,10 +502,10 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "补别名后奈梅亨(NEC Nijmegen)与博德闪耀(Bodø/Glimt)均可核验,双方各仅1场欧冠资格赛样本(奈梅亨8/11主2:1胜、博德8/11客2:3负),不足5场门控,强制观望。",
+            "reasoning": "博德闪耀近10场9胜1负(sportscore), 主场5场全胜进17失4, 客场5场[WDWWW]进5失14, 状态火热; 但奈梅亨仅1场样本(8/11欧冠资格赛主2:1胜奥林匹亚科斯), 荷甲新赛季未开赛。硬性门控: 主队样本1<5, 强制观望。",
             "sample_size": {
               "home_recent": 1,
-              "away_recent": 1,
+              "away_recent": 10,
               "window_days": 120,
               "cross_season_sample": false
             },
@@ -517,7 +517,7 @@
               "d": 0.18,
               "a": 0.262
             },
-            "conclusion": "赔率接近但让球盘强开客队-1，数据面完全空白，无法解释赔率分歧。"
+            "conclusion": "1X2去水主26.8% 客26.2% 势均力敌, 但让球盘却强开客队-1(客1.45), 两个市场严重背离; 客队让球优势缺乏近况支撑, 存在冲突。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -544,9 +544,9 @@
           "data_analysis": {
             "tendency": "OBSERVE",
             "confidence": "low",
-            "reasoning": "补别名后布拉迪斯拉发(Slovan Bratislava)与采列(Celje)均可核验,双方各仅1场样本(布拉迪斯拉发8/15主5:0胜、采列8/11主2:0胜),不足5场门控,强制观望。",
+            "reasoning": "布拉迪斯拉发近8场7胜1平(sportscore), 主场5场[WWWDW]进14失3, 状态出色; 但采列仅1场样本(8/11欧冠资格赛主2:0胜亚美尼亚), 斯洛文尼亚联赛sportscore覆盖不足。H2H布拉迪斯拉发2024年5:0/1:1两回合占优。硬性门控: 客队样本1<5, 强制观望。",
             "sample_size": {
-              "home_recent": 1,
+              "home_recent": 8,
               "away_recent": 1,
               "window_days": 120,
               "cross_season_sample": false
@@ -559,7 +559,7 @@
               "d": 0.18,
               "a": 0.156
             },
-            "conclusion": "赔率开主队低赔，但无数据核验，不敢跟进。"
+            "conclusion": "赔率开主队低赔(1.68), 主队近况好+主场强+历史占优, 数据面确实支持; 但客队样本不足无法核验, 不追。"
           },
           "final_pick": "OBSERVE",
           "pick_market": null,
@@ -581,12 +581,12 @@
           "home": "波特诺山丘",
           "away": "帕尔梅拉斯",
           "match_time": "2026-08-20 06:00",
-          "final_pick": "A",
-          "pick_market": "HAD",
-          "pick_odds": 1.66,
+          "final_pick": "H",
+          "pick_market": "HHAD",
+          "pick_odds": 1.95,
           "confidence": "medium",
-          "reasoning": "双方近期样本均达7场。波特诺近7场4胜2平1负，主场强势且近两次对帕尔梅拉斯1胜1平不败；帕尔梅拉斯近7场2胜4平1负，平局率偏高，但账面实力与解放者杯经验占优。数据面判断客队整体实力更强、取分概率最高，但主队具备爆冷抵抗力，因此给medium而非high。",
-          "conclusion": "去水后客胜公平概率约53.5%，与数据面客队略占优一致；但客胜赔率1.66隐含概率已超60%，赔率对客队热门定价偏紧，价值空间有限。",
+          "reasoning": "ESPN 数据经 sportscore 交叉验证确认方向错乱(opponent字段混入场地、主客比分视角混乱), 改用 sportscore 干净数据。波特诺近8场4胜1平3负: 主场4胜1负(仅负于联赛对手), 客场0胜1平2负; 8/12解放者杯首回合客场1:1逼平帕尔梅拉斯, 次回合回主场。帕尔梅拉斯近8场3胜2平3负: 近5场仅1胜(1胜2平2负状态明显下滑), 客场2胜2负。市场给帕尔梅拉斯客胜53.5%偏高, 数据面主队不败(主胜+平)概率约52-55%, 主+1受让1.95有正EV。",
+          "conclusion": "1X2去水客胜53.5%, 但数据面不支持如此高的客胜定价(帕尔梅拉斯状态差+波特诺主场强+首回合1:1); 让球盘主+1(不败)去水45.4%, 数据面主不败52-55%, 优势6-10pp, EV约+1.4%~+7.3%(按52%中值约+1.4%保守, 偏高估55%则+7.3%), 半仓参与让球主+1。",
           "recommendation_level": "PARTIAL",
           "result": "pending"
         }
