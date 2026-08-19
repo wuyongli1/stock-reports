@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 15:28:04",
+  "updated_at": "2026-08-19 15:31:55",
   "stats": {
     "total": 1,
     "hit": 0,
@@ -314,9 +314,9 @@
           "final_pick": "OBSERVE",
           "pick_market": null,
           "pick_odds": null,
-          "recommendation_level": "VERIFIED",
+          "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": 1.0,
+          "stake_cap_ratio": null,
           "result": "unsettled",
           "score": "",
           "review": ""
