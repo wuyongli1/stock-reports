@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-19 16:01:59",
+  "updated_at": "2026-08-19 17:41:04",
   "stats": {
-    "total": 1,
+    "total": 7,
     "hit": 0,
     "miss": 0,
-    "pending": 1,
+    "pending": 7,
     "hit_rate": 0,
     "week_rate": 0,
     "week_total": 0,
@@ -940,16 +940,58 @@
           "stake": 2.0,
           "status": "pending",
           "profit": null
+        },
+        {
+          "type": "串关",
+          "detail": "周三001+周三003+周三004+周三005@69.16",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "type": "串关",
+          "detail": "周三001+周三004@6.0",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "type": "串关",
+          "detail": "周三001+周三005@4.95",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "type": "串关",
+          "detail": "周三003+周三004@13.97",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "type": "串关",
+          "detail": "周三003+周三005@11.53",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "type": "串关",
+          "detail": "周三004+周三005@6.19",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null
         }
       ]
     }
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 998.0,
-    "total_profit": -2.0,
-    "profit_rate": -0.2,
-    "pending_count": 1,
+    "balance": 986.0,
+    "total_profit": -14.0,
+    "profit_rate": -1.4,
+    "pending_count": 7,
     "settlements": [
       {
         "date": "2026-08-19",
@@ -987,6 +1029,60 @@
         "match_num": "",
         "type": "串关",
         "detail": "周三001+周三003@11.17",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null
+      },
+      {
+        "date": "2026-08-19",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周三001+周三003+周三004+周三005@69.16",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null
+      },
+      {
+        "date": "2026-08-19",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周三001+周三004@6.0",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null
+      },
+      {
+        "date": "2026-08-19",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周三001+周三005@4.95",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null
+      },
+      {
+        "date": "2026-08-19",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周三003+周三004@13.97",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null
+      },
+      {
+        "date": "2026-08-19",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周三003+周三005@11.53",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null
+      },
+      {
+        "date": "2026-08-19",
+        "match_num": "",
+        "type": "串关",
+        "detail": "周三004+周三005@6.19",
         "stake": 2.0,
         "status": "pending",
         "profit": null
