@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-19 15:26:08",
+  "updated_at": "2026-08-19 15:28:04",
   "stats": {
-    "total": 2,
+    "total": 1,
     "hit": 0,
     "miss": 1,
-    "pending": 1,
+    "pending": 0,
     "hit_rate": 0.0,
     "week_rate": 0.0,
-    "week_total": 2,
+    "week_total": 1,
     "month_rate": 0.0,
-    "month_total": 2,
+    "month_total": 1,
     "yesterday": {
       "date": "2026-08-18",
       "hits": 0,
@@ -446,9 +446,9 @@
           "final_pick": "H",
           "pick_market": "HHAD",
           "pick_odds": 1.95,
-          "recommendation_level": "VERIFIED",
+          "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": 1.0,
+          "stake_cap_ratio": 0.5,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -782,7 +782,7 @@
           "confidence": "medium",
           "reasoning": "sportscore: 波特诺近9场5胜1平3负, 主场5场[WWLWW]进9失2主场强势, 客场4场[DLLW]; 帕尔梅拉斯近10场5胜2平3负, 客场4场[LLWW]进7失11防守崩盘, 且近10场含5个密集赛程间隔(≤3天)疲劳明显。淘汰赛形势: 首回合帕尔梅拉斯主场1:1, 总比分1:1波特诺客场进球占优, 次回合回主场只需保平(0:0或低比分平局)即晋级, 帕尔梅拉斯必须攻出来但客场失11球+赛程疲劳。数据面主队不败(主胜+平)概率约52-55%。",
           "conclusion": "1X2去水客胜53.1%为声望定价, 数据面不支持帕尔梅拉斯客场大胜(状态差+客场失11球+波特诺主场强+只需保平); 让球盘主+1(不败)去水45.4%, 数据面主不败52-55%(pick_prob=0.53), 优势约7.6pp, EV=0.53*1.95-1=+3.35%, 半仓参与让球主+1。 | 执行: HHAD不可单关, 原投注作废(渠道规则), 无有效替代投注",
-          "recommendation_level": "VERIFIED",
+          "recommendation_level": "PARTIAL",
           "result": "unsettled"
         }
       ],
