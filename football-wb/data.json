@@ -1,38 +1,85 @@
 {
-  "updated_at": "2026-08-19 19:14:17",
+  "updated_at": "2026-08-20 11:35:45",
   "stats": {
     "total": 5,
-    "hit": 0,
-    "miss": 1,
-    "pending": 4,
-    "hit_rate": 0.0,
-    "week_rate": 0.0,
-    "week_total": 1,
-    "month_rate": 0.0,
-    "month_total": 1,
+    "hit": 1,
+    "miss": 4,
+    "pending": 0,
+    "hit_rate": 20.0,
+    "week_rate": 20.0,
+    "week_total": 5,
+    "month_rate": 20.0,
+    "month_total": 5,
     "yesterday": {
-      "date": "2026-08-18",
-      "hits": 0,
-      "total": 1,
-      "hit_rate": 0.0,
+      "date": "2026-08-19",
+      "hits": 1,
+      "total": 4,
+      "hit_rate": 25.0,
       "hit": false,
       "matches": [
         {
-          "match_num": "周二001",
+          "match_num": "周三002",
+          "league": "西甲",
+          "home": "马德里竞技",
+          "away": "马拉加",
+          "pick": "D",
+          "odds": 4.81,
+          "confidence": "low",
+          "result": "miss",
+          "score": "2:0",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周三003",
           "league": "解放者杯",
-          "home": "里瓦达维亚独立",
-          "away": "弗鲁米嫩塞",
+          "home": "波特诺山丘",
+          "away": "帕尔梅拉斯",
           "pick": "H",
-          "odds": 2.36,
+          "odds": 1.95,
           "confidence": "medium",
           "result": "miss",
-          "score": "1:1",
-          "bet_stake": 6.0,
-          "bet_profit": -6.0
+          "score": "0:1",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周三006",
+          "league": "欧冠",
+          "home": "凯尔特人",
+          "away": "LASK林茨",
+          "pick": "A",
+          "odds": 4.45,
+          "confidence": "low",
+          "result": "miss",
+          "score": "3:0",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周三007",
+          "league": "欧冠",
+          "home": "奈梅亨",
+          "away": "博德闪耀",
+          "pick": "A",
+          "odds": 2.35,
+          "confidence": "low",
+          "result": "hit",
+          "score": "1:3",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
         }
       ],
-      "bet_stake": 6.0,
-      "bet_profit": -6.0
+      "bet_stake": 14.0,
+      "bet_profit": -14.0
     }
   },
   "records": [
@@ -251,7 +298,9 @@
           "detail": "周二001 里瓦达维亚独立 vs 弗鲁米嫩塞 H@2.36",
           "stake": 6.0,
           "status": "lost",
-          "profit": -6.0
+          "profit": -6.0,
+          "clv": null,
+          "closing_odds": null
         }
       ]
     },
@@ -317,8 +366,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -380,8 +429,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 0.3,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:0",
           "review": ""
         },
         {
@@ -449,8 +498,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 0.5,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -511,8 +560,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -573,7 +622,7 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
+          "result": "miss",
           "score": "",
           "review": ""
         },
@@ -636,8 +685,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 0.3,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -699,8 +748,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 0.3,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "1:3",
           "review": ""
         },
         {
@@ -762,8 +811,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 0.3,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         }
       ],
@@ -783,7 +832,7 @@
           "reasoning": "sportscore: 波特诺近9场5胜1平3负, 主场5场[WWLWW]进9失2主场强势, 客场4场[DLLW]; 帕尔梅拉斯近10场5胜2平3负, 客场4场[LLWW]进7失11防守崩盘, 且近10场含5个密集赛程间隔(≤3天)疲劳明显。淘汰赛形势: 首回合帕尔梅拉斯主场1:1, 总比分1:1波特诺客场进球占优, 次回合回主场只需保平(0:0或低比分平局)即晋级, 帕尔梅拉斯必须攻出来但客场失11球+赛程疲劳。数据面主队不败(主胜+平)概率约52-55%。",
           "conclusion": "1X2去水客胜53.1%为声望定价, 数据面不支持帕尔梅拉斯客场大胜(状态差+客场失11球+波特诺主场强+只需保平); 让球盘主+1(不败)去水45.4%, 数据面主不败52-55%(pick_prob=0.53), 优势约7.6pp, EV=0.53*1.95-1=+3.35%, 半仓参与让球主+1。 | 执行: HHAD不可单关, 原投注作废(渠道规则), 无有效替代投注",
           "recommendation_level": "PARTIAL",
-          "result": "unsettled"
+          "result": "miss"
         }
       ],
       "bets": [
@@ -791,11 +840,520 @@
           "type": "串关",
           "detail": "003×006×007×002 过关(4串1×1 + 2串1×6)",
           "stake": 14.0,
-          "status": "pending",
-          "profit": null,
-          "count": 7
+          "status": "lost",
+          "profit": -14.0,
+          "count": 7,
+          "clv": 0.3843
         }
       ]
+    },
+    {
+      "date": "2026-08-20",
+      "analysis_time": "2026-08-20T11:30:00+08:00",
+      "matches": [
+        {
+          "match_id": 2040934,
+          "match_num": "周四001",
+          "league": "沙职",
+          "home": "迈季迈阿宽广",
+          "away": "利雅得新月",
+          "match_time": "2026-08-21 02:00",
+          "odds": {
+            "h": "10.00",
+            "d": "5.72",
+            "a": "1.17"
+          },
+          "ttg": {
+            "s0": "23.00",
+            "s1": "7.25",
+            "s2": "4.30",
+            "s3": "3.75",
+            "s4": "4.60",
+            "s5": "7.00",
+            "s6": "11.00",
+            "s7": "14.00"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方可核验近况均仅1场（迈季迈阿宽广8/15主场0:0；利雅得新月数据为2022年旧样本，非当前赛季），远低于5场门控。H2H虽显示新月占优，但数据新鲜度不足，无法独立判断。",
+            "sample_size": {
+              "home_recent_official": 1,
+              "away_recent_official": 1,
+              "window_days": 120,
+              "cross_season_sample": true
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.0885,
+              "d": 0.1548,
+              "a": 0.7567
+            },
+            "hhad_fair_prob": {
+              "h": 0.4476,
+              "d": 0.2243,
+              "a": 0.3281
+            },
+            "pick_prob": null,
+            "conclusion": "赔率面一边倒看好客队，但数据样本严重不足，不接受赔率面作为投注依据。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队-2盘去水概率约75%，深盘看好新月大胜",
+            "ou_pick": "TTG低值集中在2/3球，预期中等进球",
+            "script": "三市场均指向客队优势，但数据面不可核验，强制观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040935,
+          "match_num": "周四002",
+          "league": "西甲",
+          "home": "巴列卡诺",
+          "away": "阿拉维斯",
+          "match_time": "2026-08-21 03:00",
+          "odds": {
+            "h": "2.01",
+            "d": "2.84",
+            "a": "3.58"
+          },
+          "ttg": {
+            "s0": "6.90",
+            "s1": "3.55",
+            "s2": "3.20",
+            "s3": "4.25",
+            "s4": "8.00",
+            "s5": "18.00",
+            "s6": "35.00",
+            "s7": "50.00"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "西甲新赛季首轮，双方均只有1场正式样本。巴列卡诺客场1:2负，阿拉维斯主场3:0胜，但单场比赛噪声极大，不能支撑方向判断。联赛排名同样基于1场，无区分度。",
+            "sample_size": {
+              "home_recent_official": 1,
+              "away_recent_official": 1,
+              "window_days": 120,
+              "cross_season_sample": false
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4407,
+              "d": 0.3119,
+              "a": 0.2474
+            },
+            "hhad_fair_prob": {
+              "h": 0.1926,
+              "d": 0.2605,
+              "a": 0.5469
+            },
+            "pick_prob": null,
+            "conclusion": "HAD与HHAD在客队方向出现背离：HAD客胜概率24.7%，HHAD客队+1覆盖概率54.7%，反映市场认为主队小胜或平局概率高。数据样本不足，不解读为价值。"
+          },
+          "market_analysis": {
+            "ah_pick": "让球盘客队+1被高看，暗示主队-1难穿盘",
+            "ou_pick": "TTG低值在2球(3.20)与3球(4.25)，预期2-3球",
+            "script": "1X2略倾向主队，让球盘倾向主队难大胜，大小球中性；样本不足，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040936,
+          "match_num": "周四003",
+          "league": "解放者杯",
+          "home": "科林蒂安",
+          "away": "罗萨里奥中央",
+          "match_time": "2026-08-21 08:30",
+          "odds": {
+            "h": "1.86",
+            "d": "2.67",
+            "a": "4.60"
+          },
+          "ttg": {
+            "s0": "5.40",
+            "s1": "3.25",
+            "s2": "3.05",
+            "s3": "4.80",
+            "s4": "10.00",
+            "s5": "26.00",
+            "s6": "45.00",
+            "s7": "70.00"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方样本均达7场，满足数量门控。科林蒂安近期DLDDWWW，主场近3场LWW；罗萨里奥中央DLWWWWD，客场近3场LWW。两队状态均不差，8/14首回合0:0，实力接近。数据面无明确优势方向。",
+            "sample_size": {
+              "home_recent_official": 7,
+              "away_recent_official": 7,
+              "window_days": 120,
+              "cross_season_sample": true
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.476,
+              "d": 0.3316,
+              "a": 0.1925
+            },
+            "hhad_fair_prob": {
+              "h": 0.2148,
+              "d": 0.2766,
+              "a": 0.5086
+            },
+            "pick_prob": null,
+            "conclusion": "1X2定价主胜47.6%，但让球盘-1下客队+1覆盖50.9%，两市场冲突：市场认为科林蒂安大概率小胜或平局。数据面无法区分H/D，无正EV方向。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队+1显著受注，主队-1穿盘概率仅21.5%",
+            "ou_pick": "TTG低值在2球(3.05)与1球(3.25)，预期小球",
+            "script": "三市场共同指向'低比分、主队至多小胜'，但H/D之间无数据边缘，选择观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040951,
+          "match_num": "周四004",
+          "league": "欧罗巴",
+          "home": "阿拉木图凯拉特",
+          "away": "安德莱赫特",
+          "match_time": "2026-08-20 23:00",
+          "odds": {
+            "h": "3.35",
+            "d": "3.25",
+            "a": "1.91"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队阿拉木图凯拉特有10场样本，状态起伏（近10场WLLWWWLWWW，主客场均有明显波动）。客队安德莱赫特仅2场样本（比甲1胜1负），不足5场门控。且比赛为欧罗巴资格赛，战术与联赛差异大。",
+            "sample_size": {
+              "home_recent_official": 10,
+              "away_recent_official": 2,
+              "window_days": 120,
+              "cross_season_sample": false
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.2642,
+              "d": 0.2724,
+              "a": 0.4634
+            },
+            "hhad_fair_prob": {
+              "h": 0.527,
+              "d": 0.246,
+              "a": 0.227
+            },
+            "pick_prob": null,
+            "conclusion": "赔率面看好客队，但客队样本不足，且缺少大小球市场进行三市场校验，仅属partial_HAD。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队-1盘下客队覆盖概率仅22.7%，主队+1不败概率52.7%",
+            "ou_pick": "TTG缺失，无法判断大小球剧本",
+            "script": "1X2客队优势与让球盘主队+1不败并存，缺少大小球，整体观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040952,
+          "match_num": "周四005",
+          "league": "欧罗巴",
+          "home": "米亚尔比",
+          "away": "萨尔茨堡",
+          "match_time": "2026-08-21 00:00",
+          "odds": {
+            "h": "4.15",
+            "d": "3.85",
+            "a": "1.59"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方样本均≥5。米亚尔比近10场WLLLDLWDLD，近期状态差（近5场WLLLD）。萨尔茨堡近7场WDDWWWL，状态明显更好，但客队赔率1.59已充分反映优势。欧罗巴资格赛首回合，主场球队仍有战术主动性，且缺少TTG市场，价值边际。",
+            "sample_size": {
+              "home_recent_official": 10,
+              "away_recent_official": 7,
+              "window_days": 120,
+              "cross_season_sample": false
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.2133,
+              "d": 0.2299,
+              "a": 0.5568
+            },
+            "hhad_fair_prob": {
+              "h": 0.4342,
+              "d": 0.2495,
+              "a": 0.3163
+            },
+            "pick_prob": null,
+            "conclusion": "市场公平概率已给客队胜55.7%。数据面支持客队，但1.59低赔下需客队胜概率≥63%才有正EV（扣除 margin 后），数据面优势不足以支撑如此高的定价。",
+            "estimated_ev": -0.04
+          },
+          "market_analysis": {
+            "ah_pick": "客队-1穿盘概率31.6%，主队+1不败68.4%，让球盘未强化客胜",
+            "ou_pick": "TTG缺失，无法校验进球预期",
+            "script": "1X2客队热门，但让球盘显示客队大胜概率不高；缺少大小球，价值不足，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040953,
+          "match_num": "周四006",
+          "league": "欧罗巴",
+          "home": "特拉布宗体育",
+          "away": "费伦茨瓦罗斯",
+          "match_time": "2026-08-21 01:00",
+          "odds": {
+            "h": "1.53",
+            "d": "3.77",
+            "a": "4.75"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队特拉布宗体育在所有数据源中均未找到身份/近况（provider_error）。客队费伦茨瓦罗斯有10场样本，但最近一场为2026-03-18，距比赛日约5个月，数据严重陈旧。主客队均不满足可核验样本≥5且新鲜有效。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 10,
+              "window_days": 120,
+              "cross_season_sample": false,
+              "away_last_match_days_ago": 155
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5787,
+              "d": 0.2349,
+              "a": 0.1864
+            },
+            "hhad_fair_prob": {
+              "h": 0.3344,
+              "d": 0.2553,
+              "a": 0.4103
+            },
+            "pick_prob": null,
+            "conclusion": "赔率面主队大热，但主队无可用数据，客队数据陈旧。不接受赔率面作为独立依据。"
+          },
+          "market_analysis": {
+            "ah_pick": "让球盘客队+1覆盖71.0%，与1X2主胜大热明显冲突",
+            "ou_pick": "TTG缺失",
+            "script": "主胜热门与让球盘客队受注冲突，数据面无法解释，强制观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040948,
+          "match_num": "周四007",
+          "league": "欧罗巴",
+          "home": "波兹南莱赫",
+          "away": "图恩",
+          "match_time": "2026-08-21 01:00",
+          "odds": {
+            "h": "1.40",
+            "d": "4.15",
+            "a": "5.75"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队波兹南莱赫与客队图恩在所有数据源中均未成功匹配（provider_error / network_error），可核验样本均为0场。完全无数据面支持。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.6326,
+              "d": 0.2134,
+              "a": 0.154
+            },
+            "hhad_fair_prob": {
+              "h": 0.3834,
+              "d": 0.2568,
+              "a": 0.3598
+            },
+            "pick_prob": null,
+            "conclusion": "主队赔率大热门，但样本=0，无市场背离信号可独立支撑任何方向。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队+1覆盖61.6%，主队-1穿盘概率仅38.3%",
+            "ou_pick": "TTG缺失",
+            "script": "深盘主胜与让球盘客队受注冲突，且无球队近况数据，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040949,
+          "match_num": "周四008",
+          "league": "欧罗巴",
+          "home": "贝尔格莱德红星",
+          "away": "比尔森",
+          "match_time": "2026-08-21 02:00",
+          "odds": {
+            "h": "1.61",
+            "d": "3.77",
+            "a": "4.15"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队贝尔格莱德红星样本10场，但最近比赛为2026-02-26，距比赛日约6个月，数据严重陈旧。客队比尔森完全未找到（network_error）。主客队有效样本均不满足门控。",
+            "sample_size": {
+              "home_recent_official": 10,
+              "away_recent_official": 0,
+              "window_days": 120,
+              "cross_season_sample": false,
+              "home_last_match_days_ago": 175
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5509,
+              "d": 0.2353,
+              "a": 0.2138
+            },
+            "hhad_fair_prob": {
+              "h": 0.2991,
+              "d": 0.2605,
+              "a": 0.4404
+            },
+            "pick_prob": null,
+            "conclusion": "主队赔率热门，但主队数据陈旧、客队无数据，无法独立判断。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队+1覆盖70.1%，主队-1穿盘概率不足30%",
+            "ou_pick": "TTG缺失",
+            "script": "1X2主胜与让球盘客队受注冲突，数据面不支持，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040954,
+          "match_num": "周四009",
+          "league": "欧罗巴",
+          "home": "本菲卡",
+          "away": "奥胡斯",
+          "match_time": "2026-08-21 03:00",
+          "odds": {},
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队本菲卡、客队奥胡斯均无成功获取的近况数据（network_error / provider_error）。同时HAD三项赔率缺失，不满足最基础门控。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            }
+          },
+          "odds_analysis": {
+            "had_fair_prob": {},
+            "hhad_fair_prob": {
+              "h": 0.3846,
+              "d": 0.2096,
+              "a": 0.4058
+            },
+            "pick_prob": null,
+            "conclusion": "HAD赔率缺失，仅有让球-2盘，无法完成1X2与让球、大小球的三市场校验。"
+          },
+          "market_analysis": {
+            "ah_pick": "仅有让球-2盘，客队+2受注概率40.6%",
+            "ou_pick": "TTG缺失",
+            "script": "赔率不完整，无HAD市场，强制观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "none_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
+      "bets": []
     }
   ],
   "paper": {
@@ -803,7 +1361,7 @@
     "balance": 980.0,
     "total_profit": -20.0,
     "profit_rate": -2.0,
-    "pending_count": 7,
+    "pending_count": 0,
     "settlements": [
       {
         "date": "2026-08-18",
@@ -822,6 +1380,14 @@
         "profit": 0.0,
         "balance": 994.0,
         "note": "作废 周三003: 不可单关(仅可过关), 违反真实市场规则"
+      },
+      {
+        "date": "2026-08-19",
+        "bet_count": 7,
+        "won": 0,
+        "lost": 7,
+        "profit": -14.0,
+        "balance": 980.0
       }
     ],
     "equity_curve": [
@@ -836,16 +1402,24 @@
       {
         "date": "2026-08-19",
         "balance": 994.0
+      },
+      {
+        "date": "2026-08-19",
+        "balance": 980.0
       }
     ],
+    "avg_clv": null,
+    "clv_positive_rate": null,
+    "clv_sample": 0,
     "recent_bets": [
       {
         "type": "串关",
         "detail": "003×006×007×002 过关(4串1×1 + 2串1×6)",
         "stake": 14.0,
-        "status": "pending",
-        "profit": null,
+        "status": "lost",
+        "profit": -14.0,
         "count": 7,
+        "clv": 0.3843,
         "date": "2026-08-19"
       },
       {
@@ -854,6 +1428,8 @@
         "stake": 6.0,
         "status": "lost",
         "profit": -6.0,
+        "clv": null,
+        "closing_odds": null,
         "date": "2026-08-18"
       }
     ]
