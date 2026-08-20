@@ -605,6 +605,8 @@ function renderPaper() {
       const cls = b.status === 'won' ? 'bet-won' : (b.status === 'lost' ? 'bet-lost' : (b.status === 'void' ? 'bet-void' : 'bet-pending'));
       const st = b.status === 'won' ? '✅ 中' : (b.status === 'lost' ? '❌ 错' : (b.status === 'void' ? '🚫 作废' : '⏳ 待'));
       const profit = b.profit != null ? ((b.profit >= 0 ? '+' : '') + b.profit.toFixed(2)) : '-';
+      const clv = b.clv != null ? ((b.clv >= 0 ? '+' : '') + (b.clv * 100).toFixed(1) + '%') : '-';
+      const clvCls = b.clv != null ? (b.clv >= 0 ? 'bet-won' : 'bet-lost') : '';
       return `<tr>
         <td>${b.date || '-'}</td>
         <td>${b.type}</td>
@@ -612,10 +614,11 @@ function renderPaper() {
         <td>${b.stake != null ? b.stake.toFixed(0) : '-'}</td>
         <td class="${cls}">${st}</td>
         <td class="${cls}">${profit}</td>
+        <td class="${clvCls}">${clv}</td>
       </tr>`;
     }).join('');
     betsHtml = `<div class="paper-bets"><table>
-      <tr><th>日期</th><th>类型</th><th>投注内容</th><th>金额</th><th>状态</th><th>盈亏</th></tr>
+      <tr><th>日期</th><th>类型</th><th>投注内容</th><th>金额</th><th>状态</th><th>盈亏</th><th>CLV</th></tr>
       ${rows}
     </table></div>`;
   }
@@ -626,6 +629,7 @@ function renderPaper() {
       <div class="paper-card ${profitCls}"><div class="num">${profitStr}</div><div class="label">累计盈亏</div></div>
       <div class="paper-card ${profitCls}"><div class="num">${rateStr}</div><div class="label">收益率</div></div>
       <div class="paper-card blue"><div class="num">${paper.pending_count || 0}</div><div class="label">待结算</div></div>
+      <div class="paper-card ${paper.avg_clv != null ? (paper.avg_clv >= 0 ? 'green' : 'red') : ''}"><div class="num">${paper.avg_clv != null ? ((paper.avg_clv >= 0 ? '+' : '') + (paper.avg_clv * 100).toFixed(1) + '%') : '-'}</div><div class="label">平均CLV (${paper.clv_sample || 0}注)</div></div>
       <div class="paper-card"><div class="num">¥${paper.initial_balance}</div><div class="label">初始资金</div></div>
     </div>
     ${curveSvg}
@@ -673,19 +677,23 @@ function renderYesterday() {
       const pCls = (p != null && p >= 0) ? 'bet-won' : 'bet-lost';
       betTxt = `¥${m.bet_stake.toFixed(0)}${p != null ? ` <span class="${pCls}">${(p >= 0 ? '+' : '')}${p.toFixed(2)}</span>` : ''}`;
     }
+    const clvTxt = m.clv != null
+      ? `<span class="${m.clv >= 0 ? 'bet-won' : 'bet-lost'}">${(m.clv >= 0 ? '+' : '') + (m.clv * 100).toFixed(1)}%</span>`
+      : '-';
     return `<tr>
       <td>${m.match_num || '-'}</td>
       <td>${m.league || '-'}</td>
       <td>${m.home || ''} vs ${m.away || ''}</td>
       <td>${pickTxt}${confTxt}</td>
       <td>${betTxt}</td>
+      <td>${clvTxt}</td>
       <td>${scoreTxt}</td>
       <td>${resultTxt}</td>
     </tr>`;
   }).join('');
 
   body.innerHTML = `<div class="paper-bets"><table>
-    <tr><th>场次</th><th>赛事</th><th>对阵</th><th>推荐</th><th>投注/盈亏</th><th>实际赛果</th><th>结果</th></tr>
+    <tr><th>场次</th><th>赛事</th><th>对阵</th><th>推荐</th><th>投注/盈亏</th><th>CLV</th><th>实际赛果</th><th>结果</th></tr>
     ${rows}
   </table></div>`;
 }
