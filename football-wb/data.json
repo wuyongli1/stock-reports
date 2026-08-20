@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-20 11:35:45",
+  "updated_at": "2026-08-20 16:19:11",
   "stats": {
-    "total": 5,
+    "total": 7,
     "hit": 1,
     "miss": 4,
-    "pending": 0,
+    "pending": 2,
     "hit_rate": 20.0,
     "week_rate": 20.0,
     "week_total": 5,
@@ -1353,15 +1353,25 @@
       ],
       "parlays": [],
       "singles": [],
-      "bets": []
+      "bets": [
+        {
+          "type": "串关",
+          "detail": "001+007@1.64",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null,
+          "count": 1,
+          "clv": null
+        }
+      ]
     }
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 980.0,
-    "total_profit": -20.0,
-    "profit_rate": -2.0,
-    "pending_count": 0,
+    "balance": 978.0,
+    "total_profit": -22.0,
+    "profit_rate": -2.2,
+    "pending_count": 1,
     "settlements": [
       {
         "date": "2026-08-18",
@@ -1412,6 +1422,16 @@
     "clv_positive_rate": null,
     "clv_sample": 0,
     "recent_bets": [
+      {
+        "type": "串关",
+        "detail": "001+007@1.64",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null,
+        "count": 1,
+        "clv": null,
+        "date": "2026-08-20"
+      },
       {
         "type": "串关",
         "detail": "003×006×007×002 过关(4串1×1 + 2串1×6)",
