@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>五大联赛胜率看板</title>
+<style>
+:root{--bg:#0f1420;--card:#1a2234;--text:#e8edf5;--muted:#8a94a8;--border:#2c3750;--blue:#3498db;--green:#2ecc71;--red:#e74c3c;--yellow:#f1c40f}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}.header{padding:26px 32px;background:linear-gradient(135deg,#1a2234,#141a2a);border-bottom:1px solid var(--border)}h1{margin:0;font-size:23px}.sub{margin-top:7px;color:var(--muted);font-size:13px;line-height:1.6}.sub a{color:var(--blue);text-decoration:none}.main{max-width:1160px;margin:auto;padding:24px 32px 40px}.notice{margin-bottom:18px;padding:12px 14px;border:1px solid rgba(52,152,219,.35);border-radius:10px;background:rgba(52,152,219,.08);color:#c9e7ff;font-size:13px;line-height:1.65}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:17px}.league{font-size:16px;font-weight:700}.rate{margin:11px 0 6px;font-size:30px;font-weight:800;color:var(--yellow)}.pending .rate{color:var(--muted)}.meta{color:var(--muted);font-size:13px;line-height:1.7}.record{margin-top:24px;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden}.record h2{font-size:16px;margin:0;padding:15px 18px;border-bottom:1px solid var(--border)}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border)}th{color:var(--muted);font-weight:600}.hit{color:var(--green)}.miss{color:var(--red)}.pending-text{color:var(--yellow)}.empty{padding:20px;color:var(--muted);text-align:center}.footer{text-align:center;color:var(--muted);font-size:12px;padding:20px;border-top:1px solid var(--border)}@media(max-width:700px){.header,.main{padding-left:16px;padding-right:16px}.record{overflow-x:auto}table{min-width:640px}}
+</style>
+</head>
+<body>
+<header class="header"><h1>五大联赛胜率看板</h1><div class="sub">英超、西甲、意甲、德甲、法甲独立统计，不与其他联赛混合计算。<a href="./">返回综合足球看板</a></div><div class="sub" id="updatedAt"></div></header>
+<main class="main"><div class="notice">统计口径：仅纳入已进入模拟盘的比赛；胜率仅按已结算场次计算。样本不足时显示“暂无已结算样本”，不以 0% 代替真实结论。</div><section class="grid" id="leagueCards"><div class="empty">数据加载中…</div></section><section class="record"><h2>五大联赛投注与结算明细</h2><div id="details"><div class="empty">数据加载中…</div></div></section></main><footer class="footer">本看板仅记录个人分析预测与研究，不构成任何投注建议。购彩有风险，投注需理性。</footer>
+<script>
+const statusText={hit:'命中',miss:'未中',pending:'待结算'};
+const statusClass={hit:'hit',miss:'miss',pending:'pending-text'};
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function render(data){const big=data.big_five||{};const leagues=big.leagues||[];document.getElementById('updatedAt').textContent=data.updated_at?'更新时间：'+data.updated_at:'';document.getElementById('leagueCards').innerHTML=leagues.map(x=>{const settled=x.hit+x.miss;const rate=x.hit_rate==null?'暂无已结算样本':x.hit_rate.toFixed(1)+'%';return `<article class="card ${settled?'':'pending'}"><div class="league">${esc(x.league)}</div><div class="rate">${rate}</div><div class="meta">已结算 ${settled} 场 · 命中 ${x.hit} · 未中 ${x.miss}<br>待结算 ${x.pending} 场 · 累计参与 ${x.total} 场</div></article>`}).join('');const rows=leagues.flatMap(x=>x.matches.map(m=>({...m,league:x.league}))).sort((a,b)=>(b.date||'').localeCompare(a.date||''));document.getElementById('details').innerHTML=rows.length?`<table><thead><tr><th>日期</th><th>联赛</th><th>场次</th><th>对阵</th><th>选择</th><th>赔率</th><th>比分</th><th>结果</th></tr></thead><tbody>${rows.map(m=>`<tr><td>${esc(m.date)}</td><td>${esc(m.league)}</td><td>${esc(m.match_num)}</td><td>${esc(m.home)} vs ${esc(m.away)}</td><td>${esc(m.pick||'-')}</td><td>${esc(m.odds??'-')}</td><td>${esc(m.score||'-')}</td><td class="${statusClass[m.result]||'pending-text'}">${statusText[m.result]||'待结算'}</td></tr>`).join('')}</tbody></table>`:'<div class="empty">目前五大联赛尚无进入模拟盘的记录；新赛季开始后会自动按联赛独立累计。</div>';}
+fetch('data.json?_='+Date.now()).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(render).catch(e=>{document.getElementById('leagueCards').innerHTML='<div class="empty">数据加载失败：'+esc(e.message)+'</div>';document.getElementById('details').innerHTML='';});
+</script>
+</body>
+</html>
