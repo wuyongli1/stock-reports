@@ -1,85 +1,55 @@
 {
-  "updated_at": "2026-08-20 16:57:14",
+  "updated_at": "2026-08-22 14:56:58",
   "stats": {
-    "total": 7,
+    "total": 11,
     "hit": 1,
-    "miss": 4,
+    "miss": 8,
     "pending": 2,
-    "hit_rate": 20.0,
-    "week_rate": 20.0,
-    "week_total": 5,
-    "month_rate": 20.0,
-    "month_total": 5,
+    "hit_rate": 11.1,
+    "week_rate": 11.1,
+    "week_total": 9,
+    "month_rate": 11.1,
+    "month_total": 9,
     "yesterday": {
-      "date": "2026-08-19",
-      "hits": 1,
-      "total": 4,
-      "hit_rate": 25.0,
+      "date": "2026-08-21",
+      "hits": 0,
+      "total": 2,
+      "hit_rate": 0.0,
       "hit": false,
       "matches": [
         {
-          "match_num": "周三002",
-          "league": "西甲",
-          "home": "马德里竞技",
-          "away": "马拉加",
-          "pick": "D",
-          "odds": 4.81,
+          "match_num": "周五003",
+          "league": "沙职",
+          "home": "利雅得",
+          "away": "利雅得胜利",
+          "pick": "OBSERVE",
+          "odds": null,
           "confidence": "low",
           "result": "miss",
-          "score": "2:0",
+          "score": "0:4",
           "bet_stake": null,
           "bet_profit": null,
           "clv": null,
           "closing_odds": null
         },
         {
-          "match_num": "周三003",
-          "league": "解放者杯",
-          "home": "波特诺山丘",
-          "away": "帕尔梅拉斯",
-          "pick": "H",
-          "odds": 1.95,
-          "confidence": "medium",
-          "result": "miss",
-          "score": "0:1",
-          "bet_stake": null,
-          "bet_profit": null,
-          "clv": null,
-          "closing_odds": null
-        },
-        {
-          "match_num": "周三006",
-          "league": "欧冠",
-          "home": "凯尔特人",
-          "away": "LASK林茨",
-          "pick": "A",
-          "odds": 4.45,
+          "match_num": "周五005",
+          "league": "瑞超",
+          "home": "天狼星",
+          "away": "赫根",
+          "pick": "OBSERVE",
+          "odds": null,
           "confidence": "low",
           "result": "miss",
-          "score": "3:0",
-          "bet_stake": null,
-          "bet_profit": null,
-          "clv": null,
-          "closing_odds": null
-        },
-        {
-          "match_num": "周三007",
-          "league": "欧冠",
-          "home": "奈梅亨",
-          "away": "博德闪耀",
-          "pick": "A",
-          "odds": 2.35,
-          "confidence": "low",
-          "result": "hit",
-          "score": "1:3",
+          "score": "0:3",
           "bet_stake": null,
           "bet_profit": null,
           "clv": null,
           "closing_odds": null
         }
       ],
-      "bet_stake": 14.0,
-      "bet_profit": -14.0
+      "bet_stake": 2.0,
+      "bet_profit": -2.0
     }
   },
   "records": [
@@ -909,8 +879,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:3",
           "review": ""
         },
         {
@@ -971,8 +941,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -1033,8 +1003,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:0",
           "review": ""
         },
         {
@@ -1086,8 +1056,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:3",
           "review": ""
         },
         {
@@ -1140,8 +1110,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -1194,8 +1164,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -1247,8 +1217,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "7:0",
           "review": ""
         },
         {
@@ -1301,8 +1271,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -1346,6 +1316,2629 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "none_HAD",
           "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "3:1",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
+      "bets": [
+        {
+          "type": "串关",
+          "detail": "001+007@1.64",
+          "stake": 2.0,
+          "status": "won",
+          "profit": 1.28,
+          "count": 1,
+          "clv": -0.0371
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "analysis_time": "2026-08-21T20:55:00+08:00",
+      "matches": [
+        {
+          "match_id": 2040962,
+          "match_num": "周五003",
+          "league": "沙职",
+          "home": "利雅得",
+          "away": "利雅得胜利",
+          "match_time": "2026-08-22 00:00",
+          "odds": {
+            "h": "10.00",
+            "d": "6.00",
+            "a": "1.16"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方近期可核验数据均缺失，无法独立确认实力差、主客场状态、伤停与首发；客胜低赔只能代表市场定价，不能替代基本面。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "双方近5场",
+              "排名与主客拆分",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.0886,
+              "d": 0.1477,
+              "a": 0.7637
+            },
+            "hhad_fair_prob": {
+              "h": 0.4759,
+              "d": 0.2526,
+              "a": 0.2715
+            },
+            "pick_prob": null,
+            "conclusion": "胜平负明显偏客，但让球盘没有同步支持客队深穿，且基本面缺失，观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "客队让2球路径不确定",
+            "ou_pick": "无总进球赔率",
+            "script": "低赔客胜与让球盘信号不完全一致，数据不足，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "0:4",
+          "review": ""
+        },
+        {
+          "match_id": 2040963,
+          "match_num": "周五004",
+          "league": "芬超",
+          "home": "塞伊奈约基",
+          "away": "拉赫蒂",
+          "match_time": "2026-08-22 00:00",
+          "odds": {
+            "h": "2.50",
+            "d": "3.15",
+            "a": "2.45"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方近期数据源均未返回可核验样本，无法判断主客场表现和进失球趋势；胜平负接近，平局与双方不败路径均未排除。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "双方近5场",
+              "主客拆分",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3555,
+              "d": 0.2821,
+              "a": 0.3624
+            },
+            "hhad_fair_prob": {
+              "h": 0.1934,
+              "d": 0.2295,
+              "a": 0.5771
+            },
+            "pick_prob": null,
+            "conclusion": "胜平负接近，但让球盘明显偏向客队受让方向，市场存在冲突，无法定价。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队-1不宜追，客队受让方向也缺少基本面验证",
+            "ou_pick": "无总进球赔率",
+            "script": "1X2均势与让球深盘信号冲突，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "1:2",
+          "review": ""
+        },
+        {
+          "match_id": 2040964,
+          "match_num": "周五005",
+          "league": "瑞超",
+          "home": "天狼星",
+          "away": "赫根",
+          "match_time": "2026-08-22 01:00",
+          "odds": {
+            "h": "1.61",
+            "d": "3.95",
+            "a": "3.95"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "赫根虽有10场旧近况，但天狼星近期数据缺失，无法完成双方对等比较；赫根旧样本主客场进失球接近，不能抵消当前信息缺口。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 10
+            },
+            "missing_data": [
+              "天狼星近5场",
+              "双方当前赛季排名",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5506,
+              "d": 0.2247,
+              "a": 0.2247
+            },
+            "hhad_fair_prob": {
+              "h": 0.3627,
+              "d": 0.276,
+              "a": 0.3613
+            },
+            "pick_prob": null,
+            "conclusion": "主胜是市场热门，但让球盘未支持主队轻松穿盘，不能仅凭低赔主胜投注。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队赢球与穿-1不是同一判断，观望",
+            "ou_pick": "无总进球赔率",
+            "script": "主胜热门与让球均衡形成冲突，且主队无近况，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "0:3",
+          "review": ""
+        },
+        {
+          "match_id": 2040965,
+          "match_num": "周五006",
+          "league": "沙职",
+          "home": "胡巴尔卡德西亚",
+          "away": "吉达联合",
+          "match_time": "2026-08-22 02:00",
+          "odds": {
+            "h": "1.38",
+            "d": "4.55",
+            "a": "5.40"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方近况数据均无法取得，主胜低赔缺少独立证据验证；深盘下主队一球小胜、平局或客队爆冷均未完成压力测试。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "双方近5场",
+              "联赛排名",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.6414,
+              "d": 0.1946,
+              "a": 0.164
+            },
+            "hhad_fair_prob": {
+              "h": 0.4637,
+              "d": 0.2792,
+              "a": 0.2571
+            },
+            "pick_prob": null,
+            "conclusion": "主胜市场概率高，但让球盘对深盘穿透力保留，赔率不足以单独构成价值。"
+          },
+          "market_analysis": {
+            "ah_pick": "主胜不等于主队穿-1，观望",
+            "ou_pick": "无总进球赔率",
+            "script": "主队优势剧本存在，但数据与价格均不足以证明有投注价值。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "0:1",
+          "review": ""
+        },
+        {
+          "match_id": 2040966,
+          "match_num": "周五007",
+          "league": "法乙",
+          "home": "敦刻尔克",
+          "away": "蒙彼利埃",
+          "match_time": "2026-08-22 02:00",
+          "odds": {
+            "h": "2.20",
+            "d": "3.05",
+            "a": "2.88"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方均没有可核验近期样本，无法确认法乙新赛季状态、主客拆分和阵容变化；接近赔率下不做方向性主选。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "双方近5场",
+              "排名",
+              "伤停",
+              "正式首发"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4024,
+              "d": 0.2903,
+              "a": 0.3073
+            },
+            "hhad_fair_prob": {
+              "h": 0.1795,
+              "d": 0.2261,
+              "a": 0.5944
+            },
+            "pick_prob": null,
+            "conclusion": "1X2较均衡，-1让球盘强烈偏向客队受让，市场信息冲突，观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "主队-1不宜追，客队受让也无独立数据支持",
+            "ou_pick": "无总进球赔率",
+            "script": "胜平负均衡与让球盘冲突，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "0:1",
+          "review": ""
+        },
+        {
+          "match_id": 2040967,
+          "match_num": "周五008",
+          "league": "荷乙",
+          "home": "登博思",
+          "away": "埃因霍温FC",
+          "match_time": "2026-08-22 02:00",
+          "odds": {
+            "h": "2.05",
+            "d": "3.45",
+            "a": "2.84"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "荷乙两队均无可核验近况，且该联赛比赛波动通常较高；没有总进球数据和球队证据，不构建方向或串关腿。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "双方近5场",
+              "排名与进失球",
+              "伤停",
+              "正式首发",
+              "总进球盘口"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4318,
+              "d": 0.2566,
+              "a": 0.3116
+            },
+            "hhad_fair_prob": {
+              "h": 0.2132,
+              "d": 0.2122,
+              "a": 0.5746
+            },
+            "pick_prob": null,
+            "conclusion": "主胜略占优但让球盘强烈偏向客队受让，信息冲突且缺少总进球盘口，观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "不判断让球穿盘",
+            "ou_pick": "总进球数据缺失，不判断大小球",
+            "script": "1X2与让球盘冲突，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "5:2",
+          "review": ""
+        },
+        {
+          "match_id": 2040968,
+          "match_num": "周五009",
+          "league": "法甲",
+          "home": "马赛",
+          "away": "斯特拉斯堡",
+          "match_time": "2026-08-22 02:45",
+          "odds": {
+            "h": "1.65",
+            "d": "3.50",
+            "a": "4.20"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "两队近期数据均缺失，无法核验法甲新赛季状态、主客场表现和首发；主胜低赔不等于深盘价值。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "双方近5场",
+              "排名",
+              "伤停",
+              "正式首发",
+              "总进球盘口"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5364,
+              "d": 0.2529,
+              "a": 0.2107
+            },
+            "hhad_fair_prob": {
+              "h": 0.3425,
+              "d": 0.3053,
+              "a": 0.3522
+            },
+            "pick_prob": null,
+            "conclusion": "主胜是市场方向，但-1让球盘三项接近，显示小胜/不胜风险，观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "主胜与穿-1分开判断，观望",
+            "ou_pick": "总进球数据缺失，不判断大小球",
+            "script": "主胜热度与让球盘不完全一致，基本面缺失，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "4:0",
+          "review": ""
+        },
+        {
+          "match_id": 2040970,
+          "match_num": "周五010",
+          "league": "英超",
+          "home": "阿森纳",
+          "away": "考文垂",
+          "match_time": "2026-08-22 03:00",
+          "odds": {
+            "h": null,
+            "d": null,
+            "a": null
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "胜平负主盘缺失，且双方近期数据均无法核验；只有让球盘不足以完成完整三市场分析。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "完整HAD赔率",
+              "双方近5场",
+              "排名",
+              "伤停",
+              "正式首发",
+              "总进球盘口"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "hhad_fair_prob": {
+              "h": 0.3732,
+              "d": 0.2279,
+              "a": 0.3989
+            },
+            "pick_prob": null,
+            "conclusion": "HAD缺失，无法完成胜平负去水与价值判断；观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "让球盘单独不足以形成推荐",
+            "ou_pick": "无总进球赔率",
+            "script": "核心市场缺失，禁止定量主推。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "none_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "3:0",
+          "review": ""
+        },
+        {
+          "match_id": 2040969,
+          "match_num": "周五011",
+          "league": "西甲",
+          "home": "皇家贝蒂斯",
+          "away": "皇家社会",
+          "match_time": "2026-08-22 03:00",
+          "odds": {
+            "h": "1.87",
+            "d": "3.26",
+            "a": "3.47"
+          },
+          "ttg": {},
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "皇家贝蒂斯近期数据无法取得，皇家社会无当前近期样本；双方证据不对称，无法判断主场优势能否兑现。",
+            "sample_size": {
+              "home_recent": 0,
+              "away_recent": 0
+            },
+            "missing_data": [
+              "双方近5场",
+              "主客拆分",
+              "伤停",
+              "正式首发",
+              "总进球盘口"
+            ]
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4734,
+              "d": 0.2715,
+              "a": 0.2551
+            },
+            "hhad_fair_prob": {
+              "h": 0.1964,
+              "d": 0.2393,
+              "a": 0.5643
+            },
+            "pick_prob": null,
+            "conclusion": "1X2偏主，但让球盘明显偏向客队受让，市场冲突，观望。"
+          },
+          "market_analysis": {
+            "ah_pick": "主胜不等于穿-1，观望",
+            "ou_pick": "总进球数据缺失，不判断大小球",
+            "script": "主队胜负优势与深盘穿透力不一致，基本面又不完整，观望。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "miss",
+          "score": "1:0",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
+      "bets": [
+        {
+          "type": "串关",
+          "detail": "003+005@1.87",
+          "stake": 2.0,
+          "status": "lost",
+          "profit": -2.0,
+          "count": 1,
+          "clv": -0.0093
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "analysis_time": "2026-08-22T14:55:58+08:00",
+      "matches": [
+        {
+          "match_id": 2040974,
+          "match_num": "周六001",
+          "league": "日职",
+          "home": "鹿岛鹿角",
+          "away": "福冈黄蜂",
+          "match_time": "17:00",
+          "odds": {
+            "h": "1.63",
+            "d": "3.26",
+            "a": "4.80",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "9.00",
+            "s1": "4.20",
+            "s2": "3.25",
+            "s3": "3.75",
+            "s4": "6.60",
+            "s5": "13.50",
+            "s6": "30.00",
+            "s7": "48.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5436,
+              "d": 0.2718,
+              "a": 0.1846
+            },
+            "hhad_fair_prob": {
+              "h": 0.2733,
+              "d": 0.2839,
+              "a": 0.4428
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040975,
+          "match_num": "周六002",
+          "league": "日乙",
+          "home": "秋田蓝色闪电",
+          "away": "甲府风林",
+          "match_time": "17:00",
+          "odds": {
+            "h": "2.23",
+            "d": "2.85",
+            "a": "3.03",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "8.00",
+            "s1": "3.50",
+            "s2": "3.25",
+            "s3": "4.00",
+            "s4": "7.80",
+            "s5": "17.00",
+            "s6": "34.00",
+            "s7": "50.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3971,
+              "d": 0.3107,
+              "a": 0.2922
+            },
+            "hhad_fair_prob": {
+              "h": 0.1703,
+              "d": 0.2393,
+              "a": 0.5904
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040976,
+          "match_num": "周六003",
+          "league": "日职",
+          "home": "大阪樱花",
+          "away": "清水鼓动",
+          "match_time": "18:00",
+          "odds": {
+            "h": "1.99",
+            "d": "3.32",
+            "a": "3.07",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "13.00",
+            "s1": "5.05",
+            "s2": "3.60",
+            "s3": "3.60",
+            "s4": "5.40",
+            "s5": "9.50",
+            "s6": "19.00",
+            "s7": "32.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4449,
+              "d": 0.2667,
+              "a": 0.2884
+            },
+            "hhad_fair_prob": {
+              "h": 0.2108,
+              "d": 0.2393,
+              "a": 0.5499
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040977,
+          "match_num": "周六004",
+          "league": "日乙",
+          "home": "磐田喜悦",
+          "away": "德岛漩涡",
+          "match_time": "18:00",
+          "odds": {
+            "h": "2.27",
+            "d": "2.90",
+            "a": "2.91",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "8.50",
+            "s1": "3.90",
+            "s2": "3.30",
+            "s3": "3.85",
+            "s4": "7.00",
+            "s5": "15.00",
+            "s6": "28.00",
+            "s7": "45.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3902,
+              "d": 0.3054,
+              "a": 0.3044
+            },
+            "hhad_fair_prob": {
+              "h": 0.1667,
+              "d": 0.2392,
+              "a": 0.5941
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040978,
+          "match_num": "周六005",
+          "league": "韩职",
+          "home": "全北现代",
+          "away": "蔚山现代",
+          "match_time": "18:30",
+          "odds": {
+            "h": "1.94",
+            "d": "3.37",
+            "a": "3.15",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "14.00",
+            "s1": "5.50",
+            "s2": "3.70",
+            "s3": "3.60",
+            "s4": "5.10",
+            "s5": "9.50",
+            "s6": "16.00",
+            "s7": "26.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4563,
+              "d": 0.2627,
+              "a": 0.281
+            },
+            "hhad_fair_prob": {
+              "h": 0.2344,
+              "d": 0.2382,
+              "a": 0.5274
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040979,
+          "match_num": "周六006",
+          "league": "韩职",
+          "home": "安养FC",
+          "away": "首尔FC",
+          "match_time": "18:30",
+          "odds": {
+            "h": "3.92",
+            "d": "3.30",
+            "a": "1.75",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "13.00",
+            "s1": "5.20",
+            "s2": "3.50",
+            "s3": "3.60",
+            "s4": "5.40",
+            "s5": "10.00",
+            "s6": "19.00",
+            "s7": "30.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.2258,
+              "d": 0.2683,
+              "a": 0.5059
+            },
+            "hhad_fair_prob": {
+              "h": 0.4787,
+              "d": 0.2545,
+              "a": 0.2668
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041039,
+          "match_num": "周六007",
+          "league": "英超",
+          "home": "赫尔城",
+          "away": "曼彻斯特联",
+          "match_time": "19:30",
+          "odds": {
+            "h": "9.20",
+            "d": "5.15",
+            "a": "1.21",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "17.00",
+            "s1": "6.00",
+            "s2": "4.00",
+            "s3": "3.70",
+            "s4": "4.70",
+            "s5": "8.00",
+            "s6": "15.00",
+            "s7": "19.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.0962,
+              "d": 0.1719,
+              "a": 0.7318
+            },
+            "hhad_fair_prob": {
+              "h": 0.2606,
+              "d": 0.2301,
+              "a": 0.5092
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040980,
+          "match_num": "周六008",
+          "league": "英冠",
+          "home": "米尔沃尔",
+          "away": "诺维奇",
+          "match_time": "19:30",
+          "odds": {
+            "h": "2.29",
+            "d": "3.18",
+            "a": "2.65",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.387,
+              "d": 0.2787,
+              "a": 0.3344
+            },
+            "hhad_fair_prob": {
+              "h": 0.1789,
+              "d": 0.2187,
+              "a": 0.6024
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但辅助盘口不完整；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "无完整总进球数据，观望。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040981,
+          "match_num": "周六009",
+          "league": "瑞超",
+          "home": "厄尔格里特",
+          "away": "哈尔姆斯塔德",
+          "match_time": "21:00",
+          "odds": {
+            "h": "1.83",
+            "d": "3.52",
+            "a": "3.35",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况10场(ok)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 10,
+              "home_recent": 0,
+              "away_recent": 10,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.484,
+              "d": 0.2516,
+              "a": 0.2644
+            },
+            "hhad_fair_prob": {
+              "h": 0.2499,
+              "d": 0.2431,
+              "a": 0.507
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但辅助盘口不完整；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "无完整总进球数据，观望。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040982,
+          "match_num": "周六010",
+          "league": "英超",
+          "home": "埃弗顿",
+          "away": "水晶宫",
+          "match_time": "22:00",
+          "odds": {
+            "h": "2.03",
+            "d": "3.12",
+            "a": "3.16",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "10.50",
+            "s1": "4.30",
+            "s2": "3.25",
+            "s3": "3.80",
+            "s4": "6.50",
+            "s5": "12.00",
+            "s6": "25.00",
+            "s7": "35.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4361,
+              "d": 0.2837,
+              "a": 0.2802
+            },
+            "hhad_fair_prob": {
+              "h": 0.1968,
+              "d": 0.2495,
+              "a": 0.5536
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040983,
+          "match_num": "周六011",
+          "league": "英超",
+          "home": "诺丁汉森林",
+          "away": "利兹联",
+          "match_time": "22:00",
+          "odds": {
+            "h": "2.09",
+            "d": "3.15",
+            "a": "3.00",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "11.00",
+            "s1": "4.50",
+            "s2": "3.30",
+            "s3": "3.80",
+            "s4": "6.00",
+            "s5": "11.50",
+            "s6": "23.00",
+            "s7": "36.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4237,
+              "d": 0.2811,
+              "a": 0.2952
+            },
+            "hhad_fair_prob": {
+              "h": 0.1926,
+              "d": 0.2395,
+              "a": 0.5679
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040984,
+          "match_num": "周六012",
+          "league": "英超",
+          "home": "伊普斯维奇",
+          "away": "桑德兰",
+          "match_time": "22:00",
+          "odds": {
+            "h": "2.42",
+            "d": "3.05",
+            "a": "2.58",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "10.00",
+            "s1": "4.40",
+            "s2": "3.20",
+            "s3": "3.80",
+            "s4": "6.40",
+            "s5": "12.50",
+            "s6": "25.00",
+            "s7": "40.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3661,
+              "d": 0.2905,
+              "a": 0.3434
+            },
+            "hhad_fair_prob": {
+              "h": 0.1581,
+              "d": 0.2186,
+              "a": 0.6234
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040985,
+          "match_num": "周六013",
+          "league": "英冠",
+          "home": "斯旺西",
+          "away": "谢菲尔德联",
+          "match_time": "22:00",
+          "odds": {
+            "h": "2.40",
+            "d": "3.12",
+            "a": "2.55",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3689,
+              "d": 0.2838,
+              "a": 0.3472
+            },
+            "hhad_fair_prob": {
+              "h": 0.1641,
+              "d": 0.2162,
+              "a": 0.6197
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但辅助盘口不完整；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "无完整总进球数据，观望。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040986,
+          "match_num": "周六014",
+          "league": "荷甲",
+          "home": "福图纳锡塔德",
+          "away": "阿尔克马尔",
+          "match_time": "22:30",
+          "odds": {
+            "h": "4.55",
+            "d": "4.20",
+            "a": "1.49",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "22.00",
+            "s1": "7.50",
+            "s2": "4.40",
+            "s3": "3.70",
+            "s4": "4.40",
+            "s5": "7.00",
+            "s6": "11.50",
+            "s7": "14.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况2场(ok)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 2,
+              "home_recent": 0,
+              "away_recent": 2,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.1947,
+              "d": 0.2109,
+              "a": 0.5944
+            },
+            "hhad_fair_prob": {
+              "h": 0.3933,
+              "d": 0.2425,
+              "a": 0.3642
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040987,
+          "match_num": "周六015",
+          "league": "葡超",
+          "home": "马里迪莫",
+          "away": "维塞乌",
+          "match_time": "22:30",
+          "odds": {
+            "h": "1.83",
+            "d": "3.16",
+            "a": "3.75",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "11.00",
+            "s1": "4.60",
+            "s2": "3.35",
+            "s3": "3.75",
+            "s4": "6.00",
+            "s5": "12.00",
+            "s6": "21.00",
+            "s7": "30.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4838,
+              "d": 0.2802,
+              "a": 0.2361
+            },
+            "hhad_fair_prob": {
+              "h": 0.2332,
+              "d": 0.2606,
+              "a": 0.5063
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040988,
+          "match_num": "周六016",
+          "league": "西甲",
+          "home": "毕尔巴鄂竞技",
+          "away": "塞维利亚",
+          "match_time": "23:00",
+          "odds": {
+            "h": "1.59",
+            "d": "3.28",
+            "a": "5.10",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "8.00",
+            "s1": "3.80",
+            "s2": "3.15",
+            "s3": "4.10",
+            "s4": "7.30",
+            "s5": "16.00",
+            "s6": "28.00",
+            "s7": "50.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况1场(ok)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 1,
+              "home_recent": 0,
+              "away_recent": 1,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.5566,
+              "d": 0.2698,
+              "a": 0.1735
+            },
+            "hhad_fair_prob": {
+              "h": 0.2816,
+              "d": 0.2816,
+              "a": 0.4369
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040989,
+          "match_num": "周六017",
+          "league": "法甲",
+          "home": "朗斯",
+          "away": "欧塞尔",
+          "match_time": "23:15",
+          "odds": {
+            "h": "1.33",
+            "d": "4.45",
+            "a": "6.55",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "17.00",
+            "s1": "6.20",
+            "s2": "4.00",
+            "s3": "3.60",
+            "s4": "4.90",
+            "s5": "8.00",
+            "s6": "13.50",
+            "s7": "19.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.6658,
+              "d": 0.199,
+              "a": 0.1352
+            },
+            "hhad_fair_prob": {
+              "h": 0.4216,
+              "d": 0.2529,
+              "a": 0.3255
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040990,
+          "match_num": "周六018",
+          "league": "英超",
+          "home": "布伦特福德",
+          "away": "托特纳姆热刺",
+          "match_time": "00:30",
+          "odds": {
+            "h": "2.02",
+            "d": "3.45",
+            "a": "2.90",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "16.00",
+            "s1": "5.80",
+            "s2": "3.90",
+            "s3": "3.60",
+            "s4": "4.90",
+            "s5": "8.50",
+            "s6": "14.50",
+            "s7": "23.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4382,
+              "d": 0.2566,
+              "a": 0.3052
+            },
+            "hhad_fair_prob": {
+              "h": 0.2108,
+              "d": 0.2324,
+              "a": 0.5568
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040991,
+          "match_num": "周六019",
+          "league": "意甲",
+          "home": "乌迪内斯",
+          "away": "科莫",
+          "match_time": "00:30",
+          "odds": {
+            "h": "4.65",
+            "d": "3.45",
+            "a": "1.60",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "9.50",
+            "s1": "4.20",
+            "s2": "3.35",
+            "s3": "3.85",
+            "s4": "6.50",
+            "s5": "12.50",
+            "s6": "23.00",
+            "s7": "40.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.1903,
+              "d": 0.2565,
+              "a": 0.5531
+            },
+            "hhad_fair_prob": {
+              "h": 0.4411,
+              "d": 0.2728,
+              "a": 0.286
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040992,
+          "match_num": "周六020",
+          "league": "意甲",
+          "home": "国际米兰",
+          "away": "蒙扎",
+          "match_time": "00:30",
+          "odds": {},
+          "ttg": {
+            "s0": "20.00",
+            "s1": "6.30",
+            "s2": "4.20",
+            "s3": "3.75",
+            "s4": "4.75",
+            "s5": "7.50",
+            "s6": "12.00",
+            "s7": "16.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": null,
+            "hhad_fair_prob": {
+              "h": 0.385,
+              "d": 0.23,
+              "a": 0.385
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但辅助盘口不完整；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": null
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "none_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040993,
+          "match_num": "周六021",
+          "league": "西甲",
+          "home": "巴伦西亚",
+          "away": "维戈塞尔塔",
+          "match_time": "01:30",
+          "odds": {
+            "h": "2.35",
+            "d": "2.95",
+            "a": "2.75",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "8.75",
+            "s1": "4.10",
+            "s2": "3.15",
+            "s3": "3.90",
+            "s4": "7.00",
+            "s5": "14.00",
+            "s6": "30.00",
+            "s7": "40.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3772,
+              "d": 0.3005,
+              "a": 0.3223
+            },
+            "hhad_fair_prob": {
+              "h": 0.1612,
+              "d": 0.2273,
+              "a": 0.6115
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040994,
+          "match_num": "周六022",
+          "league": "德超杯",
+          "home": "多特蒙德",
+          "away": "拜仁慕尼黑",
+          "match_time": "02:30",
+          "odds": {
+            "h": "4.22",
+            "d": "4.35",
+            "a": "1.51",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "38.00",
+            "s1": "10.50",
+            "s2": "5.40",
+            "s3": "3.90",
+            "s4": "4.40",
+            "s5": "5.40",
+            "s6": "8.50",
+            "s7": "9.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.2099,
+              "d": 0.2036,
+              "a": 0.5865
+            },
+            "hhad_fair_prob": {
+              "h": 0.3991,
+              "d": 0.2363,
+              "a": 0.3646
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040995,
+          "match_num": "周六023",
+          "league": "意甲",
+          "home": "热那亚",
+          "away": "那不勒斯",
+          "match_time": "02:45",
+          "odds": {
+            "h": "4.08",
+            "d": "3.05",
+            "a": "1.80",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "8.50",
+            "s1": "4.00",
+            "s2": "3.25",
+            "s3": "4.00",
+            "s4": "7.00",
+            "s5": "14.00",
+            "s6": "26.00",
+            "s7": "40.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.2172,
+              "d": 0.2905,
+              "a": 0.4923
+            },
+            "hhad_fair_prob": {
+              "h": 0.4925,
+              "d": 0.2646,
+              "a": 0.2429
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040996,
+          "match_num": "周六024",
+          "league": "意甲",
+          "home": "帕尔马",
+          "away": "卡利亚里",
+          "match_time": "02:45",
+          "odds": {
+            "h": "2.30",
+            "d": "2.77",
+            "a": "3.00",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "7.50",
+            "s1": "3.75",
+            "s2": "3.20",
+            "s3": "4.10",
+            "s4": "7.50",
+            "s5": "17.00",
+            "s6": "30.00",
+            "s7": "45.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3851,
+              "d": 0.3197,
+              "a": 0.2952
+            },
+            "hhad_fair_prob": {
+              "h": 0.1553,
+              "d": 0.2425,
+              "a": 0.6022
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040997,
+          "match_num": "周六025",
+          "league": "法甲",
+          "home": "尼斯",
+          "away": "洛里昂",
+          "match_time": "02:45",
+          "odds": {
+            "h": "1.94",
+            "d": "3.25",
+            "a": "3.27",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "11.50",
+            "s1": "4.85",
+            "s2": "3.50",
+            "s3": "3.70",
+            "s4": "5.60",
+            "s5": "10.50",
+            "s6": "20.00",
+            "s7": "32.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(no_recent_matches)、客队近况0场(provider_429)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "no_recent_matches",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4566,
+              "d": 0.2725,
+              "a": 0.2709
+            },
+            "hhad_fair_prob": {
+              "h": 0.2241,
+              "d": 0.2459,
+              "a": 0.53
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040998,
+          "match_num": "周六026",
+          "league": "法甲",
+          "home": "图卢兹",
+          "away": "里昂",
+          "match_time": "02:45",
+          "odds": {
+            "h": "2.23",
+            "d": "3.23",
+            "a": "2.69",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "12.00",
+            "s1": "5.00",
+            "s2": "3.65",
+            "s3": "3.60",
+            "s4": "5.50",
+            "s5": "10.00",
+            "s6": "19.00",
+            "s7": "29.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_429)、客队近况0场(no_recent_matches)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_429",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3969,
+              "d": 0.274,
+              "a": 0.329
+            },
+            "hhad_fair_prob": {
+              "h": 0.6559,
+              "d": 0.199,
+              "a": 0.1452
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2040999,
+          "match_num": "周六027",
+          "league": "西甲",
+          "home": "西班牙人",
+          "away": "皇家马德里",
+          "match_time": "03:30",
+          "odds": {
+            "h": "6.95",
+            "d": "4.50",
+            "a": "1.31",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "17.00",
+            "s1": "5.70",
+            "s2": "3.90",
+            "s3": "3.60",
+            "s4": "5.00",
+            "s5": "8.25",
+            "s6": "15.00",
+            "s7": "21.00",
+            "updated_at": "2026-08-21 09:55:11"
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_429)、客队近况0场(provider_429)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_429",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.1274,
+              "d": 0.1967,
+              "a": 0.6759
+            },
+            "hhad_fair_prob": {
+              "h": 0.3076,
+              "d": 0.2495,
+              "a": 0.4429
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但HHAD/TTG完整，可做三市场记录；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "观望：不将总进球赔率替代进球模型。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "full_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041000,
+          "match_num": "周六028",
+          "league": "美职",
+          "home": "温哥华白帽",
+          "away": "达拉斯FC",
+          "match_time": "09:30",
+          "odds": {
+            "h": "1.39",
+            "d": "4.35",
+            "a": "5.55",
+            "goal_line": ""
+          },
+          "ttg": {
+            "h": "",
+            "d": "",
+            "a": "",
+            "goal_line": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "阶段A仅保留可核验球队证据：主队近况0场(provider_error)、客队近况0场(provider_error)；至少一方未达到5场，且当前无法完成伤停/首发与独立盘口核验。阶段B只记录官方赔率，不把市场热门当作球队数据，因此本场观望。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方最近至少5场可核验正式赛果",
+              "主客场拆分与对手强度",
+              "伤停和正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.6369,
+              "d": 0.2035,
+              "a": 0.1595
+            },
+            "hhad_fair_prob": {
+              "h": 0.41,
+              "d": 0.2426,
+              "a": 0.3473
+            },
+            "pick_prob": null,
+            "conclusion": "官方HAD去水概率已记录，但辅助盘口不完整；缺少足够独立球队证据，不能转化为推荐。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观望：让球方向缺少球队数据验证。",
+            "ou_pick": "无完整总进球数据，观望。",
+            "script": "1X2、让球与大小球仅能描述市场剧本，无法与球队近况形成独立交叉验证。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -1356,7 +3949,7 @@
       "bets": [
         {
           "type": "串关",
-          "detail": "001+007@1.64",
+          "detail": "007+027@1.59",
           "stake": 2.0,
           "status": "pending",
           "profit": null,
@@ -1368,9 +3961,9 @@
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 978.0,
-    "total_profit": -22.0,
-    "profit_rate": -2.2,
+    "balance": 977.28,
+    "total_profit": -22.72,
+    "profit_rate": -2.27,
     "pending_count": 1,
     "settlements": [
       {
@@ -1398,6 +3991,22 @@
         "lost": 7,
         "profit": -14.0,
         "balance": 980.0
+      },
+      {
+        "date": "2026-08-20",
+        "bet_count": 1,
+        "won": 1,
+        "lost": 0,
+        "profit": 1.28,
+        "balance": 981.28
+      },
+      {
+        "date": "2026-08-21",
+        "bet_count": 1,
+        "won": 0,
+        "lost": 1,
+        "profit": -2.0,
+        "balance": 979.28
       }
     ],
     "equity_curve": [
@@ -1416,6 +4025,14 @@
       {
         "date": "2026-08-19",
         "balance": 980.0
+      },
+      {
+        "date": "2026-08-20",
+        "balance": 981.28
+      },
+      {
+        "date": "2026-08-21",
+        "balance": 979.28
       }
     ],
     "avg_clv": null,
@@ -1424,12 +4041,32 @@
     "recent_bets": [
       {
         "type": "串关",
-        "detail": "001+007@1.64",
+        "detail": "007+027@1.59",
         "stake": 2.0,
         "status": "pending",
         "profit": null,
         "count": 1,
         "clv": null,
+        "date": "2026-08-22"
+      },
+      {
+        "type": "串关",
+        "detail": "003+005@1.87",
+        "stake": 2.0,
+        "status": "lost",
+        "profit": -2.0,
+        "count": 1,
+        "clv": -0.0093,
+        "date": "2026-08-21"
+      },
+      {
+        "type": "串关",
+        "detail": "001+007@1.64",
+        "stake": 2.0,
+        "status": "won",
+        "profit": 1.28,
+        "count": 1,
+        "clv": -0.0371,
         "date": "2026-08-20"
       },
       {
@@ -1459,19 +4096,31 @@
     "leagues": [
       {
         "league": "英超",
-        "total": 0,
+        "total": 1,
         "hit": 0,
         "miss": 0,
-        "pending": 0,
+        "pending": 1,
         "hit_rate": null,
-        "matches": []
+        "matches": [
+          {
+            "date": "2026-08-22",
+            "match_num": "周六007",
+            "home": "赫尔城",
+            "away": "曼彻斯特联",
+            "pick": "OBSERVE",
+            "market": null,
+            "odds": null,
+            "result": "unsettled",
+            "score": ""
+          }
+        ]
       },
       {
         "league": "西甲",
-        "total": 1,
+        "total": 2,
         "hit": 0,
         "miss": 1,
-        "pending": 0,
+        "pending": 1,
         "hit_rate": 0.0,
         "matches": [
           {
@@ -1484,6 +4133,17 @@
             "odds": 4.81,
             "result": "miss",
             "score": "2:0"
+          },
+          {
+            "date": "2026-08-22",
+            "match_num": "周六027",
+            "home": "西班牙人",
+            "away": "皇家马德里",
+            "pick": "OBSERVE",
+            "market": null,
+            "odds": null,
+            "result": "unsettled",
+            "score": ""
           }
         ]
       },
