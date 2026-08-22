@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22 18:34:47",
+  "updated_at": "2026-08-22 18:38:07",
   "stats": {
     "total": 6,
     "hit": 1,
@@ -1852,7 +1852,7 @@
     },
     {
       "date": "2026-08-22",
-      "analysis_time": "2026-08-22T18:34:35+08:00",
+      "analysis_time": "2026-08-22T18:38:06+08:00",
       "matches": [
         {
           "match_id": 2040974,
@@ -2543,7 +2543,7 @@
               "window_days": 120,
               "cross_season_sample": false
             },
-            "status": "partial",
+            "status": "ok",
             "missing_data": [
               "临场首发确认",
               "独立盘口源复核"
@@ -2591,12 +2591,12 @@
             "ou_pick": "无完整总进球数据。",
             "script": "正式方向只在球队近况与官方HAD共同支持时放行。"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.29,
           "recommendation_level": "PARTIAL",
           "odds_integrity": "partial_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 0.3,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -2632,7 +2632,7 @@
               "window_days": 120,
               "cross_season_sample": false
             },
-            "status": "partial",
+            "status": "ok",
             "missing_data": [
               "临场首发确认",
               "独立盘口源复核"
@@ -2680,9 +2680,9 @@
             "ou_pick": "无完整总进球数据。",
             "script": "正式方向只在球队近况与官方HAD共同支持时放行。"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.83,
           "recommendation_level": "PARTIAL",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
@@ -3003,7 +3003,7 @@
               "window_days": 120,
               "cross_season_sample": false
             },
-            "status": "partial",
+            "status": "ok",
             "missing_data": [
               "临场首发确认",
               "独立盘口源复核"
@@ -3051,12 +3051,12 @@
             "ou_pick": "无完整总进球数据。",
             "script": "正式方向只在球队近况与官方HAD共同支持时放行。"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.4,
           "recommendation_level": "PARTIAL",
           "odds_integrity": "partial_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 0.3,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -4216,7 +4216,7 @@
               "window_days": 120,
               "cross_season_sample": false
             },
-            "status": "partial",
+            "status": "ok",
             "missing_data": [
               "临场首发确认",
               "独立盘口源复核"
@@ -4264,12 +4264,12 @@
             "ou_pick": "辅助观察：不将总进球赔率替代进球模型。",
             "script": "正式方向只在球队近况与官方HAD共同支持时放行。"
           },
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 2.23,
           "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
-          "stake_cap_ratio": null,
+          "stake_cap_ratio": 0.3,
           "result": "unsettled",
           "score": "",
           "review": ""
@@ -4499,9 +4499,9 @@
           "home": "厄尔格里特",
           "away": "哈尔姆斯塔德",
           "match_time": "21:00",
-          "final_pick": "OBSERVE",
-          "pick_market": null,
-          "pick_odds": null,
+          "final_pick": "H",
+          "pick_market": "HAD",
+          "pick_odds": 1.83,
           "confidence": "medium",
           "reasoning": "主队近况10场(ok)，加权积分0.87、净胜球-0.56；客队近况10场(ok)，加权积分0.26、净胜球-1.53。官方HAD去水热门H；基本面与市场融合方向为H，优势+0.1%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
@@ -4856,7 +4856,7 @@
     ],
     "latest_date": "2026-08-22",
     "latest_match_count": 15,
-    "latest_observed": 9,
+    "latest_observed": 8,
     "forced_bets": [
       {
         "date": "2026-08-22",
