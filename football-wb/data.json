@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22 15:15:36",
+  "updated_at": "2026-08-22 15:27:14",
   "stats": {
     "total": 5,
     "hit": 1,
@@ -4132,6 +4132,37 @@
         "pending": 0,
         "hit_rate": null,
         "matches": []
+      }
+    ],
+    "latest_date": "2026-08-22",
+    "latest_match_count": 15,
+    "latest_observed": 15,
+    "forced_bets": [
+      {
+        "date": "2026-08-22",
+        "type": "parlay",
+        "name": "保底2串1-周六007+周六027",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null,
+        "legs": [
+          {
+            "match_num": "周六007",
+            "league": "英超",
+            "home": "赫尔城",
+            "away": "曼彻斯特联",
+            "pick": "A",
+            "odds": 1.21
+          },
+          {
+            "match_num": "周六027",
+            "league": "西甲",
+            "home": "西班牙人",
+            "away": "皇家马德里",
+            "pick": "A",
+            "odds": 1.31
+          }
+        ]
       }
     ]
   }
