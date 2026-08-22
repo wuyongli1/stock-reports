@@ -651,20 +651,23 @@ function renderYesterday() {
   const header = document.getElementById('yesterdayHeader');
   const body = document.getElementById('yesterdayBody');
   const y = DATA.stats && DATA.stats.yesterday;
-  if (!y || !y.matches || !y.matches.length) {
+  if (!y || (!y.matches || !y.matches.length) && (!y.bets || !y.bets.length)) {
     section.style.display = 'none';
     return;
   }
   section.style.display = '';
-  const statusTxt = y.hit ? '✅ 全部命中' : '❌ 有未中';
+  const hasFormal = y.has_formal_recommendation !== false && y.total > 0;
+  const statusTxt = hasFormal ? (y.hit ? '✅ 全部命中' : '❌ 有未中') : 'ℹ️ 无正式推荐';
   let headerExtra = '';
   if (y.bet_stake != null && y.bet_stake > 0) {
     const profitCls = (y.bet_profit || 0) >= 0 ? 'bet-won' : 'bet-lost';
     headerExtra = ` · 💰 投注 ¥${y.bet_stake.toFixed(0)}，盈亏 <span class="${profitCls}">${(y.bet_profit >= 0 ? '+' : '')}${y.bet_profit.toFixed(2)}</span>`;
   }
-  header.innerHTML = `📅 昨日推荐复盘 · ${y.date} · <span style="color:${y.hit ? 'var(--green)' : 'var(--red)'}">${y.hits}/${y.total} 命中 ${y.hit_rate}% ${statusTxt}</span>${headerExtra}`;
+  header.innerHTML = `📅 昨日推荐复盘 · ${y.date} · <span style="color:${hasFormal ? (y.hit ? 'var(--green)' : 'var(--red)') : 'var(--muted)'}">${hasFormal ? `${y.hits}/${y.total} 命中 ${y.hit_rate}%` : `正式推荐 0 场，观望 ${y.observed_count || 0} 场`} ${statusTxt}</span>${headerExtra}`;
 
-  const rows = y.matches.map(m => {
+  let rows = '';
+  if (y.matches && y.matches.length) {
+    rows = y.matches.map(m => {
     const pickTxt = pickLabel(m.pick) + (m.odds ? ' @ ' + m.odds : '');
     const confTxt = m.confidence ? ('（' + ({high:'高', medium:'中等', low:'低'}[m.confidence] || m.confidence) + '）') : '';
     const resultTxt = m.result === 'hit'
@@ -690,12 +693,16 @@ function renderYesterday() {
       <td>${scoreTxt}</td>
       <td>${resultTxt}</td>
     </tr>`;
-  }).join('');
-
-  body.innerHTML = `<div class="paper-bets"><table>
+    }).join('');
+  }
+  let betSummary = '';
+  if (y.bets && y.bets.length) {
+    betSummary = '<div style="margin:10px 0 0;padding:10px 14px;background:rgba(241,196,15,0.06);border:1px solid var(--border);border-radius:8px;font-size:13px;">💰 昨日模拟盘：' + y.bets.map(b => `${b.type} ${b.detail} · ¥${b.stake}${b.status === 'won' ? ' · ✅ 已中' : b.status === 'lost' ? ' · ❌ 未中' : b.status === 'void' ? ' · 🚫 作废' : ' · ⏳ 待结算'}${b.profit != null ? ` · 盈亏 ${(b.profit >= 0 ? '+' : '')}${b.profit.toFixed(2)}` : ''}`).join('；') + '</div>';
+  }
+  body.innerHTML = `${betSummary}${rows ? `<div class="paper-bets"><table>
     <tr><th>场次</th><th>赛事</th><th>对阵</th><th>推荐</th><th>投注/盈亏</th><th>CLV</th><th>实际赛果</th><th>结果</th></tr>
     ${rows}
-  </table></div>`;
+  </table></div>` : '<div style="margin-top:10px;color:var(--muted);font-size:13px;">昨日没有正式方向推荐，观望场次不计入命中/未中统计。</div>'}`;
 }
 
 /* ===== 今日推荐渲染 ===== */
