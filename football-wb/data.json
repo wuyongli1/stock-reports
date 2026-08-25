@@ -1,37 +1,248 @@
 {
-  "updated_at": "2026-08-22 20:06:06",
+  "updated_at": "2026-08-25 11:39:19",
   "stats": {
     "total": 7,
-    "hit": 1,
+    "hit": 3,
     "miss": 4,
-    "pending": 2,
-    "hit_rate": 20.0,
-    "week_rate": 20.0,
-    "week_total": 5,
-    "month_rate": 20.0,
-    "month_total": 5,
+    "pending": 0,
+    "hit_rate": 42.9,
+    "week_rate": 42.9,
+    "week_total": 7,
+    "month_rate": 42.9,
+    "month_total": 7,
     "yesterday": {
-      "date": "2026-08-21",
-      "hits": 0,
-      "total": 0,
-      "hit_rate": null,
+      "date": "2026-08-22",
+      "hits": 8,
+      "total": 14,
+      "hit_rate": 57.1,
       "hit": false,
-      "has_formal_recommendation": false,
-      "observed_count": 9,
-      "matches": [],
+      "has_formal_recommendation": true,
+      "observed_count": 14,
+      "matches": [
+        {
+          "match_num": "周六001",
+          "league": "日职",
+          "home": "鹿岛鹿角",
+          "away": "福冈黄蜂",
+          "pick": "H",
+          "odds": 1.63,
+          "confidence": "medium",
+          "result": "hit",
+          "score": "3:2",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六003",
+          "league": "日职",
+          "home": "大阪樱花",
+          "away": "清水鼓动",
+          "pick": "H",
+          "odds": 1.99,
+          "confidence": "medium",
+          "result": "hit",
+          "score": "1:0",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六008",
+          "league": "英冠",
+          "home": "米尔沃尔",
+          "away": "诺维奇",
+          "pick": "H",
+          "odds": 2.29,
+          "confidence": "low",
+          "result": "hit",
+          "score": "3:0",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六009",
+          "league": "瑞超",
+          "home": "厄尔格里特",
+          "away": "哈尔姆斯塔德",
+          "pick": "H",
+          "odds": 1.83,
+          "confidence": "medium",
+          "result": "miss",
+          "score": "1:1",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六013",
+          "league": "英冠",
+          "home": "斯旺西",
+          "away": "谢菲尔德联",
+          "pick": "H",
+          "odds": 2.4,
+          "confidence": "low",
+          "result": "miss",
+          "score": "0:0",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六014",
+          "league": "荷甲",
+          "home": "福图纳锡塔德",
+          "away": "阿尔克马尔",
+          "pick": "A",
+          "odds": 1.49,
+          "confidence": "medium",
+          "result": "hit",
+          "score": "0:2",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六019",
+          "league": "意甲",
+          "home": "乌迪内斯",
+          "away": "科莫",
+          "pick": "A",
+          "odds": 1.6,
+          "confidence": "medium",
+          "result": "miss",
+          "score": "1:1",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六021",
+          "league": "西甲",
+          "home": "巴伦西亚",
+          "away": "维戈塞尔塔",
+          "pick": "H",
+          "odds": 2.35,
+          "confidence": "medium",
+          "result": "miss",
+          "score": "0:0",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六022",
+          "league": "德超杯",
+          "home": "多特蒙德",
+          "away": "拜仁慕尼黑",
+          "pick": "A",
+          "odds": 1.51,
+          "confidence": "medium",
+          "result": "hit",
+          "score": "1:2",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六023",
+          "league": "意甲",
+          "home": "热那亚",
+          "away": "那不勒斯",
+          "pick": "A",
+          "odds": 1.8,
+          "confidence": "medium",
+          "result": "hit",
+          "score": "0:2",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六024",
+          "league": "意甲",
+          "home": "帕尔马",
+          "away": "卡利亚里",
+          "pick": "A",
+          "odds": 3.0,
+          "confidence": "medium",
+          "result": "hit",
+          "score": "0:1",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六025",
+          "league": "法甲",
+          "home": "尼斯",
+          "away": "洛里昂",
+          "pick": "H",
+          "odds": 1.94,
+          "confidence": "medium",
+          "result": "miss",
+          "score": "0:0",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六026",
+          "league": "法甲",
+          "home": "图卢兹",
+          "away": "里昂",
+          "pick": "H",
+          "odds": 2.23,
+          "confidence": "low",
+          "result": "miss",
+          "score": "0:2",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        },
+        {
+          "match_num": "周六027",
+          "league": "西甲",
+          "home": "西班牙人",
+          "away": "皇家马德里",
+          "pick": "A",
+          "odds": 1.31,
+          "confidence": "medium",
+          "result": "hit",
+          "score": "1:2",
+          "bet_stake": null,
+          "bet_profit": null,
+          "clv": null,
+          "closing_odds": null
+        }
+      ],
       "bets": [
         {
           "type": "串关",
-          "detail": "003+005@1.87",
-          "stake": 2.0,
-          "status": "lost",
-          "profit": -2.0,
-          "count": 1,
-          "clv": -0.0093
+          "detail": "007×027×008×024 过关(2串1×2)",
+          "stake": 50.0,
+          "status": "won",
+          "profit": 281.76,
+          "count": 2,
+          "clv": 0.0612
         }
       ],
-      "bet_stake": 2.0,
-      "bet_profit": -2.0
+      "bet_stake": 50.0,
+      "bet_profit": 281.76
     }
   },
   "records": [
@@ -1944,8 +2155,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "3:2",
           "review": ""
         },
         {
@@ -2038,8 +2249,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -2132,8 +2343,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "1:0",
           "review": ""
         },
         {
@@ -2226,8 +2437,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -2320,8 +2531,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:0",
           "review": ""
         },
         {
@@ -2414,8 +2625,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:7",
           "review": ""
         },
         {
@@ -2508,8 +2719,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:0",
           "review": ""
         },
         {
@@ -2597,8 +2808,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": 0.3,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -2686,8 +2897,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -2780,8 +2991,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:0",
           "review": ""
         },
         {
@@ -2874,8 +3085,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -2968,8 +3179,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:1",
           "review": ""
         },
         {
@@ -3057,8 +3268,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": 0.3,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -3151,8 +3362,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "0:2",
           "review": ""
         },
         {
@@ -3245,8 +3456,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "2:2",
           "review": ""
         },
         {
@@ -3339,8 +3550,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:3",
           "review": ""
         },
         {
@@ -3433,8 +3644,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "5:2",
           "review": ""
         },
         {
@@ -3527,8 +3738,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "3:0",
           "review": ""
         },
         {
@@ -3621,8 +3832,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "1:1",
           "review": ""
         },
         {
@@ -3706,8 +3917,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "none_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "4:1",
           "review": ""
         },
         {
@@ -3800,8 +4011,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -3894,8 +4105,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -3988,8 +4199,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "0:2",
           "review": ""
         },
         {
@@ -4082,8 +4293,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "0:1",
           "review": ""
         },
         {
@@ -4176,8 +4387,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:0",
           "review": ""
         },
         {
@@ -4270,8 +4481,8 @@
           "recommendation_level": "PARTIAL",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 0.3,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "0:2",
           "review": ""
         },
         {
@@ -4364,8 +4575,8 @@
           "recommendation_level": "VERIFIED",
           "odds_integrity": "full_HAD",
           "stake_cap_ratio": 1.0,
-          "result": "unsettled",
-          "score": "",
+          "result": "hit",
+          "score": "1:2",
           "review": ""
         },
         {
@@ -4453,8 +4664,8 @@
           "recommendation_level": "OBSERVE",
           "odds_integrity": "partial_HAD",
           "stake_cap_ratio": null,
-          "result": "unsettled",
-          "score": "",
+          "result": "miss",
+          "score": "5:0",
           "review": ""
         }
       ],
@@ -4474,7 +4685,7 @@
           "reasoning": "主队近况10场(ok)，加权积分2.35、净胜球+0.44；客队近况10场(ok)，加权积分1.36、净胜球+0.38。官方HAD去水热门H；基本面与市场融合方向为H，优势-1.1%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "hit"
         },
         {
           "match_id": 2040976,
@@ -4490,7 +4701,7 @@
           "reasoning": "主队近况10场(ok)，加权积分1.98、净胜球+0.55；客队近况10场(ok)，加权积分0.85、净胜球-0.73。官方HAD去水热门H；基本面与市场融合方向为H，优势+5.5%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "hit"
         },
         {
           "match_id": 2040981,
@@ -4506,7 +4717,7 @@
           "reasoning": "主队近况10场(ok)，加权积分0.87、净胜球-0.56；客队近况10场(ok)，加权积分0.26、净胜球-1.53。官方HAD去水热门H；基本面与市场融合方向为H，优势+0.1%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "PARTIAL",
-          "result": "unsettled"
+          "result": "miss"
         },
         {
           "match_id": 2040986,
@@ -4522,7 +4733,7 @@
           "reasoning": "主队近况6场(ok)，加权积分1.52、净胜球+0.19；客队近况5场(ok)，加权积分2.20、净胜球+1.53。官方HAD去水热门A；基本面与市场融合方向为A，优势-5.7%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "hit"
         },
         {
           "match_id": 2040991,
@@ -4538,7 +4749,7 @@
           "reasoning": "主队近况5场(ok)，加权积分1.07、净胜球+0.07；客队近况5场(ok)，加权积分2.73、净胜球+1.60。官方HAD去水热门A；基本面与市场融合方向为A，优势-0.0%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "miss"
         },
         {
           "match_id": 2040993,
@@ -4554,7 +4765,7 @@
           "reasoning": "主队近况6场(ok)，加权积分2.33、净胜球+0.81；客队近况6场(ok)，加权积分1.81、净胜球+0.38。官方HAD去水热门H；基本面与市场融合方向为H，优势+4.8%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "miss"
         },
         {
           "match_id": 2040994,
@@ -4570,7 +4781,7 @@
           "reasoning": "主队近况10场(ok)，加权积分1.82、净胜球+0.49；客队近况5场(ok)，加权积分2.73、净胜球+2.00。官方HAD去水热门A；基本面与市场融合方向为A，优势-4.3%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "hit"
         },
         {
           "match_id": 2040995,
@@ -4586,7 +4797,7 @@
           "reasoning": "主队近况5场(ok)，加权积分0.33、净胜球-0.73；客队近况5场(ok)，加权积分2.13、净胜球+1.20。官方HAD去水热门A；基本面与市场融合方向为A，优势+5.3%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "hit"
         },
         {
           "match_id": 2040996,
@@ -4602,7 +4813,7 @@
           "reasoning": "主队近况5场(ok)，加权积分1.20、净胜球-0.33；客队近况5场(ok)，加权积分2.13、净胜球+0.27。官方HAD去水热门H；基本面与市场融合方向为A，优势+8.0%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "hit"
         },
         {
           "match_id": 2040997,
@@ -4618,7 +4829,7 @@
           "reasoning": "主队近况5场(ok)，加权积分1.47、净胜球+1.13；客队近况5场(ok)，加权积分1.73、净胜球+0.53。官方HAD去水热门H；基本面与市场融合方向为H，优势-2.2%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "miss"
         },
         {
           "match_id": 2040999,
@@ -4634,7 +4845,7 @@
           "reasoning": "主队近况7场(ok)，加权积分1.96、净胜球+0.96；客队近况6场(ok)，加权积分2.48、净胜球+1.09。官方HAD去水热门A；基本面与市场融合方向为A，优势-10.5%。",
           "conclusion": "官方HAD去水概率与球队近况融合；HHAD/TTG仅作辅助校验。",
           "recommendation_level": "VERIFIED",
-          "result": "unsettled"
+          "result": "hit"
         }
       ],
       "bets": [
@@ -4642,9 +4853,694 @@
           "type": "串关",
           "detail": "007×027×008×024 过关(2串1×2)",
           "stake": 50.0,
-          "status": "lost",
-          "profit": null,
+          "status": "won",
+          "profit": 281.76,
           "count": 2,
+          "clv": 0.0612
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "analysis_time": "2026-08-25T11:30:08+08:00",
+      "matches": [
+        {
+          "match_id": 2041049,
+          "match_num": "周二001",
+          "league": "韩职",
+          "home": "金泉尚武",
+          "away": "全北现代",
+          "match_time": "18:30",
+          "odds": {
+            "h": "2.92",
+            "d": "3.15",
+            "a": "2.13",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队无可核验近况；客队有10场但状态WLLLDWDLWL且存在密集赛程，单方面样本不能建立双方独立比较。不得用客胜低赔替代主队数据。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 10,
+              "home_recent": 0,
+              "away_recent": 10,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "主队正式近况",
+              "TTG完整赔率",
+              "正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3032,
+              "d": 0.2811,
+              "a": 0.4157
+            },
+            "hhad_fair_prob": {
+              "h": 0.5719,
+              "d": 0.2333,
+              "a": 0.1948
+            },
+            "pick_prob": null,
+            "conclusion": "HAD偏客胜，但+1让球去水明显偏主队不败；市场方向与盘口含义存在冲突，且缺TTG，不能形成可执行价值判断。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：主队受让+1方向偏强，但无法由缺失的主队数据确认穿盘风险。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD偏客胜与HHAD主队受让不败形成冲突；第三市场缺失，联合剧本不可核验，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041050,
+          "match_num": "周二002",
+          "league": "韩职",
+          "home": "济州SK",
+          "away": "浦项制铁",
+          "match_time": "18:30",
+          "odds": {
+            "h": "2.24",
+            "d": "2.98",
+            "a": "2.88",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队近10场有样本但近况含高方差杯赛比分且3天密集赛程；客队无可核验近况，无法完成双方强弱与赛程修正。",
+            "sample_size": {
+              "home_recent_official": 10,
+              "away_recent_official": 0,
+              "home_recent": 10,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "客队正式近况",
+              "TTG完整赔率",
+              "正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3953,
+              "d": 0.2972,
+              "a": 0.3075
+            },
+            "hhad_fair_prob": {
+              "h": 0.1657,
+              "d": 0.2395,
+              "a": 0.5948
+            },
+            "pick_prob": null,
+            "conclusion": "HAD接近均势略偏主胜，但主让一球HHAD强烈偏客队方向，不能机械追主胜；缺TTG使剧本无法完成。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：主让一球穿盘压力较大，但客队数据缺失，不能将其升级为受让方向。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD均势与HHAD客队方向冲突；样本和第三市场均不足，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041051,
+          "match_num": "周二003",
+          "league": "沙职",
+          "home": "达曼协定",
+          "away": "利雅得胜利",
+          "match_time": "02:00",
+          "odds": {
+            "h": "9.75",
+            "d": "6.35",
+            "a": "1.15",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "双方均无可核验近况，无法确认阵容、战意、强弱差和近期进失球；不得因客胜1.15低赔率直接替代球队数据。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方正式近况",
+              "TTG完整赔率",
+              "正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.0908,
+              "d": 0.1394,
+              "a": 0.7698
+            },
+            "hhad_fair_prob": {
+              "h": 0.4222,
+              "d": 0.2189,
+              "a": 0.3589
+            },
+            "pick_prob": null,
+            "conclusion": "HAD极端偏客胜，但+2让球后主队受让方向占优，显示大胜与赢球不等价；无样本时不能凭市场背离单独放行。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：客胜低赔与+2让球主队不败是不同命题，不能将其合并为客队让球推荐。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD客胜极热、HHAD受让方向增强且双方数据为零，三市场无法校验，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041052,
+          "match_num": "周二004",
+          "league": "英联赛杯",
+          "home": "斯托克城",
+          "away": "赫尔城",
+          "match_time": "02:45",
+          "odds": {
+            "h": "2.64",
+            "d": "3.00",
+            "a": "2.40",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "两队均无ESPN或替代源可核验的近况；杯赛还存在轮换与战意不确定性，无法建立阶段A数据面判断。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方正式近况",
+              "杯赛轮换信息",
+              "TTG完整赔率",
+              "正式首发"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3356,
+              "d": 0.2953,
+              "a": 0.3691
+            },
+            "hhad_fair_prob": {
+              "h": 0.6239,
+              "d": 0.2135,
+              "a": 0.1626
+            },
+            "pick_prob": null,
+            "conclusion": "HAD接近均势偏客，+1让球明显偏主队不败；赔率不能弥补杯赛样本与TTG缺失。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：主队受让+1信号较强，但缺乏球队数据和轮换核验。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD与HHAD方向不一致，杯赛轮换风险无法解释，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041053,
+          "match_num": "周二005",
+          "league": "欧冠",
+          "home": "LASK林茨",
+          "away": "凯尔特人",
+          "match_time": "03:00",
+          "odds": {
+            "h": "1.84",
+            "d": "3.70",
+            "a": "3.17",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "两队均有6场左右的旧/跨赛事样本且近期记录显示全胜，但欧冠资格赛阶段、对手强度和比赛策略适配不足，不能把表面连胜直接转成价值。",
+            "sample_size": {
+              "home_recent_official": 6,
+              "away_recent_official": 6,
+              "home_recent": 6,
+              "away_recent": 6,
+              "window_days": 120,
+              "cross_season_sample": true
+            },
+            "status": "evidence_mixed",
+            "missing_data": [
+              "资格赛阶段与首回合信息",
+              "TTG完整赔率",
+              "正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4813,
+              "d": 0.2393,
+              "a": 0.2794
+            },
+            "hhad_fair_prob": {
+              "h": 0.257,
+              "d": 0.2364,
+              "a": 0.5066
+            },
+            "pick_prob": null,
+            "conclusion": "HAD偏主胜，但主让一球HHAD偏客队方向，提示主胜与穿盘不能等同；缺TTG无法判断比赛节奏。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：主胜可能存在但主让一球穿盘证据不足。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "主胜与深盘穿透出现冲突，欧冠资格赛适配和第三市场均不足，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041054,
+          "match_num": "周二006",
+          "league": "欧冠",
+          "home": "博德闪耀",
+          "away": "奈梅亨",
+          "match_time": "03:00",
+          "odds": {
+            "h": "1.41",
+            "d": "4.60",
+            "a": "4.95",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "主队近10场样本强势且主场进球表现较好；客队仅5场且有输赢交替，欧冠对手强度与赛制策略仍存在适配不确定性。低赔率主胜缺少足够价格优势确认。",
+            "sample_size": {
+              "home_recent_official": 10,
+              "away_recent_official": 5,
+              "home_recent": 10,
+              "away_recent": 5,
+              "window_days": 120,
+              "cross_season_sample": true
+            },
+            "status": "evidence_mixed",
+            "missing_data": [
+              "资格赛阶段与首回合信息",
+              "TTG完整赔率",
+              "正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.6284,
+              "d": 0.1926,
+              "a": 0.179
+            },
+            "hhad_fair_prob": {
+              "h": 0.4099,
+              "d": 0.233,
+              "a": 0.357
+            },
+            "pick_prob": null,
+            "conclusion": "HAD主胜强势，但主让一球HHAD并未同步形成明显主队穿盘优势；1.41属于低赔率热门，缺TTG和临场阵容不能确认EV。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：主胜与主让穿盘必须区分，HHAD不支持机械追深盘。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD主胜增强但让球稳定、第三市场缺失；存在1:0/2:0赢球不穿盘路径，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041055,
+          "match_num": "周二007",
+          "league": "英联赛杯",
+          "home": "诺丁汉森林",
+          "away": "利兹联",
+          "match_time": "03:00",
+          "odds": {
+            "h": "2.06",
+            "d": "3.15",
+            "a": "3.06",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "两队均无可核验近况，联赛杯轮换、战意和首发不确定性无法量化；不能从HAD主胜低赔直接推导主让一球。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方正式近况",
+              "杯赛轮换信息",
+              "TTG完整赔率",
+              "正式首发"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.4297,
+              "d": 0.281,
+              "a": 0.2893
+            },
+            "hhad_fair_prob": {
+              "h": 0.2085,
+              "d": 0.2272,
+              "a": 0.5643
+            },
+            "pick_prob": null,
+            "conclusion": "HAD略偏主胜，但主让一球HHAD明显偏客队受让方向，热门与深盘冲突；无数据、无TTG时不放行。",
+            "market_favorite": "H"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：主胜不代表主让一球穿盘，杯赛轮换风险高。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD偏主与HHAD偏客冲突，杯赛数据和第三市场缺失，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041056,
+          "match_num": "周二008",
+          "league": "英联赛杯",
+          "home": "伯明翰",
+          "away": "布伦特福德",
+          "match_time": "03:00",
+          "odds": {
+            "h": "3.85",
+            "d": "3.55",
+            "a": "1.70",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "两队均无可核验近况，且联赛杯存在轮换和比赛投入度波动；不以布伦特福德1.70低赔或名气替代双方数据。",
+            "sample_size": {
+              "home_recent_official": 0,
+              "away_recent_official": 0,
+              "home_recent": 0,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": false
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "双方正式近况",
+              "杯赛轮换信息",
+              "TTG完整赔率",
+              "正式首发"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.2299,
+              "d": 0.2494,
+              "a": 0.5207
+            },
+            "hhad_fair_prob": {
+              "h": 0.4665,
+              "d": 0.2476,
+              "a": 0.2859
+            },
+            "pick_prob": null,
+            "conclusion": "HAD偏客胜，+1让球则偏主队不败，方向并不等价；低赔率客胜没有独立数据确认正EV。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：客胜与主队受让+1不败是两种不同风险路径，不能混为客队让球。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD客胜与HHAD主队受让方向冲突，杯赛与TTG数据缺失，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        },
+        {
+          "match_id": 2041057,
+          "match_num": "周二009",
+          "league": "西甲",
+          "home": "巴伦西亚",
+          "away": "皇家贝蒂斯",
+          "match_time": "03:00",
+          "odds": {
+            "h": "2.55",
+            "d": "3.05",
+            "a": "2.45",
+            "goal_line": ""
+          },
+          "ttg": {
+            "s0": "",
+            "s1": "",
+            "s2": "",
+            "s3": "",
+            "s4": "",
+            "s5": "",
+            "s6": "",
+            "s7": ""
+          },
+          "data_analysis": {
+            "tendency": "OBSERVE",
+            "confidence": "low",
+            "reasoning": "巴伦西亚仅有6场旧样本且近期有4天赛程间隔；皇家贝蒂斯无可核验近况，无法完成双方比较与阵容修正。",
+            "sample_size": {
+              "home_recent_official": 6,
+              "away_recent_official": 0,
+              "home_recent": 6,
+              "away_recent": 0,
+              "window_days": 120,
+              "cross_season_sample": true
+            },
+            "status": "provider_error",
+            "missing_data": [
+              "客队正式近况",
+              "TTG完整赔率",
+              "正式首发",
+              "独立盘口源复核"
+            ],
+            "freshness_hours": null
+          },
+          "odds_analysis": {
+            "had_fair_prob": {
+              "h": 0.3476,
+              "d": 0.2906,
+              "a": 0.3618
+            },
+            "hhad_fair_prob": {
+              "h": 0.6293,
+              "d": 0.2164,
+              "a": 0.1543
+            },
+            "pick_prob": null,
+            "conclusion": "HAD接近均势略偏客，+1让球强烈偏主队不败；市场背离无法由缺失的客队数据解释，且没有TTG。",
+            "market_favorite": "A"
+          },
+          "market_analysis": {
+            "ah_pick": "观察：主队受让+1方向虽有市场支持，但客队数据缺失，不能升级。",
+            "ou_pick": "无TTG，不判断大小球、双方进球或比分。",
+            "script": "HAD均势与HHAD主队受让方向冲突，客队近况和第三市场缺失，OBSERVE。"
+          },
+          "final_pick": "OBSERVE",
+          "pick_market": null,
+          "pick_odds": null,
+          "recommendation_level": "OBSERVE",
+          "odds_integrity": "partial_HAD",
+          "stake_cap_ratio": null,
+          "result": "unsettled",
+          "score": "",
+          "review": ""
+        }
+      ],
+      "parlays": [],
+      "singles": [],
+      "bets": [
+        {
+          "type": "串关",
+          "detail": "003+006@1.62",
+          "stake": 2.0,
+          "status": "pending",
+          "profit": null,
+          "count": 1,
           "clv": null
         }
       ]
@@ -4652,9 +5548,9 @@
   ],
   "paper": {
     "initial_balance": 1000.0,
-    "balance": 931.28,
-    "total_profit": -68.72,
-    "profit_rate": -6.87,
+    "balance": 1259.04,
+    "total_profit": 259.04,
+    "profit_rate": 25.9,
     "pending_count": 1,
     "settlements": [
       {
@@ -4698,6 +5594,14 @@
         "lost": 1,
         "profit": -2.0,
         "balance": 979.28
+      },
+      {
+        "date": "2026-08-22",
+        "bet_count": 1,
+        "won": 1,
+        "lost": 0,
+        "profit": 281.76,
+        "balance": 1261.04
       }
     ],
     "equity_curve": [
@@ -4724,6 +5628,10 @@
       {
         "date": "2026-08-21",
         "balance": 979.28
+      },
+      {
+        "date": "2026-08-22",
+        "balance": 1261.04
       }
     ],
     "avg_clv": null,
@@ -4732,12 +5640,22 @@
     "recent_bets": [
       {
         "type": "串关",
+        "detail": "003+006@1.62",
+        "stake": 2.0,
+        "status": "pending",
+        "profit": null,
+        "count": 1,
+        "clv": null,
+        "date": "2026-08-25"
+      },
+      {
+        "type": "串关",
         "detail": "007×027×008×024 过关(2串1×2)",
         "stake": 50.0,
-        "status": "lost",
-        "profit": null,
+        "status": "won",
+        "profit": 281.76,
         "count": 2,
-        "clv": null,
+        "clv": 0.0612,
         "date": "2026-08-22"
       },
       {
@@ -4818,10 +5736,10 @@
       {
         "league": "意甲",
         "total": 1,
-        "hit": 0,
+        "hit": 1,
         "miss": 0,
-        "pending": 1,
-        "hit_rate": null,
+        "pending": 0,
+        "hit_rate": 100.0,
         "matches": [
           {
             "date": "2026-08-22",
@@ -4831,8 +5749,8 @@
             "pick": "A",
             "market": "HAD",
             "odds": 3.0,
-            "result": "unsettled",
-            "score": ""
+            "result": "hit",
+            "score": "0:1"
           }
         ]
       },
@@ -4855,9 +5773,9 @@
         "matches": []
       }
     ],
-    "latest_date": "2026-08-22",
-    "latest_match_count": 15,
-    "latest_observed": 8,
+    "latest_date": "2026-08-25",
+    "latest_match_count": 1,
+    "latest_observed": 1,
     "forced_bets": []
   }
 }
