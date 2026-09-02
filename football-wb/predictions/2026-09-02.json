@@ -1,0 +1,1334 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-09-02",
+  "analysis_time": "2026-09-02T11:50:00+08:00",
+  "source_refresh_time": "2026-09-02T11:43:52+08:00",
+  "model": "gpt-5.6-terra",
+  "provider": "custom",
+  "generation_engine": "independent_stage_a_stage_b_manual_analysis",
+  "model_call_verified": true,
+  "analysis_method": "official-sale-date-only; stage-A-data-first; stage-B-HAD-HHAD-TTG-devig; strict-120d-sample-gate",
+  "coverage": {
+    "sale_date": "周三",
+    "official_schedule_matches": 20,
+    "analyzable_matches": 13,
+    "analyzed_matches": 13,
+    "recommended": 0,
+    "verified": 0,
+    "partial": 0,
+    "observed": 13,
+    "recommendation_levels": {
+      "VERIFIED": 0,
+      "PARTIAL": 0,
+      "OBSERVE": 13
+    },
+    "odds_integrity": {
+      "full_HAD": 0,
+      "partial_HAD": 12,
+      "none_HAD": 1
+    },
+    "official_sale_date_filter": "仅保留match_status=Selling且match_num以周三开头的官方比赛；未使用周四及以后场次",
+    "note": "所有周三比赛缺少TTG；周三010 HAD不完整；多数球队近况供应商失败或双方样本不足，故不生成正式推荐。"
+  },
+  "data_status": {
+    "official_schedule": "sporttery_official_api",
+    "team_form": "部分球队provider_error/team_not_found；可核验样本仅覆盖少数球队",
+    "official_odds": "HAD/HHAD可从官方快照核验，TTG全量缺失",
+    "impact": "不使用赔率替代球队数据；缺少三市场剧本和双边充分样本的场次保持OBSERVE。"
+  },
+  "matches": [
+    {
+      "match_id": 2041244,
+      "match_num": "周三001",
+      "league": "日本联赛杯",
+      "home": "八户南源",
+      "away": "枥木城",
+      "match_date": "2026-09-02",
+      "match_time": "17:30",
+      "odds": {
+        "HAD": {
+          "h": "2.65",
+          "d": "3.09",
+          "a": "2.34",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.44",
+          "d": "3.95",
+          "a": "5.50",
+          "goal_line": "+1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无可核验的正式比赛近况，无法比较近期强弱、主客场表现和对手强度；杯赛赛制下更不能用赔率替代数据。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "身份映射",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.3344,
+          "d": 0.2868,
+          "a": 0.3787
+        },
+        "hhad_fair_prob": {
+          "h": 0.6149,
+          "d": 0.2242,
+          "a": 0.161
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": 0.2805
+        },
+        "conclusion": "HAD三项完整但仅能做有限去水；HHAD明显偏向主队受让方向，无法在缺少球队数据和TTG时解释为可投注价值。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队受让方向获让球盘支持，但证据不足",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD接近均势、HHAD支持主队受让，大小球缺失，三市场剧本无法闭合。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "cup_match",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041224,
+      "match_num": "周三002",
+      "league": "日本职业联赛",
+      "home": "大阪樱花",
+      "away": "柏太阳神",
+      "match_date": "2026-09-02",
+      "match_time": "18:00",
+      "odds": {
+        "HAD": {
+          "h": "3.08",
+          "d": "3.40",
+          "a": "1.96",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.65",
+          "d": "3.70",
+          "a": "3.95",
+          "goal_line": "+1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "H",
+        "confidence": "low",
+        "status": "partial_evidence",
+        "reasoning": "大阪樱花有10场可核验正式样本，近况LWLWWDWWWD，主场5场WWDWW且进14失6，主场证据偏正面；柏太阳神无可核验样本，无法完成双方比较，因此仅保留低置信度主场倾向，不升级为推荐。",
+        "sample_size": {
+          "home_recent_official": 10,
+          "away_recent_official": 0,
+          "home_recent": 10,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "柏太阳神正式近况",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.2876,
+          "d": 0.2605,
+          "a": 0.4519
+        },
+        "hhad_fair_prob": {
+          "h": 0.5366,
+          "d": 0.2393,
+          "a": 0.2241
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": 0.249
+        },
+        "conclusion": "HAD对客胜有明显定价，HHAD对主队受让有明显支持；两盘口的方向转换可能反映让球保护，但缺少客队数据和TTG，不能确认价值。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队受让方向较强，但与HAD客胜定价存在盘口语义差异",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD偏客胜、HHAD偏主队受让，大小球缺失，剧本无法完成三市场校验。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "away_team_form_missing",
+        "low_sample_shrink",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041225,
+      "match_num": "周三003",
+      "league": "日本职业联赛",
+      "home": "水户蜀葵",
+      "away": "鹿岛鹿角",
+      "match_date": "2026-09-02",
+      "match_time": "18:00",
+      "odds": {
+        "HAD": {
+          "h": "4.25",
+          "d": "3.40",
+          "a": "1.67",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.93",
+          "d": "3.45",
+          "a": "3.12",
+          "goal_line": "+1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "A",
+        "confidence": "low",
+        "status": "partial_evidence",
+        "reasoning": "鹿岛鹿角有10场可核验正式样本，近况WWWWWLWWDW，客场5场WWLWD且整体排名第2；水户蜀葵无可核验样本，不能完成双边样本比较，故只记录客队数据面优势而保持观望。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 10,
+          "home_recent": 0,
+          "away_recent": 10,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "水户蜀葵正式近况",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.2086,
+          "d": 0.2607,
+          "a": 0.5308
+        },
+        "hhad_fair_prob": {
+          "h": 0.4591,
+          "d": 0.2568,
+          "a": 0.284
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "a",
+          "diff": -0.2468
+        },
+        "conclusion": "HAD明显支持客胜，HHAD在主队受让一球后主队方向概率上升，提示客队赢球但穿盘不确定；缺少TTG且主队无数据，不能形成正式选择。"
+      },
+      "market_analysis": {
+        "ah_pick": "客胜与客队让球穿盘不是同一结论，倾向客胜但让球风险高",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD支持客胜、HHAD显示受让后主队保护，大小球缺失，无法验证低比分或客队大胜剧本。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "home_team_form_missing",
+        "low_sample_shrink",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041226,
+      "match_num": "周三004",
+      "league": "日本职业联赛",
+      "home": "町田泽维亚",
+      "away": "川崎前锋",
+      "match_date": "2026-09-02",
+      "match_time": "18:00",
+      "odds": {
+        "HAD": {
+          "h": "1.66",
+          "d": "3.65",
+          "a": "3.95",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "3.10",
+          "d": "3.50",
+          "a": "1.92",
+          "goal_line": "-1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无可核验正式样本，无法判断主场表现、赛程密度和对手强度，保持观望。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.5333,
+          "d": 0.2426,
+          "a": 0.2241
+        },
+        "hhad_fair_prob": {
+          "h": 0.2857,
+          "d": 0.253,
+          "a": 0.4613
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": -0.2476
+        },
+        "conclusion": "HAD支持主胜但HHAD主让一球后客队方向占优，存在明显盘口冲突；无数据和TTG时无法解释。"
+      },
+      "market_analysis": {
+        "ah_pick": "主胜与主让穿盘冲突，观望",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "1X2主胜与让球盘客向冲突，且大小球缺失，三市场校验失败。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "market_conflict",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041227,
+      "match_num": "周三005",
+      "league": "意大利杯",
+      "home": "萨索洛",
+      "away": "弗洛西诺内",
+      "match_date": "2026-09-02",
+      "match_time": "21:00",
+      "odds": {
+        "HAD": {
+          "h": "1.73",
+          "d": "3.45",
+          "a": "3.82",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "3.35",
+          "d": "3.50",
+          "a": "1.84",
+          "goal_line": "-1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无本场可用的正式比赛近况数据；杯赛轮次、轮换和战意无法核验，不作方向判断。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "杯赛轮换",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.5117,
+          "d": 0.2566,
+          "a": 0.2317
+        },
+        "hhad_fair_prob": {
+          "h": 0.2647,
+          "d": 0.2534,
+          "a": 0.4819
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": -0.247
+        },
+        "conclusion": "HAD支持主胜，HHAD主让一球后客队方向显著增强，盘口对穿盘不利；缺少数据和TTG，冲突不能解释。"
+      },
+      "market_analysis": {
+        "ah_pick": "主胜但主让穿盘风险高，观望",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD主胜与HHAD客向冲突，杯赛轮换未知，大小球缺失，剧本不闭合。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "cup_match",
+        "market_conflict",
+        "partial_HAD",
+        "TTG_missing"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041241,
+      "match_num": "周三006",
+      "league": "意大利杯",
+      "home": "乌迪内斯",
+      "away": "威尼斯",
+      "match_date": "2026-09-03",
+      "match_time": "00:00",
+      "odds": {
+        "HAD": {
+          "h": "1.87",
+          "d": "3.25",
+          "a": "3.50",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "3.70",
+          "d": "3.60",
+          "a": "1.72",
+          "goal_line": "-1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无可核验正式样本，且杯赛轮换与战意不可见，不能判断主胜或让球方向。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "杯赛轮换",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.474,
+          "d": 0.2727,
+          "a": 0.2533
+        },
+        "hhad_fair_prob": {
+          "h": 0.2393,
+          "d": 0.2459,
+          "a": 0.5148
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": -0.2347
+        },
+        "conclusion": "HAD轻微偏主胜，HHAD主让一球后明显偏客，存在穿盘冲突；TTG缺失，无法做完整剧本判断。"
+      },
+      "market_analysis": {
+        "ah_pick": "主胜与主让穿盘冲突，观望",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "1X2主向与让球客向冲突，杯赛不确定性叠加，三市场校验失败。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "cup_match",
+        "market_conflict",
+        "partial_HAD",
+        "TTG_missing"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041228,
+      "match_num": "周三007",
+      "league": "英格兰冠军联赛",
+      "home": "米尔沃尔",
+      "away": "雷克斯汉姆",
+      "match_date": "2026-09-03",
+      "match_time": "02:45",
+      "odds": {
+        "HAD": {
+          "h": "2.15",
+          "d": "3.19",
+          "a": "2.85",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "4.50",
+          "d": "3.88",
+          "a": "1.54",
+          "goal_line": "-1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "H",
+        "confidence": "low",
+        "status": "partial_evidence",
+        "reasoning": "米尔沃尔有5场样本LWWLD，主场2场WW但样本有限；雷克斯汉姆仅4场LLDD、排名22且客场样本仅1场，双方证据不足。米尔沃尔主场倾向只能作为低置信度观察，不能形成正式推荐。",
+        "sample_size": {
+          "home_recent_official": 5,
+          "away_recent_official": 4,
+          "home_recent": 5,
+          "away_recent": 4,
+          "window_days": 120,
+          "cross_season_sample": true
+        },
+        "missing_data": [
+          "雷克斯汉姆第五场正式样本",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.4118,
+          "d": 0.2775,
+          "a": 0.3107
+        },
+        "hhad_fair_prob": {
+          "h": 0.1968,
+          "d": 0.2282,
+          "a": 0.575
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "a",
+          "diff": 0.2643
+        },
+        "conclusion": "HAD为主队轻微优势，HHAD客队方向显著增强，反映客队受让盘的保护与主队穿盘不确定；数据样本不足且TTG缺失。"
+      },
+      "market_analysis": {
+        "ah_pick": "主胜与主让穿盘不一致，客队受让方向有盘口支持但不作推荐",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD轻主、HHAD强客向，大小球缺失，三市场剧本无法闭合。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "away_sample_below_5",
+        "low_sample_shrink",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041229,
+      "match_num": "周三008",
+      "league": "英格兰冠军联赛",
+      "home": "西布罗姆维奇",
+      "away": "查尔顿",
+      "match_date": "2026-09-03",
+      "match_time": "02:45",
+      "odds": {
+        "HAD": {
+          "h": "1.71",
+          "d": "3.32",
+          "a": "4.10",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "3.20",
+          "d": "3.45",
+          "a": "1.90",
+          "goal_line": "-1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无可核验正式近况，无法判断主场优势、赛程与对手强度，保持观望。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.5176,
+          "d": 0.2666,
+          "a": 0.2159
+        },
+        "hhad_fair_prob": {
+          "h": 0.2769,
+          "d": 0.2568,
+          "a": 0.4663
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": -0.2407
+        },
+        "conclusion": "HAD偏主胜而HHAD主让一球后偏客，主队赢球与穿盘出现冲突；缺少数据与TTG不能判断。"
+      },
+      "market_analysis": {
+        "ah_pick": "主胜与主让穿盘冲突，观望",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "1X2主向、让球客向冲突，大小球缺失，三市场校验失败。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "market_conflict",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041230,
+      "match_num": "周三009",
+      "league": "英格兰冠军联赛",
+      "home": "女王公园巡游者",
+      "away": "加的夫城",
+      "match_date": "2026-09-03",
+      "match_time": "02:45",
+      "odds": {
+        "HAD": {
+          "h": "1.85",
+          "d": "3.50",
+          "a": "3.30",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "3.40",
+          "d": "3.80",
+          "a": "1.75",
+          "goal_line": "-1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "partial_evidence",
+        "reasoning": "加的夫城有4场样本且全部平局DDDD，但女王公园巡游者无可核验样本，无法从双方数据判断；保持观望。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 4,
+          "home_recent": 0,
+          "away_recent": 4,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "女王公园巡游者正式近况",
+          "加的夫城第五场正式样本",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.4787,
+          "d": 0.253,
+          "a": 0.2683
+        },
+        "hhad_fair_prob": {
+          "h": 0.2606,
+          "d": 0.2332,
+          "a": 0.5063
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": -0.2181
+        },
+        "conclusion": "HAD轻偏主胜，HHAD主让一球后客队概率明显上升，提示主队穿盘不稳；数据和TTG不足。"
+      },
+      "market_analysis": {
+        "ah_pick": "主胜与主让穿盘冲突，观望",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "1X2主向与让球客向存在冲突，大小球缺失，剧本无法闭合。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "home_team_form_missing",
+        "away_sample_below_5",
+        "market_conflict",
+        "partial_HAD",
+        "TTG_missing"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041242,
+      "match_num": "周三010",
+      "league": "德国杯",
+      "home": "奥斯纳布吕克",
+      "away": "拜仁慕尼黑",
+      "match_date": "2026-09-03",
+      "match_time": "02:45",
+      "odds": {
+        "HAD": {
+          "h": null,
+          "d": null,
+          "a": null,
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "2.85",
+          "d": "5.15",
+          "a": "1.71",
+          "goal_line": "+3.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "none_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "partial_evidence",
+        "reasoning": "拜仁慕尼黑有4场可核验样本WWWW，但少于5场；奥斯纳布吕克无可核验样本。更关键的是官方HAD三项均缺失，无法进行基础胜平负概率校验。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 4,
+          "home_recent": 0,
+          "away_recent": 4,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "奥斯纳布吕克正式近况",
+          "拜仁第五场正式样本",
+          "HAD",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": null,
+        "hhad_fair_prob": {
+          "h": 0.3256,
+          "d": 0.1803,
+          "a": 0.4941
+        },
+        "pick_prob": null,
+        "market_divergence": null,
+        "conclusion": "HAD不完整，无法计算1X2去水概率；仅有+3让球盘不足以替代HAD和球队数据，禁止生成方向。"
+      },
+      "market_analysis": {
+        "ah_pick": "仅有让球盘，无法完成HAD对照",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD缺失、HHAD单独存在且大小球缺失，三市场剧本完全无法校验。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "none_HAD",
+        "home_team_form_missing",
+        "away_sample_below_5",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041231,
+      "match_num": "周三011",
+      "league": "英格兰冠军联赛",
+      "home": "伯恩利",
+      "away": "米德尔斯堡",
+      "match_date": "2026-09-03",
+      "match_time": "03:00",
+      "odds": {
+        "HAD": {
+          "h": "2.65",
+          "d": "3.32",
+          "a": "2.22",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.50",
+          "d": "4.15",
+          "a": "4.50",
+          "goal_line": "+1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无可核验正式近况，不能判断主客场、赛程和对手强度，保持观望。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.3342,
+          "d": 0.2668,
+          "a": 0.399
+        },
+        "hhad_fair_prob": {
+          "h": 0.59,
+          "d": 0.2133,
+          "a": 0.1967
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": 0.2558
+        },
+        "conclusion": "HAD轻偏客胜，HHAD主队受让一球后主队方向显著增强，盘口保护明显；缺少数据和TTG，不能判断主队不败是否有价值。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队受让方向获让球支持，但数据面无依据",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD客向、HHAD主受让向，大小球缺失，无法完成比赛节奏剧本校验。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041232,
+      "match_num": "周三012",
+      "league": "巴西甲级联赛",
+      "home": "弗拉门戈",
+      "away": "米拉索尔",
+      "match_date": "2026-09-03",
+      "match_time": "06:30",
+      "odds": {
+        "HAD": {
+          "h": "1.16",
+          "d": "5.70",
+          "a": "11.00",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.65",
+          "d": "3.80",
+          "a": "3.85",
+          "goal_line": "-1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无可核验正式近况，无法验证强弱差距、轮换和主客场表现；不因主胜低赔率而生成推荐。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.764,
+          "d": 0.1555,
+          "a": 0.0806
+        },
+        "hhad_fair_prob": {
+          "h": 0.5368,
+          "d": 0.2331,
+          "a": 0.2301
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": -0.2272
+        },
+        "conclusion": "HAD极度支持主胜，但主让一球HHAD显著回落，说明主胜与穿盘不是同一命题；缺少数据与TTG时不能确认让球价值。"
+      },
+      "market_analysis": {
+        "ah_pick": "主胜强但主让穿盘存在明显回撤，观望",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD强主胜、HHAD弱化主让、大小球缺失，无法判断大胜或小胜剧本。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "hot_favorite",
+        "market_divergence",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    },
+    {
+      "match_id": 2041233,
+      "match_num": "周三013",
+      "league": "巴西杯",
+      "home": "桑托斯",
+      "away": "帕尔梅拉斯",
+      "match_date": "2026-09-03",
+      "match_time": "08:30",
+      "odds": {
+        "HAD": {
+          "h": "2.55",
+          "d": "3.18",
+          "a": "2.37",
+          "goal_line": ""
+        },
+        "HHAD": {
+          "h": "1.45",
+          "d": "3.90",
+          "a": "5.45",
+          "goal_line": "+1.00"
+        },
+        "TTG": {
+          "s0": "",
+          "s1": "",
+          "s2": "",
+          "s3": "",
+          "s4": "",
+          "s5": "",
+          "s6": "",
+          "s7": "",
+          "goal_line": ""
+        }
+      },
+      "single": {
+        "HAD": 0,
+        "HHAD": 0,
+        "CRS": 0,
+        "HAFU": 0,
+        "TTG": 0
+      },
+      "odds_integrity": "partial_HAD",
+      "odds_source": "sporttery_official_api",
+      "odds_fetched_at": "2026-09-02T11:43:52+08:00",
+      "data_analysis": {
+        "tendency": "OBSERVE",
+        "confidence": "low",
+        "status": "provider_error",
+        "reasoning": "两队均无可核验正式近况；巴西杯对战意和轮换的影响无法确认，不作方向判断。",
+        "sample_size": {
+          "home_recent_official": 0,
+          "away_recent_official": 0,
+          "home_recent": 0,
+          "away_recent": 0,
+          "window_days": 120,
+          "cross_season_sample": false
+        },
+        "missing_data": [
+          "双方正式近况",
+          "杯赛轮换",
+          "TTG"
+        ]
+      },
+      "odds_analysis": {
+        "had_fair_prob": {
+          "h": 0.3475,
+          "d": 0.2786,
+          "a": 0.3739
+        },
+        "hhad_fair_prob": {
+          "h": 0.6106,
+          "d": 0.227,
+          "a": 0.1624
+        },
+        "pick_prob": null,
+        "market_divergence": {
+          "direction": "h",
+          "diff": 0.2631
+        },
+        "conclusion": "HAD接近均势略偏客，HHAD主队受让一球方向明显增强，存在让球保护；数据与TTG缺失，无法确认比赛剧本。"
+      },
+      "market_analysis": {
+        "ah_pick": "主队受让方向有盘口支持，但无数据依据",
+        "ou_pick": "OBSERVE：TTG缺失",
+        "script": "HAD均势、HHAD主受让向、大小球缺失，杯赛剧本无法闭合。"
+      },
+      "recommendation": "观望",
+      "recommendation_level": "OBSERVE",
+      "final_pick": "OBSERVE",
+      "pick_market": null,
+      "pick_odds": null,
+      "risk_flags": [
+        "no_team_form",
+        "cup_match",
+        "partial_HAD",
+        "TTG_missing",
+        "market_script_incomplete"
+      ],
+      "stake_cap_ratio": null,
+      "result": "unsettled"
+    }
+  ],
+  "parlays": [],
+  "analysis_notes": [
+    "阶段A先于赔率进行；赔率只用于阶段B校验，不替代球队数据。",
+    "正式推荐要求可验证数据、完整HAD且满足相应市场校验；本日无VERIFIED或PARTIAL正式推荐。",
+    "本日若优化器生成保底串关，该票仅为forced=true模拟盘记录，不计入正EV推荐。"
+  ]
+}
